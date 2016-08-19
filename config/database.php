@@ -57,7 +57,7 @@ return [
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'db_result'),
-            'username' => env('DB_USERNAME', 'root'),
+            'username' => env('DB_USERNAME', 'phpmyadmin'),
             'password' => env('DB_PASSWORD', 'Hkb@88!ok'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
