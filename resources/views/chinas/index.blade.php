@@ -45,6 +45,9 @@
                     @endforeach
                 </tbody>
             </table>
+            <div class="text-center">
+                {!! $chinas->render(); !!}
+            </div>
         </div>
     </div>
 @endsection
