@@ -45,7 +45,7 @@
 </nav>
 
 
-    <nav class="navbar navbar-default navbar-fixed-top hf header">
+    <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
       <div class="container" style="width:1350px;">
        
           
