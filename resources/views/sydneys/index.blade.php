@@ -45,6 +45,9 @@
                     @endforeach
                 </tbody>
             </table>
+            <div class="text-center">
+                {!! $sydneys->render(); !!}
+            </div>
         </div>
     </div>
 @endsection
