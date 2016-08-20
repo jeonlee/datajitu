@@ -43,6 +43,9 @@
                     @endforeach
                 </tbody>
             </table>
+            <div class="text-center">
+                {!! $taiwans->render(); !!}
+            </div>
         </div>
     </div>
 @endsection
