@@ -45,6 +45,9 @@
                     @endforeach
                 </tbody>
             </table>
+            <div class="text-center">
+                {!! $cambodias->render(); !!}
+            </div>
         </div>
     </div>
 @endsection
