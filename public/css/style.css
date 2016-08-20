@@ -144,7 +144,7 @@ footer {
      left: 0;
     padding: 0;
     position: fixed;
-    top: 40;
+    top: 40px;
     width: 100%;
     z-index: 9999;
     height: 60px;
