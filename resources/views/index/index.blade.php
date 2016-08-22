@@ -47,7 +47,7 @@
           
 
 
-            @foreach ($sorted->slice(0, 1) as $cambodia)
+            @foreach ($sorted1->slice(0, 1) as $cambodia)
                 <?php
 
                     $satu = substr("$cambodia->number",0,1);
@@ -67,7 +67,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $cambodia->hari }} <br><span class="smallerHeading">{{ $cambodia->tanggal }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-              <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+              <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
                 <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
                 <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
                 <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -80,7 +80,7 @@
           </div><!-- end col-xs-6 -->
           @endforeach
 
-           @foreach ($sorted->slice(0, 1) as $sydney)
+           @foreach ($sorted2->slice(0, 1) as $sydney)
                 <?php
 
                     $satu = substr("$sydney->number",0,1);
@@ -101,7 +101,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $sydney->hari }} <br><span class="smallerHeading">{{ $sydney->tanggal }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
           <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
           <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
           <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -115,7 +115,7 @@
           </div><!-- end col-xs-6 -->
           @endforeach
 
-          @foreach ($sorted->slice(0, 1) as $china)
+          @foreach ($sorted3->slice(0, 1) as $china)
                 <?php
 
                     $satu = substr("$china->number",0,1);
@@ -136,7 +136,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $china->hari }} <br><span class="smallerHeading">{{ $china->tanggal }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
           <div class="result medium health-ball"><?php  echo $satu; ?></div>
           <div class="result medium health-ball"><?php  echo $dua; ?></div>
           <div class="result medium health-ball"><?php  echo $tiga; ?></div>
@@ -151,7 +151,7 @@
           @endforeach
 
 
-          @foreach ($sorted->slice(0, 1) as $taiwan)
+          @foreach ($sorted4->slice(0, 1) as $taiwan)
                 <?php
 
                     $satu = substr("$taiwan->number",0,1);
@@ -172,7 +172,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ $taiwan->tanggal }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
           <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
           <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
           <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
@@ -186,7 +186,7 @@
           </div><!-- end col-xs-6 -->
           @endforeach
 
-          @foreach ($sorted->slice(0, 1) as $hongkong)
+          @foreach ($sorted5->slice(0, 1) as $hongkong)
                 <?php
 
                     $satu = substr("$hongkong->number",0,1);
@@ -207,7 +207,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $hongkong->hari }} <br><span class="smallerHeading">{{ $hongkong->tanggal }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
           <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
           <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
           <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
