@@ -18,7 +18,8 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
-                        <th>Date</th>
+                    	<th>Hari</th>
+                        <th>Tanggal</th>
                         <th>Periode</th>
                         <th>Result</th>
                         <th></th>
@@ -28,6 +29,7 @@
                 <tbody>
                     @foreach ($taiwans as $taiwan)
                         <tr>
+                            <td>{{ $taiwan->hari }}</td>
                             <td>{{ $taiwan->tanggal }}</td>
                             <td>{{ $taiwan->periode }}</td>
                             <td>{{ $taiwan->number }}</td>
