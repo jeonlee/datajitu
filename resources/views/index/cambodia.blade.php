@@ -24,7 +24,7 @@
               <div class="resultBox shorter centred">
                 <div class="sideHeader lotto">
                   <div class="col-xs-5">
-                    <img width="100%" src="images/CAMBODIA.png">
+                    <img width="100%" src="images/cambodia.png">
                   </div>
                   <div class="col-xs-7">
                     
