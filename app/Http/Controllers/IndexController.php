@@ -18,14 +18,36 @@ class IndexController extends Controller
     public function index()
     {
     	$singapura = Singapura::all()->last();
-
     	$singapuras = Singapura::all();
-
         $collection = collect($singapuras);
-
         $sorted = $collection->sortByDesc('periode');
 
-    	return view('index.index', compact('singapura','sorted'));
+        $cambodia = Cambodia::all()->last();
+        $cambodias = Cambodia::all();
+        $collectionmc = collect($cambodias);
+        $sorted1 = $collectionmc->sortByDesc('periode');
+
+        $sydney = Sydney::all()->last();
+        $sydneys = Sydney::all();
+        $collectionsd = collect($sydneys);
+        $sorted2 = $collectionsd->sortByDesc('periode');
+
+        $taiwan = Taiwan::all()->last();
+        $taiwans = Taiwan::all();
+        $collectiontw = collect($taiwans);
+        $sorted3 = $collectiontw->sortByDesc('periode');
+
+        $china = China::all()->last();
+        $chinas = China::all();
+        $collectioncn = collect($chinas);
+        $sorted4 = $collectioncn->sortByDesc('periode');
+
+        $hongkong = Hongkong::all()->last();
+        $hongkongs = Hongkong::all();
+        $collectionhk = collect($hongkongs);
+        $sorted5 = $collectionhk->sortByDesc('periode');
+
+    	return view('index.index', compact('singapura','cambodia','sydney','taiwan','china','hongkong','sorted','sorted1','sorted2','sorted3','sorted4','sorted5'));
     }
 
     public function showsingapura()
