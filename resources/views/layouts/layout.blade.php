@@ -54,8 +54,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Menu <span class="sr-only">(current)</span></a></li>
-            <li><a href="#" data-toggle="collapse" data-target="#users" aria-expanded="false" aria-controls="users">User <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
-              <!--<div class="collapse" id="users">
+            <!--<li><a href="#" data-toggle="collapse" data-target="#users" aria-expanded="false" aria-controls="users">User <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
+              <div class="collapse" id="users">
                 <ol>
                   <li><a href="{{ url('/groups') }}">List Groups</a></li>
                   <li><a href="{{ url('/users') }}">List Users</a></li>
