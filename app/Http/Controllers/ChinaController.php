@@ -51,6 +51,8 @@ class ChinaController extends Controller
         $china->fill($input)->save();
 
         $chinas = China::all();
+        
+        $chinas = China::orderBy('periode','desc')->paginate(5);
 
         return view('chinas.index', compact('chinas'));
     }
