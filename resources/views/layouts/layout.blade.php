@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Datajitu.com</a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png">Datajitu.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -68,9 +68,7 @@
                   <li><a href="{{ url('/reports') }}">List Report</a></li>
                 </ol>
               </div>-->
-            <li><a href="#" data-toggle="collapse" data-target="#results" aria-expanded="false" aria-controls="results">Hasil Keluaran Togel <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
-              <div class="collapse" id="results">
-                <ol>
+            
                   <li><a href="{{ url('/admin/singapura') }}">Togel Singapore</a></li>
                   <li><a href="{{ url('/admin/sydney') }}">Togel Sydney</a></li>
                   <li><a href="{{ url('/admin/cambodia') }}">Togel Cambodia</a></li>
@@ -78,8 +76,7 @@
                   <li><a href="{{ url('/admin/china') }}">Togel China</a></li>
                   <li><a href="{{ url('/admin/hongkong') }}">Togel Hongkong</a></li>
 
-                </ol>
-              </div>
+               
           </ul>
           
         </div>
