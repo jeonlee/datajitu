@@ -51,6 +51,8 @@ class SydneyController extends Controller
         $sydney->fill($input)->save();
 
         $sydneys = Sydney::all();
+        
+        $sydneys = Sydney::orderBy('periode','desc')->paginate(5);
 
         return view('sydneys.index', compact('sydneys'));
     }
