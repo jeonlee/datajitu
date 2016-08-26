@@ -12,6 +12,9 @@
             <div>
                 Title : {{ $cambodias->title }}
             </div>
+            <div class="text-center">
+                <a href="{{ url('/admin/cambodia') }}" class="btn btn-primary">Back</a>
+            </div>
         </div>
     </div>
 @endsection
