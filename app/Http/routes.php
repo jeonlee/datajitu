@@ -14,7 +14,9 @@
 Route::get('/admin', function () {
     return view('welcome');
 });
-
+Route::get('/buatakun', function() {
+	return view('buatakun');
+});
 
 Route::get('/', 'IndexController@index');
 Route::get('/singapura', 'IndexController@showsingapura');
