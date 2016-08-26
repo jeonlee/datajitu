@@ -31,7 +31,7 @@
                         <tr>
                             <td>{{ $hongkong->hari }}</td>
                             <td>{{ $hongkong->tanggal }}</td>
-                            <td>{{ $hongkong->periode }}</td>
+                            <td>{{ $hongkong->periode }}-HK</td>
                             <td>{{ $hongkong->number }}</td>
                             <td><a href="/admin/hongkong/{{ $hongkong->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
