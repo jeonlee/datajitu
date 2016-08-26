@@ -51,6 +51,8 @@ class TaiwanController extends Controller
         $taiwan->fill($input)->save();
 
         $taiwans = Taiwan::all();
+        
+        $taiwans = Taiwan::orderBy('periode','desc')->paginate(5);
 
         return view('taiwans.index', compact('taiwans'));
     }
