@@ -188,7 +188,7 @@ class IndexController extends Controller
 
         
 
-        return view('index.hasiltaiwan', compact('taiwan','sorted'));
+        return view('index.hasiltaiwan', compact('taiwan','taiwans'));
     }
     public function showanalisistaiwan()
     {
