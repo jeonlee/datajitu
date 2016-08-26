@@ -31,7 +31,7 @@
                         <tr>
                             <td>{{ $taiwan->hari }}</td>
                             <td>{{ $taiwan->tanggal }}</td>
-                            <td>{{ $taiwan->periode }}</td>
+                            <td>{{ $taiwan->periode }}-TW</td>
                             <td>{{ $taiwan->number }}</td>
                             <td><a href="/admin/taiwan/{{ $taiwan->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
