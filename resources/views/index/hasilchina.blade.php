@@ -23,7 +23,7 @@
                     @foreach ($chinas as $china)
                       <tr>
                         <td><div class="t_no f20">{{ $china->tanggal }}</div></td>
-                        <td><div class="t_hari f20">{{ $china->periode }}</div></td>
+                        <td><div class="t_hari f20">{{ $china->periode }}-CN</div></td>
                         <td><div class="t_tgl kuning1 f20">{{ $china->number }}</div></td>                                    
                         
                       </tr>   
