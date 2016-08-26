@@ -31,7 +31,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>SG-{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><a href="/admin/singapura/{{ $singapura->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
