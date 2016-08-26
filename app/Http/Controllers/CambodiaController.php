@@ -51,6 +51,8 @@ class CambodiaController extends Controller
         $cambodia->fill($input)->save();
 
         $cambodias = Cambodia::all();
+        
+        $cambodias = Cambodia::orderBy('periode','desc')->paginate(5);
 
         return view('cambodias.index', compact('cambodias'));
     }
