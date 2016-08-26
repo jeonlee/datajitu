@@ -51,6 +51,8 @@ class SingapuraController extends Controller
         $singapura->fill($input)->save();
 
         $singapuras = Singapura::all();
+        
+        $singapuras = Singapura::orderBy('periode','desc')->paginate(5);
 
         return view('singapuras.index', compact('singapuras'));
     }
