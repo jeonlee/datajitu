@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <a class="navbar-brand" href="#"><img width="50%" src="images/logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -53,7 +53,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Menu <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">Hasil Keluaran <span class="sr-only">(current)</span></a></li>
             <!--<li><a href="#" data-toggle="collapse" data-target="#users" aria-expanded="false" aria-controls="users">User <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
               <div class="collapse" id="users">
                 <ol>
