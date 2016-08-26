@@ -26,7 +26,7 @@
                      
                       <tr>
                         <td><div class="t_no f20">{{ $singapura->tanggal }}</div></td>
-                        <td><div class="t_hari f20">{{ $singapura->periode }}</div></td>
+                        <td><div class="t_hari f20">SG-{{ $singapura->periode }}</div></td>
 
                         <td><div class="t_tgl biru f20">{{ $singapura->number }}</div></td>   
 
