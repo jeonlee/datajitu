@@ -24,7 +24,7 @@
                     @foreach ($sydneys as $sydney)
                       <tr>
                         <td><div class="t_no f20">{{ $sydney->tanggal }}</div></td>
-                        <td><div class="t_hari f20">{{ $sydney->periode }}</div></td>
+                        <td><div class="t_hari f20">SD-{{ $sydney->periode }}</div></td>
                         <td><div class="t_tgl oren f20">{{ $sydney->number }}</div></td>                                    
                         
                       </tr>   
