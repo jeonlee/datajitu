@@ -31,7 +31,7 @@
                         <tr>
                             <td>{{ $cambodia->hari }}</td>
                             <td>{{ $cambodia->tanggal }}</td>
-                            <td>{{ $cambodia->periode }}</td>
+                            <td>{{ $cambodia->periode }}-MC</td>
                             <td>{{ $cambodia->number }}</td>
                             <td><a href="/admin/cambodia/{{ $cambodia->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
