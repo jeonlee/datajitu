@@ -53,9 +53,9 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">Menu <span class="sr-only">(current)</span></a></li>
             <li><a href="#" data-toggle="collapse" data-target="#users" aria-expanded="false" aria-controls="users">User <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
-              <div class="collapse" id="users">
+              <!--<div class="collapse" id="users">
                 <ol>
                   <li><a href="{{ url('/groups') }}">List Groups</a></li>
                   <li><a href="{{ url('/users') }}">List Users</a></li>
@@ -67,7 +67,7 @@
                   <li><a href="{{ url('/categories') }}">List Kategori</a></li>
                   <li><a href="{{ url('/reports') }}">List Report</a></li>
                 </ol>
-              </div>
+              </div>-->
             <li><a href="#" data-toggle="collapse" data-target="#results" aria-expanded="false" aria-controls="results">Hasil Keluaran Togel <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
               <div class="collapse" id="results">
                 <ol>
