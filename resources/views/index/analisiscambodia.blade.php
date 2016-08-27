@@ -33,7 +33,7 @@
             <li><a data-toggle="tab" href="#colokjituas">As</a></li>
             <li><a data-toggle="tab" href="#colokjitukop">Kop</a></li>
             <li><a data-toggle="tab" href="#colokjitukepala">Kepala</a></li>
-            <li class="divider"></li>
+            
             <li><a data-toggle="tab" href="#colokjituekor">Ekor</a></li>
             
           </ul>
@@ -46,7 +46,7 @@
             <li><a data-toggle="tab" href="#ganjilgenapas">As</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkop">Kop</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkepala">Kepala</a></li>
-            <li class="divider"></li>
+            
             <li><a data-toggle="tab" href="#ganjilgenapekor">Ekor</a></li>
             
           </ul>
@@ -220,7 +220,7 @@
                             <td>{{ $cambodia->tanggal }}</td>
                             <td>{{ $cambodia->periode }}-MC</td>
                             <td>{{ $cambodia->number }}</td>
-                            <td><?php  echo $tigax1; ?></td>
+                            <td><?php  echo $tigax1; ?></td> 
                             <td><?php  echo $tigax2; ?></td>
                         </tr>
                          @endforeach
