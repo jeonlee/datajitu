@@ -33,7 +33,7 @@
             <li><a data-toggle="tab" href="#colokjituas">As</a></li>
             <li><a data-toggle="tab" href="#colokjitukop">Kop</a></li>
             <li><a data-toggle="tab" href="#colokjitukepala">Kepala</a></li>
-            <li class="divider"></li>
+            
             <li><a data-toggle="tab" href="#colokjituekor">Ekor</a></li>
             
           </ul>
@@ -46,7 +46,7 @@
             <li><a data-toggle="tab" href="#ganjilgenapas">As</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkop">Kop</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkepala">Kepala</a></li>
-            <li class="divider"></li>
+            
             <li><a data-toggle="tab" href="#ganjilgenapekor">Ekor</a></li>
             
           </ul>
