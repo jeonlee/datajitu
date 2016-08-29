@@ -90,7 +90,19 @@ class IndexController extends Controller
         
         return view('index.analisissingapura', compact('singapura','singapuras','satux1'));
     }
+    public function showkonversi()
+    {
+        
+        
+        return view('index.konversi');
+    }
 
+    public function showcarahitung()
+    {
+        
+        
+        return view('index.carahitung');
+    }
     public function showsydney()
     {
         $sydney = Sydney::all()->last();
