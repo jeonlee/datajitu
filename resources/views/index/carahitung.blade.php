@@ -36,7 +36,7 @@
       </div>
       <br>
         Cara manual perhitungan Hasil Toto Singapura (senin & kamis) menggunakan <b>Rumus Konversi Singapura terbaru</b> :<br>
-        <ol>
+        <ol style="margin-left:30px;">
           <li>Urutkan bola mulai dari yang terkecil sampai yang terbesar<br>
             05 – 12 – 17 – 25 – 46 – 49</li>
           <li>Cara mendapatkan angka Satuan / Ekor,<br>
