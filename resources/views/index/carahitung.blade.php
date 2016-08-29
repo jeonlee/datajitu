@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <div class="panel-body p15">
+  <div class="panel-body p15l">
     <p>
       Contoh nomor bola yang dihasilkan singapore toto (www.singaporepools.com.sg): 
       <br>
