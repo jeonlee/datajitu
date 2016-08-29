@@ -31,7 +31,7 @@
                         <tr>
                             <td>{{ $sydney->hari }}</td>
                             <td>{{ $sydney->tanggal }}</td>
-                            <td>SD-{{ $sydney->periode }}</td>
+                            <td>{{ $sydney->periode }}-SD</td>
                             <td>{{ $sydney->number }}</td>
                             <td><a href="/admin/sydney/{{ $sydney->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
