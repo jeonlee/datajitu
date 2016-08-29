@@ -50,7 +50,7 @@ class HongkongController extends Controller
 
         $hongkong->fill($input)->save();
 
-        $hongkongs = Hongkong::all();
+        $hongkongs = Hongkong::orderBy('periode','desc')->paginate(5);
 
         return view('hongkongs.index', compact('hongkongs'));
     }
