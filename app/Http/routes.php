@@ -40,7 +40,8 @@ Route::get('/analisiscambodia', 'IndexController@showanalisiscambodia');
 Route::get('/analisistaiwan', 'IndexController@showanalisistaiwan');
 Route::get('/analisischina', 'IndexController@showanalisischina');
 Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
-
+Route::get('/konversi', 'IndexController@showkonversi');
+Route::get('/carahitung', 'IndexController@showcarahitung');
 
 Route::auth();
 
