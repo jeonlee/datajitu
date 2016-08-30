@@ -90,6 +90,17 @@ class IndexController extends Controller
         
         return view('index.analisissingapura', compact('singapura','singapuras','satux1'));
     }
+    public function searchResultSingapura(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $singapura = Singapura::all()->last();
+
+        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisissingapura', compact('singapura','singapuras'));
+    }
     public function showkonversi()
     {
         
@@ -140,6 +151,17 @@ class IndexController extends Controller
         
         return view('index.analisissydney', compact('sydney','sydneys'));
     }
+    public function searchResultSydney(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $sydney = Sydney::all()->last();
+
+        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisissydney', compact('sydney','sydneys'));
+    }
     public function showcambodia()
     {
         $cambodia = Cambodia::all()->last();
@@ -178,6 +200,17 @@ class IndexController extends Controller
         
         return view('index.analisiscambodia', compact('cambodia','cambodias','satux1'));
     }
+    public function searchResultCambodia(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $cambodia = Cambodia::all()->last();
+
+        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisiscambodia', compact('cambodia','cambodias'));
+    }
     public function showtaiwan()
     {
         $taiwan = Taiwan::all()->last();
@@ -214,6 +247,17 @@ class IndexController extends Controller
         
         
         return view('index.analisistaiwan', compact('taiwan','taiwans','satux1'));
+    }
+    public function searchResultTaiwan(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $taiwan = Taiwan::all()->last();
+
+        $taiwans = Taiwans::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
     public function showchina()
     {
@@ -252,6 +296,17 @@ class IndexController extends Controller
         
         return view('index.analisischina', compact('china','chinas','satux1'));
     }
+    public function searchResultChina(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $china = China::all()->last();
+
+        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisischina', compact('china','chinas'));
+    }
     public function showhongkong()
     {
         $hongkong = Hongkong::all()->last();
@@ -288,6 +343,17 @@ class IndexController extends Controller
         
         
         return view('index.analisishongkong', compact('hongkong','hongkongs','satux1'));
+    }
+    public function searchResultHongkong(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $hongkong = Hongkong::all()->last();
+
+        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisishongkong', compact('hongkong','hongkongs'));
     }
     public function showbukumimpi()
     {
