@@ -9,6 +9,24 @@
                 </div>
 
                 <div class="panel-body p15">
+                <form method="POST" action="/searchResultSydney">
+    {{ csrf_field() }}
+      <div class="form-group" style="overflow:hidden;">
+        <div class="col-xs-6">
+          Dari :
+          <div style="overflow:hidden;" class="form-group">
+            <input type="text" name="startDate" id="from" class="form-control input-sm" placeholder="dd-mm-yyyy">
+        </div>
+        </div>
+        <div class="col-xs-6">
+          Sampai :
+          <div style="overflow:hidden;" class="form-group">
+            <input type="text" class="input-sm form-control" name="endDate" id="to" />
+        </div>
+      </div> 
+      </div>
+      <button type="submit">Submit</button>
+    </form>
                 <div class="col-xs-3" style="width:20%; padding:0px;">
                 <nav class=" navbar-default sidebar" role="navigation">
     <div class="container-fluid">
@@ -33,7 +51,7 @@
             <li><a data-toggle="tab" href="#colokjituas">As</a></li>
             <li><a data-toggle="tab" href="#colokjitukop">Kop</a></li>
             <li><a data-toggle="tab" href="#colokjitukepala">Kepala</a></li>
-            
+            <li class="divider"></li>
             <li><a data-toggle="tab" href="#colokjituekor">Ekor</a></li>
             
           </ul>
@@ -46,7 +64,7 @@
             <li><a data-toggle="tab" href="#ganjilgenapas">As</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkop">Kop</a></li>
             <li><a data-toggle="tab" href="#ganjilgenapkepala">Kepala</a></li>
-            
+            <li class="divider"></li>
             <li><a data-toggle="tab" href="#ganjilgenapekor">Ekor</a></li>
             
           </ul>
@@ -97,7 +115,7 @@
                 	@foreach ($sydneys as $sydney)
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             
@@ -137,7 +155,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $satux1; ?></td>
@@ -177,7 +195,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $duax1; ?></td>
@@ -217,7 +235,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $tigax1; ?></td>
@@ -257,7 +275,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $empatx1; ?></td>
@@ -314,7 +332,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $cjas0; ?></td>
@@ -380,7 +398,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $cjkop0; ?></td>
@@ -446,7 +464,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $cjkepala0; ?></td>
@@ -512,7 +530,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $cjekor0; ?></td>
@@ -570,7 +588,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
@@ -614,7 +632,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $dasarggganjil; ?></td>
@@ -657,7 +675,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $asggganjil; ?></td>
@@ -700,7 +718,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $kopggganjil; ?></td>
@@ -743,7 +761,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $kepalaggganjil; ?></td>
@@ -786,7 +804,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $ekorggganjil; ?></td>
@@ -831,7 +849,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -877,7 +895,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -923,7 +941,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -977,7 +995,7 @@
                         <tr>
                             
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $shios; ?></td>
@@ -1036,7 +1054,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1093,7 +1111,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1150,7 +1168,7 @@
                  ?>
                         <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1194,7 +1212,7 @@
                  ?>
                                             <tr>
                             <td>{{ $sydney->hari }}</td>
-                            <td>{{ $sydney->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
                             <td>SD-{{ $sydney->periode }}</td>
                             <td>{{ $sydney->number }}</td>
                             <td><?php  echo $tengah; ?></td>
