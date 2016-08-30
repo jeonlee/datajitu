@@ -100,32 +100,29 @@
 </div>
       <div class="col-xs-9">
         <div class="tab-content">
-        <div class="tab-pane active" id="4d">
-          <h5 style="font-weight:bold;">Analisis Data 4D Singapura</h5>
-          <table class="table table-hover table-bordered">
-                <thead>
-                    <tr>
-                        <th>Hari</th>
-                        <th>Tanggal</th>
-                        <th>Periode</th>
-                        <th>Result</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                	@foreach ($singapuras as $singapura)
-                        <tr>
-                            <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
-                            <td>{{ $singapura->number }}</td>
-                            
-                        </tr>
-                        
-                        @endforeach
-                                    </tbody>
+          <div class="tab-pane active" id="4d">
+            <h5 style="font-weight:bold;">Analisis Data 4D Singapura</h5>
+            <table class="table table-hover table-bordered">
+              <thead>
+                <tr>
+                  <th>Hari</th>
+                  <th>Tanggal</th>
+                  <th>Periode</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                @foreach ($singapuras as $singapura)
+                <tr>
+                    <td>{{ $singapura->hari }}</td>
+                    <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                    <td>{{ $singapura->periode }}</td>
+                    <td>{{ $singapura->number }}</td>
+                </tr>
+                @endforeach
+              </tbody>
             </table>
-        </div><!-- end-4d -->
+          </div><!-- end-4d -->
 
         <div class="tab-pane" id="besarkecilas">
           <h5 style="font-weight:bold;">Analisis Data Besar Kecil As Singapura</h5>
@@ -156,7 +153,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $satux1; ?></td>
@@ -196,8 +193,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $duax1; ?></td>
                             <td><?php  echo $duax2; ?></td>
@@ -236,8 +233,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tigax1; ?></td>
                             <td><?php  echo $tigax2; ?></td>
@@ -276,8 +273,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $empatx1; ?></td>
                             <td><?php  echo $empatx2; ?></td>
@@ -333,8 +330,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjas0; ?></td>
                             <td><?php  echo $cjas1; ?></td>
@@ -399,8 +396,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkop0; ?></td>
                             <td><?php  echo $cjkop1; ?></td>
@@ -465,8 +462,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkepala0; ?></td>
                             <td><?php  echo $cjkepala1; ?></td>
@@ -531,8 +528,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjekor0; ?></td>
                             <td><?php  echo $cjekor1; ?></td>
@@ -589,8 +586,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
                             <td><?php  echo $dasarbkkecil; ?></td>
@@ -633,8 +630,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarggganjil; ?></td>
                             <td><?php  echo $dasargggenap; ?></td>
@@ -676,8 +673,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $asggganjil; ?></td>
                             <td><?php  echo $asgggenap; ?></td>
@@ -719,8 +716,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kopggganjil; ?></td>
                             <td><?php  echo $kopgggenap; ?></td>
@@ -762,8 +759,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kepalaggganjil; ?></td>
                             <td><?php  echo $kepalagggenap; ?></td>
@@ -805,8 +802,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $ekorggganjil; ?></td>
                             <td><?php  echo $ekorgggenap; ?></td>
@@ -850,8 +847,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -896,8 +893,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -942,8 +939,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -996,8 +993,8 @@
                         <tr>
                             
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shios; ?></td>
                             
@@ -1055,8 +1052,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1112,8 +1109,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1169,8 +1166,8 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1213,8 +1210,8 @@
                  ?>
                                             <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ $singapura->tanggal }}</td>
-                            <td>SG-{{ $singapura->periode }}</td>
+                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tengah; ?></td>
                             <td><?php  echo $tepi; ?></td>
@@ -1225,9 +1222,10 @@
         </div><!-- end-tengahtepi -->
 
       </div><!--end tab-content -->
-      </div><!--end col-xs-9 -->            
-                </div>
-              </div>
+      </div><!--end col-xs-9 -->  
+    </div>
+
+  </div>
            
 
 
