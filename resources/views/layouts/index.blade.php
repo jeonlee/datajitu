@@ -22,6 +22,7 @@
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/slot.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
   </head>
   <body>
 
@@ -223,6 +224,41 @@
         $(".fancy_title").lettering();
       });
     </script>
+     <script src="/js/jquery-ui.js"></script>
+      <script>
+          $( function() {
+    var dateFormat = "mm/dd/yy",
+      from = $( "#from" )
+        .datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 3
+        })
+        .on( "change", function() {
+          to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+      to = $( "#to" ).datepicker({
+        defaultDate: "+1w",
+        changeMonth: true,
+        numberOfMonths: 3
+      })
+      .on( "change", function() {
+        from.datepicker( "option", "maxDate", getDate( this ) );
+      });
+ 
+    function getDate( element ) {
+      var date;
+      try {
+        date = $.datepicker.parseDate( dateFormat, element.value );
+      } catch( error ) {
+        date = null;
+      }
+ 
+      return date;
+    }
+  } );
+      </script>
+      
     <!-- <script src="js/jquery.counter.js" type="text/javascript"></script> -->
 
     <!-- <script src="js/jquery.easytabs.js" type="text/javascript"></script>   -->
