@@ -18,7 +18,7 @@
                 </div>
                 <div class="form-group">
                     <label for="title">Tanggal</label>
-                    <input type="text" name="tanggal" id="tanggal" class="form-control input-sm" placeholder="dd-mm-yyyy">
+                    <input type="text" name="tanggal" id="datepicker" class="form-control input-sm" placeholder="dd-mm-yyyy">
                 </div>
                 <div class="form-group">
                     <label for="title">Periode</label>
