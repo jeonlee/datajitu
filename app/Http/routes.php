@@ -43,6 +43,8 @@ Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
 Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 
+Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
