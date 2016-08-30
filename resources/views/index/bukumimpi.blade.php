@@ -162,7 +162,7 @@
               </li>
               <li>
                 <a class="thumb" name="Buku-Mimpi-1" href="images/buku-mimpi/Buku-Mimpi-1.jpg" title="Buku-Mimpi-1">
-                  <img src="images/buku-mimpi/Buku-Mimpi-0.jpg" alt="Buku-Mimpi-1" width="50" /> <span class="thumbnail-buku-mimpi">01</span>
+                  <img src="images/buku-mimpi/Buku-Mimpi-1.jpg" alt="Buku-Mimpi-1" width="50" /> <span class="thumbnail-buku-mimpi">01</span>
                 </a>
                 <div class="caption">
                   <div class="image-title">Buku Mimpi #01</div>
