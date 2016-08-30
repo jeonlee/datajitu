@@ -9,6 +9,25 @@
                 </div>
 
                 <div class="panel-body p15">
+                 <form method="POST" action="/searchResultSingapura">
+    {{ csrf_field() }}
+      <div class="form-group" style="overflow:hidden;">
+        <div class="col-xs-6">
+          Dari :
+          <div style="overflow:hidden;" class="form-group">
+            <input type="text" name="startDate" id="from" class="form-control input-sm" placeholder="dd-mm-yyyy">
+        </div>
+        </div>
+        <div class="col-xs-6">
+          Sampai :
+          <div style="overflow:hidden;" class="form-group">
+            <input type="text" class="input-sm form-control" name="endDate" id="to" />
+        </div>
+      </div> 
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    
                 <div class="col-xs-3" style="width:20%; padding:0px;">
                 <nav class=" navbar-default sidebar" role="navigation">
     <div class="container-fluid">
