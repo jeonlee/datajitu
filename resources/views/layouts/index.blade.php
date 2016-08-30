@@ -371,7 +371,68 @@ $(function () {
 });
 });
     </script>
+  <script language="JavaScript">
+  function hapusx(){
+    var fom = document.fom;
+    hsl.style.display = "none";
+    var s1x = eval("fom.s1");
+    var s2x = eval("fom.s2");
+    var s3x = eval("fom.s3");
+    var s4x = eval("fom.s4");
+    var s5x = eval("fom.s5");
+    var s6x = eval("fom.s6");
+    var s7x = eval("fom.s7");
 
+    s1x.value = "";
+    s2x.value = "";
+    s3x.value = "";
+    s4x.value = "";
+    s5x.value = "";
+    s6x.value = "";
+    s7x.value = "";
+    s1x.focus();
+  }
+  function convert(){
+    var fom = document.fom;
+    var s1 = eval("fom.s1");
+    var s2 = eval("fom.s2");
+    var s3 = eval("fom.s3");
+    var s4 = eval("fom.s4");
+    var s5 = eval("fom.s5");
+    var s6 = eval("fom.s6");
+    var s7 = eval("fom.s7");
+    if ((!s1.value) || (!s2.value) || (!s3.value) || (!s4.value) || (!s5.value) || (!s6.value) || (!s7.value)){
+      alert("Winning Numbers dan Additional Number harus diisi dengan angka \n Tidak boleh dikosongi!! Prediksi Dua Angka");
+      s1.focus();
+      return;
+    }//else if ()
+    hsl.style.display = "block";
+    var myarray=[s1.value, s2.value, s3.value, s4.value, s5.value, s6.value]
+    myarray.sort(function(a,b){return a - b});  
+    var d = parseInt(myarray[0]) + parseInt(myarray[1]) + parseInt(myarray[2]) + parseInt(myarray[3]) + parseInt(myarray[4]) + parseInt(myarray[5]);
+    var c = parseInt(d) + Number(s7.value);
+    var b = parseInt(myarray[3]) + parseInt(myarray[4]) + parseInt(myarray[5]);
+    var a = parseInt(myarray[0]) + parseInt(myarray[1]) + parseInt(myarray[2]);
+    
+    d = ""+d;
+    d = d.substr(d.length - 1);
+
+    c = ""+c;
+    c = c.substr(c.length - 1);
+
+    b = ""+b;
+    b = b.substr(b.length - 1);
+    
+    a = ""+a;
+    a = a.substr(a.length - 1);
+
+    document.getElementById("ab1").innerHTML = a;
+    document.getElementById("ab2").innerHTML = b;
+    document.getElementById("ab3").innerHTML = c;
+    document.getElementById("ab4").innerHTML = d;
+  }
+
+  </script>
 
   </body>
 </html>
