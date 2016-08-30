@@ -255,7 +255,7 @@ class IndexController extends Controller
 
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwans::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
