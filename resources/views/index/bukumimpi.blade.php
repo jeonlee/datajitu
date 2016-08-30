@@ -2,12 +2,12 @@
 
 @section('content')
 <?php function get_script() { ?>
-  <link rel="stylesheet" href="css/galleriffic-5.css" type="text/css" />
-   <link rel="stylesheet" href="css/white.css" type="text/css" />
-  <script type="text/javascript" src="js/jquery-1.3.2.js"></script>
-    <script type="text/javascript" src="js/jquery.history.js"></script>
-    <script type="text/javascript" src="js/jquery.galleriffic.js"></script>
-    <script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+  <link rel="stylesheet" href="/css/galleriffic-5.css" type="text/css" />
+   <link rel="stylesheet" href="/css/white.css" type="text/css" />
+  <script type="text/javascript" src="/js/jquery-1.3.2.js"></script>
+    <script type="text/javascript" src="/js/jquery.history.js"></script>
+    <script type="text/javascript" src="../js/jquery.galleriffic.js"></script>
+    <script type="text/javascript" src="/js/jquery.opacityrollover.js"></script>
     <script type="text/javascript">
       document.write('<style>.noscript { display: none; }</style>');
     </script>
