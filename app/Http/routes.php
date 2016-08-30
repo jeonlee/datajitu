@@ -44,6 +44,11 @@ Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
+Route::post('/searchResultSydney', 'IndexController@searchResultSydney');
+Route::post('/searchResultCambodia', 'IndexController@searchResultCambodia');
+Route::post('/searchResultTaiwan', 'IndexController@searchResultTaiwan');
+Route::post('/searchResultChina', 'IndexController@searchResultChina');
+Route::post('/searchResultHongkong', 'IndexController@searchResultHongkong');
 
 Route::auth();
 
