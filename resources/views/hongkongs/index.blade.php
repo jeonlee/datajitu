@@ -30,7 +30,7 @@
                     @foreach ($hongkongs as $hongkong)
                         <tr>
                             <td>{{ $hongkong->hari }}</td>
-                            <td>{{ $hongkong->tanggal }}</td>
+                            <td>{{ Carbon\Carbon::parse($hongkong->tanggal)->format('d-m-Y') }}</td>
                             <td>{{ $hongkong->periode }}-HK</td>
                             <td>{{ $hongkong->number }}</td>
                             <td><a href="/admin/hongkong/{{ $hongkong->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
