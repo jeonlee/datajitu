@@ -22,7 +22,7 @@
                     <tbody>
                     @foreach ($taiwans as $taiwan)
                       <tr>
-                        <td><div class="t_no f20">{{ $taiwan->tanggal }}</div></td>
+                        <td><div class="t_no f20">{{ Carbon\Carbon::parse($taiwan->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $taiwan->periode }}-TW</div></td>
                         <td><div class="t_tgl kuning1 f20">{{ $taiwan->number }}</div></td>                                    
                         
