@@ -114,6 +114,12 @@ class IndexController extends Controller
         
         return view('index.carahitung');
     }
+     public function showresultsgp()
+        {
+        
+        
+        return view('index.resultsgp');
+        }
     public function showsydney()
     {
         $sydney = Sydney::all()->last();
