@@ -10,7 +10,7 @@ class ChinaController extends Controller
 {
     public function index()
 	{
-    	$chinas = China::orderBy('periode','desc')->paginate(5);
+    	$chinas = China::orderBy('tanggal','desc')->paginate(5);
 
     	return view('chinas.index', compact('chinas'));
 	}
