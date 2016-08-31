@@ -194,7 +194,7 @@
         <div class="row">
           <div class="col-xs-12">
             <hr style="margin: 4px 0;">
-            Copyright © result.com All Rights Reserved
+            Copyright © Datajitu.com All Rights Reserved
           </div>
         </div>
       </div>
