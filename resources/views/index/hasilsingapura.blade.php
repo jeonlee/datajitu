@@ -25,7 +25,7 @@
                     @foreach ($singapuras as $singapura)
                      
                       <tr>
-                        <td><div class="t_no f20">{{ $singapura->tanggal }}</div></td>
+                        <td><div class="t_no f20">{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $singapura->periode }}-SG</div></td>
 
                         <td><div class="t_tgl biru f20">{{ $singapura->number }}</div></td>   
