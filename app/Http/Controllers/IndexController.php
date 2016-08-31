@@ -20,32 +20,32 @@ class IndexController extends Controller
     	$singapura = Singapura::all()->last();
     	$singapuras = Singapura::all();
         $collection = collect($singapuras);
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         $cambodia = Cambodia::all()->last();
         $cambodias = Cambodia::all();
         $collectionmc = collect($cambodias);
-        $sorted1 = $collectionmc->sortByDesc('periode');
+        $sorted1 = $collectionmc->sortByDesc('tanggal');
 
         $sydney = Sydney::all()->last();
         $sydneys = Sydney::all();
         $collectionsd = collect($sydneys);
-        $sorted2 = $collectionsd->sortByDesc('periode');
+        $sorted2 = $collectionsd->sortByDesc('tanggal');
 
         $taiwan = Taiwan::all()->last();
         $taiwans = Taiwan::all();
         $collectiontw = collect($taiwans);
-        $sorted4 = $collectiontw->sortByDesc('periode');
+        $sorted4 = $collectiontw->sortByDesc('tanggal');
 
         $china = China::all()->last();
         $chinas = China::all();
         $collectioncn = collect($chinas);
-        $sorted3 = $collectioncn->sortByDesc('periode');
+        $sorted3 = $collectioncn->sortByDesc('tanggal');
 
         $hongkong = Hongkong::all()->last();
         $hongkongs = Hongkong::all();
         $collectionhk = collect($hongkongs);
-        $sorted5 = $collectionhk->sortByDesc('periode');
+        $sorted5 = $collectionhk->sortByDesc('tanggal');
 
     	return view('index.index', compact('singapura','cambodia','sydney','taiwan','china','hongkong','sorted','sorted1','sorted2','sorted3','sorted4','sorted5'));
     }
@@ -58,7 +58,7 @@ class IndexController extends Controller
 
         $collection = collect($singapuras);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         $users = Singapura::paginate(10);
 
@@ -69,7 +69,7 @@ class IndexController extends Controller
     {
         $singapura = Singapura::all()->last();
 
-        $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
+        $singapuras = Singapura::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($singapuras);
 
@@ -81,7 +81,7 @@ class IndexController extends Controller
     {
         $singapura = Singapura::all()->last();
 
-         $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
+         $singapuras = Singapura::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($singapuras);
 
@@ -97,7 +97,7 @@ class IndexController extends Controller
 
         $singapura = Singapura::all()->last();
 
-        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisissingapura', compact('singapura','singapuras'));
     }
@@ -122,7 +122,7 @@ class IndexController extends Controller
         
         $collection = collect($sydneys);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         return view('index.sydney', compact('sydney','sorted'));
     }
@@ -130,7 +130,7 @@ class IndexController extends Controller
     {
         $sydney = Sydney::all()->last();
 
-        $sydneys = Sydney::orderBy('periode','desc')->paginate(10);
+        $sydneys = Sydney::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($sydneys);
 
@@ -142,7 +142,7 @@ class IndexController extends Controller
     {
         $sydney = Sydney::all()->last();
 
-         $sydneys = Sydney::orderBy('periode','desc')->paginate(10);
+         $sydneys = Sydney::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($sydneys);
 
@@ -158,7 +158,7 @@ class IndexController extends Controller
 
         $sydney = Sydney::all()->last();
 
-        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisissydney', compact('sydney','sydneys'));
     }
@@ -170,7 +170,7 @@ class IndexController extends Controller
 
         $collection = collect($cambodias);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
         
 
         return view('index.cambodia', compact('cambodia','sorted'));
@@ -179,7 +179,7 @@ class IndexController extends Controller
     {
         $cambodia = Cambodia::all()->last();
 
-        $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
+        $cambodias = Cambodia::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($cambodias);
 
@@ -191,7 +191,7 @@ class IndexController extends Controller
     {
         $cambodia = Cambodia::all()->last();
 
-         $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
+         $cambodias = Cambodia::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($cambodias);
 
@@ -207,7 +207,7 @@ class IndexController extends Controller
 
         $cambodia = Cambodia::all()->last();
 
-        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
@@ -219,7 +219,7 @@ class IndexController extends Controller
         
         $collection = collect($taiwans);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         return view('index.taiwan', compact('taiwan','sorted'));
     }
@@ -227,7 +227,7 @@ class IndexController extends Controller
     {
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwan::orderBy('periode','desc')->paginate(10);
+        $taiwans = Taiwan::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($taiwans);
 
@@ -239,7 +239,7 @@ class IndexController extends Controller
     {
         $taiwan = Taiwan::all()->last();
 
-         $taiwans = Taiwan::orderBy('periode','desc')->paginate(10);
+         $taiwans = Taiwan::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($taiwans);
 
@@ -255,7 +255,7 @@ class IndexController extends Controller
 
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
@@ -267,7 +267,7 @@ class IndexController extends Controller
         
         $collection = collect($chinas);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         return view('index.china', compact('china','sorted'));
     }
@@ -275,7 +275,7 @@ class IndexController extends Controller
     {
         $china = China::all()->last();
 
-        $chinas = China::orderBy('periode','desc')->paginate(10);
+        $chinas = China::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($chinas);
 
@@ -287,7 +287,7 @@ class IndexController extends Controller
     {
         $china = China::all()->last();
 
-         $chinas = China::orderBy('periode','desc')->paginate(10);
+         $chinas = China::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($chinas);
 
@@ -303,7 +303,7 @@ class IndexController extends Controller
 
         $china = China::all()->last();
 
-        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisischina', compact('china','chinas'));
     }
@@ -315,7 +315,7 @@ class IndexController extends Controller
         
         $collection = collect($hongkongs);
 
-        $sorted = $collection->sortByDesc('periode');
+        $sorted = $collection->sortByDesc('tanggal');
 
         return view('index.hongkong', compact('hongkong','sorted'));
     }
@@ -323,7 +323,7 @@ class IndexController extends Controller
     {
         $hongkong = Hongkong::all()->last();
 
-        $hongkongs = Hongkong::orderBy('periode','desc')->paginate(10);
+        $hongkongs = Hongkong::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($hongkongs);
 
@@ -335,7 +335,7 @@ class IndexController extends Controller
     {
         $hongkong = Hongkong::all()->last();
 
-         $hongkongs = Hongkong::orderBy('periode','desc')->paginate(10);
+         $hongkongs = Hongkong::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($hongkongs);
 
@@ -351,7 +351,7 @@ class IndexController extends Controller
 
         $hongkong = Hongkong::all()->last();
 
-        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
 
         return view('index.analisishongkong', compact('hongkong','hongkongs'));
     }
