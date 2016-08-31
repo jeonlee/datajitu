@@ -10,7 +10,7 @@ class SydneyController extends Controller
 {
     public function index()
 	{
-    	$sydneys = Sydney::orderBy('periode','desc')->paginate(5);
+    	$sydneys = Sydney::orderBy('tanggal','desc')->paginate(5);
 
     	return view('sydneys.index', compact('sydneys'));
 	}
