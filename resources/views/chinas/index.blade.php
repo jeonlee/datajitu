@@ -30,7 +30,7 @@
                     @foreach ($chinas as $china)
                         <tr>
                             <td>{{ $china->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($china->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $china->tanggal }}</td>
                             <td>{{ $china->periode }}-CN</td>
                             <td>{{ $china->number }}</td>
                             <td><a href="/admin/china/{{ $china->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
