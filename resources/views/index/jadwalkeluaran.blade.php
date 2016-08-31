@@ -50,24 +50,24 @@
                 <td><div class="t_no">4</div></td>
                 <td><div class="t_hari">Togel Taiwan</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">15:00</div></td>
-                <td><div class="t_city">15:30</div></td>
+                <td><div class="t_city">20:00</div></td>
+                <td><div class="t_city">20:45</div></td>
                 <td><div class="t_city">www.taiwanlottery.net</div></td>
               </tr>     
               <tr>
                 <td><div class="t_no">5</div></td>
                 <td><div class="t_hari">Togel China</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">22:00</div></td>
-                <td><div class="t_city">23:00</div></td>
+                <td><div class="t_city">15:00</div></td>
+                <td><div class="t_city">15:30</div></td>
                 <td><div class="t_city">www.chinapools.asia</div></td>
               </tr>   
               <tr>
                 <td><div class="t_no">6</div></td>
                 <td><div class="t_hari">Togel Hongkong</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">04:15</div></td>
-                <td><div class="t_city">04:45</div></td>
+                <td><div class="t_city">22:00</div></td>
+                <td><div class="t_city">23:00</div></td>
                 <td><div class="t_city">www.hongkongpools.com</div></td>
               </tr> 
                                                                                                                                                                                                                                            
