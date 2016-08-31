@@ -23,7 +23,7 @@ class CambodiaController extends Controller
 	{
         Cambodia::create($request->all());
 
-        $cambodias = Cambodia::orderBy('periode','desc')->paginate(5);
+        $cambodias = Cambodia::orderBy('tanggal','desc')->paginate(5);
 
         return view('cambodias.index', compact('cambodias'));
 	}
@@ -52,7 +52,7 @@ class CambodiaController extends Controller
 
         $cambodias = Cambodia::all();
         
-        $cambodias = Cambodia::orderBy('periode','desc')->paginate(5);
+        $cambodias = Cambodia::orderBy('tanggal','desc')->paginate(5);
 
         return view('cambodias.index', compact('cambodias'));
     }
