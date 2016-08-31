@@ -23,7 +23,7 @@ class ChinaController extends Controller
 	{
         China::create($request->all());
 
-        $chinas = China::orderBy('periode','desc')->paginate(5);
+        $chinas = China::orderBy('tanggal','desc')->paginate(5);
 
         return view('chinas.index', compact('chinas'));
 	}
@@ -52,7 +52,7 @@ class ChinaController extends Controller
 
         $chinas = China::all();
         
-        $chinas = China::orderBy('periode','desc')->paginate(5);
+        $chinas = China::orderBy('tanggal','desc')->paginate(5);
 
         return view('chinas.index', compact('chinas'));
     }
