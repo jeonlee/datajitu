@@ -42,6 +42,7 @@ Route::get('/analisischina', 'IndexController@showanalisischina');
 Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
 Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/carahitung', 'IndexController@showcarahitung');
+Route::get('/resultsgp', 'IndexController@showresultsgp');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
 Route::post('/searchResultSydney', 'IndexController@searchResultSydney');
