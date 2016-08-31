@@ -10,7 +10,7 @@ class HongkongController extends Controller
 {
     public function index()
 	{
-    	$hongkongs = Hongkong::orderBy('periode','desc')->paginate(5);
+    	$hongkongs = Hongkong::orderBy('tanggal','desc')->paginate(5);
 
     	return view('hongkongs.index', compact('hongkongs'));
 	}
