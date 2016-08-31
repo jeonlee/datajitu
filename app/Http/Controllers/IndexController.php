@@ -35,12 +35,12 @@ class IndexController extends Controller
         $taiwan = Taiwan::all()->last();
         $taiwans = Taiwan::all();
         $collectiontw = collect($taiwans);
-        $sorted3 = $collectiontw->sortByDesc('periode');
+        $sorted4 = $collectiontw->sortByDesc('periode');
 
         $china = China::all()->last();
         $chinas = China::all();
         $collectioncn = collect($chinas);
-        $sorted4 = $collectioncn->sortByDesc('periode');
+        $sorted3 = $collectioncn->sortByDesc('periode');
 
         $hongkong = Hongkong::all()->last();
         $hongkongs = Hongkong::all();
