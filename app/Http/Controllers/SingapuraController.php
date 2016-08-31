@@ -23,7 +23,7 @@ class SingapuraController extends Controller
 	{
         Singapura::create($request->all());
 
-        $singapuras = Singapura::orderBy('periode','desc')->paginate(5);
+        $singapuras = Singapura::orderBy('tanggal','desc')->paginate(5);
 
         return view('singapuras.index', compact('singapuras'));
 	}
@@ -52,7 +52,7 @@ class SingapuraController extends Controller
 
         $singapuras = Singapura::all();
         
-        $singapuras = Singapura::orderBy('periode','desc')->paginate(5);
+        $singapuras = Singapura::orderBy('tanggal','desc')->paginate(5);
 
         return view('singapuras.index', compact('singapuras'));
     }
