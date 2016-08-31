@@ -54,5 +54,5 @@
 
 
 @section('footer')
-    Footer result
+    datajitu.com
 @endsection
