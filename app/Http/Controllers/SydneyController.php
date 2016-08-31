@@ -23,7 +23,7 @@ class SydneyController extends Controller
 	{
         Sydney::create($request->all());
 
-        $sydneys = Sydney::orderBy('periode','desc')->paginate(5);
+        $sydneys = Sydney::orderBy('tanggal','desc')->paginate(5);
 
         return view('sydneys.index', compact('sydneys'));
 	}
@@ -52,7 +52,7 @@ class SydneyController extends Controller
 
         $sydneys = Sydney::all();
         
-        $sydneys = Sydney::orderBy('periode','desc')->paginate(5);
+        $sydneys = Sydney::orderBy('tanggal','desc')->paginate(5);
 
         return view('sydneys.index', compact('sydneys'));
     }
