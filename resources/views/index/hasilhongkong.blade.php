@@ -22,7 +22,7 @@
                     <tbody>
                     @foreach ($hongkongs as $hongkong)
                       <tr>
-                        <td><div class="t_no f20">{{ $hongkong->tanggal }}</div></td>
+                        <td><div class="t_no f20">{{ Carbon\Carbon::parse($hongkong->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $hongkong->periode }}-HK</div></td>
                         <td><div class="t_tgl ungu f20">{{ $hongkong->number }}</div></td>                                    
                         
