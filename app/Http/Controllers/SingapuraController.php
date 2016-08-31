@@ -10,7 +10,7 @@ class SingapuraController extends Controller
 {
     public function index()
 	{
-    	$singapuras = Singapura::orderBy('periode','desc')->paginate(5);
+    	$singapuras = Singapura::orderBy('tanggal','desc')->paginate(5);
 
     	return view('singapuras.index', compact('singapuras'));
 	}
