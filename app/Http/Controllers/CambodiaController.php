@@ -10,7 +10,7 @@ class CambodiaController extends Controller
 {
     public function index()
 	{
-    	$cambodias = Cambodia::orderBy('periode','desc')->paginate(5);
+    	$cambodias = Cambodia::orderBy('tanggal','desc')->paginate(5);
 
     	return view('cambodias.index', compact('cambodias'));
 	}
