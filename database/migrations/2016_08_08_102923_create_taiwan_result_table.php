@@ -14,7 +14,7 @@ class CreateTaiwanResultTable extends Migration
     {
         Schema::create('taiwans', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('periode');
+            $table->integer('periode');
             $table->text('number');
             $table->text('tanggal');
             $table->text('hari');
