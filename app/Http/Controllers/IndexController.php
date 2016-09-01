@@ -97,7 +97,7 @@ class IndexController extends Controller
 
         $singapura = Singapura::all()->last();
 
-        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisissingapura', compact('singapura','singapuras'));
     }
