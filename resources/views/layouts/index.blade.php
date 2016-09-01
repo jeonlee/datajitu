@@ -237,7 +237,7 @@
           dateFormat: "dd-mm-yy",
           changeMonth: true,
           numberOfMonths: 3
-        })
+        }).val()
         .on( "change", function() {
           to.datepicker( "option", "minDate", getDate( this ) );
         }),
@@ -246,7 +246,7 @@
         dateFormat: "dd-mm-yy",
         changeMonth: true,
         numberOfMonths: 3
-      })
+      }).val()
       .on( "change", function() {
         from.datepicker( "option", "maxDate", getDate( this ) );
       });
