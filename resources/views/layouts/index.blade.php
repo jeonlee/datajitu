@@ -234,6 +234,7 @@
       from = $( "#from" )
         .datepicker({
           defaultDate: "+1w",
+          dateFormat: "dd-mm-yy",
           changeMonth: true,
           numberOfMonths: 3
         })
@@ -242,6 +243,7 @@
         }),
       to = $( "#to" ).datepicker({
         defaultDate: "+1w",
+        dateFormat: "dd-mm-yy",
         changeMonth: true,
         numberOfMonths: 3
       })
