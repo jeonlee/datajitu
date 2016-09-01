@@ -222,6 +222,7 @@
     <script type="text/javascript" src="js/slot1.js"></script>
     
      <script type="text/javascript" src="js/jquery.lettering.js"></script>
+     <script src="/js/jquery-ui.js"></script>
     <script>
           $( function() {
     var dateFormat = "dd-mm-yy",
