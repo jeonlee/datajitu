@@ -223,27 +223,22 @@
     
      <script type="text/javascript" src="js/jquery.lettering.js"></script>
     <script>
-      $(document).ready(function() {
-        $(".fancy_title").lettering();
-      });
-    </script>
-     <script src="/js/jquery-ui.js"></script>
-      <script>
           $( function() {
     var dateFormat = "dd-mm-yy",
       from = $( "#from" )
         .datepicker({
-          defaultDate: "+1w",
           dateFormat: "dd-mm-yy",
+          defaultDate: "+1w",
           changeMonth: true,
           numberOfMonths: 3
         })
         .on( "change", function() {
           to.datepicker( "option", "minDate", getDate( this ) );
         }),
-      to = $( "#to" ).datepicker({
-        defaultDate: "+1w",
+      to = $( "#to" )
+      .datepicker({
         dateFormat: "dd-mm-yy",
+        defaultDate: "+1w",
         changeMonth: true,
         numberOfMonths: 3
       })
