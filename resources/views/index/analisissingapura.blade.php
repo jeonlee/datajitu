@@ -2,14 +2,16 @@
 
 @section('content')
 	<div class="panel panel-primary">
-                <div class="panel-heading p15 black font">
-                  <div class="panel-title">
-                    <h3>ANALISIS TOGEL SINGAPURA</h3>
-                  </div>
-                </div>
+    <div class="panel-heading p15 black font">
+      <div class="panel-title">
+        <h3>ANALISIS TOGEL SINGAPURA</h3>
+      </div>
+    </div>
 
-                <div class="panel-body p15">
-                 <form method="POST" action="/searchResultSingapura">
+    <div class="panel-body p15">
+
+
+    <form method="POST" action="/searchResultSingapura">
     {{ csrf_field() }}
       <div class="form-group" style="overflow:hidden;">
         <div class="col-xs-6">
@@ -27,77 +29,77 @@
       </div>
       <button type="submit">Submit</button>
     </form>
-    
-                <div class="col-xs-3" style="width:20%; padding:0px;">
-                <nav class=" navbar-default sidebar" role="navigation">
-    <div class="container-fluid">
-    
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Besar-Kecil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
-          <ul class="dropdown-menu forAnimate" role="menu">
-            <li><a data-toggle="tab" href="#besarkecilas">As</a></li>
-            <li><a data-toggle="tab" href="#besarkecilkop">Kop</a></li>
-            <li><a data-toggle="tab" href="#besarkecilkepala">Kepala</a></li>
-            
-            <li><a data-toggle="tab" href="#besarkecilekor">Ekor</a></li>
-            
-          </ul>
-        </li>          
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colok-Jitu <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
-          <ul class="dropdown-menu forAnimate" role="menu">
-            <li><a data-toggle="tab" href="#colokjituas">As</a></li>
-            <li><a data-toggle="tab" href="#colokjitukop">Kop</a></li>
-            <li><a data-toggle="tab" href="#colokjitukepala">Kepala</a></li>
-            
-            <li><a data-toggle="tab" href="#colokjituekor">Ekor</a></li>
-            
-          </ul>
-        </li>
-        <li ><a data-toggle="tab" href="#dasarbesarkecil">Dasar Besar-Kecil<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
-        <li ><a data-toggle="tab" href="#dasarganjilgenap">Dasar Ganjil-Genap<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ganjil-Genap <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
-          <ul class="dropdown-menu forAnimate" role="menu">
-            <li><a data-toggle="tab" href="#ganjilgenapas">As</a></li>
-            <li><a data-toggle="tab" href="#ganjilgenapkop">Kop</a></li>
-            <li><a data-toggle="tab" href="#ganjilgenapkepala">Kepala</a></li>
-            
-            <li><a data-toggle="tab" href="#ganjilgenapekor">Ekor</a></li>
-            
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kembang-Kempis <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
-          <ul class="dropdown-menu forAnimate" role="menu">
-            <li><a data-toggle="tab" href="#kembangkempisdepan">Depan</a></li>
-            <li><a data-toggle="tab" href="#kembangkempistengah">Tengah</a></li>
-            <li><a data-toggle="tab" href="#kembangkempisbelakang">Belakang</a></li>
-            
-            
-          </ul>
-        </li>
-        <li ><a data-toggle="tab" href="#shio">Shio<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Silang-Homo <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
-          <ul class="dropdown-menu forAnimate" role="menu">
-            <li><a data-toggle="tab" href="#silanghomodepan">Depan</a></li>
-            <li><a data-toggle="tab" href="#silanghomotengah">Tengah</a></li>
-            <li><a data-toggle="tab" href="#silanghomobelakang">Belakang</a></li>
-            
-            
-          </ul>
-        </li>
-        <li ><a data-toggle="tab" href="#tengahtepi">Tengah-Tepi<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
 
-      </ul>
-    </div>
-  </div>
-</nav>
-</div>
+    <div class="col-xs-3" style="width:20%; padding:0px;">
+        <nav class=" navbar-default sidebar" role="navigation">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Besar-Kecil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
+                  <ul class="dropdown-menu forAnimate" role="menu">
+                    <li><a data-toggle="tab" href="#besarkecilas">As</a></li>
+                    <li><a data-toggle="tab" href="#besarkecilkop">Kop</a></li>
+                    <li><a data-toggle="tab" href="#besarkecilkepala">Kepala</a></li>
+                    
+                    <li><a data-toggle="tab" href="#besarkecilekor">Ekor</a></li>
+                    
+                  </ul>
+                </li>          
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colok-Jitu <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
+                  <ul class="dropdown-menu forAnimate" role="menu">
+                    <li><a data-toggle="tab" href="#colokjituas">As</a></li>
+                    <li><a data-toggle="tab" href="#colokjitukop">Kop</a></li>
+                    <li><a data-toggle="tab" href="#colokjitukepala">Kepala</a></li>
+                    <li class="divider"></li>
+                    <li><a data-toggle="tab" href="#colokjituekor">Ekor</a></li>
+                    
+                  </ul>
+                </li>
+                <li ><a data-toggle="tab" href="#dasarbesarkecil">Dasar Besar-Kecil<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li ><a data-toggle="tab" href="#dasarganjilgenap">Dasar Ganjil-Genap<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ganjil-Genap <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
+                  <ul class="dropdown-menu forAnimate" role="menu">
+                    <li><a data-toggle="tab" href="#ganjilgenapas">As</a></li>
+                    <li><a data-toggle="tab" href="#ganjilgenapkop">Kop</a></li>
+                    <li><a data-toggle="tab" href="#ganjilgenapkepala">Kepala</a></li>
+                    <li class="divider"></li>
+                    <li><a data-toggle="tab" href="#ganjilgenapekor">Ekor</a></li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kembang-Kempis <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
+                  <ul class="dropdown-menu forAnimate" role="menu">
+                    <li><a data-toggle="tab" href="#kembangkempisdepan">Depan</a></li>
+                    <li><a data-toggle="tab" href="#kembangkempistengah">Tengah</a></li>
+                    <li><a data-toggle="tab" href="#kembangkempisbelakang">Belakang</a></li>
+                    
+                    
+                  </ul>
+                </li>
+                <li ><a data-toggle="tab" href="#shio">Shio<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Silang-Homo <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
+                  <ul class="dropdown-menu forAnimate" role="menu">
+                    <li><a data-toggle="tab" href="#silanghomodepan">Depan</a></li>
+                    <li><a data-toggle="tab" href="#silanghomotengah">Tengah</a></li>
+                    <li><a data-toggle="tab" href="#silanghomobelakang">Belakang</a></li>
+                    
+                    
+                  </ul>
+                </li>
+                <li ><a data-toggle="tab" href="#tengahtepi">Tengah-Tepi<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div><!-- col-xs-3 -->
+
       <div class="col-xs-9">
         <div class="tab-content">
           <div class="tab-pane active" id="4d">
@@ -115,7 +117,7 @@
                 @foreach ($singapuras as $singapura)
                 <tr>
                     <td>{{ $singapura->hari }}</td>
-                    <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                    <td>{{ $singapura->tanggal }}</td>
                     <td>{{ $singapura->periode }}</td>
                     <td>{{ $singapura->number }}</td>
                 </tr>
@@ -153,7 +155,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $satux1; ?></td>
@@ -193,7 +195,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $duax1; ?></td>
@@ -233,7 +235,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tigax1; ?></td>
@@ -273,7 +275,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $empatx1; ?></td>
@@ -330,7 +332,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjas0; ?></td>
@@ -396,7 +398,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkop0; ?></td>
@@ -462,7 +464,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkepala0; ?></td>
@@ -528,7 +530,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjekor0; ?></td>
@@ -586,7 +588,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
@@ -630,7 +632,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarggganjil; ?></td>
@@ -673,7 +675,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $asggganjil; ?></td>
@@ -716,7 +718,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kopggganjil; ?></td>
@@ -759,7 +761,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kepalaggganjil; ?></td>
@@ -802,7 +804,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $ekorggganjil; ?></td>
@@ -847,7 +849,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -893,7 +895,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -939,7 +941,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
@@ -993,7 +995,7 @@
                         <tr>
                             
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shios; ?></td>
@@ -1052,7 +1054,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1109,7 +1111,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1166,7 +1168,7 @@
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
@@ -1210,7 +1212,7 @@
                  ?>
                                             <tr>
                             <td>{{ $singapura->hari }}</td>
-                            <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
+                            <td>{{ $singapura->tanggal }}</td>
                             <td>{{ $singapura->periode }}</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tengah; ?></td>
