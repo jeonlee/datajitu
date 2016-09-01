@@ -10,7 +10,7 @@ class TaiwanController extends Controller
 {
     public function index()
 	{
-    	$taiwans = Taiwan::orderBy('tanggal','desc')->paginate(5);
+    	$taiwans = Taiwan::orderBy('periode','desc')->paginate(5);
 
     	return view('taiwans.index', compact('taiwans'));
 	}
@@ -23,7 +23,7 @@ class TaiwanController extends Controller
 	{
         Taiwan::create($request->all());
 
-        $taiwans = Taiwan::orderBy('tanggal','desc')->paginate(5);
+        $taiwans = Taiwan::orderBy('periode','desc')->paginate(5);
 
         return view('taiwans.index', compact('taiwans'));
 	}
@@ -52,7 +52,7 @@ class TaiwanController extends Controller
 
         $taiwans = Taiwan::all();
         
-        $taiwans = Taiwan::orderBy('tanggal','desc')->paginate(5);
+        $taiwans = Taiwan::orderBy('periode','desc')->paginate(5);
 
         return view('taiwans.index', compact('taiwans'));
     }
