@@ -118,7 +118,7 @@
                 <tr>
                     <td>{{ $singapura->hari }}</td>
                     <td>{{ $singapura->tanggal }}</td>
-                    <td>{{ $singapura->periode }}</td>
+                    <td>{{ $singapura->periode }}-SG</td>
                     <td>{{ $singapura->number }}</td>
                 </tr>
                 @endforeach
@@ -156,7 +156,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $satux1; ?></td>
                             <td><?php  echo $satux2; ?></td>
@@ -196,7 +196,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $duax1; ?></td>
                             <td><?php  echo $duax2; ?></td>
@@ -236,7 +236,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tigax1; ?></td>
                             <td><?php  echo $tigax2; ?></td>
@@ -276,7 +276,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $empatx1; ?></td>
                             <td><?php  echo $empatx2; ?></td>
@@ -333,7 +333,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjas0; ?></td>
                             <td><?php  echo $cjas1; ?></td>
@@ -399,7 +399,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkop0; ?></td>
                             <td><?php  echo $cjkop1; ?></td>
@@ -465,7 +465,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjkepala0; ?></td>
                             <td><?php  echo $cjkepala1; ?></td>
@@ -531,7 +531,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $cjekor0; ?></td>
                             <td><?php  echo $cjekor1; ?></td>
@@ -589,7 +589,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
                             <td><?php  echo $dasarbkkecil; ?></td>
@@ -633,7 +633,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $dasarggganjil; ?></td>
                             <td><?php  echo $dasargggenap; ?></td>
@@ -676,7 +676,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $asggganjil; ?></td>
                             <td><?php  echo $asgggenap; ?></td>
@@ -719,7 +719,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kopggganjil; ?></td>
                             <td><?php  echo $kopgggenap; ?></td>
@@ -762,7 +762,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kepalaggganjil; ?></td>
                             <td><?php  echo $kepalagggenap; ?></td>
@@ -805,7 +805,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $ekorggganjil; ?></td>
                             <td><?php  echo $ekorgggenap; ?></td>
@@ -850,7 +850,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -896,7 +896,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -942,7 +942,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $kembangkk; ?></td>
                             <td><?php  echo $kempiskk; ?></td>
@@ -996,7 +996,7 @@
                             
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shios; ?></td>
                             
@@ -1055,7 +1055,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1112,7 +1112,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1169,7 +1169,7 @@
                         <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $shsilang; ?></td>
                             <td><?php  echo $shhomo; ?></td>
@@ -1213,7 +1213,7 @@
                                             <tr>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ $singapura->tanggal }}</td>
-                            <td>{{ $singapura->periode }}</td>
+                            <td>{{ $singapura->periode }}-SG</td>
                             <td>{{ $singapura->number }}</td>
                             <td><?php  echo $tengah; ?></td>
                             <td><?php  echo $tepi; ?></td>
