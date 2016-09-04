@@ -164,7 +164,7 @@ class IndexController extends Controller
 
         $sydney = Sydney::all()->last();
 
-        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisissydney', compact('sydney','sydneys'));
     }
@@ -213,7 +213,7 @@ class IndexController extends Controller
 
         $cambodia = Cambodia::all()->last();
 
-        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
@@ -261,7 +261,7 @@ class IndexController extends Controller
 
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
@@ -309,7 +309,7 @@ class IndexController extends Controller
 
         $china = China::all()->last();
 
-        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisischina', compact('china','chinas'));
     }
@@ -357,7 +357,7 @@ class IndexController extends Controller
 
         $hongkong = Hongkong::all()->last();
 
-        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('tanggal','desc')->get();
+        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisishongkong', compact('hongkong','hongkongs'));
     }
