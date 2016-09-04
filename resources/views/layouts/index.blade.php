@@ -225,10 +225,10 @@
      <script src="/js/jquery-ui.js"></script>
     <script>
           $( function() {
-    var dateFormat = "dd-mm-yy",
+    var dateFormat = "mm-dd-yy",
       from = $( "#from" )
         .datepicker({
-          dateFormat: "dd-mm-yy",
+          dateFormat: "mm-dd-yy",
           defaultDate: "+1w",
           changeMonth: true,
           numberOfMonths: 3
@@ -238,7 +238,7 @@
         }),
       to = $( "#to" )
       .datepicker({
-        dateFormat: "dd-mm-yy",
+        dateFormat: "mm-dd-yy",
         defaultDate: "+1w",
         changeMonth: true,
         numberOfMonths: 3
@@ -250,7 +250,7 @@
     function getDate( element ) {
       var date;
       try {
-        date = $.datepicker.parseDate( "dd-mm-yy", element.value );
+        date = $.datepicker.parseDate( "mm-dd-yy", element.value );
       } catch( error ) {
         date = null;
       }
