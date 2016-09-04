@@ -97,7 +97,7 @@
     <script src="/js/jquery-ui.js"></script>
       <script type="text/javascript">
        $(function() {
-               $("#datepicker").datepicker({ dateFormat: "mm-dd-yy" }).val()
+               $("#datepicker").datepicker({ dateFormat: "yy-mm-dd" }).val()
        });
    </script>
   </body>
