@@ -4,7 +4,7 @@
 <div class="panel panel-primary">
   <div class="panel-heading p15 black font">
     <div class="panel-title">
-      <h3>HASIL LENGKAP TOGEL TAIWAN</h3>
+      <h3>RESULT SGP</h3>
     </div>
   </div>
   <div class="panel-body">
