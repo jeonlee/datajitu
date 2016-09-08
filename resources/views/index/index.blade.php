@@ -133,7 +133,7 @@
                 </div>
             <div class="col-xs-7">
                     
-                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $china->hari }} <br><span class="smallerHeading">{{ $china->tanggal }}</span></h3>
+                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $china->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($china->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
             <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -169,7 +169,7 @@
                 </div>
             <div class="col-xs-7">
                     
-                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ $taiwan->tanggal }}</span></h3>
+                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($taiwan->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
             <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -204,7 +204,7 @@
                 </div>
             <div class="col-xs-7">
                     
-                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $hongkong->hari }} <br><span class="smallerHeading">{{ $hongkong->tanggal }}</span></h3>
+                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $hongkong->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($hongkong->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
             <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
