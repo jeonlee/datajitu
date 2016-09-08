@@ -28,7 +28,7 @@
                   </div>
                   <div class="col-xs-7">
                     
-                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ $taiwan->tanggal }}</span></h3>
+                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($taiwan->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
                 <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
