@@ -973,7 +973,7 @@
                     $dua = substr("$hongkong->number",1,1);
                     $tiga = substr("$hongkong->number",2,1);
                     $empat = substr("$hongkong->number",3,1);
-                    $shio = substr("$hongkong->number",0,2);
+                    $shio = substr("$hongkong->number",2,2);
                     
 
                  ?>
