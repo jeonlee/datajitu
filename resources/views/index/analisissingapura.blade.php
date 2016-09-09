@@ -934,11 +934,11 @@
                     
                  ?>
                  <?php
-                     if ($satu == $dua) { $kembarkk = "&#x2714;"; } else { $kembarkk = ""; }
+                     if ($tiga == $empat) { $kembarkk = "&#x2714;"; } else { $kembarkk = ""; }
 
-                     if ($satu < $dua) { $kembangkk = "&#x2714;"; }  else { $kembangkk = ""; }
+                     if ($tiga < $empat) { $kembangkk = "&#x2714;"; }  else { $kembangkk = ""; }
 
-                     if ($satu > $dua) { $kempiskk = "&#x2714;"; }  else { $kempiskk = ""; }
+                     if ($tiga > $empat) { $kempiskk = "&#x2714;"; }  else { $kempiskk = ""; }
                  ?>
                         <tr>
                             <td>{{ $singapura->hari }}</td>
