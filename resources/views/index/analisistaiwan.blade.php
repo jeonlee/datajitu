@@ -579,9 +579,9 @@
 
                  ?>
                  <?php
-                     if ($dasarbk1 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
+                     if ($dasarbk5 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
 
-                     if ($dasarbk1 < 5) { $dasarbkkecil = "&#x2714;"; }  else { $dasarbkkecil = ""; }
+                     if ($dasarbk5 < 5) { $dasarbkkecil = "&#x2714;"; }  else { $dasarbkkecil = ""; }
                  ?>
                         <tr>
                             <td>{{ $taiwan->hari }}</td>
