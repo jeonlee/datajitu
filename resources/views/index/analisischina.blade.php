@@ -1143,14 +1143,14 @@
                     $dua = substr("$china->number",1,1);
                     $tiga = substr("$china->number",2,1);
                     $empat = substr("$china->number",3,1);
-                    $tigash = substr("$china->number",1,1) % 2;
+                    $tigash = substr("$china->number",2,1) % 2;
                     $sh = 0;
                         if ($tigash == $sh) {
                             $tigash1 = "genap";
                         } else {
                             $tigash1 = "ganjil";
                         }
-                    $empatsh = substr("$china->number",2,1) % 2;
+                    $empatsh = substr("$china->number",3,1) % 2;
                     $hs = 0;
                         if ($empatsh == $hs) {
                             $empatsh1 = "genap";
