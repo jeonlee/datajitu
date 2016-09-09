@@ -973,7 +973,7 @@
                     $dua = substr("$china->number",1,1);
                     $tiga = substr("$china->number",2,1);
                     $empat = substr("$china->number",3,1);
-                    $shio = substr("$china->number",0,2);
+                    $shio = substr("$china->number",2,2);
                     
 
                  ?>
