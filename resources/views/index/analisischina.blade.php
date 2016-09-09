@@ -622,7 +622,10 @@
                     $tiga = substr("$china->number",2,1);
                     $empat = substr("$china->number",3,1);
                     $dasargg = $tiga + $empat;
-                    $dasargg1 = $dasargg % 2;
+                    $dasargg3 = substr("$dasargg",0,1);
+                    $dasargg4 = substr("$dasargg",1,1);
+                    $dasargg5 = $dasargg3 + $dasargg4;
+                    $dasargg1 = $dasargg5 % 2;
                     $dg = 0;
                  ?>
                  <?php
