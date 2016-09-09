@@ -573,12 +573,9 @@
                     $tiga = substr("$sydney->number",2,1);
                     $empat = substr("$sydney->number",3,1);
                     $dasarbk = $tiga + $empat;
-
-                    if ($dasarbk < 10) {
-                        $dasarbk1 = substr("$dasarbk",0,1);
-                    } else {
-                        $dasarbk1 = substr("$dasarbk",1,1);
-                    }
+                    $dasarbk3 = substr("$dasarbk",0,1);
+                    $dasarbk4 = substr("$dasarbk",1,1);
+                    $dasarbk5 = $dasarbk3 + $dasarbk4;
 
                  ?>
                  <?php
