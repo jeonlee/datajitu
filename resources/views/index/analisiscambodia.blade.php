@@ -974,7 +974,7 @@
                     $dua = substr("$cambodia->number",1,1);
                     $tiga = substr("$cambodia->number",2,1);
                     $empat = substr("$cambodia->number",3,1);
-                    $shio = substr("$cambodia->number",0,2);
+                    $shio = substr("$cambodia->number",2,2);
                     
 
                  ?>
