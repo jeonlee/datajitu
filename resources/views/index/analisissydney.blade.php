@@ -973,7 +973,7 @@
                     $dua = substr("$sydney->number",1,1);
                     $tiga = substr("$sydney->number",2,1);
                     $empat = substr("$sydney->number",3,1);
-                    $shio = substr("$sydney->number",0,2);
+                    $shio = substr("$sydney->number",2,2);
                     
 
                  ?>
