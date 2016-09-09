@@ -618,10 +618,10 @@
                 @foreach ($cambodias as $cambodia)
                  <?php
 
-                    $satu = substr("$singapura->number",0,1);
-                    $dua = substr("$singapura->number",1,1);
-                    $tiga = substr("$singapura->number",2,1);
-                    $empat = substr("$singapura->number",3,1);
+                    $satu = substr("$cambodia->number",0,1);
+                    $dua = substr("$cambodia->number",1,1);
+                    $tiga = substr("$cambodia->number",2,1);
+                    $empat = substr("$cambodia->number",3,1);
                     $dasargg = $tiga + $empat;
                     $dasargg3 = substr("$dasargg",0,1);
                     $dasargg4 = substr("$dasargg",1,1);
