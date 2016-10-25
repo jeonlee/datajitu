@@ -1195,3 +1195,6 @@ h2.label2::before {
     margin-top:0px;
     width: 1200px;
 }
+a.resmi:hover {
+	color:#E0E0E0;	
+}
