@@ -28,7 +28,7 @@
                 <td><div class="t_tgl">Setiap Hari (kecuali Selasa, Jumat)</div></td>                                    
                 <td><div class="t_city">17:30</div></td>
                 <td><div class="t_city">17:45</div></td>
-                <td><div class="t_city">www.singaporepools.com.sg</div></td>
+                <td><div class="t_city"><a href="www.singaporepools.com.sg" target="_blank">www.singaporepools.com.sg</a></div></td>
               </tr>   
               <tr>
                 <td><div class="t_no">2</div></td>
@@ -36,7 +36,7 @@
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">13:00</div></td>
                 <td><div class="t_city">13:50</div></td>
-                <td><div class="t_city">www.sydneypoolstoday.com</div></td>
+                <td><div class="t_city"><a href="www.sydneypoolstoday.com" target="_blank">www.sydneypoolstoday.com</a></div></td>
               </tr>              
               <tr>
                 <td><div class="t_no">3</div></td>
@@ -44,7 +44,7 @@
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">11:00</div></td>
                 <td><div class="t_city">11:50</div></td>
-                <td><div class="t_city">www.magnumcambodia.com</div></td>
+                <td><div class="t_city"><a href="www.magnumcambodia.com" target="_blank">www.magnumcambodia.com</a></div></td>
               </tr>               
               <tr>
                 <td><div class="t_no">4</div></td>
@@ -52,7 +52,7 @@
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">20:00</div></td>
                 <td><div class="t_city">20:45</div></td>
-                <td><div class="t_city">www.taiwanlottery.net</div></td>
+                <td><div class="t_city"><a href="www.taiwanlottery.net" target="_blank">www.taiwanlottery.net</a></div></td>
               </tr>     
               <tr>
                 <td><div class="t_no">5</div></td>
@@ -60,7 +60,7 @@
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">15:00</div></td>
                 <td><div class="t_city">15:30</div></td>
-                <td><div class="t_city">www.chinapools.asia</div></td>
+                <td><div class="t_city"><a href="www.chinapools.asia" target="_blank">www.chinapools.asia</a></div></td>
               </tr>   
               <tr>
                 <td><div class="t_no">6</div></td>
@@ -68,7 +68,7 @@
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">22:00</div></td>
                 <td><div class="t_city">23:00</div></td>
-                <td><div class="t_city">www.hongkongpools.com</div></td>
+                <td><div class="t_city"><a href="www.hongkongpools.com" target="_blank">www.hongkongpools.com</a></div></td>
               </tr> 
                                                                                                                                                                                                                                            
             </tbody>
