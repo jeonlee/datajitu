@@ -141,6 +141,31 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Hongkong</a></li>
                     </ul>
                   </li>
+                  <li><a class="nav-stats subAvailable" title="Live Draw" href="/">Alamat Alternatif</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/livedrawsgp') }}">Totojitu</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">8Togel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawcmb') }}">Jayatogel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawchn') }}">TogelCC</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawtw') }}">Afatogel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Eyangtogel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Brotogel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Gitartogel</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Rgotogel</a></li>
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">8Togel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawcmb') }}">Jayatogel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawchn') }}">TogelCC</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawtw') }}">Afatogel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Eyangtogel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Brotogel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Gitartogel</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Rgotogel</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </nav>
   
