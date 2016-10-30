@@ -143,7 +143,7 @@
                   </li>
                   <li><a class="nav-stats subAvailable" title="Live Draw" href="/">Alamat Alternatif</a>
                     <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
-                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
+                      <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/livedrawsgp') }}">Totojitu</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">8Togel</a></li>
