@@ -131,6 +131,16 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/resultsgp') }}">Result SGP</a></li>
                     </ul>
                   </li>
+                  <li><a class="nav-stats subAvailable" title="Live Draw" href="/">Live Draw</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/livedrawsgp') }}">Live Draw Singapura</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">Live Draw Sydney</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawcmb') }}">Live Draw Cambodia</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawchn') }}">Live Draw China</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawtw') }}">Live Draw Taiwan</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Live Draw Hongkong</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </nav>
   
