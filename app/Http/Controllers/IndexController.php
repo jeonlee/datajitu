@@ -120,6 +120,48 @@ class IndexController extends Controller
         
         return view('index.resultsgp');
         }
+    
+    public function showlivedrawsgp()
+        {
+        
+        
+        return view('index.livedrawsgp');
+        }
+
+    public function showlivedrawsyd()
+        {
+        
+        
+        return view('index.livedrawsyd');
+        }
+
+    public function showlivedrawcmb()
+        {
+        
+        
+        return view('index.livedrawcmb');
+        }
+
+    public function showlivedrawchn()
+        {
+        
+        
+        return view('index.livedrawchn');
+        }
+
+    public function showlivedrawtw()
+        {
+        
+        
+        return view('index.livedrawtw');
+        }
+
+    public function showlivedrawhk()
+        {
+        
+        
+        return view('index.livedrawhk');
+        } 
     public function showsydney()
     {
         $sydney = Sydney::all()->last();
