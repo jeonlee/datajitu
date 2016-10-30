@@ -43,6 +43,12 @@ Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
 Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 Route::get('/resultsgp', 'IndexController@showresultsgp');
+Route::get('/livedrawsgp', 'IndexController@showlivedrawsgp');
+Route::get('/livedrawsyd', 'IndexController@showlivedrawsyd');
+Route::get('/livedrawcmb', 'IndexController@showlivedrawcmb');
+Route::get('/livedrawtw', 'IndexController@showlivedrawtw');
+Route::get('/livedrawchn', 'IndexController@showlivedrawchn');
+Route::get('/livedrawhk', 'IndexController@showlivedrawhk');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
 Route::post('/searchResultSydney', 'IndexController@searchResultSydney');
