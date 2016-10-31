@@ -255,7 +255,7 @@
     <script type="text/javascript" src="js/modernizr.js"></script>
     <script type="text/javascript" src="js/slot.js"></script>
     <script type="text/javascript" src="js/slot1.js"></script>
-    
+    <script type="text/javascript" src="js/search.js"></script>
      <script type="text/javascript" src="js/jquery.lettering.js"></script>
      <script src="/js/jquery-ui.js"></script>
     <script>
