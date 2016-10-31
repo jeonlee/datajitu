@@ -266,18 +266,18 @@
           <div class="trust-image-footer"></div>          <h3><span class="yellowTxt">PASANG ANGKA TOGEL ANDA DI </span></h3>
         </div>
         <div class="col-xs-7" style="margin-top:30px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="#">TOTOJITU</a>
-         <a class="login loginItem" href="#">8TOGEL</a>
-         <a class="login loginItem" href="#">JAYATOGEL</a>
-         <a class="login loginItem" href="#">AFATOGEL</a>
-         <a class="login loginItem" href="#">EYANGTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:10px;" href="http://login-totojitu.com" target="_blank">TOTOJITU</a>
+         <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
+         <a class="login loginItem" href="http://jtg2015.com" target="_blank">JAYATOGEL</a>
+         <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
+         <a class="login loginItem" href="http://eyangtogel.net" target="_blank">EYANGTOGEL</a>
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="#">BROTOGEL</a>
-         <a class="login loginItem" href="#">GITARTOGEL</a>
-         <a class="login loginItem" href="#">TOGELCC</a>
-         <a class="login loginItem" href="#">RGOTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:10px;" href="http://brotogel88.com" target="_blank">BROTOGEL</a>
+         <a class="login loginItem" href="http://gitartogel.org" target="_blank">GITARTOGEL</a>
+         <a class="login loginItem" href="http://warungtogel.com" target="_blank">TOGELCC</a>
+         <a class="login loginItem" href="http://rgotogel.net" target="_blank">RGOTOGEL</a>
          
          
         </div>
