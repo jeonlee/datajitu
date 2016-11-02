@@ -15,14 +15,14 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style1.css" rel="stylesheet">
-    <link href="css/style2.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/slot.css" rel="stylesheet">
-    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style1.css" rel="stylesheet">
+    <link href="/css/style2.css" rel="stylesheet">
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/slot.css" rel="stylesheet">
+    <link href="/css/jquery-ui.css" rel="stylesheet">
     
   
   </head>
@@ -39,10 +39,10 @@
         <a class="space ptsans white" href="index.php?carabermain">CONTACT US</a> | 
         </div>
         <div class="col-xs-1" style="padding:0px; margin-top:-10px; margin-right:5px;">
-        <img width="400%" src="images/fb.png">
+        <img width="400%" src="/images/fb.png">
         </div>
         <div class="col-xs-1" style="padding:0px; margin-top:-10px;">
-        <img width="400%" src="images/tw.png">
+        <img width="400%" src="/images/tw.png">
         </div>
       </div><!-- end wrap-in -->
 </nav>
@@ -53,7 +53,7 @@
        
           
             <div class="col-xs-2">
-              <a href="index.php?home"><img width="80%" src="images/logo.png"></a>
+              <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
             </div>
             <div class="col-xs-10 text-center">
               <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
@@ -313,20 +313,20 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.bcSwipe.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.bcSwipe.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/slick.js"></script>
-    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/slot.js"></script>
-    <script type="text/javascript" src="js/slot1.js"></script>
-    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/slick.js"></script>
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/modernizr.js"></script>
+    <script type="text/javascript" src="/js/slot.js"></script>
+    <script type="text/javascript" src="/js/slot1.js"></script>
+    <script type="text/javascript" src="/js/search.js"></script>
     <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="/js/jquery.lettering.js"></script>
     <script src="/js/jquery-ui.js"></script>
     <script>
           $( function() {
@@ -367,10 +367,10 @@
       
       
       
-    <!-- <script src="js/jquery.counter.js" type="text/javascript"></script> -->
+    <!-- <script src="/js/jquery.counter.js" type="text/javascript"></script> -->
 
-    <!-- <script src="js/jquery.easytabs.js" type="text/javascript"></script>   -->
-    <!--<script src="js/modernizr.custom.js" type="text/javascript"></script>-->
+    <!-- <script src="/js/jquery.easytabs.js" type="text/javascript"></script>   -->
+    <!--<script src="/js/modernizr.custom.js" type="text/javascript"></script>-->
     <script src="//cdn.jsdelivr.net/jquery.marquee/1.3.9/jquery.marquee.min.js" type="text/javascript"></script>
     <script>
     $('.marquee').marquee({
@@ -386,7 +386,7 @@
     duplicated: true
 });
 </script>
-   <script src="js/jquery/jquery.splitflap.js"></script>
+   <script src="/js/jquery/jquery.splitflap.js"></script>
       <script type="text/javascript">
 $(document).ready(function() {
 
