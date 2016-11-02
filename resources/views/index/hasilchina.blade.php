@@ -24,7 +24,7 @@
                       <tr>
                         <td><div class="t_no f20">{{ Carbon\Carbon::parse($china->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $china->periode }}-CN</div></td>
-                        <td><div class="t_tgl kuning1 f20">{{ $china->number }}</div></td>                                    
+                        <td><div class="t_tgl kuning1 f20"><a class="blue-number" href="/analisiscn/{{ $china->id }}">{{ $china->number }}</a></div></td>                                    
                         
                       </tr>   
                       @endforeach
