@@ -130,7 +130,7 @@
                         <td width="40%"><font color="#FFFFFF"><b>Colok&nbsp;&nbsp;Bebas&nbsp;&nbsp;2D</b></font></td>
                         <td width="15%"><font color="#FFFF00"><b><?php  echo $satu; ?><?php  echo $dua; ?>&nbsp;=&nbsp;<?php  echo $dua; ?><?php  echo $satu; ?></b></font></td>
                         <td width="15%"><font color="#FFFF00"><b><?php  echo $satu; ?><?php  echo $tiga; ?>&nbsp;=&nbsp;<?php  echo $tiga; ?><?php  echo $satu; ?></b></font></td>
-                        <td width="15%"><font color="#FFFF00"><b><?php  echo $satu; ?><?php  echo $empat; ?>&nbsp;=&nbsp;<?php  echo $empat; ?><?php  echo $tiga; ?></b></font></td>
+                        <td width="15%"><font color="#FFFF00"><b><?php  echo $satu; ?><?php  echo $empat; ?>&nbsp;=&nbsp;<?php  echo $empat; ?><?php  echo $satu; ?></b></font></td>
                         <td width="15%"><font color="#FFFF00"><b><?php  echo $dua; ?><?php  echo $tiga; ?>&nbsp;=&nbsp;<?php  echo $tiga; ?><?php  echo $dua; ?></b></font></td>
                     </tr>
                     <tr bgcolor="#22b228" align="center">
