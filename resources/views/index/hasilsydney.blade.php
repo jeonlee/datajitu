@@ -25,7 +25,7 @@
                       <tr>
                         <td><div class="t_no f20">{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $sydney->periode }}-SD</div></td>
-                        <td><div class="t_tgl oren f20">{{ $sydney->number }}</div></td>                                    
+                        <td><div class="t_tgl oren f20"><a class="blue-number" href="/analisissyd/{{ $sydney->id }}">{{ $sydney->number }}</a></div></td>                                    
                         
                       </tr>   
                       
