@@ -65,6 +65,54 @@ Route::get('/results', 'ResultsController@index');
 Route::get('/results/create', 'ResultsController@create');
 Route::post('/results', 'ResultsController@store');
 
+Route::get('/analisis', 'AnalisisController@index');
+Route::get('/analisis/create', 'AnalisisController@create');
+Route::post('/analisis', 'AnalisisController@store');
+Route::get('/analisis/{singapura}', 'AnalisisController@show');
+Route::get('/analisis/{singapura}/edit', 'AnalisisController@edit');
+Route::patch('/analisis/{singapura}', 'AnalisisController@update');
+Route::delete('/analisis/{singapura}/delete', 'AnalisisController@delete');
+
+Route::get('/analisissyd', 'AnalisissydController@index');
+Route::get('/analisissyd/create', 'AnalisissydController@create');
+Route::post('/analisissyd', 'AnalisissydController@store');
+Route::get('/analisissyd/{singapura}', 'AnalisissydController@show');
+Route::get('/analisissyd/{singapura}/edit', 'AnalisissydController@edit');
+Route::patch('/analisissyd/{singapura}', 'AnalisissydController@update');
+Route::delete('/analisissyd/{singapura}/delete', 'AnalisissydController@delete');
+
+Route::get('/analisiscmb', 'AnalisiscmbController@index');
+Route::get('/analisiscmb/create', 'AnalisiscmbController@create');
+Route::post('/analisiscmb', 'AnalisiscmbController@store');
+Route::get('/analisiscmb/{singapura}', 'AnalisiscmbController@show');
+Route::get('/analisiscmb/{singapura}/edit', 'AnalisiscmbController@edit');
+Route::patch('/analisiscmb/{singapura}', 'AnalisiscmbController@update');
+Route::delete('/analisiscmb/{singapura}/delete', 'AnalisiscmbController@delete');
+
+Route::get('/analisistw', 'AnalisistwController@index');
+Route::get('/analisistw/create', 'AnalisistwController@create');
+Route::post('/analisistw', 'AnalisistwController@store');
+Route::get('/analisistw/{singapura}', 'AnalisistwController@show');
+Route::get('/analisistw/{singapura}/edit', 'AnalisistwController@edit');
+Route::patch('/analisistw/{singapura}', 'AnalisistwController@update');
+Route::delete('/analisistw/{singapura}/delete', 'AnalisistwController@delete');
+
+Route::get('/analisiscn', 'AnalisiscnController@index');
+Route::get('/analisiscn/create', 'AnalisiscnController@create');
+Route::post('/analisiscn', 'AnalisiscnController@store');
+Route::get('/analisiscn/{singapura}', 'AnalisiscnController@show');
+Route::get('/analisiscn/{singapura}/edit', 'AnalisiscnController@edit');
+Route::patch('/analisiscn/{singapura}', 'AnalisiscnController@update');
+Route::delete('/analisiscn/{singapura}/delete', 'AnalisiscnController@delete');
+
+Route::get('/analisishk', 'AnalisishkController@index');
+Route::get('/analisishk/create', 'AnalisishkController@create');
+Route::post('/analisishk', 'AnalisishkController@store');
+Route::get('/analisishk/{singapura}', 'AnalisishkController@show');
+Route::get('/analisishk/{singapura}/edit', 'AnalisishkController@edit');
+Route::patch('/analisishk/{singapura}', 'AnalisishkController@update');
+Route::delete('/analisishk/{singapura}/delete', 'AnalisishkController@delete');
+
 Route::get('/admin/singapura', 'SingapuraController@index');
 Route::get('/admin/singapura/create', 'SingapuraController@create');
 Route::post('/admin/singapura', 'SingapuraController@store');
