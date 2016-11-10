@@ -9,6 +9,12 @@ use App\Taiwan;
 use App\China;
 use App\Hongkong;
 use App\Bukumimpi;
+use App\Prediksisgp;
+use App\Prediksisyd;
+use App\Prediksicmb;
+use App\Prediksitw;
+use App\Prediksichn;
+use App\Prediksihk;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -77,6 +83,48 @@ class IndexController extends Controller
         return view('index.hasilsingapura', compact('singapura','singapuras','users'));
     }
 
+    public function showprediksisgp()
+    {
+        $prediksisgp = Prediksisgp::all()->last();
+
+        $prediksisgps = Prediksisgp::orderBy('tanggal','desc')->paginate(10);
+
+        $prediksisyd = Prediksisyd::all()->last();
+
+        $prediksisyds = Prediksisyd::orderBy('tanggal','desc')->paginate(10);
+
+        $prediksicmb = Prediksicmb::all()->last();
+
+        $prediksicmbs = Prediksicmb::orderBy('tanggal','desc')->paginate(10);
+
+        $prediksitw = Prediksitw::all()->last();
+
+        $prediksitws = Prediksitw::orderBy('tanggal','desc')->paginate(10);
+
+        $prediksichn = Prediksichn::all()->last();
+
+        $prediksichns = Prediksichn::orderBy('tanggal','desc')->paginate(10);
+
+        $prediksihk = Prediksihk::all()->last();
+
+        $prediksihks = Prediksihk::orderBy('tanggal','desc')->paginate(10);
+
+        $collection = collect($prediksisgps);
+
+        $collection1 = collect($prediksisyds);
+
+        $collection2 = collect($prediksicmbs);
+
+        $collection3 = collect($prediksitws);
+
+        $collection4 = collect($prediksichns);
+
+        $collection5 = collect($prediksihks);
+
+        return view('index.prediksisgp', compact('prediksisgp','prediksisgps', 'prediksisyd', 'prediksisyds', 'prediksicmb', 'prediksicmbs', 'prediksitw', 'prediksitws', 'prediksichn', 'prediksichns', 'prediksihk', 'prediksihks'));
+    }
+    
+    
     public function showanalisissingapura()
     {
         $singapura = Singapura::all()->last();
