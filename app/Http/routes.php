@@ -161,6 +161,54 @@ Route::get('/admin/hongkong/{hongkong}/edit', 'HongkongController@edit');
 Route::patch('/admin/hongkong/{hongkong}', 'HongkongController@update');
 Route::delete('/admin/hongkong/{hongkong}/delete', 'HongkongController@delete');
 
+Route::get('/admin/prediksisgp', 'PrediksisgpController@index');
+Route::get('/admin/prediksisgp/create', 'PrediksisgpController@create');
+Route::post('/admin/prediksisgp', 'PrediksisgpController@store');
+Route::get('/admin/prediksisgp/{singapura}', 'PrediksisgpController@show');
+Route::get('/admin/prediksisgp/{singapura}/edit', 'PrediksisgpController@edit');
+Route::patch('/admin/prediksisgp/{singapura}', 'PrediksisgpController@update');
+Route::delete('/admin/prediksisgp/{singapura}/delete', 'PrediksisgpController@delete');
+
+Route::get('/admin/prediksisyd', 'PrediksisydController@index');
+Route::get('/admin/prediksisyd/create', 'PrediksisydController@create');
+Route::post('/admin/prediksisyd', 'PrediksisydController@store');
+Route::get('/admin/prediksisyd/{sydney}', 'PrediksisydController@show');
+Route::get('/admin/prediksisyd/{sydney}/edit', 'PrediksisydController@edit');
+Route::patch('/admin/prediksisyd/{sydney}', 'PrediksisydController@update');
+Route::delete('/admin/prediksisyd/{sydney}/delete', 'PrediksisydController@delete');
+
+Route::get('/admin/prediksicmb', 'PrediksicmbController@index');
+Route::get('/admin/prediksicmb/create', 'PrediksicmbController@create');
+Route::post('/admin/prediksicmb', 'PrediksicmbController@store');
+Route::get('/admin/prediksicmb/{cambodia}', 'PrediksicmbController@show');
+Route::get('/admin/prediksicmb/{cambodia}/edit', 'PrediksicmbController@edit');
+Route::patch('/admin/prediksicmb/{cambodia}', 'PrediksicmbController@update');
+Route::delete('/admin/prediksicmb/{cambodia}/delete', 'PrediksicmbController@delete');
+
+Route::get('/admin/prediksitw', 'PrediksitwController@index');
+Route::get('/admin/prediksitw/create', 'PrediksitwController@create');
+Route::post('/admin/prediksitw', 'PrediksitwController@store');
+Route::get('/admin/prediksitw/{taiwan}', 'PrediksitwController@show');
+Route::get('/admin/prediksitw/{taiwan}/edit', 'PrediksitwController@edit');
+Route::patch('/admin/prediksitw/{taiwan}', 'PrediksitwController@update');
+Route::delete('/admin/prediksitw/{taiwan}/delete', 'PrediksitwController@delete');
+
+Route::get('/admin/prediksichn', 'PrediksichnController@index');
+Route::get('/admin/prediksichn/create', 'PrediksichnController@create');
+Route::post('/admin/prediksichn', 'PrediksichnController@store');
+Route::get('/admin/prediksichn/{china}', 'PrediksichnController@show');
+Route::get('/admin/prediksichn/{china}/edit', 'PrediksichnController@edit');
+Route::patch('/admin/prediksichn/{china}', 'PrediksichnController@update');
+Route::delete('/admin/prediksichn/{china}/delete', 'PrediksichnController@delete');
+
+Route::get('/admin/prediksihk', 'PrediksihkController@index');
+Route::get('/admin/prediksihk/create', 'PrediksihkController@create');
+Route::post('/admin/prediksihk', 'PrediksihkController@store');
+Route::get('/admin/prediksihk/{hongkong}', 'PrediksihkController@show');
+Route::get('/admin/prediksihk/{hongkong}/edit', 'PrediksihkController@edit');
+Route::patch('/admin/prediksihk/{hongkong}', 'PrediksihkController@update');
+Route::delete('/admin/prediksihk/{hongkong}/delete', 'PrediksihkController@delete');
+
 Route::get('/users', 'UsersController@index');
 Route::get('/users/create', 'UsersController@create');
 Route::post('/users', 'UsersController@store');
