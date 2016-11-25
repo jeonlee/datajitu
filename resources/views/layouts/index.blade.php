@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Hasil Keluaran Togel</title>
-    <meta content="Kumpulan Hasil keluaran togel Singapura, sidney, cambodia, china, taiwan, dan hongkong tercepat dan termudah." name="description">
-    <meta content="gbet78, sportsbook, casino online, Live casino, Online Poker, Lottery, trusted online gambling site" name="keywords">
+    <title>Hasil Keluaran Togel Terlengkap dan Tercepat</title>
+    <meta content="Kumpulan Hasil keluaran togel Singapura, sidney, cambodia, china, taiwan, dan hongkong tercepat dan terlengkap." name="description">
+    <meta content="datajitu, hasil keluaran togel, togel online, togel singapura, togel sydney, togel taiwan, togel china, togel hongkong, togel cambodia" name="keywords">
 
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
