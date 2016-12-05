@@ -50,6 +50,7 @@ Route::get('/livedrawtw', 'IndexController@showlivedrawtw');
 Route::get('/livedrawchn', 'IndexController@showlivedrawchn');
 Route::get('/livedrawhk', 'IndexController@showlivedrawhk');
 Route::get('/prediksisgp', 'IndexController@showprediksisgp');
+Route::get('/comingsoon', 'IndexController@showcomingsoon');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
 Route::post('/searchResultSydney', 'IndexController@searchResultSydney');
