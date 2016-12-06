@@ -50,7 +50,40 @@
 
 
     <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
-      <div class="container" style="width:1350px;">
+      <div class="container hidden-xs- hidden-sm" style="width:1350px;">
+       
+          
+            <div class="col-xs-2">
+              <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
+            </div>
+            <div class="col-xs-10 text-center hidden-sm hidden-xs">
+              <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
+<!--  -->       <ul class="top-menu">
+                  <li class="active"><a href="{{ url('/') }}">Home</a></li>
+                  <li class="separator"></li>
+                  <li><a data-hover="Singapura" href="{{ url('/singapura') }}">Togel Singapura</a></li>
+                  <li class="separator"></li>
+                  <li><a href="{{ url('/sydney') }}">Togel Sydney</a></li>
+                  <li class="separator"></li>
+                  <li><a href="{{ url('/cambodia') }}">Togel Cambodia</a></li>
+                  <li class="separator"></li>
+                  <li><a href="{{ url('/taiwan') }}">Togel Taiwan</a></li>
+                  <li class="separator"></li>
+                  <li><a href="{{ url('/china') }}">Togel China</a></li>
+                  <li class="separator"></li>
+                  <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
+                </ul>
+              </nav>
+            </div>
+            
+            
+
+
+          
+        
+      </div><!-- end container -->
+      
+       <div class="container visible-sm visible-xs">
        
           
             <div class="col-xs-2">
@@ -111,6 +144,7 @@
           
         
       </div><!-- end container -->
+      
     </nav>
     
 
