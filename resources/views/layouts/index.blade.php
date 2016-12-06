@@ -23,6 +23,7 @@
     <link href="/css/reset.css" rel="stylesheet">
     <link href="/css/slot.css" rel="stylesheet">
     <link href="/css/jquery-ui.css" rel="stylesheet">
+    <link href="/css/darkly-bootstrap.css" rel="stylesheet">
     
   
   </head>
