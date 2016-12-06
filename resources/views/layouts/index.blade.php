@@ -284,7 +284,7 @@
 
             </div>
           </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 hidden-sm hidden-xs">
           @yield('content')
       </div>
       <div class="col-xs-12 visible-sm visible-xs">
