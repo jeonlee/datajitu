@@ -17,7 +17,6 @@
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/darkly-bootstrap.min.css" rel="stylesheet">
-    <link href="/css/theme.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/style1.css" rel="stylesheet">
     <link href="/css/style2.css" rel="stylesheet">
