@@ -135,7 +135,7 @@
       <div class="row">
         <div class="col-xs-12">
 
-          <div class="col-xs-3">
+          <div class="col-xs-3 hidden-sm hidden-xs">
           <div id="sidebarleft">
               <nav>
                 <ul id="sidemenu" class="sidemenu">
