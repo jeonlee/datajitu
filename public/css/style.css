@@ -802,12 +802,12 @@ ul.fl {
     float: none !important;
 }
 
-.navbar-collapse.collapse {
+/* .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
     overflow: visible !important;
     padding-bottom: 0;
-}
+} */
 
 .tabs-left {
     border-right: 1px solid #ddd;
