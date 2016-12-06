@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/darkly-bootstrap.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/style1.css" rel="stylesheet">
@@ -27,69 +28,104 @@
   
   </head>
   <body>
-
-    <nav id="sub-menu" class="navbar1 navbar-default navbar-fixed-top">
-      <div class="wrap-in">
-        
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <nav id="sub-menu" class="navbar1 navbar-default navbar-fixed-top">
+            <div class="wrap-in">
+              <div class="col-xs-1">
+              </div><!-- end col-xs-1 -->
+              <div class="col-xs-5">
+              <a class="space ptsans white" href="index.php?carabermain">CONTACT US</a> | 
+              </div>
+              <div class="col-xs-1" style="padding:0px; margin-top:-10px; margin-right:5px;">
+              <img width="400%" src="/images/fb.png">
+              </div>
+              <div class="col-xs-1" style="padding:0px; margin-top:-10px;">
+              <img width="400%" src="/images/tw.png">
+              </div>
+            </div><!-- end wrap-in -->
+          </nav>
+        </div>
+      </div>
+    </div>
     
-        <div class="col-xs-1">
-          
-        </div><!-- end col-xs-1 -->
-        <div class="col-xs-5">
-        <a class="space ptsans white" href="index.php?carabermain">CONTACT US</a> | 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
+            <div class="container hidden-sm hidden-xs" style="width:1350px;">
+              <div class="col-xs-2">
+                <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
+              </div>
+              <div class="col-xs-10 text-center">
+                <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
+  <!--  -->       <ul class="top-menu">
+                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
+                    <li class="separator"></li>
+                    <li><a data-hover="Singapura" href="{{ url('/singapura') }}">Togel Singapura</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/sydney') }}">Togel Sydney</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/cambodia') }}">Togel Cambodia</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/taiwan') }}">Togel Taiwan</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/china') }}">Togel China</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div><!-- end container -->
+            <div class="container visible-sm visible-xs">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="col-xs-2">
+                  <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
+                </div>
+                <div class="col-xs-8">
+                <nav class="navbar navbar-default" role="navigation" style="background:#00486D;">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li><a href="{{ url('/') }}">HOME</a></li>
+                        <li><a href="{{ url('/singapura') }}">TOGEL SINGAPURA</a></li>
+                        <li><a href="{{ url('/sydney') }}">TOGEL SYDNEY</a></li>
+                        <li><a href="{{ url('/cambodia') }}">TOGEL CAMBODIA</a></li>
+                        <li><a href="{{ url('/taiwan') }}">TOGEL TAIWAN</a></li>
+                        <li><a href="{{ url('/china') }}">TOGEL CHINA</a></li>
+                        <li><a href="{{ url('/hongkong') }}">TOGEL HONGKONG</a></li>
+                        <li><a href="{{ url('/numbergenerator') }}">NUBMER GENERATOR</a></li>
+                        <li><a href="{{ url('/bukumimpi') }}">BUKU MIMPI</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+              </div><!-- end col-xs-8 -->
+            </div><!-- end col-xs-12 -->
+          </div>
         </div>
-        <div class="col-xs-1" style="padding:0px; margin-top:-10px; margin-right:5px;">
-        <img width="400%" src="/images/fb.png">
-        </div>
-        <div class="col-xs-1" style="padding:0px; margin-top:-10px;">
-        <img width="400%" src="/images/tw.png">
-        </div>
-      </div><!-- end wrap-in -->
-</nav>
-
-
-    <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
-      <div class="container" style="width:1350px;">
-       
-          
-            <div class="col-xs-2">
-              <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
-            </div>
-            <div class="col-xs-10 text-center">
-              <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
-<!--  -->       <ul class="top-menu">
-                  <li class="active"><a href="{{ url('/') }}">Home</a></li>
-                  <li class="separator"></li>
-                  <li><a data-hover="Singapura" href="{{ url('/singapura') }}">Togel Singapura</a></li>
-                  <li class="separator"></li>
-                  <li><a href="{{ url('/sydney') }}">Togel Sydney</a></li>
-                  <li class="separator"></li>
-                  <li><a href="{{ url('/cambodia') }}">Togel Cambodia</a></li>
-                  <li class="separator"></li>
-                  <li><a href="{{ url('/taiwan') }}">Togel Taiwan</a></li>
-                  <li class="separator"></li>
-                  <li><a href="{{ url('/china') }}">Togel China</a></li>
-                  <li class="separator"></li>
-                  <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
-                </ul>
-              </nav>
-            </div>
-            
-            
-
-
-          
-        
-      </div><!-- end container -->
       
-       
-      
-    </nav>
-    
+          </nav>
+        </div>
+      </div>
+    </div>
 
-<div class="yellowbar">
-  <div class="well">
-     <div class='marquee' data-duration='32000' data-gap='20' data-duplicated='true' >
+    <div class="yellowbar">
+      <div class="well">
+        <div class='marquee' data-duration='32000' data-gap='20' data-duplicated='true' >
     www.singaporepools.com.sg ---- www.sydneypoolstoday.com ---- www.magnumcambodia.com ---- www.taiwanlottery.net ---- www.chinapools.asia ---- www.hongkongpools.com ----
 </div>
   </div>
@@ -249,6 +285,9 @@
             </div>
           </div>
       <div class="col-xs-9">
+          @yield('content')
+      </div>
+      <div class="col-xs-12 visible-sm visible-xs">
           @yield('content')
       </div>
 </div><!-- end col-xs-12 -->
