@@ -81,10 +81,6 @@
             <div class="container visible-sm visible-xs">
             <div class="row">
               <div class="col-xs-12">
-                <div class="col-xs-2">
-                  <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
-                </div>
-                <div class="col-xs-8">
                 <nav class="navbar navbar-default" role="navigation" style="background:#00486D;">
                   <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -95,6 +91,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
+                      <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -113,7 +110,6 @@
                     </div><!-- /.navbar-collapse -->
                   </div><!-- /.container-fluid -->
                 </nav>
-              </div><!-- end col-xs-8 -->
             </div><!-- end col-xs-12 -->
           </div>
         </div>
