@@ -50,7 +50,7 @@
 
 
     <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
-      <div class="container hidden-xs- hidden-sm" style="width:1350px;">
+      <div class="container hidden-xs hidden-sm" style="width:1350px;">
        
           
             <div class="col-xs-2">
