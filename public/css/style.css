@@ -1198,3 +1198,12 @@ h2.label2::before {
 a.resmi:hover {
 	color:#9A1919;	
 }
+
+.comingsoon {
+	background:url("../images/coming-soon.png");
+	width:72px;
+	height:40px;
+	position:absolute;
+	left:144px;
+	top:0px;
+}
