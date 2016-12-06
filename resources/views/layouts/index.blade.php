@@ -81,7 +81,7 @@
             <div class="container visible-sm visible-xs">
             <div class="row">
               <div class="col-xs-12">
-                <nav class="navbar navbar-default" role="navigation" style="background:#00486D;">
+                <nav class="navbar navbar-default" role="navigation" style="top:0px;">
                   <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
