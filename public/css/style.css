@@ -1207,3 +1207,11 @@ a.resmi:hover {
 	left:144px;
 	top:0px;
 }
+.comingsoon:hover {
+	background:url("../images/comingsoon-hover.png");
+	width:72px;
+	height:40px;
+	position:absolute;
+	left:144px;
+	top:0px;
+}
