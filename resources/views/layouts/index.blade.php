@@ -132,7 +132,7 @@
                           <li><a href="{{ url('/resultsgp') }}">Result SGP</a></li>
                         </ul>
                         <li data-toggle="collapse" data-target="#livedraw" class="collapsed">
-                          <a href="#"><i class="fa fa-bar-chart fa-lg"></i> TOTO SGP <span class="arrow"></span></a>
+                          <a href="#"><i class="fa fa-bar-chart fa-lg"></i> LIVE DRAW <span class="arrow"></span></a>
                         </li>  
                         <ul class="sub-menu collapse" id="livedraw">
                           <li><a href="{{ url('/livedrawsgp') }}">Singapura</a></li>
