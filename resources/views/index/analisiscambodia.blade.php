@@ -27,10 +27,10 @@
       </div>
       <button type="submit">Submit</button>
     </form>
-
-                <div class="col-xs-3" style="width:20%; padding:0px;">
-                <nav class=" navbar-default sidebar" role="navigation">
-    <div class="container-fluid">
+     <div class="col-xs-12" style="padding:0px;">
+	<div class="col-xs-3" style="width:20%; padding:0px;">
+	  <nav class=" navbar-default sidebar" role="navigation">
+    	    <div class="container-fluid">
     
     <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -1271,7 +1271,8 @@
         </div><!-- end-tengahtepi -->
 
       </div><!--end tab-content -->
-      </div><!--end col-xs-9 -->            
+      </div><!--end col-xs-9 -->      
+      </div>
                 </div>
               </div>
            
