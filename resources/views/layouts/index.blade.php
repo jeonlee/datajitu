@@ -483,7 +483,7 @@
                 </ul>
               </nav>
   
-              @yield('numbergenerator')
+             
 
             </div>
           </div>
