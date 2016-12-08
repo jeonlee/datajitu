@@ -11,6 +11,7 @@
                 </div>
 
                 <div class="panel-body">
+                <div class="table-responsive">
                   <table class="middle">
                     <thead>
                       <tr class="kolom orange">
@@ -35,6 +36,7 @@
                 
                 
                 </table>
+                </div>
                 <div class="text-center">
                 {!! $sydneys->render(); !!}
             </div>
