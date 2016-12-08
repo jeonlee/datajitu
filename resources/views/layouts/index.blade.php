@@ -161,7 +161,7 @@
 </div>
   </div>
   </div>
-  <div id="website-content" class="slick">
+  <div id="website-content" class="slick hidden-sm hidden-xs">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
