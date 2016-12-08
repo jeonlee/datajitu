@@ -99,6 +99,14 @@
                       <ul class="nav navbar-nav">
                         <li><a href="{{ url('/') }}">HOME</a></li>
                         <li><a href="{{ url('/singapura') }}">TOGEL SINGAPURA</a></li>
+                        <li data-toggle="collapse" data-target="#service" class="collapsed">
+                          <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                        </li>  
+                        <ul class="sub-menu collapse" id="service">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                          <li>New Service 3</li>
+                        </ul>
                         <li><a href="{{ url('/sydney') }}">TOGEL SYDNEY</a></li>
                         <li><a href="{{ url('/cambodia') }}">TOGEL CAMBODIA</a></li>
                         <li><a href="{{ url('/taiwan') }}">TOGEL TAIWAN</a></li>
