@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
-            <div class="col-xs-12">
+            
               <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
@@ -41,7 +41,21 @@
                   <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
                 </div>
               </div>
-            </div><!-- end col-xs-12 -->
+            
+              <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
+                <div class="sideHeader hotpicks" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
+                  <div class="col-xs-12">
+                    
+                    <h3 style="color: #FFF;"><span class="smallerHeading">{{ $sydney->hari }}</span> <br><span class="smallerHeading">{{ $sydney->tanggal }}</span></h3>
+                  </div>
+                  <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
+                  <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
+                  <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
+                  <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
+                  <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
+                </div><!-- sideheader -->
+                <br><br>
+              </div><!-- end resultbox -->
             @endforeach
               
 
