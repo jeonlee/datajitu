@@ -318,9 +318,7 @@
       <div class="col-xs-9 hidden-sm hidden-xs">
           @yield('content')
       </div>
-      <div class="col-xs-12 visible-sm visible-xs">
-          @yield('content')
-      </div>
+     
 </div><!-- end col-xs-12 -->
 
     </div>
@@ -489,9 +487,7 @@
 
             </div>
           </div>
-      <div class="col-xs-9 hidden-sm hidden-xs">
-          @yield('content')
-      </div>
+     
       <div class="col-xs-12 visible-sm visible-xs">
           @yield('content')
       </div>
