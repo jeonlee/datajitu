@@ -82,7 +82,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <nav class="navbar navbar-default" role="navigation" style="top:0px; background:#fff;">
-                  <div class="container-fluid">
+                 
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color:#000;">
@@ -116,7 +116,6 @@
                         <li><a href="{{ url('/bukumimpi') }}">BUKU MIMPI</a></li>
                       </ul>
                     </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
                 </nav>
             </div><!-- end col-xs-12 -->
           </div>
