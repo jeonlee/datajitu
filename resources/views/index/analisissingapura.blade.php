@@ -9,7 +9,7 @@
     </div>
 
     <div class="panel-body p15">
-
+    
 
     <form method="POST" action="/searchResultSingapura">
     {{ csrf_field() }}
@@ -30,7 +30,7 @@
       </div>
       <button type="submit">Submit</button>
     </form>
-
+  <div class="col-xs-12">
     <div class="col-xs-3" style="width:20%; padding:0px;">
         <nav class=" navbar-default sidebar" role="navigation">
           <div class="container-fluid">
@@ -1272,6 +1272,7 @@
 
       </div><!--end tab-content -->
       </div><!--end col-xs-9 -->  
+      </div>
     </div>
 
   </div>
