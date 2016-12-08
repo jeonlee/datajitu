@@ -161,7 +161,7 @@
 </div>
   </div>
   </div>
-  <div id="website-content" class="slick hidden-sm hidden-xs">
+  <div id="website-content" class="slick">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -333,6 +333,180 @@
 
 
   </div><!-- end website-content -->
+  
+  
+  <div id="website-content2" class="slick">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="col-xs-3 hidden-sm hidden-xs">
+          <div id="sidebarleft">
+              <nav>
+                <ul id="sidemenu" class="sidemenu">
+                  <li class="menutitle">Main Menu</li>
+                  <li><a class="nav-home left" title="Lottery" href="{{ url('/') }}">Home</a></li>
+                  <li><a class="nav-lotteries left subAvailable" title="Lottery" href="/">Hasil Keluaran</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a title="Lotto Results" href="{{ url('/singapura') }}">Singapura</a></li>
+                      <li><a title="Lotto Raffle Results" href="{{ url('/sydney') }}">Sydney</a></li>
+                      <li><a title="EuroMillions Results" href="{{ url('/cambodia') }}">Cambodia</a></li>
+                      <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/taiwan') }}">Taiwan</a></li>
+                      <li><a title="Thunderball Results" href="{{ url('/china') }}">China</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/hongkong') }}">Hongkong</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="nav-results" title="Jadwal Keluaran" href="{{ url('/jadwalkeluaran') }}">Jadwal Keluaran Togel</a></li>
+                  <li><a class="nav-results cs" title="Jadwal Keluaran" href="{{ url('/prediksisgp') }}">Prediksi Togel<div class="comingsoon" style="width:70px;"></div></a></li>
+                  <!--<li><a class="nav-tickets" title="Buy Lottery Tickets" href="/lottery-tickets">Cara Bermain Togel</a></li>-->
+                  <li><a class="nav-random" title="Number Generator" href="{{ url('/numbergenerator') }}">Number Generator</a></li>
+                  <li><a class="nav-stats subAvailable" title="Analisis Togel" href="/">Analisis Togel</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a title="Lotto Results" href="{{ url('/analisissingapura') }}">Singapura</a></li>
+                      <li><a title="Lotto Raffle Results" href="{{ url('/analisissydney') }}">Sydney</a></li>
+                      <li><a title="EuroMillions Results" href="{{ url('/analisiscambodia') }}">Cambodia</a></li>
+                      <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/analisistaiwan') }}">Taiwan</a></li>
+                      <li><a title="Thunderball Results" href="{{ url('/analisischina') }}">China</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/analisishongkong') }}">Hongkong</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="nav-news" title="Lottery News" href="{{ url('/bukumimpi') }}">Buku Mimpi</a></li>
+                  <li><a class="nav-stats subAvailable" title="Analisis Togel" href="/">TOTO SGP</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/konversi') }}">Konversi</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/carahitung') }}">Cara Hitung</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/resultsgp') }}">Result SGP</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="nav-stats subAvailable" title="Live Draw" href="/">Live Draw</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/livedrawsgp') }}">Singapura</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">Sydney</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawcmb') }}">Cambodia</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawchn') }}">China</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawtw') }}">Taiwan</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Hongkong</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="nav-stats subAvailable" title="Alamat Alternatif" href="/">Alamat Alternatif</a>
+                    <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
+                      <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://totojitu.com" target="_blank">www.totojitu.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://totojitu1.com" target="_blank">www.totojitu1.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://totojitu2.com" target="_blank">www.totojitu2.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttj2.com" target="_blank">www.ttj2.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttjbca.com" target="_blank">www.ttjbca.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://login-totojitu.com" target="_blank">www.login-totojitu.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttj2008.com" target="_blank">www.ttj2008.com</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://8togel.com" target="_blank">www.8togel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8tgl.com" target="_blank">www.8tgl.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8togel.net" target="_blank">www.8togel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8tgl.net" target="_blank">www.8tgl.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://delapantgl.com" target="_blank">www.delapantgl.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://delapantogel.com" target="_blank">www.delapantogel.com</a></li>
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Jayatogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jayatogel.net" target="_blank">www.jayatogel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jtogel.com" target="_blank">www.jtogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jayatoto.com" target="_blank">www.jayatoto.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jaya2d.com" target="_blank">www.jaya2d.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jaya4d.com" target="_blank">www.jaya4d.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jtg2015.com" target="_blank">www.jtg2015.com</a></li>
+                         
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelCC</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://togel.cc" target="_blank">www.togel.cc</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://togelcc.com" target="_blank">www.togelcc.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://togelcc.net" target="_blank">www.togelcc.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://togelcc.info" target="_blank">www.togelcc.info</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://togelcc.org" target="_blank">www.togelcc.org</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://warungtogel.com" target="_blank">www.warungtogel.com</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Afatogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://afatogel.com" target="_blank">www.afatogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://afatogel.net" target="_blank">www.afatogel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://afatogel.info" target="_blank">www.afatogel.info</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://afa168.com" target="_blank">www.afa168.com</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="eyangtogel.org" target="_blank">www.eyangtogel.org</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="eyangtogel.net" target="_blank">www.eyangtogel.net</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Brotogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.net" target="_blank">www.brotogel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.org" target="_blank">www.brotogel.org</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel88.com" target="_blank">www.brotogel88.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel1.com" target="_blank">www.brotogel1.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel2.com" target="_blank">www.brotogel2.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel3.com" target="_blank">www.brotogel3.com</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Gitartogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://gitartogel.com" target="_blank">www.gitartogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.net" target="_blank">www.gitartogel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.org" target="_blank">www.gitartogel.org</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://rgotogel.com" target="_blank">www.rgotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://rgotogel.net" target="_blank">www.rgotogel.net</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://rgotogel.org" target="_blank">www.rgotogel.org</a></li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+  
+              @yield('numbergenerator')
+
+            </div>
+          </div>
+      <div class="col-xs-9 hidden-sm hidden-xs">
+          @yield('content')
+      </div>
+      <div class="col-xs-12 visible-sm visible-xs">
+          @yield('content')
+      </div>
+</div><!-- end col-xs-12 -->
+
+    </div>
+    </div>
+    </div>
+    </div>
+           
+
+            
+
+
+  </div><!-- end website-content2 -->
 
     <footer>
      <div class="trust-footer">
