@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
-	<div class="panel panel-primary">
+  <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
                     <h3>ANALISIS TOGEL SYDNEY</h3>
@@ -101,6 +101,7 @@
         <div class="tab-content">
         <div class="tab-pane active" id="4d">
           <h5 style="font-weight:bold;">Analisis Data 4D Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -112,7 +113,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                	@foreach ($sydneys as $sydney)
+                  @foreach ($sydneys as $sydney)
                         <tr>
                             <td>{{ $sydney->hari }}</td>
                             <td>{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</td>
@@ -124,10 +125,12 @@
                         @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-4d -->
 
         <div class="tab-pane" id="besarkecilas">
           <h5 style="font-weight:bold;">Analisis Data Besar Kecil As Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -164,10 +167,12 @@
                          @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-besarkecilas -->
 
         <div class="tab-pane" id="besarkecilkop">
           <h5 style="font-weight:bold;">Analisis Data Besar Kecil Kop Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -204,10 +209,12 @@
                          @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-besarkecilkop -->
 
         <div class="tab-pane" id="besarkecilkepala">
           <h5 style="font-weight:bold;">Analisis Data Besar Kecil Kepala Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -244,10 +251,12 @@
                          @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-besarkecilkepala -->
 
         <div class="tab-pane" id="besarkecilekor">
           <h5 style="font-weight:bold;">Analisis Data Besar Kecil Ekor Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -284,10 +293,12 @@
                          @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-besarkecilekor -->
 
         <div class="tab-pane" id="colokjituas">
           <h5 style="font-weight:bold;">Analisis Data Colok Jitu As Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -350,10 +361,12 @@
                 @endforeach         
                 </tbody>
             </table>
+            </div>
         </div><!-- end-colokjituas -->
 
         <div class="tab-pane" id="colokjitukop">
           <h5 style="font-weight:bold;">Analisis Data Colok Jitu Kop Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -416,10 +429,12 @@
                 @endforeach         
                 </tbody>
             </table>
+            </div>
         </div><!-- end-colokjitukop -->
 
         <div class="tab-pane" id="colokjitukepala">
           <h5 style="font-weight:bold;">Analisis Data Colok Jitu Kepala Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -482,10 +497,12 @@
                 @endforeach         
                 </tbody>
             </table>
+            </div>
         </div><!-- end-colokjitukepala -->
 
         <div class="tab-pane" id="colokjituekor">
           <h5 style="font-weight:bold;">Analisis Data Colok Jitu Ekor Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -548,10 +565,12 @@
                 @endforeach         
                 </tbody>
             </table>
+            </div>
         </div><!-- end-colokjituekor -->
 
         <div class="tab-pane" id="dasarbesarkecil">
           <h5 style="font-weight:bold;">Analisis Data Dasar Besar Kecil Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -594,10 +613,12 @@
                 @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-dasarbesarkecil -->
 
         <div class="tab-pane" id="dasarganjilgenap">
           <h5 style="font-weight:bold;">Analisis Data Dasar Ganjil Genap Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -641,10 +662,12 @@
                      @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-dasarganjilgenap -->
 
         <div class="tab-pane" id="ganjilgenapas">
           <h5 style="font-weight:bold;">Analisis Data Ganjil Genap As Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -684,10 +707,12 @@
                 @endforeach       
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-ganjilgenapas -->
 
         <div class="tab-pane" id="ganjilgenapkop">
           <h5 style="font-weight:bold;">Analisis Data Ganjil Genap Kop Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -727,10 +752,12 @@
                 @endforeach       
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-ganjilgenapkop -->
 
         <div class="tab-pane" id="ganjilgenapkepala">
           <h5 style="font-weight:bold;">Analisis Data Ganjil Genap Kepala Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -770,10 +797,12 @@
                 @endforeach       
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-ganjilgenapkepala -->
 
         <div class="tab-pane" id="ganjilgenapekor">
           <h5 style="font-weight:bold;">Analisis Data Ganjil Genap Ekor Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -813,10 +842,12 @@
                 @endforeach       
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-ganjilgenapekor -->
 
         <div class="tab-pane" id="kembangkempisdepan">
           <h5 style="font-weight:bold;">Analisis Data Kembang Kempis Depan Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -859,10 +890,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-kembangkempisdepan -->
 
         <div class="tab-pane" id="kembangkempistengah">
           <h5 style="font-weight:bold;">Analisis Data Kembang Kempis Tengah Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -905,10 +938,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-kembangkempistengah -->
 
         <div class="tab-pane" id="kembangkempisbelakang">
           <h5 style="font-weight:bold;">Analisis Data Kembang Kempis Belakang Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -951,10 +986,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-kembangkempisbelakang -->
 
         <div class="tab-pane" id="shio">
           <h5 style="font-weight:bold;">Analisis Data Shio Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -1005,10 +1042,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-shio -->
 
         <div class="tab-pane" id="silanghomodepan">
           <h5 style="font-weight:bold;">Analisis Data Silang Homo Depan Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -1063,10 +1102,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-silanghomodepan -->
 
         <div class="tab-pane" id="silanghomotengah">
           <h5 style="font-weight:bold;">Analisis Data Silang Homo Tengah Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -1120,10 +1161,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-silanghomotengah -->
 
         <div class="tab-pane" id="silanghomobelakang">
           <h5 style="font-weight:bold;">Analisis Data Silang Homo Belakang Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -1177,10 +1220,12 @@
                 @endforeach        
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-silanghomobelakang -->
 
         <div class="tab-pane" id="tengahtepi">
           <h5 style="font-weight:bold;">Analisis Data Tengah Tepi Sydney</h5>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
@@ -1221,6 +1266,7 @@
                   @endforeach
                                     </tbody>
             </table>
+            </div>
         </div><!-- end-tengahtepi -->
 
       </div><!--end tab-content -->
