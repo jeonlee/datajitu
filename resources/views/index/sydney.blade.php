@@ -20,7 +20,7 @@
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SYDNEY</h3>
-              <div class="resultBox shorter centred">
+              <div class="resultBox shorter centred hidden-sm hidden-xs">
                 <div class="sideHeader hotpicks">
                   <div class="col-xs-5">
                     <img width="100%" src="images/sydney.png">
