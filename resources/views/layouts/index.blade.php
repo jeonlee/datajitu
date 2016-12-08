@@ -97,7 +97,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-side-menu" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/') }}">HOME</a></li>
+                        <li><a href="{{ url('/') }}"><i class="fa fa-home fa-lg"></i>HOME</a></li>
                         <li data-toggle="collapse" data-target="#hasilkeluaran" class="collapsed">
                           <a href="#"><i class="fa fa-table fa-lg"></i> HASIL KELUARAN <span class="arrow"></span></a>
                         </li>  
