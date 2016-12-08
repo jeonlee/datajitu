@@ -2,8 +2,6 @@
 
 @section('content')
       
-
-            <div class="col-xs-12">
             
               <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
@@ -73,7 +71,7 @@
               </div>
             </div><!-- col-xs-9 -->    
 
-      </div><!--col-xs-12 -->
+      
 
 
     </div>
