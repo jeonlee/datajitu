@@ -56,6 +56,7 @@
                 </div><!-- sideheader -->
                 <br><br>
               </div><!-- end resultbox -->
+              </div>
             @endforeach
               
 
@@ -66,7 +67,7 @@
               </div>
             </div><!-- col-xs-9 -->    
 
-      </div><!--col-xs-12 -->
+     
 
 
 
