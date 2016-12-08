@@ -10,6 +10,7 @@
                 </div>
 
                 <div class="panel-body">
+                <div class="table-responsive">
                   <table class="middle">
                     <thead>
                       <tr class="kolom yellow1">
@@ -34,6 +35,7 @@
                 
                 
                 </table>
+                </div>
                 <div class="text-center">
                 {!! $taiwans->render(); !!}
             </div>
