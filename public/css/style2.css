@@ -1566,7 +1566,7 @@ sup {
 }
 
 .navbar-default .navbar-nav>li>a {
-  width: 150px;
+/*   width: 150px; */
   font-weight: normal;
   font-size: 13px;
 }
