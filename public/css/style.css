@@ -358,6 +358,13 @@ ul.side-menu li a {
     z-index: 4;
     margin-top:40px;
 }
+#website-content {
+    backface-visibility: hidden;
+    margin: 0px 0 0;
+    position: relative;
+    z-index: 4;
+    margin-top:40px;
+}
 .homepage-slider {
     background-color: #1c1314;
     max-height: 340px;
