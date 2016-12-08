@@ -99,21 +99,50 @@
                       <ul class="nav navbar-nav">
                         <li><a href="{{ url('/') }}">HOME</a></li>
                         <li><a href="{{ url('/singapura') }}">TOGEL SINGAPURA</a></li>
-                        <li data-toggle="collapse" data-target="#service" class="collapsed">
-                          <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                        <li data-toggle="collapse" data-target="#hasilkeluaran" class="collapsed">
+                          <a href="#"><i class="fa fa-globe fa-lg"></i> HASIL KELUARAN <span class="arrow"></span></a>
                         </li>  
-                        <ul class="sub-menu collapse" id="service">
-                          <li>New Service 1</li>
-                          <li>New Service 2</li>
-                          <li>New Service 3</li>
+                        <ul class="sub-menu collapse" id="hasilkeluaran">
+                          <li><a href="{{ url('/singapura') }}">Togel Singapura</a></li>
+                          <li><a href="{{ url('/sydney') }}">Togel Sydney</a></li>
+                          <li><a href="{{ url('/cambodia') }}">Togel Cambodia</a></li>
+                          <li><a href="{{ url('/taiwan') }}">Togel Taiwan</a></li>
+                          <li><a href="{{ url('/china') }}">Togel China</a></li>
+                          <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
                         </ul>
-                        <li><a href="{{ url('/sydney') }}">TOGEL SYDNEY</a></li>
-                        <li><a href="{{ url('/cambodia') }}">TOGEL CAMBODIA</a></li>
-                        <li><a href="{{ url('/taiwan') }}">TOGEL TAIWAN</a></li>
-                        <li><a href="{{ url('/china') }}">TOGEL CHINA</a></li>
-                        <li><a href="{{ url('/hongkong') }}">TOGEL HONGKONG</a></li>
-                        <li><a href="{{ url('/numbergenerator') }}">NUBMER GENERATOR</a></li>
+                        <li><a href="{{ url('/jadwalkeluaran') }}">JADWAL KELUARAN TOGEL</a></li>
+                        <li><a href="{{ url('/numbergenerator') }}">NUMBER GENERATOR</a></li>
+                        <li data-toggle="collapse" data-target="#analisistogel" class="collapsed">
+                          <a href="#"><i class="fa fa-globe fa-lg"></i> ANALISIS TOGEL <span class="arrow"></span></a>
+                        </li>  
+                        <ul class="sub-menu collapse" id="analisistogel">
+                          <li><a href="{{ url('/analisissingapura') }}">Togel Singapura</a></li>
+                          <li><a href="{{ url('/analisissydney') }}">Togel Sydney</a></li>
+                          <li><a href="{{ url('/analisiscambodia') }}">Togel Cambodia</a></li>
+                          <li><a href="{{ url('/analisistaiwan') }}">Togel Taiwan</a></li>
+                          <li><a href="{{ url('/analisischina') }}">Togel China</a></li>
+                          <li><a href="{{ url('/analisishongkong') }}">Togel Hongkong</a></li>
+                        </ul>
                         <li><a href="{{ url('/bukumimpi') }}">BUKU MIMPI</a></li>
+                        <li data-toggle="collapse" data-target="#totosgp" class="collapsed">
+                          <a href="#"><i class="fa fa-globe fa-lg"></i> TOTO SGP <span class="arrow"></span></a>
+                        </li>  
+                        <ul class="sub-menu collapse" id="totosgp">
+                          <li><a href="{{ url('/konversi') }}">Konversi</a></li>
+                          <li><a href="{{ url('/carahitung') }}">Cara hitung</a></li>
+                          <li><a href="{{ url('/resultsgp') }}">Result SGP</a></li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#livedraw" class="collapsed">
+                          <a href="#"><i class="fa fa-globe fa-lg"></i> TOTO SGP <span class="arrow"></span></a>
+                        </li>  
+                        <ul class="sub-menu collapse" id="livedraw">
+                          <li><a href="{{ url('/livedrawsgp') }}">Singapura</a></li>
+                          <li><a href="{{ url('/livedrawsyd') }}">Sydney</a></li>
+                          <li><a href="{{ url('/livedrawcmb') }}">Cambodia</a></li>
+                          <li><a href="{{ url('/livedrawtw') }}">Taiwan</a></li>
+                          <li><a href="{{ url('/livedrawchn') }}">China</a></li>
+                          <li><a href="{{ url('/livedrawhk') }}">Hongkong</a></li>
+                        </ul>
                       </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
