@@ -3,14 +3,15 @@
 @section('content')
 
 <div class="col-xs-12">
-              <div class="panel panel-primary">
-                <div class="panel-heading p15 black font">
-                  <div class="panel-title">
-                    <h3>JADWAL KELUARAN TOGEL</h3>
-                  </div>
-                </div>
-                <div class="panel-body">
-                  <table class="middle">
+      <div class="panel panel-primary">
+        <div class="panel-heading p15 black font">
+          <div class="panel-title">
+            <h3>JADWAL KELUARAN TOGEL</h3>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="table-responsive">
+          <table class="middle">
             <thead>
               <tr class="kolom">
                 <th><div>No</div></th>
@@ -72,9 +73,8 @@
               </tr> 
                                                                                                                                                                                                                                            
             </tbody>
-        
-        
         </table>
+        </div>
                 </div>
               </div>
             </div>
