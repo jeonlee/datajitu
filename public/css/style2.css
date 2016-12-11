@@ -2587,4 +2587,20 @@ ul.c-controls li a:hover {
 .hide {
   visibility: hidden;
 }
-
+.shine {
+    -webkit-text-fill-color: rgba(252, 205, 77, 0.5);
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: shine;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #222 0%, rgba(252, 205, 77, 1) 50%, #222 100%) no-repeat scroll 0 0 / 125px auto padding-box text;
+    color: rgba(252, 205, 77, 1);
+}
+@keyframes shine {
+0% {
+    background-position: left top;
+}
+100% {
+    background-position: right top;
+}
+}
