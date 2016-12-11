@@ -455,6 +455,10 @@ class IndexController extends Controller
     {
         return view('index.bukumimpi', compact('bukumimpi'));
     }
+    public function showcomingsoon()
+    {
+        return view('index.comingsoon', compact('comingsoon','comingsoons'));
+    }
     public function showjadwalkeluaran()
     {
         return view('index.jadwalkeluaran', compact('jadwalkeluaran','jadwalkeluarans'));
