@@ -2604,3 +2604,7 @@ ul.c-controls li a:hover {
     background-position: right top;
 }
 }
+
+input.inp1 {
+  border:1px solid #000; 
+}
