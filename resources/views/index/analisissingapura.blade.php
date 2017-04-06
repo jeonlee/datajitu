@@ -24,7 +24,7 @@
         <div class="col-xs-6">
           Sampai :
           <div style="overflow:hidden;" class="form-group">
-            <input type="text" class="input-sm form-control" name="endDate" id="to" />
+            <input type="text" class="input-sm form-control" name="endDate" id="to" placeholder="dd-mm-yyyy">
         </div>
       </div> 
       </div>
