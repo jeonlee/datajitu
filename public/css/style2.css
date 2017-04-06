@@ -2617,7 +2617,7 @@ input.inp1 {
 .form-control {
     background-color: #ffffff;
     background-image: none;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     color: #464545;
