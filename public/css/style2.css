@@ -1972,7 +1972,7 @@ nav.sidebar, .main{
     position: absolute;
     top: 0;
     transition: all 0.2s ease-out 0.1s;
-    width: 120px;
+    width: 0px;
     z-index: 9;
 }
 .subMenu2 {
