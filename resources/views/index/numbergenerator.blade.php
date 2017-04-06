@@ -3,27 +3,22 @@
 @section('content')
 
 <div class="col-xs-12">
-              <div class="panel panel-primary">
-                <div class="panel-heading p15 black font">
-                  <div class="panel-title">
-                    <h3>NUMBER GENERATOR</h3>
+              <div class="panel panel-default" style="margin-top:15px;">
+                <div class="panel-heading pink">
+                  <h3 class="panel-title white">NUMBER GENERATOR</h3>
+                </div>
+                <div class="panel-body p15">
+                  <p class="helvetica" style="text-align:center;">Generate your numbers</p>
+                  <br>
+                  <a title="Lottery Results - Lotto" class="button-blue"><button style="border:none; background:transparent;">Generate Numbers</button></a><br><br>
+                  <div class="group">
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                    <div class="reel"></div>
                   </div>
                 </div>
-                <div class="panel-body">
-                <div id="sm">
-                  <div class="group lever1">
-                    <button>Start</button>
-                  </div>
-                  <div class="group1">
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                  </div>
-                  <p class="msg">Press Start</p>
-                </div>
-                </div>
-              </div>
+</div>
             </div><!-- col-xs-9 -->
 
 @endsection
