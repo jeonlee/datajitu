@@ -52,7 +52,7 @@
                   <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
                   <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
                   <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
@@ -103,7 +103,7 @@
                   <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
                   <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
                   <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
+                  <div class="result medium lotto-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
@@ -154,7 +154,7 @@
                   <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
                   <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
                   <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
+                  <div class="result medium lotto-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
@@ -205,7 +205,7 @@
                   <div class="result medium health-ball"><?php  echo $satu; ?></div>
                   <div class="result medium health-ball"><?php  echo $dua; ?></div>
                   <div class="result medium health-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium health-ball"><?php  echo $empat; ?></div>
+                  <div class="result medium health-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
@@ -258,7 +258,7 @@
                   <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
                   <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
                   <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
-                  <div class="result medium euromillions-lucky-star"><?php  echo $empat; ?></div>
+                  <div class="result medium euromillions-lucky-star"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
@@ -310,7 +310,7 @@
                   <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
                   <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
                   <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium thunderball-ball"><?php  echo $empat; ?></div>
+                  <div class="result medium thunderball-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
