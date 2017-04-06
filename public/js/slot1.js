@@ -50,7 +50,7 @@ var sm = (function(undefined){
 
         $msg = $('.msg1');
 
-        $('button1').click(action);
+        $('button.butong').click(action);
     }
 
     function action(){
