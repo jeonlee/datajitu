@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('content')
+@section('ng')
 
 <div class="col-xs-12">
               <div class="panel panel-primary">
