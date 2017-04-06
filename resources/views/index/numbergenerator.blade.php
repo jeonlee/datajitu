@@ -2,6 +2,11 @@
 
 @section('content')
 
+
+
+@endsection
+@section('numbergenerator')
+
 <div class="col-xs-12">
               <div class="panel panel-default" style="margin-top:15px;">
                 <div class="panel-heading pink">
