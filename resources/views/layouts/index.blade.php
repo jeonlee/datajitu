@@ -282,8 +282,9 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.net" target="_blank">www.brotogel.net</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.org" target="_blank">www.brotogel.org</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel88.com" target="_blank">www.brotogel88.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://1brotogel.com" target="_blank">www.1brotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://3brotogel.com" target="_blank">www.3brotogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel1.com" target="_blank">www.brotogel1.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel2.com" target="_blank">www.brotogel2.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel3.com" target="_blank">www.brotogel3.com</a></li>
