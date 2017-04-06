@@ -2638,3 +2638,9 @@ input.inp1 {
     padding: 3px 20px;
     white-space: nowrap;
 }
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #272b30;
+    color: #ffffff;
+    outline: 0 none;
+    text-decoration: none;
+}
