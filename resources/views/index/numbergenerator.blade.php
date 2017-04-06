@@ -20,7 +20,7 @@
                     <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
                     <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
                   </div>
-                  <p class="msg">Press Start</p>
+                  <p class="msg1">Press Start</p>
                 </div>
                 </div>
               </div>
