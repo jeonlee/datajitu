@@ -12,7 +12,7 @@
                 <div class="panel-body">
                 <div id="sm">
                   <div class="group lever1">
-                    <button1>Start</button1>
+                    <button class="butong">Start</button>
                   </div>
                   <div class="group1">
                     <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
