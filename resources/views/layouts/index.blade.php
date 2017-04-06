@@ -317,6 +317,7 @@
             </div>
           </div>
       <div class="col-xs-9 hidden-sm hidden-xs">
+           @yield('ng')
           @yield('content')
       </div>
      
