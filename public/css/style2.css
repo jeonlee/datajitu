@@ -2614,3 +2614,18 @@ input.inp1 {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
     outline: 0 none;
 }
+.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #464545;
+    display: block;
+    font-size: 15px;
+    height: 43px;
+    line-height: 1.42857;
+    padding: 10px 15px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
