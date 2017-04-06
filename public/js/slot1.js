@@ -48,7 +48,7 @@ var sm = (function(undefined){
             el.innerHTML = '<div><p>' + reels[i].join('</p><p>') + '</p></div><div><p>' + reels[i].join('</p><p>') + '</p></div>'
         });
 
-        $msg = $('.msg');
+        $msg = $('.msg1');
 
         $('button').click(action);
     }
