@@ -490,7 +490,7 @@
             </div>
           </div>
      
-      <div class="col-xs-12 visible-sm visible-xs">
+      <div class="col-xs-12 visible-sm visible-xs" style="padding:0px;">
           @yield('content')
       </div>
 </div><!-- end col-xs-12 -->
