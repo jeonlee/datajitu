@@ -25,5 +25,4 @@
                 </div>
               </div>
             </div><!-- col-xs-9 -->
-  <script type="text/javascript" src="/js/slot1.js"></script>
 @endsection
