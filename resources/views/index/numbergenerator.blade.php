@@ -15,10 +15,10 @@
                     <button>Start</button>
                   </div>
                   <div class="group1">
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
-                    <div class="reel1" style="width:80px; height:100px; margin-right:20px;"></div>
+                    <div class="reel" style="width:80px; height:100px; margin-right:20px;"></div>
+                    <div class="reel" style="width:80px; height:100px; margin-right:20px;"></div>
+                    <div class="reel" style="width:80px; height:100px; margin-right:20px;"></div>
+                    <div class="reel" style="width:80px; height:100px; margin-right:20px;"></div>
                   </div>
                   <p class="msg">Press Start</p>
                 </div>
