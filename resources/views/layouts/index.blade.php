@@ -221,7 +221,7 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://totojitu.com" target="_blank">www.totojitu.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://totojitu1.com" target="_blank">www.totojitu1.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://totojitu2.com" target="_blank">www.totojitu2.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttj2.com" target="_blank">www.ttj2.com</a></li>
+                          
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttjbca.com" target="_blank">www.ttjbca.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://login-totojitu.com" target="_blank">www.login-totojitu.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttj2008.com" target="_blank">www.ttj2008.com</a></li>
