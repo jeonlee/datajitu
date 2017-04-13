@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
-    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/darkly-bootstrap.css" rel="stylesheet">
     
     <link href="/css/style.css" rel="stylesheet">
