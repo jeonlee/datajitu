@@ -49,6 +49,8 @@ class HongkongController extends Controller
         $input = $request->all();
 
         $hongkong->fill($input)->save();
+	    
+	$hongkongs = Hongkong::all();    
 
         $hongkongs = Hongkong::orderBy('periode','desc')->paginate(5);
 
