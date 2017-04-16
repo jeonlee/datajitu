@@ -15,7 +15,7 @@
                   <form method="POST" action="/analisis/{{ $hongkongs->id }}">
                   {{ csrf_field() }}
                   {{ method_field('PATCH') }}
-                  <font color="#000000"><b>Periode&nbsp;&nbsp;:&nbsp;{{ $singapuras->periode }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Singapore</b></font><br>
+                  <font color="#000000"><b>Periode&nbsp;&nbsp;:&nbsp;{{ $hongkongs->periode }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Hongkong</b></font><br>
                     <table width="99%" cellspacing="0" cellpadding="0" bordercolor="#FFFFFF" border="1" align="center">
                     <tbody><tr bgcolor="#077800" align="center">
                         <td rowspan="2" width="40%"><font color="ffffff"><b>GAMES</b></font></td>
