@@ -17,7 +17,7 @@ class AnalisishkController extends Controller
 
         $collection = collect($hongkongs);
 
-    	return view('analisiss.index', compact('sydney','sydneys'));
+    	return view('analisiss.index', compact('hongkong','hongkongs'));
 
 	}
 	public function create()
