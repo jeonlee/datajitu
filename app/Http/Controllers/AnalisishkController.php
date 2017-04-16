@@ -31,7 +31,7 @@ class AnalisishkController extends Controller
 
         $hongkongs = Hongkong::orderBy('periode','desc')->paginate(5);
 
-        return view('analisiss.index', compact('sydneys'));
+        return view('analisiss.index', compact('hongkongs'));
 	}
 	public function show($id)
     {
@@ -60,7 +60,7 @@ class AnalisishkController extends Controller
         // $categories = Category::find($id);
         $hongkongs = Hongkong::find($id);
 
-        return view('index.showanalisishk', compact('sydneys','satu','dua','tiga','empat','sydney','tigash','sh','tt','dasarbk'
+        return view('index.showanalisishk', compact('hongkongs','satu','dua','tiga','empat','hongkong','tigash','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
@@ -68,7 +68,7 @@ class AnalisishkController extends Controller
     {
         $hongkongs = Hongkong::find($id);
 
-        return view('analisiss.edit', compact('sydneys'));
+        return view('analisiss.edit', compact('hongkongs'));
     }
 
     public function update($id, Request $request)
@@ -81,7 +81,7 @@ class AnalisishkController extends Controller
 
         $hongkongs = Hongkong::orderBy('periode','desc')->paginate(5);
 
-        return view('analisiss.index', compact('sydneys'));
+        return view('analisiss.index', compact('hongkongs'));
     }
 
     public function delete($id)
