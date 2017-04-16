@@ -25,7 +25,7 @@ class AnalisishkController extends Controller
 		return view('analisiss.create');
 	}
 
-	public function store(Request $request, sydney $hongkong)
+	public function store(Request $request, hongkong $hongkong)
 	{
         Hongkong::create($request->all());
 
