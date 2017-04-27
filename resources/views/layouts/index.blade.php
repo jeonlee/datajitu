@@ -526,7 +526,7 @@
          <a class="login loginItem" href="http://gitartogel.org" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://warungtogel.com" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://rgotogel.net" target="_blank">RGOTOGEL</a>
-         
+         <a class="login loginItem" href="http://togelmandiri.com" target="_blank">TOGELMANDIRI</a>
          
         </div>
       </div>
