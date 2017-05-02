@@ -307,7 +307,7 @@
                           
                         </ul>
                       </li>
-                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Togel Mandiri</a>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelMandiri</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://togelmandiri.com" target="_blank">www.togelmandiri.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://togelmandiri.net" target="_blank">www.togelmandiri.net</a></li>
