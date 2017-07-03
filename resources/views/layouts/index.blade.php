@@ -285,9 +285,7 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://1brotogel.com" target="_blank">www.1brotogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://3brotogel.com" target="_blank">www.3brotogel.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel1.com" target="_blank">www.brotogel1.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel2.com" target="_blank">www.brotogel2.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel3.com" target="_blank">www.brotogel3.com</a></li>
+                          
                           
                         </ul>
                       </li>
@@ -296,7 +294,7 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://gitartogel.com" target="_blank">www.gitartogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.net" target="_blank">www.gitartogel.net</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.org" target="_blank">www.gitartogel.org</a></li>
-                          
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitarsuper.com" target="_blank">www.gitarsuper.com</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
@@ -466,9 +464,9 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.net" target="_blank">www.brotogel.net</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel.org" target="_blank">www.brotogel.org</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel88.com" target="_blank">www.brotogel88.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel1.com" target="_blank">www.brotogel1.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel2.com" target="_blank">www.brotogel2.com</a></li>
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel3.com" target="_blank">www.brotogel3.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://1brotogel.com" target="_blank">www.1brotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://3brotogel.com" target="_blank">www.3brotogel.com</a></li>
                           
                         </ul>
                       </li>
@@ -477,7 +475,7 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://gitartogel.com" target="_blank">www.gitartogel.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.net" target="_blank">www.gitartogel.net</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitartogel.org" target="_blank">www.gitartogel.org</a></li>
-                          
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://gitarsuper.com" target="_blank">www.gitarsuper.com</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
@@ -530,7 +528,7 @@
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="http://brotogel88.com" target="_blank">BROTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:10px;" href="http://1brotogel.com" target="_blank">BROTOGEL</a>
          <a class="login loginItem" href="http://gitartogel.org" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://warungtogel.com" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://rgotogel.net" target="_blank">RGOTOGEL</a>
