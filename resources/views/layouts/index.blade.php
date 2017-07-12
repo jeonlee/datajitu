@@ -273,8 +273,8 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="eyangtogel.org" target="_blank">www.eyangtogel.org</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="eyangtogel.net" target="_blank">www.eyangtogel.net</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="eyang2017.com" target="_blank">www.eyang2017.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="eyangtg.com" target="_blank">www.eyangtg.com</a></li>
                           
                         </ul>
                       </li>
