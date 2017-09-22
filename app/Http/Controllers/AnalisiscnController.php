@@ -48,6 +48,7 @@ class AnalisiscnController extends Controller
         $tigash = substr("$china->number",2,1) % 2;
 	$empatsh = substr("$china->number",3,1) % 2;
         $sh = 0;
+	$hs = 0;
         $tt = substr("$china->number",2,2);
         $dasarbk = $tiga + $empat;
         $dasarbk3 = substr("$dasarbk",0,1);
@@ -61,7 +62,7 @@ class AnalisiscnController extends Controller
         // $categories = Category::find($id);
         $chinas = China::find($id);
 
-        return view('index.showanalisiscn', compact('chinas','satu','dua','tiga','empat','china','tigash','sh','tt','dasarbk'
+        return view('index.showanalisiscn', compact('chinas','satu','dua','tiga','empat','china','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
