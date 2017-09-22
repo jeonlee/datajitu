@@ -46,6 +46,7 @@ class AnalisiscnController extends Controller
         $ekorgg = $empat % 2;
         $dg = 0;
         $tigash = substr("$china->number",2,1) % 2;
+	$empatsh = substr("$china->number",3,1) % 2;
         $sh = 0;
         $tt = substr("$china->number",2,2);
         $dasarbk = $tiga + $empat;
