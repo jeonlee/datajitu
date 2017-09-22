@@ -174,8 +174,8 @@
 
                     ?>
                     <?php
-                     if ($tigash1 == $empatsh1) { $shsilang = ""; } else { $shsilang = "&#x2714;"; }
-                     if ($tigash1 == $empatsh1) { $shhomo = "&#x2714;"; }  else { $shhomo = ""; }
+                     if ($tigash1 == $empatsh1) { $shsilang = ""; } else { $shsilang = "silang"; }
+                     if ($tigash1 == $empatsh1) { $shhomo = "homo"; }  else { $shhomo = ""; }
                      
                         ?>
                     <tr bgcolor="#22b228" align="center">
