@@ -162,15 +162,26 @@
                     </tr>
                      <?php
                         if ($tigash == $sh) {
-                            $tigash1 = "Homo";
+                            $tigash1 = "genap";
                         } else {
-                            $tigash1 = "Silang";
+                            $tigash1 = "ganjil";
+                        }
+                        if ($empatsh == $hs) {
+                            $empatsh1 = "genap";
+                        } else {
+                            $empatsh1 = "ganjil";
                         }
 
                     ?>
+                    <?php
+                     if ($tigash1 == $empatsh1) { $shsilang = ""; } else { $shsilang = "&#x2714;"; }
+                     if ($tigash1 == $empatsh1) { $shhomo = "&#x2714;"; }  else { $shhomo = ""; }
+                     
+                        ?>
                     <tr bgcolor="#22b228" align="center">
                         <td width="40%"><font color="#FFFFFF"><b>Silang&nbsp;&nbsp;Homo</b></font></td>
-                        <td colspan="4" width="60%"><font color="#FFFF00"><b><?php  echo $tigash1; ?></b></font></td>
+                        <td colspan="4" width="60%"><font color="#FFFF00"><b><?php  echo $shsilang; ?></b></font></td>
+                        <td colspan="4" width="60%"><font color="#FFFF00"><b><?php  echo $shhomo; ?></b></font></td>
                     </tr>
                     <?php
                         if ($tt >= 25 && $tt <= 74) $tengah = "Tengah"; else $tengah = "Tepi";
