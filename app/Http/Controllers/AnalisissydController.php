@@ -62,7 +62,7 @@ class AnalisissydController extends Controller
         // $categories = Category::find($id);
         $sydneys = Sydney::find($id);
 
-        return view('index.showanalisissyd', compact('sydneys','satu','dua','tiga','empat','sydney','tigash','sh','tt','dasarbk'
+        return view('index.showanalisissyd', compact('sydneys','satu','dua','tiga','empat','sydney','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
