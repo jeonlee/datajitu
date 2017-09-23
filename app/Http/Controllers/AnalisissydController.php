@@ -46,7 +46,9 @@ class AnalisissydController extends Controller
         $ekorgg = $empat % 2;
         $dg = 0;
         $tigash = substr("$sydney->number",2,1) % 2;
+	$empatsh = substr("$china->number",3,1) % 2;
         $sh = 0;
+	$hs = 0;
         $tt = substr("$sydney->number",2,2);
         $dasarbk = $tiga + $empat;
         $dasarbk3 = substr("$dasarbk",0,1);
