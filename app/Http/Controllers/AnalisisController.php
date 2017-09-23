@@ -50,7 +50,7 @@ class AnalisisController extends Controller
         // $categories = Category::find($id);
         $singapuras = Singapura::find($id);
 
-        return view('index.showanalisissgp', compact('singapuras','satu','dua','tiga','empat','singapura','tigash','sh','tt','dasarbk'
+        return view('index.showanalisissgp', compact('singapuras','satu','dua','tiga','empat','singapura','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
