@@ -62,7 +62,7 @@ class AnalisishkController extends Controller
         // $categories = Category::find($id);
         $hongkongs = Hongkong::find($id);
 
-        return view('index.showanalisishk', compact('hongkongs','satu','dua','tiga','empat','hongkong','tigash','sh','tt','dasarbk'
+        return view('index.showanalisishk', compact('hongkongs','satu','dua','tiga','empat','hongkong','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
