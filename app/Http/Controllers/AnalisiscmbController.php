@@ -62,7 +62,7 @@ class AnalisiscmbController extends Controller
         // $categories = Category::find($id);
         $cambodias = Cambodia::find($id);
 
-        return view('index.showanalisiscmb', compact('cambodias','satu','dua','tiga','empat','cambodia','tigash','sh','tt','dasarbk'
+        return view('index.showanalisiscmb', compact('cambodias','satu','dua','tiga','empat','cambodia','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
