@@ -174,14 +174,13 @@
 
                     ?>
                     <?php
-                     if ($tigash1 == $empatsh1) { $shsilang = ""; } else { $shsilang = "silang"; }
-                     if ($tigash1 == $empatsh1) { $shhomo = "homo"; }  else { $shhomo = ""; }
+                     if ($tigash1 == $empatsh1) { $shsilang = "homo"; } else { $shsilang = "silang"; }
+                     
                      
                         ?>
                     <tr bgcolor="#22b228" align="center">
                         <td width="40%"><font color="#FFFFFF"><b>Silang&nbsp;&nbsp;Homo</b></font></td>
                         <td colspan="4" width="60%"><font color="#FFFF00"><b><?php  echo $shsilang; ?></b></font></td>
-                        <td colspan="4" width="60%"><font color="#FFFF00"><b><?php  echo $shhomo; ?></b></font></td>
                     </tr>
                     <?php
                         if ($tt >= 25 && $tt <= 74) $tengah = "Tengah"; else $tengah = "Tepi";
