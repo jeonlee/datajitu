@@ -46,7 +46,7 @@ class AnalisistwController extends Controller
         $ekorgg = $empat % 2;
         $dg = 0;
         $tigash = substr("$taiwan->number",2,1) % 2;
-	$empatsh = substr("$china->number",3,1) % 2;
+	$empatsh = substr("$taiwan->number",3,1) % 2;
         $sh = 0;
 	$hs = 0;
         $tt = substr("$taiwan->number",2,2);
