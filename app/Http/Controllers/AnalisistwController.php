@@ -62,7 +62,7 @@ class AnalisistwController extends Controller
         // $categories = Category::find($id);
         $taiwans = Taiwan::find($id);
 
-        return view('index.showanalisistw', compact('taiwans','satu','dua','tiga','empat','taiwan','tigash','sh','tt','dasarbk'
+        return view('index.showanalisistw', compact('taiwans','satu','dua','tiga','empat','taiwan','tigash','empatsh','hs','sh','tt','dasarbk'
             ,'dasarbk3','dasarbk4','dasarbk5','dasargg','dasargg3','dasargg4','dasargg5','dasargg1'));
     }
 
