@@ -224,7 +224,7 @@
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttjbca.com" target="_blank">www.ttjbca.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://login-totojitu.com" target="_blank">www.login-totojitu.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttj2008.com" target="_blank">www.ttj2008.com</a></li>
+                          
                           
                         </ul>
                       </li>
