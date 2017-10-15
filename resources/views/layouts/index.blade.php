@@ -297,12 +297,10 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://rgotogel.com" target="_blank">www.rgotogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotogel.net" target="_blank">www.rgotogel.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotogel.org" target="_blank">www.rgotogel.org</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl.com" target="_blank">www.rgotgl.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl18.com" target="_blank">www.rgotgl18.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl2018.com" target="_blank">www.rgotgl2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://rgotg.com" target="_blank">www.rgotg.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotg2020.com" target="_blank">www.rgotg2020.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotg188.com" target="_blank">www.rgotg188.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotogel2020.com" target="_blank">www.rgotogel2020.com</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelMandiri</a>
