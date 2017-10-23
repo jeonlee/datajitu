@@ -251,7 +251,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelCC</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togel.cc" target="_blank">www.togel.cc</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.com" target="_blank">www.togelcc.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://tcc18.com" target="_blank">www.tcc18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.net" target="_blank">www.togelcc.net</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.info" target="_blank">www.togelcc.info</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.org" target="_blank">www.togelcc.org</a></li>
