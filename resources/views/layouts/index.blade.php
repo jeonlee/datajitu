@@ -273,7 +273,8 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg.com" target="_blank">www.eyangtg.com</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel007.com" target="_blank">www.eyangtogel007.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel111.com" target="_blank">www.eyangtogel111.com</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Brotogel</a>
