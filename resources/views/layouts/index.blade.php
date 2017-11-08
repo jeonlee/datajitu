@@ -25,7 +25,15 @@
     <link href="/css/slot.css" rel="stylesheet">
     <link href="/css/jquery-ui.css" rel="stylesheet">
     
-  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57014154-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-57014154-11');
+</script>
   </head>
   <body>
     <div class="container-fluid">
