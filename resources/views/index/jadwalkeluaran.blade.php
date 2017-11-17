@@ -35,7 +35,7 @@
                 <td><div class="t_no">2</div></td>
                 <td><div class="t_hari">Togel Sydney</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">13:00</div></td>
+                <td><div class="t_city">13:35</div></td>
                 <td><div class="t_city">13:50</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.sydneypoolstoday.com" target="_blank">www.sydneypoolstoday.com</a></div></td>
               </tr>              
@@ -43,7 +43,7 @@
                 <td><div class="t_no">3</div></td>
                 <td><div class="t_hari">Togel Cambodia</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">11:00</div></td>
+                <td><div class="t_city">11:35</div></td>
                 <td><div class="t_city">11:50</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.magnumcambodia.com" target="_blank">www.magnumcambodia.com</a></div></td>
               </tr>               
@@ -51,7 +51,7 @@
                 <td><div class="t_no">4</div></td>
                 <td><div class="t_hari">Togel Taiwan</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">20:00</div></td>
+                <td><div class="t_city">20:35</div></td>
                 <td><div class="t_city">20:45</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.taiwanlottery.net" target="_blank">www.taiwanlottery.net</a></div></td>
               </tr>     
@@ -59,7 +59,7 @@
                 <td><div class="t_no">5</div></td>
                 <td><div class="t_hari">Togel China</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">15:00</div></td>
+                <td><div class="t_city">15:15</div></td>
                 <td><div class="t_city">15:30</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.chinapools.asia" target="_blank">www.chinapools.asia</a></div></td>
               </tr>   
