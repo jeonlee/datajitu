@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="panel-body">
-		<div style="width:330px; height:373px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
+		<div style="width:330px; height:405px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
           	<iframe scrolling="no" src="http://livesgp.net/4d" style="border: 0px none; margin-left: -13px; width: 355px; height: 778px;"></iframe>
         </div>
         <div style="width:330px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
