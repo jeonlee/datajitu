@@ -9,10 +9,10 @@
   </div>
   <div class="panel-body">
 		<div style="width:330px; height:405px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
-          	<iframe scrolling="no" src="http://livesgp.net/4d" style="border: 0px none; margin-left: -13px; width: 355px; height: 778px;"></iframe>
+          	<iframe scrolling="no" src="#" style="border: 0px none; margin-left: -13px; width: 355px; height: 778px;"></iframe>
         </div>
         <div style="width:330px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
-          <iframe scrolling="no" src="http://livesgp.net/toto/" style="border: 0px none; width: 707px; height: 737px; margin-left: -190px;"></iframe>
+          <iframe scrolling="no" src="#" style="border: 0px none; width: 707px; height: 737px; margin-left: -190px;"></iframe>
         </div>
     </div>
 </div>
