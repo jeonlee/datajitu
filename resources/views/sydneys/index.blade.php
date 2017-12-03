@@ -34,13 +34,13 @@
                             <td>{{ $sydney->periode }}-SD</td>
                             <td>{{ $sydney->number }}</td>
                             <td><a href="/admin/sydney/{{ $sydney->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
-                            <td>
+                            <!--<td>
                                 <form method="POST" action="/admin/sydney/{{ $sydney->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
                                      <button type="submit" class="btn btn-danger btn-sm">Delete</button>               
                                 </form>
-                            </td>
+                            </td>-->
                         </tr>
                     @endforeach
                 </tbody>
