@@ -58,7 +58,7 @@ class PrediksicmbController extends Controller
 
     public function delete($id)
     {
-        Cambodia::find($id)->delete();
+        Prediksicmb::find($id)->delete();
 
         return back();
     }
