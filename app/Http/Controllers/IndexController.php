@@ -87,27 +87,27 @@ class IndexController extends Controller
     {
         $prediksisgp = Prediksisgp::all()->last();
 
-        $prediksisgps = Prediksisgp::orderBy('tanggal','desc')->paginate(10);
+        $prediksisgps = Prediksisgp::all();
 
         $prediksisyd = Prediksisyd::all()->last();
 
-        $prediksisyds = Prediksisyd::orderBy('tanggal','desc')->paginate(10);
+        $prediksisyds = Prediksisyd::all();
 
         $prediksicmb = Prediksicmb::all()->last();
 
-        $prediksicmbs = Prediksicmb::orderBy('tanggal','desc')->paginate(10);
+        $prediksicmbs = Prediksicmb::all();
 
         $prediksitw = Prediksitw::all()->last();
 
-        $prediksitws = Prediksitw::orderBy('tanggal','desc')->paginate(10);
+        $prediksitws = Prediksitw::all();
 
         $prediksichn = Prediksichn::all()->last();
 
-        $prediksichns = Prediksichn::orderBy('tanggal','desc')->paginate(10);
+        $prediksichns = Prediksichn::all();
 
         $prediksihk = Prediksihk::all()->last();
 
-        $prediksihks = Prediksihk::orderBy('tanggal','desc')->paginate(10);
+        $prediksihks = Prediksihk::all();
 
         $collection = collect($prediksisgps);
         $sorted = $collection->sortByDesc('tanggal');
