@@ -110,16 +110,22 @@ class IndexController extends Controller
         $prediksihks = Prediksihk::orderBy('tanggal','desc')->paginate(10);
 
         $collection = collect($prediksisgps);
+        $sorted = $collection->sortByDesc('tanggal');
 
         $collection1 = collect($prediksisyds);
+        $sorted1 = $collection1->sortByDesc('tanggal');
 
         $collection2 = collect($prediksicmbs);
+        $sorted2 = $collection2->sortByDesc('tanggal');
 
         $collection3 = collect($prediksitws);
+        $sorted3 = $collection3->sortByDesc('tanggal');
 
         $collection4 = collect($prediksichns);
+        $sorted4 = $collection4->sortByDesc('tanggal');
 
         $collection5 = collect($prediksihks);
+        $sorted5 = $collection5->sortByDesc('tanggal');
 
         return view('index.prediksisgp', compact('prediksisgp','prediksisgps', 'prediksisyd', 'prediksisyds', 'prediksicmb', 'prediksicmbs', 'prediksitw', 'prediksitws', 'prediksichn', 'prediksichns', 'prediksihk', 'prediksihks'));
     }
