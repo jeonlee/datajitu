@@ -191,7 +191,7 @@
                     </ul>
                   </li>
                   <li><a class="nav-results" title="Jadwal Keluaran" href="{{ url('/jadwalkeluaran') }}">Jadwal Keluaran Togel</a></li>
-                  <li><a class="nav-results cs" title="Jadwal Keluaran" href="{{ url('/prediksisgp') }}">Prediksi Togel<div class="comingsoon" style="width:70px;"></div></a></li>
+                  <li><a class="nav-results cs" title="Jadwal Keluaran" href="{{ url('/prediksisgp') }}">Prediksi Togel<!--<div class="comingsoon" style="width:70px;"></div>--></a></li>
                   <!--<li><a class="nav-tickets" title="Buy Lottery Tickets" href="/lottery-tickets">Cara Bermain Togel</a></li>-->
                   <li><a class="nav-random" title="Number Generator" href="{{ url('/numbergenerator') }}">Number Generator</a></li>
                   <li><a class="nav-stats subAvailable" title="Analisis Togel" href="/">Analisis Togel</a>
