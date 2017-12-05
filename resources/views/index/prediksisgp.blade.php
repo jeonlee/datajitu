@@ -29,7 +29,7 @@
           <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksisgp->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisgp->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
-      <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
         <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
         <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
         <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
@@ -78,7 +78,7 @@
           <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksicmb->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksicmb->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
-      <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
         <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
         <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
         <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -126,7 +126,7 @@
           <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksisyd->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisyd->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
-      <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
         <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
         <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
         <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -173,7 +173,7 @@
         <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksichn->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksichn->tanggal)->format('d-m-Y') }}</span></h3>
       </div>
     </div><!-- sideheader -->
-    <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+    <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
       <div class="result medium health-ball"><?php  echo $satu; ?></div>
       <div class="result medium health-ball"><?php  echo $dua; ?></div>
       <div class="result medium health-ball"><?php  echo $tiga; ?></div>
@@ -224,7 +224,7 @@
           <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksitw->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksitw->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
-      <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
         <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
         <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
         <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
@@ -272,7 +272,7 @@
           <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksihk->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksihk->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
-      <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
         <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
         <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
         <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
