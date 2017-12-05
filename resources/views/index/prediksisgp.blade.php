@@ -2,7 +2,7 @@
 
 @section('content')
 
-       @foreach ($sorted->slice(0, 1) as $singapura)
+       @foreach ($sorted->slice(0, 1) as $prediksisgp)
   <?php
 
       $satu = substr("$prediksisgp->prediksi",0,1);
@@ -52,7 +52,7 @@
   @endforeach
           
 
-  @foreach ($sorted1->slice(0, 1) as $cambodia)
+  @foreach ($sorted2->slice(0, 1) as prediksicmb)
   <?php
 
       $satu = substr("$prediksicmb->prediksi",0,1);
@@ -101,7 +101,7 @@
   </div><!-- end col-xs-6 -->
   @endforeach
 
-  @foreach ($sorted2->slice(0, 1) as $sydney)
+  @foreach ($sorted1->slice(0, 1) as prediksisyd)
   <?php
 
       $satu = substr("$prediksisyd->prediksi",0,1);
@@ -148,7 +148,7 @@
   </div><!-- end col-xs-6 -->
   @endforeach
 
-  @foreach ($sorted3->slice(0, 1) as $china)
+  @foreach ($sorted4->slice(0, 1) as prediksichn)
     <?php
 
         $satu = substr("$prediksichn->prediksi",0,1);
@@ -198,7 +198,7 @@
   </div><!-- end col-xs-6 -->
   @endforeach
 
-  @foreach ($sorted4->slice(0, 1) as $taiwan)
+  @foreach ($sorted3->slice(0, 1) as prediksitw)
   <?php
 
       $satu = substr("$prediksitw->prediksi",0,1);
@@ -246,7 +246,7 @@
   </div><!-- end col-xs-6 -->
   @endforeach
 
-  @foreach ($sorted5->slice(0, 1) as $hongkong)
+  @foreach ($sorted5->slice(0, 1) as prediksihk)
   <?php
 
       $satu = substr("$prediksihk->prediksi",0,1);
