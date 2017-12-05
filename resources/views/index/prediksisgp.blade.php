@@ -26,7 +26,7 @@
         </div>
         <div class="col-xs-7">
           
-          <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksisgp->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisgp->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksisgp->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisgp->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
       <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -37,7 +37,7 @@
                   
         <br><br>
           
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>-->
       </div>
     </div><!-- end result-box -->
               
@@ -50,7 +50,7 @@
         <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
         <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
         <div class="result medium euromillions-ball"><?php  echo $empat; ?></div><br>
-        <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a> -->
       </div><!-- sideheader -->
       <br><br>
     </div><!-- end resultbox -->
@@ -75,7 +75,7 @@
         </div>
         <div class="col-xs-7">
           
-          <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksicmb->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksicmb->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksicmb->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksicmb->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
       <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -85,7 +85,7 @@
         <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
 
         <br><br>
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a> -->
       </div>
     </div>
             
@@ -99,7 +99,7 @@
         <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
         <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
         <div class="result medium lotto-ball"><?php  echo $empat; ?></div><br>
-        <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a> -->
       </div><!-- sideheader -->
       <br><br>
     </div><!-- end resultbox -->
@@ -123,7 +123,7 @@
           <img width="100%" src="images/sydney.png">
         </div>
         <div class="col-xs-7">
-          <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksisyd->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisyd->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksisyd->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksisyd->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
       <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -132,7 +132,7 @@
         <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
         <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
         <br><br>
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a> -->
       </div>
     </div>
           
@@ -146,7 +146,7 @@
         <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
         <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
         <div class="result medium lotto-ball"><?php  echo $empat; ?></div><br>
-        <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a> -->
       </div><!-- sideheader -->
       <br><br>
     </div><!-- end resultbox -->
@@ -170,7 +170,7 @@
         <img width="100%" src="images/china.png">
       </div>
       <div class="col-xs-7">
-        <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksichn->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksichn->tanggal)->format('d-m-Y') }}</span></h3>
+        <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksichn->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksichn->tanggal)->format('d-m-Y') }}</span></h3>
       </div>
     </div><!-- sideheader -->
     <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -181,7 +181,7 @@
  
       <br><br>
   
-      <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a>
+      <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a> -->
     </div>
   </div>
           
@@ -195,7 +195,7 @@
       <div class="result medium health-ball"><?php  echo $dua; ?></div>
       <div class="result medium health-ball"><?php  echo $tiga; ?></div>
       <div class="result medium health-ball"><?php  echo $empat; ?></div><br>
-      <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a>
+      <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a> -->
     </div><!-- sideheader -->
     <br><br>
   </div><!-- end resultbox -->
@@ -221,7 +221,7 @@
           
         </div>
         <div class="col-xs-7">
-          <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksitw->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksitw->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksitw->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksitw->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
       <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -232,7 +232,7 @@
    
         <br><br>
     
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a> -->
       </div>
     </div>
           
@@ -245,7 +245,7 @@
         <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
         <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
         <div class="result medium euromillions-lucky-star"><?php  echo $empat; ?></div><br>
-        <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a> -->
       </div><!-- sideheader -->
       <br><br>
     </div><!-- end resultbox -->
@@ -269,7 +269,7 @@
         
         </div>
         <div class="col-xs-7">
-          <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $prediksihk->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksihk->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksihk->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksihk->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
       </div><!-- sideheader -->
       <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
@@ -278,7 +278,7 @@
         <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
         <div class="result medium thunderball-ball"><?php  echo $empat; ?></div>
         <br><br>
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a> -->
       </div>
     </div>
             
@@ -291,7 +291,7 @@
         <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
         <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
         <div class="result medium thunderball-ball"><?php  echo $empat; ?></div><br>
-        <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a> -->
       </div><!-- sideheader -->
       <br><br>
     </div><!-- end resultbox -->
