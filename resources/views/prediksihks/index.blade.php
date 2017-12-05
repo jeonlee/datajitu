@@ -29,7 +29,7 @@
                     @foreach ($prediksihks as $prediksihk)
                         <tr>
                             <td>{{ $prediksihk->hari }}</td>
-                            <th>{{ Carbon\Carbon::parse($prediksihk->tanggal1)->format('d-m-Y') }}</th>
+                            <th>{{ Carbon\Carbon::parse($prediksihk->tanggal)->format('d-m-Y') }}</th>
                             <td>{{ $prediksihk->prediksi }}</td>
                             <td><a href="/admin/prediksihk/{{ $prediksihk->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
