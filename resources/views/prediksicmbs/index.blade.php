@@ -10,7 +10,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
         	<div class="panel-title">
-        		List Results Cambodia
+        		List Prediksi Cambodia
         	</div>
         </div>
 
@@ -29,7 +29,7 @@
                     @foreach ($prediksicmbs as $prediksicmb)
                         <tr>
                             <td>{{ $prediksicmb->hari }}</td>
-                            <th>{{ Carbon\Carbon::parse($prediksicmb->tanggal1)->format('d-m-Y') }}</th>
+                            <th>{{ Carbon\Carbon::parse($prediksicmb->tanggal)->format('d-m-Y') }}</th>
                             <td>{{ $prediksicmb->prediksi }}</td>
                             <td><a href="/admin/prediksicmb/{{ $prediksicmb->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
