@@ -232,7 +232,7 @@
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader postcode" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
-          <h3 style="color: #FFF;"><span class="smallerHeading">{{ $prediksitw->hari }}</span> <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksichn->tanggal)->format('d-m-Y') }}</span></h3>
+          <h3 style="color: #FFF;"><span class="smallerHeading">{{ $prediksitw->hari }}</span> <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksitw->tanggal)->format('d-m-Y') }}</span></h3>
         </div>
         <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
         <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
