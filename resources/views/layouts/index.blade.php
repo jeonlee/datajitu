@@ -288,11 +288,9 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Brotogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotogel.net" target="_blank">www.brotogel.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://1brotogel.com" target="_blank">www.1brotogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://3brotogel.com" target="_blank">www.3brotogel.com</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotogel99.com" target="_blank">www.brotogel99.com</a></li>
                           
                         </ul>
                       </li>
@@ -538,7 +536,7 @@
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="http://1brotogel.com" target="_blank">BROTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:10px;" href="http://2brotogel.com" target="_blank">BROTOGEL</a>
          <a class="login loginItem" href="http://gitartogel.org" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://warungtogel.com" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://rgotogel.net" target="_blank">RGOTOGEL</a>
