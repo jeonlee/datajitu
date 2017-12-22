@@ -38,7 +38,7 @@
                                 <form method="POST" action="/admin/hongkong/{{ $hongkong->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
-                                    <!-- <button type="submit" class="btn btn-danger btn-sm">Delete</button> -->               
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>             
                                 </form>
                             </td>
                         </tr>
