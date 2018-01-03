@@ -294,7 +294,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Gitartogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://gitarpools.com" target="_blank">www.gitarpools.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel2018.com" target="_blank">www.gitartogel.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel2018.com" target="_blank">www.gitartogel2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitarsuper.com" target="_blank">www.gitarsuper.com</a></li>
                         </ul>
                       </li>
