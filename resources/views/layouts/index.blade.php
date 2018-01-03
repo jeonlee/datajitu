@@ -241,7 +241,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl.com" target="_blank">www.8tgl.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl.net" target="_blank">www.8tgl.net</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://delapantgl.com" target="_blank">www.delapantgl.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://delapan8.com" target="_blank">www.delapan8.com</a></li>
+                          
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Jayatogel</a>
