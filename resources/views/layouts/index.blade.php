@@ -247,12 +247,9 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Jayatogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel.net" target="_blank">www.jayatogel.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jtogel.com" target="_blank">www.jtogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatoto.com" target="_blank">www.jayatoto.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jaya2d.com" target="_blank">www.jaya2d.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jaya4d.com" target="_blank">www.jaya4d.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jtg2015.com" target="_blank">www.jtg2015.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel2018.com" target="_blank">www.jayatogel2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl18.com" target="_blank">www.jayatgl18.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl68.com" target="_blank">www.jayatgl68.com</a></li>
                          
                         </ul>
                       </li>
@@ -280,7 +277,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg.com" target="_blank">www.eyangtg.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel007.com" target="_blank">www.eyangtogel007.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel111.com" target="_blank">www.eyangtogel111.com</a></li>
                         </ul>
@@ -296,9 +293,8 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Gitartogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://gitartogel.com" target="_blank">www.gitartogel.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel.net" target="_blank">www.gitartogel.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel.org" target="_blank">www.gitartogel.org</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://gitarpools.com" target="_blank">www.gitarpools.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel2018.com" target="_blank">www.gitartogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitarsuper.com" target="_blank">www.gitarsuper.com</a></li>
                         </ul>
                       </li>
@@ -530,7 +526,7 @@
         <div class="col-xs-7" style="margin-top:30px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://login-totojitu.com" target="_blank">TOTOJITU</a>
          <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
-         <a class="login loginItem" href="http://jtg2015.com" target="_blank">JAYATOGEL</a>
+         <a class="login loginItem" href="http://jayatogel2018.com" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://eyangtogel.net" target="_blank">EYANGTOGEL</a>
          
