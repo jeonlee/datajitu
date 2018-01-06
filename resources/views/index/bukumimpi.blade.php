@@ -318,7 +318,7 @@
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
                         <div class="col-xs-12">
-                            <img src="images/buku-mimpi/buku-mimpi-23jpg" alt="Scott Stevens" class="img-responsive" />
+                            <img src="images/buku-mimpi/buku-mimpi-23.jpg" alt="Scott Stevens" class="img-responsive" />
                             <span class="name hide">mimpi 23 - setan gantung - kera - potong ayam - bola basket - pisang - bedak - piano - wilkampana</span><br/>
                         </div>
                         
@@ -339,7 +339,7 @@
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
                         <div class="col-xs-12">
-                            <img src="images/buku-mimpi/buku-mimpi-26jpg" alt="Scott Stevens" class="img-responsive" />
+                            <img src="images/buku-mimpi/buku-mimpi-26.jpg" alt="Scott Stevens" class="img-responsive" />
                             <span class="name hide">mimpi 26 - raja - naga - kebaya - hockey - ganggang - uang logam - mesin jahit - samiaji</span><br/>
                         </div>
                         
