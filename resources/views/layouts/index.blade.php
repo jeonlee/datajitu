@@ -535,7 +535,7 @@
          <a class="login loginItem" style="margin-bottom:10px;" href="http://2brotogel.com" target="_blank">BROTOGEL</a>
          <a class="login loginItem" href="http://gitartogel.org" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://warungtogel.com" target="_blank">TOGELCC</a>
-         <a class="login loginItem" href="http://rgotogel.net" target="_blank">RGOTOGEL</a>
+         <a class="login loginItem" href="http://rgotogel2020.com" target="_blank">RGOTOGEL</a>
          <a class="login loginItem" href="http://togelmandiri.net" target="_blank">TOGELMANDIRI</a>
          
         </div>
