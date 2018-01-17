@@ -528,7 +528,7 @@
          <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://jayatogel2018.com" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
-         <a class="login loginItem" href="http://eyangtogel.net" target="_blank">EYANGTOGEL</a>
+         <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a>
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
