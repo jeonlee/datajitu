@@ -241,7 +241,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl.com" target="_blank">www.8tgl.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl.net" target="_blank">www.8tgl.net</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://delapantgl.com" target="_blank">www.delapantgl.com</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Jayatogel</a>
@@ -250,7 +250,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel2018.com" target="_blank">www.jayatogel2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl18.com" target="_blank">www.jayatgl18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl68.com" target="_blank">www.jayatgl68.com</a></li>
-                         
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.43" target="_blank">103.10.200.43</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelCC</a>
@@ -258,8 +258,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togel.cc" target="_blank">www.togel.cc</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://tcc18.com" target="_blank">www.tcc18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.net" target="_blank">www.togelcc.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.info" target="_blank">www.togelcc.info</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://togelcc.org" target="_blank">www.togelcc.org</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.64" target="_blank">103.10.200.64</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://warungtogel.com" target="_blank">www.warungtogel.com</a></li>
                           
                         </ul>
@@ -270,7 +269,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel.net" target="_blank">www.afatogel.net</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel.info" target="_blank">www.afatogel.info</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afa168.com" target="_blank">www.afa168.com</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.27" target="_blank">103.10.201.27</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
@@ -279,6 +278,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel2018.com" target="_blank">www.eyangtogel2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
                           
                         </ul>
                       </li>
@@ -288,6 +288,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://3brotogel.com" target="_blank">www.3brotogel.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotogel99.com" target="_blank">www.brotogel99.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
                           
                         </ul>
                       </li>
@@ -295,7 +296,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://gitartgl18.com" target="_blank">www.gitartgl18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel2018.com" target="_blank">www.gitartogel2018.com</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.32" target="_blank">103.10.201.32</a></li>       
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
@@ -304,6 +305,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotg2020.com" target="_blank">www.rgotg2020.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotogel188.com" target="_blank">www.rgotogel188.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotogel2020.com" target="_blank">www.rgotogel2020.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.51" target="_blank">103.10.200.51</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelMandiri</a>
