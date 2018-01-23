@@ -118,6 +118,7 @@
                           <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
                         </ul>
                         <li><a href="{{ url('/jadwalkeluaran') }}"><i class="fa fa-calendar fa-lg"></i>JADWAL KELUARAN TOGEL</a></li>
+                        <li><a href="{{ url('/prediksisgp') }}"><i class="fa fa-refresh fa-lg"></i>PREDIKSI TOGEL</a></li>
                         <li><a href="{{ url('/numbergenerator') }}"><i class="fa fa-refresh fa-lg"></i>NUMBER GENERATOR</a></li>
                         <li data-toggle="collapse" data-target="#analisistogel" class="collapsed">
                           <a href="#"><i class="fa fa-bar-chart fa-lg"></i> ANALISIS TOGEL <span class="arrow"></span></a>
