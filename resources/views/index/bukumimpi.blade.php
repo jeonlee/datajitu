@@ -248,7 +248,7 @@
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
                         <div class="col-xs-12">
-                            <img src="images/buku-mimpi/buku-mimpi-12.jpg" alt="Scott Stevens" class="img-responsive" />
+                            <img src="images/buku-mimpi/buku-mimpi-13.jpg" alt="Scott Stevens" class="img-responsive" />
                             <span class="name hide">mimpi 13 - penjaga pintu - gajah - sarang burung - lari estafet - keris - kipas angin - cuci rambut - prabu kesa</span><br/>
                         </div>
                         
