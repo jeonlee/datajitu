@@ -1017,18 +1017,18 @@
                  ?>
                  <?php
 
-                     if ($shio == 1 || $shio == 13 || $shio == 25 || $shio == 37 || $shio == 49 || $shio == 61 || $shio == 73 || $shio == 85 || $shio == 97) $shios = "1. Ayam"; 
-                     elseif ($shio == 2 || $shio == 14 || $shio == 26 || $shio == 38 || $shio == 50 || $shio == 62 || $shio == 74 || $shio == 86 || $shio == 98)  $shios = "2. Monyet";  
-                     elseif ($shio == 3 || $shio == 15 || $shio == 27 || $shio == 39 || $shio == 51 || $shio == 63 || $shio == 75 || $shio == 87 || $shio == 99) $shios = "3. Kambing"; 
-                     elseif ($shio == 4 || $shio == 16 || $shio == 28 || $shio == 40 || $shio == 52 || $shio == 64 || $shio == 76 || $shio == 88 || $shio == 00) $shios = "4. Kuda"; 
-                     elseif ($shio == 5 || $shio == 17 || $shio == 29 || $shio == 41 || $shio == 53 || $shio == 65 || $shio == 77 || $shio == 89) $shios = "5. Ular";  
-                     elseif ($shio == 6 || $shio == 18 || $shio == 30 || $shio == 42 || $shio == 54 || $shio == 66 || $shio == 78 || $shio == 90) $shios = "6. Naga"; 
-                     elseif ($shio == 7 || $shio == 19 || $shio == 31 || $shio == 43 || $shio == 55 || $shio == 67 || $shio == 79 || $shio == 91) $shios = "7. Kelinci"; 
-                     elseif ($shio == 8 || $shio == 20 || $shio == 32 || $shio == 44 || $shio == 56 || $shio == 68 || $shio == 80 || $shio == 92) $shios = "8. Harimau";  
-                     elseif ($shio == 9 || $shio == 21 || $shio == 33 || $shio == 45 || $shio == 57 || $shio == 69 || $shio == 81 || $shio == 93) $shios = "9. Kerbau"; 
-                     elseif ($shio == 10 || $shio == 22 || $shio == 34 || $shio == 46 || $shio == 58 || $shio == 70 || $shio == 82 || $shio == 94) $shios = "10. Tikus";
-                     elseif ($shio == 11 || $shio == 23 || $shio == 35 || $shio == 47 || $shio == 59 || $shio == 71 || $shio == 83 || $shio == 95) $shios = "11. Babi"; 
-                     elseif ($shio == 12 || $shio == 24 || $shio == 36 || $shio == 48 || $shio == 60 || $shio == 72 || $shio == 84 || $shio == 96) $shios = "12. Anjing"; else  $shios = "-"; 
+                     if ($shio == 1 || $shio == 13 || $shio == 25 || $shio == 37 || $shio == 49 || $shio == 61 || $shio == 73 || $shio == 85 || $shio == 97) $shios = "1. Anjing"; 
+                     elseif ($shio == 2 || $shio == 14 || $shio == 26 || $shio == 38 || $shio == 50 || $shio == 62 || $shio == 74 || $shio == 86 || $shio == 98)  $shios = "2. Ayam";  
+                     elseif ($shio == 3 || $shio == 15 || $shio == 27 || $shio == 39 || $shio == 51 || $shio == 63 || $shio == 75 || $shio == 87 || $shio == 99) $shios = "3. Monyet"; 
+                     elseif ($shio == 4 || $shio == 16 || $shio == 28 || $shio == 40 || $shio == 52 || $shio == 64 || $shio == 76 || $shio == 88 || $shio == 00) $shios = "4. Kambing"; 
+                     elseif ($shio == 5 || $shio == 17 || $shio == 29 || $shio == 41 || $shio == 53 || $shio == 65 || $shio == 77 || $shio == 89) $shios = "5. Kuda";  
+                     elseif ($shio == 6 || $shio == 18 || $shio == 30 || $shio == 42 || $shio == 54 || $shio == 66 || $shio == 78 || $shio == 90) $shios = "6. Ular"; 
+                     elseif ($shio == 7 || $shio == 19 || $shio == 31 || $shio == 43 || $shio == 55 || $shio == 67 || $shio == 79 || $shio == 91) $shios = "7. Naga"; 
+                     elseif ($shio == 8 || $shio == 20 || $shio == 32 || $shio == 44 || $shio == 56 || $shio == 68 || $shio == 80 || $shio == 92) $shios = "8. Kelinci";  
+                     elseif ($shio == 9 || $shio == 21 || $shio == 33 || $shio == 45 || $shio == 57 || $shio == 69 || $shio == 81 || $shio == 93) $shios = "9. Harimau"; 
+                     elseif ($shio == 10 || $shio == 22 || $shio == 34 || $shio == 46 || $shio == 58 || $shio == 70 || $shio == 82 || $shio == 94) $shios = "10. Kerbau";
+                     elseif ($shio == 11 || $shio == 23 || $shio == 35 || $shio == 47 || $shio == 59 || $shio == 71 || $shio == 83 || $shio == 95) $shios = "11. Tikus"; 
+                     elseif ($shio == 12 || $shio == 24 || $shio == 36 || $shio == 48 || $shio == 60 || $shio == 72 || $shio == 84 || $shio == 96) $shios = "12. Babi"; else  $shios = "-"; 
                  ?>
                         <tr>
                             
