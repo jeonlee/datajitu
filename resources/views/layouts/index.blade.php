@@ -68,8 +68,8 @@
               </div>
               <div class="col-xs-10 text-center">
                 <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
-  <!--  -->       <ul class="top-menu">
-                    <li class="active"><a href="{{ url('/') }}">Home1</a></li>
+                  <ul class="top-menu">
+                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
                     <li class="separator"></li>
                     <li><a data-hover="Singapura" href="{{ url('/singapura') }}">Togel Singapura</a></li>
                     <li class="separator"></li>
