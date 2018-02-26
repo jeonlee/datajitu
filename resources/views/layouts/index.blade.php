@@ -44,7 +44,7 @@
               <div class="col-xs-1">
               </div><!-- end col-xs-1 -->
               <div class="col-xs-5">
-              <a class="space ptsans white" href="index.php?carabermain">CONTACT US</a> | 
+              <a class="space ptsans white" href="index.php?carabermain">CONTACT US !</a> | 
               </div>
               <div class="col-xs-1" style="padding:0px; margin-top:-10px; margin-right:5px;">
               <img width="400%" src="/images/fb.png">
@@ -237,7 +237,7 @@
                           
                         </ul>
                       </li>
-                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel1</a>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl2018.com" target="_blank">www.8tgl2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl2018.net" target="_blank">www.8tgl2018.net</a></li>
