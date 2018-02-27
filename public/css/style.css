@@ -1180,7 +1180,7 @@ h2.label2::before {
     overflow: hidden;
 }
 .yellowbar {
-    background-color: #ffde00;
+    background-color: #fff;
     /*border-bottom: 4px solid #0c0d0e !important;*/
     
     box-shadow: 0 0 30px 0 black;
