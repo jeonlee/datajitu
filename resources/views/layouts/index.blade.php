@@ -83,6 +83,8 @@
                     <li><a href="{{ url('/china') }}">Togel China</a></li>
                     <li class="separator"></li>
                     <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
+                    <li class="separator"></li>
+                    <li><a href="{{ url('/hongkong') }}">Togel Malaysia</a></li>
                   </ul>
                 </nav>
               </div>
