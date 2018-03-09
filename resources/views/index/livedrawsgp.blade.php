@@ -11,8 +11,8 @@
 		<div style="width:330px; height:405px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
           	<iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/4d_results.aspx" style="border: 0px none; margin-left: -13px; width: 355px; height: 778px;"></iframe>
         </div>
-        <div style="width:330px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
-          <iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/TOTO_results.aspx" style="border: 0px none; width: 707px; height: 737px; margin-left: -190px;"></iframe>
+        <div style="width:402px; height:373px; right:14px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
+          <iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/TOTO_results.aspx" style="border: 0px none; width: 345px; height: 737px;"></iframe>
         </div>
     </div>
 </div>
