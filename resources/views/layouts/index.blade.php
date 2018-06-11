@@ -229,11 +229,9 @@
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://totojitu.com" target="_blank">www.totojitu.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojitu1.com" target="_blank">www.totojitu1.com</a></li>
-                          
-                          
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttjbca.com" target="_blank">www.ttjbca.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://login-totojitu.com" target="_blank">www.login-totojitu.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojitu18.com" target="_blank">www.totojitu18.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojitu08.com" target="_blank">www.totojitu08.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttj168.com" target="_blank">www.ttj168.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.60" target="_blank">103.10.200.60</a></li>
                           
                         </ul>
@@ -523,7 +521,7 @@
           <div class="trust-image-footer"></div>          <h3><span class="yellowTxt">PASANG ANGKA TOGEL ANDA DI </span></h3>
         </div>
         <div class="col-xs-7" style="margin-top:30px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="http://login-totojitu.com" target="_blank">TOTOJITU</a>
+         <a class="login loginItem" style="margin-bottom:10px;" href="http://ttj168.com" target="_blank">TOTOJITU</a>
          <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://jytgl2018.com" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
