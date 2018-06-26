@@ -29,7 +29,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-57014154-11');
 </script>
   </head>
@@ -267,7 +266,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
+                          <!-- <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
                           
                         </ul>
                       </li>
@@ -276,7 +275,7 @@
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotogel101.com" target="_blank">www.brotogel101.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl101.com" target="_blank">www.brotgl101.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
                           
                         </ul>
@@ -430,7 +429,7 @@
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
                           
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
+                          <!-- <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
                           
                         </ul>
                       </li>
@@ -439,7 +438,7 @@
                           <!-- <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li> -->
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
                           
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotogel101.com" target="_blank">www.brotogel101.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://brotgl101.com" target="_blank">www.brotgl101.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
                           
                         </ul>
@@ -598,7 +597,8 @@
          <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://jytgl2018.com" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
-         <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a>
+         <a class="login loginItem" href="http://eyangtgl18.com" target="_blank">EYANGTOGEL</a>
+         <!-- <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a> -->
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
@@ -717,7 +717,6 @@
    <script src="/js/jquery/jquery.splitflap.js"></script>
       <script type="text/javascript">
 $(document).ready(function() {
-
   $('.demo').splitFlap({
     
      speed:          10,
@@ -727,9 +726,7 @@ $(document).ready(function() {
      charWidth:      16,
       charHeight:     28,
       
-
   });
-
   });
 </script>
 <script type="text/javascript">
@@ -814,7 +811,6 @@ $(function () {
     var s5x = eval("fom.s5");
     var s6x = eval("fom.s6");
     var s7x = eval("fom.s7");
-
     s1x.value = "";
     s2x.value = "";
     s3x.value = "";
@@ -848,22 +844,18 @@ $(function () {
     
     d = ""+d;
     d = d.substr(d.length - 1);
-
     c = ""+c;
     c = c.substr(c.length - 1);
-
     b = ""+b;
     b = b.substr(b.length - 1);
     
     a = ""+a;
     a = a.substr(a.length - 1);
-
     document.getElementById("ab1").innerHTML = a;
     document.getElementById("ab2").innerHTML = b;
     document.getElementById("ab3").innerHTML = c;
     document.getElementById("ab4").innerHTML = d;
   }
-
   </script>
 
   </body>
