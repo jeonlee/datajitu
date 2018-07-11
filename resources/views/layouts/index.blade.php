@@ -258,6 +258,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel.info" target="_blank">www.afatogel.info</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afa168.com" target="_blank">www.afa168.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.27" target="_blank">103.10.201.27</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://148.66.50.187" target="_blank">148.66.50.187</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
