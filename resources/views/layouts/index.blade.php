@@ -594,7 +594,7 @@
         </div>
         <div class="col-xs-7" style="margin-top:30px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://ttj168.com" target="_blank">TOTOJITU</a>
-         <a class="login loginItem" href="http://8tgl.net" target="_blank">8TOGEL</a>
+         <a class="login loginItem" href="http://8tgl2018.com" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://jytgl2018.com" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://eyangtgl18.com" target="_blank">EYANGTOGEL</a>
