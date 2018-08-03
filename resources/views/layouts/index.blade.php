@@ -225,7 +225,7 @@
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttj168.com" target="_blank">www.ttj168.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojitu18.com" target="_blank">www.totojitu18.com</a></li>
+                          
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojitu08.com" target="_blank">www.totojitu08.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.60" target="_blank">103.10.200.60</a></li>
                           
@@ -242,7 +242,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel68.com" target="_blank">www.jayatogel68.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jytgl2018.com" target="_blank">www.jytgl2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl88.com" target="_blank">www.jayatgl88.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.43" target="_blank">103.10.200.43</a></li>
                         </ul>
                       </li>
@@ -255,7 +255,7 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Afatogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel.info" target="_blank">www.afatogel.info</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel18.com" target="_blank">www.afatogel18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afa168.com" target="_blank">www.afa168.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.27" target="_blank">103.10.201.27</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://148.66.50.187" target="_blank">148.66.50.187</a></li>
@@ -264,7 +264,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtg2018.com" target="_blank">www.eyangtg2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel1001.com" target="_blank">www.eyangtogel1001.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
                           
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
@@ -274,9 +274,9 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Brotogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://2brotogel.com" target="_blank">www.2brotogel.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl88.com" target="_blank">www.brotgl88.com</a></li>
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl101.com" target="_blank">www.brotgl101.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl18.com" target="_blank">www.brotgl18.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
                           
                         </ul>
@@ -292,7 +292,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://rgotg.com" target="_blank">www.rgotg.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl100.com" target="_blank">www.rgotgl100.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl101.com" target="_blank">www.rgotgl101.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl102.com" target="_blank">www.rgotgl102.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.51" target="_blank">103.10.200.51</a></li>
                         </ul>
                       </li>
