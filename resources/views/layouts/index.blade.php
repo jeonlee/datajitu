@@ -233,8 +233,8 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl2018.net" target="_blank">www.8tgl2018.net</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl2018.com" target="_blank">www.8tgl2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8togel1.com" target="_blank">www.8togel1.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8togel2.com" target="_blank">www.8togel2.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
                       </li>
@@ -595,7 +595,7 @@
         </div>
         <div class="col-xs-7" style="margin-top:30px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://ttj168.com" target="_blank">TOTOJITU</a>
-         <a class="login loginItem" href="http://8tgl2018.com" target="_blank">8TOGEL</a>
+         <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://eyangtgl18.com" target="_blank">EYANGTOGEL</a>
