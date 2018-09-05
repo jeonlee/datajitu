@@ -242,7 +242,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel68.com" target="_blank">www.jayatogel68.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl88.com" target="_blank">www.jayatgl88.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatgl2019.com" target="_blank">www.jayatgl2019.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.43" target="_blank">103.10.200.43</a></li>
                         </ul>
                       </li>
@@ -264,8 +264,8 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel1001.com" target="_blank">www.eyangtogel1001.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl18.com" target="_blank">www.eyangtgl18.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel18.com" target="_blank">www.eyangtogel18.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
                           
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
                           
@@ -283,7 +283,7 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Gitartogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartogel2018.com" target="_blank">www.gitartogel2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartgl101.com" target="_blank">www.gitartgl101.com</a></li>
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.32" target="_blank">103.10.201.32</a></li>       
                         </ul>
@@ -598,13 +598,13 @@
          <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
-         <a class="login loginItem" href="http://eyangtgl18.com" target="_blank">EYANGTOGEL</a>
+         <a class="login loginItem" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
          <!-- <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a> -->
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.201.21" target="_blank">BROTOGEL</a>
-         <a class="login loginItem" href="http://gitartogel2018.com" target="_blank">GITARTOGEL</a>
+         <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
          <a class="login loginItem" href="http://togelmandiri2018.com" target="_blank">TOGELMANDIRI</a>
