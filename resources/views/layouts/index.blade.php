@@ -276,7 +276,7 @@
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl88.com" target="_blank">www.brotgl88.com</a></li>
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl18.com" target="_blank">www.brotgl18.com</a></li>
+                          
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
                           
                         </ul>
