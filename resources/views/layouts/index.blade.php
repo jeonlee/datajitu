@@ -255,7 +255,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Afatogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afatogel2018.com" target="_blank">www.afatogel2018.com</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://afa168.com" target="_blank">www.afa168.com</a></li>
+                          
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.27" target="_blank">103.10.201.27</a></li>
                           
                         </ul>
@@ -596,7 +596,7 @@
          <a class="login loginItem" style="margin-bottom:10px;" href="http://ttjitu1001.com" target="_blank">TOTOJITU</a>
          <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
-         <a class="login loginItem" href="http://afa168.com" target="_blank">AFATOGEL</a>
+         <a class="login loginItem" href="http://103.10.201.27" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
          <!-- <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a> -->
          
