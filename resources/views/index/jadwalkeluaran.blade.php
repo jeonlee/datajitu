@@ -28,7 +28,7 @@
                 <td><div class="t_hari">Togel Singapura</div></td>
                 <td><div class="t_tgl">Setiap Hari (kecuali Selasa, Jumat)</div></td>                                    
                 <td><div class="t_city">17:30</div></td>
-                <td><div class="t_city">17:45</div></td>
+                <td><div class="t_city">17:40</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.singaporepools.com.sg" target="_blank">www.singaporepools.com.sg</a></div></td>
               </tr>   
               <tr>
