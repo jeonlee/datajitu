@@ -263,7 +263,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Eyangtogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtogel18.com" target="_blank">www.eyangtogel18.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyang2018.com" target="_blank">www.eyang2018.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
                           
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
