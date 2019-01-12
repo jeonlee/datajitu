@@ -19,7 +19,7 @@ class TaiwanController extends Controller
 		return view('taiwans.create');
 	}
 
-	public function store(Request $request, Taiwan $taiwan)
+	public function store(Request $request)
 	{
         Taiwan::create($request->all());
 
