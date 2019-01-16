@@ -305,8 +305,8 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Indotogel.net</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://indotogel.net" target="_blank">www.indotogel.net</a></li>
-                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://alaskabet.net" target="_blank">www.alaskabet.net</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.201.23" target="_blank">103.10.201.23</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Totobet.net</a>
@@ -625,7 +625,7 @@
          
         </div>
         <div class="col-xs-7" style="margin-top:20px; margin-bottom:10px;">
-            <a class="login loginItem" href="http://indotogel.net" target="_blank">INDOTOGEL</a>
+            <a class="login loginItem" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
             <a class="login loginItem" href="http://103.10.201.25" target="_blank">TOTOBET</a>
         </div>
       </div>
