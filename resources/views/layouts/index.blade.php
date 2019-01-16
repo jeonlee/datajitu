@@ -612,7 +612,7 @@
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://103.10.201.27" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
-         <a class="login loginItem" href="http://indotogel.net" target="_blank">INDOTOGEL</a>
+         
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
@@ -621,8 +621,12 @@
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
          <a class="login loginItem" href="http://togelmandiri2018.com" target="_blank">TOGELMANDIRI</a>
-         <a class="login loginItem" href="http://totobet.net" target="_blank">TOTOBET</a>
          
+         
+        </div>
+        <div class="col-xs-7 style="margin-bottom:20px;">
+            <a class="login loginItem" href="http://indotogel.net" target="_blank">INDOTOGEL</a>
+            <a class="login loginItem" href="http://totobet.net" target="_blank">TOTOBET</a>
         </div>
       </div>
       
