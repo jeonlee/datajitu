@@ -624,7 +624,7 @@
          
          
         </div>
-        <div class="col-xs-7 style="margin-bottom:20px;">
+        <div class="col-xs-7 style="margin-top:20px;">
             <a class="login loginItem" href="http://indotogel.net" target="_blank">INDOTOGEL</a>
             <a class="login loginItem" href="http://totobet.net" target="_blank">TOTOBET</a>
         </div>
