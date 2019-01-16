@@ -302,6 +302,20 @@
                           
                         </ul>
                       </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Indotogel.net</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://indotogel.net" target="_blank">www.indotogel.net</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Totobet.net</a>
+                        <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
+                          
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://totobet.net" target="_blank">www.totobet.net</a></li>
+                          
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -598,7 +612,7 @@
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
          <a class="login loginItem" href="http://103.10.201.27" target="_blank">AFATOGEL</a>
          <a class="login loginItem" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
-         <!-- <a class="login loginItem" href="http://eyangtogel2018.com" target="_blank">EYANGTOGEL</a> -->
+         <a class="login loginItem" href="http://indotogel.net" target="_blank">INDOTOGEL</a>
          
         </div>
         <div class="col-xs-7" style="margin-top:20px;">
@@ -607,6 +621,7 @@
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
          <a class="login loginItem" href="http://togelmandiri2018.com" target="_blank">TOGELMANDIRI</a>
+         <a class="login loginItem" href="http://totobet.net" target="_blank">TOTOBET</a>
          
         </div>
       </div>
