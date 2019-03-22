@@ -287,7 +287,7 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.32" target="_blank">103.10.201.32</a></li>       
                         </ul>
                       </li>
-                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel</a>
+                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Rgotogel1</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://rgotg.com" target="_blank">www.rgotg.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://rgotgl2019.com" target="_blank">www.rgotgl2019.com</a></li>
