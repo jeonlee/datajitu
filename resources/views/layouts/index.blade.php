@@ -298,7 +298,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelMandiri</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri.com" target="_blank">www.togelmandiri.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri2018.com" target="_blank">www.togelmandiri2018.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri1.com" target="_blank">www.togelmandiri1.com</a></li>
                           
                         </ul>
                       </li>
@@ -620,7 +620,7 @@
          <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
-         <a class="login loginItem" href="http://togelmandiri2018.com" target="_blank">TOGELMANDIRI</a>
+         <a class="login loginItem" href="http://togelmandiri1.com" target="_blank">TOGELMANDIRI</a>
          
          
         </div>
