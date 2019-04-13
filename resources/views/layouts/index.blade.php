@@ -313,7 +313,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.201.25" target="_blank">103.10.201.25</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://totobet2019.com" target="_blank">www.totobet19.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://totobet2019.com" target="_blank">www.totobet2019.com</a></li>
                         </ul>
                       </li>
                     </ul>
