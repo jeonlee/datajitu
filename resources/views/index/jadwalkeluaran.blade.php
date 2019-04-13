@@ -67,7 +67,7 @@
                 <td><div class="t_no">6</div></td>
                 <td><div class="t_hari">Togel Hongkong</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
-                <td><div class="t_city">22:00</div></td>
+                <td><div class="t_city">22:45</div></td>
                 <td><div class="t_city">23:00</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.hongkongpools.com" target="_blank">www.hongkongpools.com</a></div></td>
               </tr> 
