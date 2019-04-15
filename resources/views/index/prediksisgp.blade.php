@@ -265,7 +265,7 @@
     <div class="resultBox shorter centred hidden-sm hidden-xs">
       <div class="sideHeader thunderball">
         <div class="col-xs-5">
-          <img width="100%" src="images/hk.png">
+          <img width="100%" src="images/datajitu-hk.png">
         
         </div>
         <div class="col-xs-7">
