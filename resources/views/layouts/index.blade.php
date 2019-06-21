@@ -617,7 +617,7 @@
          <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
-         <a class="login loginItem" href="http://togelmandiri1.com" target="_blank">TOGELMANDIRI</a>
+         <a class="login loginItem" href="http://103.10.200.59" target="_blank">TOGELMANDIRI</a>
          
          
         </div>
