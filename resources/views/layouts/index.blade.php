@@ -180,12 +180,12 @@
                   <li><a class="nav-home left" title="Lottery" href="{{ url('/') }}">Home</a></li>
                   <li><a class="nav-lotteries left subAvailable" title="Lottery" href="/">Hasil Keluaran</a>
                     <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
-                      <li><a title="Lotto Results" href="{{ url('/singapura') }}">Singapura</a></li>
-                      <li><a title="Lotto Raffle Results" href="{{ url('/sydney') }}">Sydney</a></li>
-                      <li><a title="EuroMillions Results" href="{{ url('/cambodia') }}">Cambodia</a></li>
-                      <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/taiwan') }}">Taiwan</a></li>
-                      <li><a title="Thunderball Results" href="{{ url('/china') }}">China</a></li>
-                      <li><a title="Lotto HotPicks Results" href="{{ url('/hongkong') }}">Hongkong</a></li>
+                      <li><a title="Lotto Results" href="{{ url('/hasilsingapura') }}">Singapura</a></li>
+                      <li><a title="Lotto Raffle Results" href="{{ url('/hasilsydney') }}">Sydney</a></li>
+                      <li><a title="EuroMillions Results" href="{{ url('/hasilcambodia') }}">Cambodia</a></li>
+                      <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/hasiltaiwan') }}">Taiwan</a></li>
+                      <li><a title="Thunderball Results" href="{{ url('/hasilchina') }}">China</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/hasilhongkong') }}">Hongkong</a></li>
                     </ul>
                   </li>
                   <li><a class="nav-results" title="Jadwal Keluaran" href="{{ url('/jadwalkeluaran') }}">Jadwal Keluaran Togel</a></li>
