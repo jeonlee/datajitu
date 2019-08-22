@@ -107,12 +107,12 @@
                           <a href="#"><i class="fa fa-table fa-lg"></i> HASIL KELUARAN <span class="arrow"></span></a>
                         </li>  
                         <ul class="sub-menu collapse" id="hasilkeluaran">
-                          <li><a href="{{ url('/singapura') }}">Togel Singapura</a></li>
-                          <li><a href="{{ url('/sydney') }}">Togel Sydney</a></li>
-                          <li><a href="{{ url('/cambodia') }}">Togel Cambodia</a></li>
-                          <li><a href="{{ url('/taiwan') }}">Togel Taiwan</a></li>
-                          <li><a href="{{ url('/china') }}">Togel China</a></li>
-                          <li><a href="{{ url('/hongkong') }}">Togel Hongkong</a></li>
+                          <li><a href="{{ url('/hasilsingapura') }}">Togel Singapura</a></li>
+                          <li><a href="{{ url('/hasilsydney') }}">Togel Sydney</a></li>
+                          <li><a href="{{ url('/hasilcambodia') }}">Togel Cambodia</a></li>
+                          <li><a href="{{ url('/hasiltaiwan') }}">Togel Taiwan</a></li>
+                          <li><a href="{{ url('/hasilchina') }}">Togel China</a></li>
+                          <li><a href="{{ url('/hasilhongkong') }}">Togel Hongkong</a></li>
                         </ul>
                         <li><a href="{{ url('/jadwalkeluaran') }}"><i class="fa fa-calendar fa-lg"></i>JADWAL KELUARAN TOGEL</a></li>
                         <li><a href="{{ url('/prediksisgp') }}"><i class="fa fa-table fa-lg"></i>PREDIKSI TOGEL</a></li>
