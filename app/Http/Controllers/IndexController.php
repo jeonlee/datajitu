@@ -232,7 +232,7 @@ class IndexController extends Controller
     {
         $sydney = Sydney::all()->last();
 
-        $sydneys = Sydney::orderBy('periode','desc')->paginate(10);
+        $sydneys = Sydney::orderBy('periode','desc')->paginate(15);
 
         $collection = collect($sydneys);
 
@@ -281,7 +281,7 @@ class IndexController extends Controller
     {
         $cambodia = Cambodia::all()->last();
 
-        $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
+        $cambodias = Cambodia::orderBy('periode','desc')->paginate(15);
 
         $collection = collect($cambodias);
 
@@ -329,7 +329,7 @@ class IndexController extends Controller
     {
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwan::orderBy('periode','desc')->paginate(10);
+        $taiwans = Taiwan::orderBy('periode','desc')->paginate(15);
 
         $collection = collect($taiwans);
 
@@ -377,7 +377,7 @@ class IndexController extends Controller
     {
         $china = China::all()->last();
 
-        $chinas = China::orderBy('periode','desc')->paginate(10);
+        $chinas = China::orderBy('periode','desc')->paginate(15);
 
         $collection = collect($chinas);
 
@@ -425,7 +425,7 @@ class IndexController extends Controller
     {
         $hongkong = Hongkong::all()->last();
 
-        $hongkongs = Hongkong::orderBy('periode','desc')->paginate(10);
+        $hongkongs = Hongkong::orderBy('periode','desc')->paginate(15);
 
         $collection = collect($hongkongs);
 
