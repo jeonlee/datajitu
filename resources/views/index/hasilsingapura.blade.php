@@ -43,9 +43,21 @@
                 </table>
                 </div>
                 
-                <form>
+               <form>
+        <select id="pagination">
+            <option value="5" @if($items == 5) selected @endif >5</option>
+            <option value="10" @if($items == 10) selected @endif >10</option>
+            <option value="25" @if($items == 25) selected @endif >25</option>
+        </select>
+    </form>
+
+    <script>
+        document.getElementById('pagination').onchange = function() {
+            window.location = "{{ url('/hasilsingapura') }}&items=" + this.value;
+        };
+    </script>
         
-    
+            
                 <div class="text-center">
                 {!! $singapuras->render(); !!}
             </div>
