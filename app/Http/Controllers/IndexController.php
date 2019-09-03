@@ -232,15 +232,17 @@ class IndexController extends Controller
     }
     public function showhasilsydney()
     {
+        $items = $request->items ?? 10; 
+        
         $sydney = Sydney::all()->last();
 
-        $sydneys = Sydney::orderBy('periode','desc')->paginate(15);
+        $sydneys = Sydney::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($sydneys);
 
         
 
-        return view('index.hasilsydney', compact('sydney','sydneys'));
+        return view('index.hasilsydney', compact('sydney','sydneys','items'));
     }
      public function showanalisissydney()
     {
@@ -281,15 +283,17 @@ class IndexController extends Controller
     }
     public function showhasilcambodia()
     {
+        $items = $request->items ?? 10; 
+        
         $cambodia = Cambodia::all()->last();
 
-        $cambodias = Cambodia::orderBy('periode','desc')->paginate(15);
+        $cambodias = Cambodia::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($cambodias);
 
         
 
-        return view('index.hasilcambodia', compact('cambodia','cambodias'));
+        return view('index.hasilcambodia', compact('cambodia','cambodias','items'));
     }
      public function showanalisiscambodia()
     {
@@ -329,15 +333,17 @@ class IndexController extends Controller
     }
     public function showhasiltaiwan()
     {
+        $items = $request->items ?? 10; 
+        
         $taiwan = Taiwan::all()->last();
 
-        $taiwans = Taiwan::orderBy('periode','desc')->paginate(15);
+        $taiwans = Taiwan::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($taiwans);
 
         
 
-        return view('index.hasiltaiwan', compact('taiwan','taiwans'));
+        return view('index.hasiltaiwan', compact('taiwan','taiwans','items'));
     }
     public function showanalisistaiwan()
     {
@@ -377,15 +383,17 @@ class IndexController extends Controller
     }
     public function showhasilchina()
     {
+        $items = $request->items ?? 10; 
+        
         $china = China::all()->last();
 
-        $chinas = China::orderBy('periode','desc')->paginate(15);
+        $chinas = China::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($chinas);
 
        
 
-        return view('index.hasilchina', compact('china','chinas'));
+        return view('index.hasilchina', compact('china','chinas','items'));
     }
     public function showanalisischina()
     {
@@ -425,15 +433,17 @@ class IndexController extends Controller
     }
     public function showhasilhongkong()
     {
+        $items = $request->items ?? 10; 
+        
         $hongkong = Hongkong::all()->last();
 
-        $hongkongs = Hongkong::orderBy('periode','desc')->paginate(15);
+        $hongkongs = Hongkong::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($hongkongs);
 
         
 
-        return view('index.hasilhongkong', compact('hongkong','hongkongs'));
+        return view('index.hasilhongkong', compact('hongkong','hongkongs','items'));
     }
     public function showanalisishongkong()
     {
