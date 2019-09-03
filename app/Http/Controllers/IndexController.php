@@ -77,7 +77,7 @@ class IndexController extends Controller
         
         $singapura = Singapura::all()->last();
 
-        $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
+        $singapuras = Singapura::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($singapuras);
 
