@@ -230,7 +230,7 @@ class IndexController extends Controller
 
         return view('index.sydney', compact('sydney','sorted'));
     }
-    public function showhasilsydney()
+    public function showhasilsydney(Request $request)
     {
         $items = $request->items ?? 10; 
         
@@ -281,7 +281,7 @@ class IndexController extends Controller
 
         return view('index.cambodia', compact('cambodia','sorted'));
     }
-    public function showhasilcambodia()
+    public function showhasilcambodia(Request $request)
     {
         $items = $request->items ?? 10; 
         
@@ -331,7 +331,7 @@ class IndexController extends Controller
 
         return view('index.taiwan', compact('taiwan','sorted'));
     }
-    public function showhasiltaiwan()
+    public function showhasiltaiwan(Request $request)
     {
         $items = $request->items ?? 10; 
         
@@ -381,7 +381,7 @@ class IndexController extends Controller
 
         return view('index.china', compact('china','sorted'));
     }
-    public function showhasilchina()
+    public function showhasilchina(Request $request)
     {
         $items = $request->items ?? 10; 
         
@@ -431,7 +431,7 @@ class IndexController extends Controller
 
         return view('index.hongkong', compact('hongkong','sorted'));
     }
-    public function showhasilhongkong()
+    public function showhasilhongkong(Request $request)
     {
         $items = $request->items ?? 10; 
         
