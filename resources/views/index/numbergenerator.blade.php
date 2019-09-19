@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="panel-body">
-      <div id="sm">
+      <div id="sm" style="width:100%;">
         <div class="group lever1">
           <button>Start</button>
         </div>
