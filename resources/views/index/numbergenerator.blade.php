@@ -27,7 +27,13 @@
   </div><!-- col-xs-9 -->
   
   
-<div class="col-xs-12 visible-sm visible-xs">
+
+  
+@endsection
+@section('numbergeneratorm')
+
+
+              <div class="col-xs-12 visible-sm visible-xs">
     <div class="panel panel-primary">
       <div class="panel-heading p15 black font">
         <div class="panel-title">
@@ -50,5 +56,4 @@
       </div>
     </div>
   </div><!-- col-xs-9 -->
-  
 @endsection
