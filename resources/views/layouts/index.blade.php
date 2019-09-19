@@ -581,6 +581,7 @@
           </div>
      
       <div class="col-xs-12 visible-sm visible-xs" style="padding:0px;">
+        @yield('ng')
           @yield('content')
       </div>
 </div><!-- end col-xs-12 -->
