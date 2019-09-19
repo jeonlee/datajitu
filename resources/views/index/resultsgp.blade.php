@@ -9,7 +9,7 @@
   </div>
   <div class="panel-body">
 		<div style="width:310px; height:373px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
-          	<iframe scrolling="no" src="http://www.check4d.com/singapore-pools-results/" style="border: 0px none; margin-left: -41px; margin-top: -401px; width: 355px; height: 778px;"></iframe>
+          	<iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/4d_results.aspx" style="border: 0px none; margin-left: -41px; margin-top: -401px; width: 355px; height: 778px;"></iframe>
         </div>
         <div style="width:310px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
           <iframe scrolling="no" src="http://www.check4d.com/singapore-pools-results/" style="border: 0px none; margin-top: -401px; width: 707px; height: 737px; margin-left: -392px;"></iframe>
