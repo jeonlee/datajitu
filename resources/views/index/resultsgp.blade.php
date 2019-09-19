@@ -8,11 +8,11 @@
     </div>
   </div>
   <div class="panel-body">
-		<div style="width:289px; height:285px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
-          	<iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/toto_results.aspx" style="border: 0px none; margin-left: -41px; margin-top: -420px; width: 355px; height: 738px;"></iframe>
+		<div style="width:720px; height:275px; left:60px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
+          	<iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/toto_results.aspx" style="border: 0px none; margin-left: -41px; margin-top: -392px; width: 805px; height: 738px;"></iframe>
         </div>
         <div style="width:310px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
-          <iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/4d_results.aspx" style="border: 0px none; margin-top: -401px; width: 707px; height: 737px; margin-left: -392px;"></iframe>
+          <iframe scrolling="no" src="http://www.singaporepools.com.sg/en/product/Pages/4d_results.aspx" style="border: 0px none; margin-top: -486px; width: 707px; height: 737px; margin-left: -392px;"></iframe>
         </div>
     </div>
 </div>
