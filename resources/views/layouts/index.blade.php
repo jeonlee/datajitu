@@ -297,8 +297,8 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">TogelMandiri</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri.com" target="_blank">www.togelmandiri.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri2019.com" target="_blank">www.togelmandiri2019.com</a></li>
+                          <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.200.59/" target="_blank">103.10.200.59</a></li> -->
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://togelmandiri2.com" target="_blank">www.togelmandiri2.com</a></li>
                           
                         </ul>
                       </li>
