@@ -58,7 +58,7 @@
                
                  <script type="text/javascript">
                     document.getElementById('pagination').onchange = function() {
-                        window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
+                        window.location.href = "{{ $singapuras->url(1) }}&items=" + this.value;
                     };
                 </script>
                 {!! $singapuras->appends(['items' => $items])->render(); !!}
