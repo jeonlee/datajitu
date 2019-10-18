@@ -47,7 +47,9 @@
         
             
                 <div class="text-center">
-                <form action="#">
+                <div data-role="page"> 
+    <div data-role="content">
+                <form action="#" method="get">
             <select id="pagination" data-native-menu="false">
                         <option value="10" @if($items == 10) selected @endif >10</option>
                         <option value="25" @if($items == 25) selected @endif >25</option>
@@ -55,7 +57,8 @@
                         <option value="100" @if($items == 100) selected @endif >100</option>
                     </select>
                 </form>
-
+            </div>
+            </div>
                 <script>
                     document.getElementById('pagination').onchange = function() {
                         window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
