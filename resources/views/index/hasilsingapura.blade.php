@@ -47,8 +47,8 @@
         
             
                 <div class="text-center">
-                <form action="#" method="get">
-                   <select id="pagination" data-native-menu="false">
+                <form action="#">
+                   <select id="pagination">
                         <option value="10" @if($items == 10) selected @endif >10</option>
                         <option value="25" @if($items == 25) selected @endif >25</option>
                         <option value="50" @if($items == 50) selected @endif >50</option>
