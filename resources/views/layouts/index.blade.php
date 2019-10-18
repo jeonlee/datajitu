@@ -753,7 +753,7 @@ $(document).ready(function() {
 })
 </script>
 
-<script type="text/javascript">
+<script src="text/javascript">
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
