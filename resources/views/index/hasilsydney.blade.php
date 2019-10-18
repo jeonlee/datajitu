@@ -52,7 +52,7 @@
                         window.location = "{{ $sydneys->url(1) }}&items=" + this.value;
                     };
                 </script>
-                {!! $sydneys->render(); !!}
+                {!! $sydneys->appends(['items' => $items])->render(); !!}
             </div>
                 </div>
               </div>
