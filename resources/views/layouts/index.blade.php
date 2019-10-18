@@ -656,15 +656,16 @@
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script> 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.bcSwipe.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <!--  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/js/slick.min.js"></script>
     <script type="text/javascript" src="/js/slick.js"></script>
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+    
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/modernizr.js"></script>
     <script type="text/javascript" src="/js/slot.js"></script>
