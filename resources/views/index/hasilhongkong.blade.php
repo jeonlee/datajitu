@@ -51,7 +51,7 @@
                         window.location = "{{ $hongkongs->url(1) }}&items=" + this.value;
                     };
                 </script>
-                {!! $hongkongs->render(); !!}
+                {!! $hongkongs->appends(['items' => $items])->render(); !!}
             </div>
                 </div>
               </div>
