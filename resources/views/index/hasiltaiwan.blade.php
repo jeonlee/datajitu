@@ -51,7 +51,7 @@
                         window.location = "{{ $taiwans->url(1) }}&items=" + this.value;
                     };
                 </script>
-                {!! $taiwans->render(); !!}
+                {!! $taiwans->appends(['items' => $items])->render(); !!}
             </div>
                 </div>
               </div>
