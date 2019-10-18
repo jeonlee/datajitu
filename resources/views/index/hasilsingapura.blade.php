@@ -61,7 +61,7 @@
             </div>
                
                  <script>
-                    document.getElementById('pagination').onchange = function() {
+                    document.querySelectorAll('#pagination option').onchange = function() {
                         window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
                     };
                 </script>
