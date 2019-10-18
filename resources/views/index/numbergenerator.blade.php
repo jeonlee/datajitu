@@ -42,8 +42,8 @@
       </div>
       <div class="panel-body">
       <div id="sm" style="width:100%;">
-        <div class="group lever1">
-          <button>Start</button>
+        <div class="group lever1" style="width:100%;">
+          <button style="font-size:1em;width:100%; line-height:30px;">Start</button>
         </div>
         <div class="group" style="width:100%;">
           <div class="reel1" style="width:18%; height:100px; margin-right:20px;"></div>
