@@ -674,9 +674,9 @@
     <script type="text/javascript" src="/js/jquery.lettering.js"></script>
     <script src="/js/jquery-ui.js"></script>
     <script>
-          $( function() {
+          jquery( function() {
     var dateFormat = "yy-mm-dd",
-      from = $( "#from" )
+      from = jquery( "#from" )
         .datepicker({
           dateFormat: "yy-mm-dd",
           defaultDate: "+1w",
@@ -686,7 +686,7 @@
         .on( "change", function() {
           to.datepicker( "option", "minDate", getDate( this ) );
         }),
-      to = $( "#to" )
+      to = jquery( "#to" )
       .datepicker({
         dateFormat: "yy-mm-dd",
         defaultDate: "+1w",
@@ -700,7 +700,7 @@
     function getDate( element ) {
       var date;
       try {
-        date = $.datepicker.parseDate( "yy-mm-dd", element.value );
+        date = jquery.datepicker.parseDate( "yy-mm-dd", element.value );
       } catch( error ) {
         date = null;
       }
@@ -718,7 +718,7 @@
     <!--<script src="/js/modernizr.custom.js" type="text/javascript"></script>-->
     <script src="//cdn.jsdelivr.net/jquery.marquee/1.3.9/jquery.marquee.min.js" type="text/javascript"></script>
     <script>
-    $('.marquee').marquee({
+    jquery('.marquee').marquee({
     //speed in milliseconds of the marquee
     duration: 22000,
     //gap in pixels between the tickers
@@ -733,8 +733,8 @@
 </script>
    <script src="/js/jquery/jquery.splitflap.js"></script>
       <script type="text/javascript">
-$(document).ready(function() {
-  $('.demo').splitFlap({
+jquery(document).ready(function() {
+  jquery('.demo').splitFlap({
     
      speed:          10,
      autoplay:       true,
@@ -753,16 +753,16 @@ $(document).ready(function() {
 </script>
 
 <script type="text/javascript">
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+jquery(function () {
+  jquery('[data-toggle="tooltip"]').tooltip()
 })
 </script>
     <script type="text/javascript">
-      $('#carousel').bcSwipe({ threshold: 50 });
+      jquery('#carousel').bcSwipe({ threshold: 50 });
     </script>
     <script type="text/javascript">
-      $(document).ready(function(){
-        var percent = 0, bar = $('.transition-timer-carousel-progress-bar'), crsl = $('#carousel');
+      jquery(document).ready(function(){
+        var percent = 0, bar = jquery('.transition-timer-carousel-progress-bar'), crsl = jquery('#carousel');
         function progressBarCarousel() {
           bar.css({width:percent+'%'});
          percent = percent +0.5;
@@ -785,14 +785,14 @@ $(function () {
       });
     </script>
     <script type="text/javascript">
-      $(window).load(function(){
-          $('#startModal').modal('show');
+      jquery(window).load(function(){
+          jquery('#startModal').modal('show');
       });
     </script>
 
     <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
+    jquery(document).ready(function(){
+      jquery('.slider').slick({
   dots: true,
     infinite: true,
     speed: 700,
@@ -807,13 +807,13 @@ $(function () {
   
 
   <script type="text/javascript"> 
-      $(document).ready(function(){ $('#tab-container').easytabs(); });
+      jquery(document).ready(function(){ jquery('#tab-container').easytabs(); });
     </script> 
     <script>
-      $(document).ready(function(){
-  $('ul li a').click(function(){
-    $('li a').removeClass("active");
-    $(this).addClass("active");
+      jquery(document).ready(function(){
+  jquery('ul li a').click(function(){
+    jquery('li a').removeClass("active");
+    jquery(this).addClass("active");
 });
 });
     </script>
