@@ -59,9 +59,14 @@
                 </form>
             </div>
             </div>
-                <script>
-                    document.getElementById('pagination').onchange = function() {
-                        window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
+               
+                <script type="text/javascript">
+                    window.onload = function(){
+                       var pagButton = document.getElementById("pagination");
+
+                        pagButton.onchange = function() {
+                            window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
+                        }
                     };
                 </script>
                 {!! $singapuras->appends(['items' => $items])->render(); !!}
