@@ -49,10 +49,10 @@
                 <div class="text-center">
                 <form action="#">
                    <select id="pagination">
-                        <option value="10" @if($items == 10) selected @endif >10</option>
-                        <option value="25" @if($items == 25) selected @endif >25</option>
-                        <option value="50" @if($items == 50) selected @endif >50</option>
-                        <option value="100" @if($items == 100) selected @endif >100</option>
+                        <option name="items" value="10" @if($items == 10) selected @endif >10</option>
+                        <option name="items" value="25" @if($items == 25) selected @endif >25</option>
+                        <option name="items" value="50" @if($items == 50) selected @endif >50</option>
+                        <option name="items" value="100" @if($items == 100) selected @endif >100</option>
                     </select>
                 </form>
                
