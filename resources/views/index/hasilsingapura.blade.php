@@ -61,7 +61,6 @@
                         window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
                     };
                 </script>
-                <!-- {!! $singapuras->render(); !!} -->
                 {!! $singapuras->appends(['items' => '$items'])->render(); !!}
             </div>
               </div>
