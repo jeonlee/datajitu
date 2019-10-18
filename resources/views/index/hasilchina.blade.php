@@ -50,7 +50,7 @@
                         window.location = "{{ $chinas->url(1) }}&items=" + this.value;
                     };
                 </script>
-                {!! $chinas->render(); !!}
+                {!! $chinas->appends(['items' => $items])->render(); !!}
             </div>
                 </div>
               </div>
