@@ -60,7 +60,7 @@
             </div>
             </div>
                
-                 <script>
+                 <script type="text/javascript">
                     document.getElementById('pagination').onchange = function() {
                         window.location = "{{ $singapuras->url(1) }}&items=" + this.value;
                     };
