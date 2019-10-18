@@ -807,9 +807,9 @@ $(function () {
   </script>
   
 
-  <script type="text/javascript"> 
+  <!-- <script type="text/javascript"> 
       $(document).ready(function(){ $('#tab-container').easytabs(); });
-    </script> 
+    </script> -->
     <script>
       $(document).ready(function(){
   $('ul li a').click(function(){
