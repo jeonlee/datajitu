@@ -665,6 +665,7 @@
     <script type="text/javascript" src="/js/slick.min.js"></script>
     <script type="text/javascript" src="/js/slick.js"></script>
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+    <script src="/js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script> 
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/modernizr.js"></script>
     <script type="text/javascript" src="/js/slot.js"></script>
