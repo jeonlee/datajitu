@@ -141,7 +141,7 @@ class IndexController extends Controller
 
         $collection = collect($singapuras);
         $sgp_number = Singapura::orderBy('periode','desc')->first(['number'])->paginate(10);
-        $numb=substr("$sgp_number->number",0,1);
+        $numb=substr("$sgp_number",0,1);
         
         
         return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb'));
