@@ -319,7 +319,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Analisatoto</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://analisatoto19.com" target="_blank">www.analisatoto19.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://analisatoto20.com" target="_blank">www.analisatoto20.com</a></li>
                         </ul>
                       </li>
                     </ul>
