@@ -141,10 +141,12 @@ class IndexController extends Controller
 
         $collection = collect($singapuras);
 
-
+        foreach($singapuras as $sgp){
+            $as_sgp=$sgp->number;   
+        }
         
         
-        return view('index.analisissingapura', compact('singapura','singapuras','satux1'));
+        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp'));
     }
     public function searchResultSingapura(Request $request)
     {
