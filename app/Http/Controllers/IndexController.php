@@ -140,13 +140,11 @@ class IndexController extends Controller
          $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
 
         $collection = collect($singapuras);
-        $sgp_number = Singapura::orderBy('periode','desc')->select('number')->paginate(10);
-        foreach($singapuras as $sgp){
-            $as_sgp=$sgp->number;   
-        }
+        $sgp_number = Singapura::orderBy('periode','desc')->first(['number'])->paginate(10);
+        $numb=$sgp_number;
         
         
-        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number'));
+        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb'));
     }
     public function searchResultSingapura(Request $request)
     {
