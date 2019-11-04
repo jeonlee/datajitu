@@ -343,6 +343,7 @@
                      if ($satu == 9)  $cjas9 = "&#x2714;";   else  $cjas9 = ""; 
                  ?>
                         <tr>
+                            <td style="display:none;"><?php  echo $satu; ?></td>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
                             <td>{{ $singapura->periode }}-SG</td>
