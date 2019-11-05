@@ -96,7 +96,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
         
-    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
+    	return view('index.testsingapura', compact('singapura','singapuras','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
     }
     
     public function showhasilsingapura(Request $request)
