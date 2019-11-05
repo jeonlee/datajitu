@@ -330,7 +330,7 @@
                     $dua = substr("$singapura->number",1,1);
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
-                    $numb1[]=$singapura;
+                    $numb1[]=$singapura->number;
                     $total_satu=json_encode($numb1);
                  ?>
                  <?php
