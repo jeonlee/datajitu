@@ -332,6 +332,7 @@
                     $empat = substr("$singapura->number",3,1);
                     $numb1[]=$singapura->number;
                     $total_satu=json_encode($numb1);
+                    $tot=count($numb1);
                  ?>
                  <?php
                      if ($satu == 0) $cjas0 = "&#x2714;";  else  $cjas0 = ""; 
@@ -347,7 +348,7 @@
                      if ($satu == 9)  $cjas9 = "&#x2714;";   else  $cjas9 = ""; 
                  ?>
                         <tr>
-                            <td style="display:none;"><?php  echo $total_satu; ?></td>
+                            <td style="display:none;"><?php  echo $tot; ?></td>
                             <td>{{ $singapura->hari }}</td>
                             <td>{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</td>
                             <td>{{ $singapura->periode }}-SG</td>
