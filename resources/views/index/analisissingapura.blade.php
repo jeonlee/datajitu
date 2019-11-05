@@ -332,7 +332,7 @@
                     $empat = substr("$singapura->number",3,1);
                     $numb1[]=$singapura->number;
                     $total_satu=json_encode($numb1);
-                    $tot=count($numb1);
+                    $tot=count($sgp_numb);
                  ?>
                  <?php
                      if ($satu == 0) $cjas0 = "&#x2714;";  else  $cjas0 = ""; 
