@@ -142,19 +142,18 @@ class IndexController extends Controller
         $collection = collect($singapuras);
         $sgp_number = Singapura::orderBy('periode','desc')->first(['number'])->paginate(10);
         $numb=substr("$sgp_number",0,1);
-        $sgp_numb=array();
         $sgp_as=array();
         $sgp_kop=array();
         $sgp_kepala=array();
         $sgp_ekor=array();
         foreach($singapuras as $sgp){
-            $sgp_numb['as']=substr($sgp->number,0,1);  
-            $sgp_numb['kop']=substr($sgp->number,0,2); 
-            $sgp_numb['kepala']=substr($sgp->number,0,3); 
-            $sgp_numb['ekor']=substr($sgp->number,0,4);  
+            $sgp_as['']=substr($sgp->number,0,1);  
+            $sgp_kop['']=substr($sgp->number,0,2); 
+            $sgp_kepala['']=substr($sgp->number,0,3); 
+            $sgp_ekor['']=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp'));
+        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapura(Request $request)
     {
