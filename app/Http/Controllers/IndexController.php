@@ -147,10 +147,10 @@ class IndexController extends Controller
         $sgp_kepala=array();
         $sgp_ekor=array();
         foreach($singapuras as $sgp){
-            $sgp_as['']=substr($sgp->number,0,1);  
-            $sgp_kop['']=substr($sgp->number,0,2); 
-            $sgp_kepala['']=substr($sgp->number,0,3); 
-            $sgp_ekor['']=substr($sgp->number,0,4);  
+            $sgp_as[]=substr($sgp->number,0,1);  
+            $sgp_kop[]=substr($sgp->number,0,2); 
+            $sgp_kepala[]=substr($sgp->number,0,3); 
+            $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
         return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
