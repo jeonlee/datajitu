@@ -320,6 +320,9 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                  $numb1 = array();
+                ?>
                 @foreach ($singapuras as $singapura)
                     <?php
 
