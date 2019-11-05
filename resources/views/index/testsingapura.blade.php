@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sorted->slice(0,1) as $singapura)
+                @foreach ($sorted->slice(0, 1) as $singapura)
                 <?php
 
                     $satu = substr("$singapura->number",0,1);
@@ -81,14 +81,14 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						<?php echo $as_0.="x"; ?></div>
+						3x</div>
 				</div>
 				<div class="number">0</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1" style="height: 20%;"> <div>
-						<?php echo $as_0; ?></div>
+						<2x</div>
 				</div>
 				<div class="number">1</div>
 			</div>
