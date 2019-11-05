@@ -333,7 +333,7 @@
                     $numb1[]=$singapura->number;
                     $total_satu=json_encode($numb1);
                     $tot=array_count_values($sgp_numb);
-                    $tot_as=$tot['7'];
+                    $tot_as=$tot['3'];
                  ?>
                  <?php
                      if ($satu == 0) $cjas0 = "&#x2714;";  else  $cjas0 = ""; 
