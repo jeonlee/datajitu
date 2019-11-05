@@ -88,7 +88,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1" style="height: 20%;"> <div>
-						2x</div>
+						<?php echo $as_0; ?></div>
 				</div>
 				<div class="number">1</div>
 			</div>
