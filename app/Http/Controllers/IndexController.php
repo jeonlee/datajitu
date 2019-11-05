@@ -70,7 +70,22 @@ class IndexController extends Controller
 
     	return view('index.singapura', compact('singapura','sorted','users'));
     }
+    
+    public function showtestsingapura()
+    {
+    	$singapura = Singapura::all()->last();
 
+    	$singapuras = Singapura::all();
+
+        $collection = collect($singapuras);
+
+        $sorted = $collection->sortByDesc('periode');
+
+        $users = Singapura::paginate(10);
+
+    	return view('index.singapura', compact('singapura','sorted','users'));
+    }
+    
     public function showhasilsingapura(Request $request)
     {
         $items = $request->items ?? 10;  
