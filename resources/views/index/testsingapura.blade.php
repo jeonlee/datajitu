@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sorted->slice(0, 5) as $singapura)
+                @foreach ($sorted->slice(0, 1) as $singapura)
                 <?php
 
                     $satu = substr("$singapura->number",0,1);
@@ -19,17 +19,7 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
 		    
-		    $as=array_count_values($sgp_as);
-                    $as_0=$as['0'];
-                    $as_1=$as['1'];
-                    $as_2=$as['2'];
-                    $as_3=$as['3'];
-                    $as_4=$as['4'];
-                    $as_5=$as['5'];
-                    $as_6=$as['6'];
-                    $as_7=$as['7'];
-                    $as_8=$as['8'];
-                    $as_9=$as['9'];
+		    
                     
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
