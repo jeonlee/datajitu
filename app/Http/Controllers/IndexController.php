@@ -144,7 +144,7 @@ class IndexController extends Controller
         $numb=substr("$sgp_number",0,1);
         $sgp_numb=array();
         foreach($singapuras as $sgp){
-            $sgp_numb[]=$sgp->number;   
+            $sgp_numb[]=substr($sgp->number,0,1);   
         }
         
         return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp'));
