@@ -18,7 +18,7 @@
                     $dua = substr("$singapura->number",1,1);
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
-		    
+		    $as=array_count_values($sgp_as);
 		    
                     
                  ?>
