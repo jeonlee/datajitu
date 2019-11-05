@@ -83,7 +83,7 @@ class IndexController extends Controller
 
         $users = Singapura::paginate(10);
 
-    	return view('index.singapura', compact('singapura','sorted','users'));
+    	return view('index.testsingapura', compact('singapura','sorted','users'));
     }
     
     public function showhasilsingapura(Request $request)
