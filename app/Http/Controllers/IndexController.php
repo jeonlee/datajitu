@@ -90,9 +90,9 @@ class IndexController extends Controller
         $sgp_ekor=array();
         foreach($singapuras as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
-            $sgp_kop[]=substr($sgp->number,0,2); 
-            $sgp_kepala[]=substr($sgp->number,0,3); 
-            $sgp_ekor[]=substr($sgp->number,0,4);  
+            $sgp_kop[]=substr($sgp->number,1,1); 
+            $sgp_kepala[]=substr($sgp->number,2,1); 
+            $sgp_ekor[]=substr($sgp->number,3,1);  
         }
         
     	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
