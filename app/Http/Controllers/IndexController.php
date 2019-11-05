@@ -74,7 +74,7 @@ class IndexController extends Controller
     public function showtestsingapura()
     {
     	
-        
+        $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
         $sgp_number = Singapura::orderBy('periode','desc')->limit(30);
         $sgp_as=array();
         $sgp_kop=array();
