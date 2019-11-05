@@ -1367,3 +1367,124 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.frequency-cointainer {
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+
+}
+.frequency-cointainer h1 {
+
+    width: 100%;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    color: 
+
+    #82dc57;
+    margin: 10px 0;
+
+}
+.frequency-card {
+
+    background: linear-gradient(0deg, 
+
+#1f242a 0%,
+
+    #2a2f37 100%);
+    border-radius: 5px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    flex: 1 0 21%;
+
+}
+.frequency-card .position {
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+
+}
+.frequency-graph {
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    height: 200px;
+    align-items: flex-end;
+
+}
+.frequency-bar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    margin: 0 2px;
+    justify-content: flex-end;
+    font-size: 0.7em;
+    height: 200px;
+
+}
+.frequency-bar .bar {
+
+    display: block;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #82dc57, #16ba89);
+    width: 100%;
+    border-radius: 3px;
+    margin: 0;
+    height: 0;
+    transition: height 0.5s;
+
+}
+.frequency-bar .bar div {
+
+    color: 
+
+    #000;
+    font-weight: 600;
+
+}
+.frequency-bar .number {
+
+    order: 2;
+    justify-content: center;
+
+}
+.prediksi-table, th, td {
+
+    text-align: center;
+    font-weight: 600;
+    color: 
+
+    #82dc57;
+
+}
+.prediksi-table {
+
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    width: 100%;
+
+}
+.prediksi-table th {
+
+    font-size: 1.2em;
+    color: 
+
+    #fff;
+
+}
+.prediksi-table, th, td {
+
+    text-align: center;
+    font-weight: 600;
+    color: #82dc57;
+
+}
