@@ -21,6 +21,7 @@ Route::get('/buatakun', function() {
 
 Route::get('/', 'IndexController@index');
 Route::get('/singapura', 'IndexController@showsingapura');
+Route::get('/testsingapura', 'IndexController@showsingapura');
 Route::get('/hasilsingapura', 'IndexController@showhasilsingapura');
 Route::get('/sydney', 'IndexController@showsydney');
 Route::get('/hasilsydney', 'IndexController@showhasilsydney');
