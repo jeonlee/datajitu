@@ -81,7 +81,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						<?php echo $as_0.x; ?></div>
+						<?php echo $as_0.="x"; ?></div>
 				</div>
 				<div class="number">0</div>
 			</div>
