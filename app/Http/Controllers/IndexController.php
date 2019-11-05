@@ -84,7 +84,7 @@ class IndexController extends Controller
 
         $users = Singapura::paginate(10);
         
-        $sgp_number = Singapura::orderBy('periode','desc')->paginate(1);
+        $sgp_number = Singapura::orderBy('periode','desc')->take(30);
         $sgp_as=array();
         $sgp_kop=array();
         $sgp_kepala=array();
