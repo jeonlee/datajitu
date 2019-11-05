@@ -332,7 +332,7 @@
                     $empat = substr("$singapura->number",3,1);
                     $numb1[]=$singapura->number;
                     $total_satu=json_encode($numb1);
-                    $tot=array_count_values($sgp_numb);
+                    $tot=array_count_values($sgp_numb['as']);
                     $tot_as=$tot['3'];
                  ?>
                  <?php
