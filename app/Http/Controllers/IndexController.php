@@ -73,8 +73,7 @@ class IndexController extends Controller
     
     public function showtestsingapura()
     {
-    	
-        $singapura = Singapura::all()->last();
+    	$singapura = Singapura::all()->last();
 
     	$singapuras = Singapura::all();
 
@@ -83,9 +82,8 @@ class IndexController extends Controller
         $sorted = $collection->sortByDesc('periode');
 
         $users = Singapura::paginate(10);
-        
-        
-    	return view('index.testsingapura', compact('singapura','singapuras','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
+
+    	return view('index.testsingapura', compact('singapura','sorted','users'));
     }
     
     public function showhasilsingapura(Request $request)
