@@ -19,7 +19,7 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
 		    $as=array_count_values($sgp_as);
-		    
+		    $as_0=$as['0'];
                     
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
