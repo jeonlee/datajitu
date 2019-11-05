@@ -75,7 +75,7 @@ class IndexController extends Controller
     {
     	$singapura = Singapura::all()->last();
 
-    	$singapuras = Singapura::orderBy('periode','desc')->paginate(30);
+    	$singapuras = Singapura::all();
 
 
         $collection = collect($singapuras);
@@ -84,12 +84,12 @@ class IndexController extends Controller
 
         $users = Singapura::paginate(10);
         
-        $sgp_number = Singapura::orderBy('periode','desc')->first(['number'])->paginate(30);
+        $sgp_number = Singapura::orderBy('periode','desc')->paginate(30);
         $sgp_as=array();
         $sgp_kop=array();
         $sgp_kepala=array();
         $sgp_ekor=array();
-        foreach($singapuras as $sgp){
+        foreach($sgp_number as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
             $sgp_kop[]=substr($sgp->number,1,1); 
             $sgp_kepala[]=substr($sgp->number,2,1); 
