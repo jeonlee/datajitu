@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sgp_number as $singapura)
+                @foreach ($singapuras as $singapura)
                 <?php
 
                     $satu = substr("$singapura->number",0,1);
