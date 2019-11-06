@@ -20,7 +20,6 @@
                     $empat = substr("$singapura->number",3,1);
                     $as=array_count_values($sgp_as);
                     $as_0=$as['0'];
-                    $as_1=$as['1'];
                     $as_4=$as['4'];
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
@@ -87,7 +86,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-2" style="height: 20%;"> <div>
-						{{ (!empty($as_1)) ? $as_1 : '0' }}</div>
+						{{ (!empty($as['1'])) ? $as['1'] : '0' }}</div>
 				</div>
 				<div class="number">2</div>
 			</div>
