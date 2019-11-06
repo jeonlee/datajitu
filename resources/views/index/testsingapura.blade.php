@@ -19,7 +19,7 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
                     $as=array_count_values($sgp_as);
-		    json_encode($sgp_number);
+		    $tes=json_encode($sgp_number);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -70,7 +70,7 @@
 			<div class="frequency-graph">
 
 				<div class="frequency-bar">
-					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
+					<div class="bar" id="bar-0-0" style="height: 30%;"> {{ $tes }}<div>
 						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
