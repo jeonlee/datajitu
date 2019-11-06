@@ -70,7 +70,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						<?php  print_r $as; ?></div>
+						<?php  print_r(array_count_values($sgp_as)); ?></div>
 				</div>
 				<div class="number">0</div>
 			</div>
