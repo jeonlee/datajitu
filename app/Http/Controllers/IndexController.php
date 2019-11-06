@@ -88,23 +88,24 @@ class IndexController extends Controller
         $sgp_kop=array();
         $sgp_kepala=array();
         $sgp_ekor=array();
-        $as_0='';
-        $as_1='';
-        $as_2='';
-        $as_3='';
-        $as_4='';
-        $as_5='';
-        $as_6='';
-        $as_7='';
-        $as_8='';
-        $as_9='';
+        $as=array();
+        $as['0']='0';
+        $as['1']='0';
+        $as['2']='0';
+        $as['3']='0';
+        $as['4']='0';
+        $as['5']='0';
+        $as['6']='0';
+        $as['7']='0';
+        $as['8']='0';
+        $as['9']='0';
         foreach($sgp_number as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
             $sgp_kop[]=substr($sgp->number,1,1); 
             $sgp_kepala[]=substr($sgp->number,2,1); 
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
-
+        $as=array_count_values($sgp_as);
     	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','as_0','as_1','as_2','as_3','as_4','as_5','as_6','as_7','as_8','as_9'));
     }
     
