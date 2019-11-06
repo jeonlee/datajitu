@@ -37,11 +37,11 @@
 		    $gg_as = array_filter($sgp_as, function($value){
 		       return $value % 2;
 		    });
-		    if(count($gg_as==0) < 15){
+		    if(count($gg_as) < 15){
 		    	$gg="ganjil";
-		    }elseif(count($gg_as==0) > 15) {
+		    }elseif(count($gg_as) > 15) {
 		    	$gg="genap";
-		    }elseif(count($gg_as==0) == 15){
+		    }elseif(count($gg_as) == 15){
 		    	$gg="rata";
 		    }
 		    if(count($temp_as) < 15){
