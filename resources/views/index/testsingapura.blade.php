@@ -37,16 +37,18 @@
 		    $gg_as = array_filter($sgp_as, function($value){
 		       return $value % 2;
 		    });
-		    if(count($gg_as==0)< 15){
+		    if(count($gg_as==0) < 15){
 		    	$gg="ganjil";
-		    }else {
+		    }elseif(count($gg_as==0) > 15) {
 		    	$gg="genap";
+		    }elseif(count($gg_as==0) == 15){
+		    	$gg="rata";
 		    }
 		    if(count($temp_as) < 15){
 		    	$majoritas='besar';
 		    }elseif(count($temp_as) > 15){
 		    	$majoritas='kecil';
-		    }else {
+		    }elseif(count($temp_as) == 15){
 		    	$majoritas='rata';
 		    }
                  ?>
