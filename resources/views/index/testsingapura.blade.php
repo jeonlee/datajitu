@@ -6,7 +6,7 @@
               <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
-                    <h3>Hasil Keluaran Togel Singapore</h3>
+                    <h3>Hasil Keluaran Togel Singapura</h3>
                   </div>
                 </div>
 
@@ -19,7 +19,16 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
 		    $as=array_count_values($sgp_as);
-		    $as_0=$as['7'];
+		    $as_0=$as['0'];
+		    $as_1=$as['1'];
+		    $as_2=$as['2'];
+		    $as_3=$as['3'];
+		    $as_4=$as['4'];
+		    $as_5=$as['5'];
+		    $as_6=$as['6'];
+		    $as_7=$as['7'];
+		    $as_8=$as['8'];
+		    $as_9=$as['9'];
                     
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
@@ -72,7 +81,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						3x</div>
+						<?php  echo $as_0; ?></div>
 				</div>
 				<div class="number">0</div>
 			</div>
