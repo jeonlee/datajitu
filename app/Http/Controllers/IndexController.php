@@ -95,7 +95,36 @@ class IndexController extends Controller
             $sgp_kepala[]=substr($sgp->number,2,1); 
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
-    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
+        $temp_as = array_filter($sgp_as, function($value){
+		       return $value < 5;
+		    });
+		    $temp_kop = array_filter($sgp_kop, function($value){
+		       return $value < 5;
+		    });
+		    $temp_kepala = array_filter($sgp_kepala, function($value){
+		       return $value < 5;
+		    });
+		    $temp_ekor = array_filter($sgp_ekor, function($value){
+		       return $value < 5;
+		    });
+		    $gg_as = array_filter($sgp_as, function($value){
+		       return $value % 2;
+		    });
+		    if(count($gg_as) < 15){
+		    	$gg="Ganjil";
+		    }elseif(count($gg_as) > 15) {
+		    	$gg="Genap";
+		    }elseif(count($gg_as) == 15){
+		    	$gg="Rata";
+		    }
+		    if(count($temp_as) < 15){
+		    	$majoritas='Besar';
+		    }elseif(count($temp_as) > 15){
+		    	$majoritas='Kecil';
+		    }elseif(count($temp_as) == 15){
+		    	$majoritas='Rata';
+		    }
+    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas'));
     }
     
     public function showhasilsingapura(Request $request)
