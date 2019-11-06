@@ -20,7 +20,7 @@
                     $empat = substr("$singapura->number",3,1);
 		    $as=array_count_values($sgp_as);
 		    $as_0=$as['0'];
-		    $as_1=$as['1'];
+		    $as_1=$as[1];
 		    $as_2=$as['2'];
 		    $as_3=$as['3'];
 		    $as_4=$as['4'];
