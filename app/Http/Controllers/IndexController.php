@@ -82,7 +82,7 @@ class IndexController extends Controller
         $sorted = $collection->sortByDesc('periode');
 
         $users = Singapura::paginate(10);
-        
+        $singapore = Singapura::orderBy('periode','desc')->paginate(10);
         $sgp_number = Singapura::orderBy('periode','asc')->first(['number'])->paginate(10);
         $sgp_as=array();
         $sgp_kop=array();
@@ -95,7 +95,7 @@ class IndexController extends Controller
             $sgp_kepala[]=substr($sgp->number,2,1); 
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
-    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
+    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
     }
     
     public function showhasilsingapura(Request $request)
