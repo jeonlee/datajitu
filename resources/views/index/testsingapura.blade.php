@@ -22,6 +22,13 @@
 		    $temp = array_filter($sgp_as, function($value){
 		       return $value < 5;
 		    });
+		    if(count($temp) < 15){
+		    	$majoritas='kecil';
+		    }elseif(count($temp) > 15){
+		    	$majoritas='besar';
+		    }else {
+		    	$majoritas='rata';
+		    }
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -72,7 +79,7 @@
 			<div class="frequency-graph">
 
 				<div class="frequency-bar">
-					<div class="bar" id="bar-0-0" style="height: 30%;"> {{ count($temp) }}<div>
+					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
 						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
@@ -149,7 +156,7 @@
 					<th colspan="2">Majoritas</th>
 				</tr>
 				<tr>
-					<td>Besar</td>
+					<td>{{ $majoritas }}</td>
 					<td>Rata</td>
 				</tr>
 			</tbody>
