@@ -19,6 +19,15 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
 		   $as_0=$as['0'];
+		   $as_1=$as['1'];
+		   $as_2=$as['2'];
+		   $as_3=$as['3'];
+		   $as_4=$as['4'];
+		   $as_5=$as['5'];
+		   $as_6=$as['6'];
+		   $as_7=$as['7'];
+		   $as_8=$as['8'];
+		   $as_9=$as['9'];
                     
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
@@ -78,63 +87,63 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1" style="height: 20%;"> <div>
-						2x</div>
+						<?php  echo $as_1; ?></div>
 				</div>
 				<div class="number">1</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-2" style="height: 20%;"> <div>
-						2x</div>
+						<?php  echo $as_2; ?></div>
 				</div>
 				<div class="number">2</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-3" style="height: 40%;"> <div>
-						4x</div>
+						<?php  echo $as_3; ?></div>
 				</div>
 				<div class="number">3</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-4" style="height: 30%;"> <div>
-						3x</div>
+						<?php  echo $as_4; ?></div>
 				</div>
 				<div class="number">4</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-5" style="height: 0%;"> <div>
-						</div>
+						<?php  echo $as_5; ?></div>
 				</div>
 				<div class="number">5</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-6" style="height: 50%;"> <div>
-						5x</div>
+						<?php  echo $as_6; ?></div>
 				</div>
 				<div class="number">6</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-7" style="height: 30%;"> <div>
-						3x</div>
+						<?php  echo $as_7; ?></div>
 				</div>
 				<div class="number">7</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-8" style="height: 20%;"> <div>
-						2x</div>
+						<?php  echo $as_8; ?></div>
 				</div>
 				<div class="number">8</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-9" style="height: 60%;"> <div>
-						6x</div>
+						<?php  echo $as_9; ?></div>
 				</div>
 				<div class="number">9</div>
 			</div>
