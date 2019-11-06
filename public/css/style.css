@@ -1455,7 +1455,7 @@ body {
 
     order: 2;
     justify-content: center;
-
+    color:#fff;
 }
 .prediksi-table, th, td {
 
@@ -1485,6 +1485,7 @@ body {
 
     text-align: center;
     font-weight: 600;
-    color: #82dc57;
 
+}.prediksi-table th, .prediksi-table td {
+	color:#82dc57;
 }
