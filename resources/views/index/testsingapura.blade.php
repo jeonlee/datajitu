@@ -20,6 +20,8 @@
                     $empat = substr("$singapura->number",3,1);
                     $as=array_count_values($sgp_as);
                     $as_0=$as['0'];
+                    $as_1=$as['1'];
+                    $as_4=$as['4'];
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -85,7 +87,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-2" style="height: 20%;"> <div>
-						3x</div>
+						{{ (isset($as_1)) ? $as_1 : '0' }}</div>
 				</div>
 				<div class="number">2</div>
 			</div>
@@ -99,7 +101,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-4" style="height: 30%;"> <div>
-						5x</div>
+						{{ (isset($as_4)) ? $as_4 : '0' }}</div>
 				</div>
 				<div class="number">4</div>
 			</div>
