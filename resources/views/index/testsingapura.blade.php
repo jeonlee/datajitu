@@ -22,35 +22,7 @@
                     $kop=array_count_values($sgp_kop);
                     $kepala=array_count_values($sgp_kepala);
                     $ekor=array_count_values($sgp_ekor);
-		    $temp_as = array_filter($sgp_as, function($value){
-		       return $value < 5;
-		    });
-		    $temp_kop = array_filter($sgp_kop, function($value){
-		       return $value < 5;
-		    });
-		    $temp_kepala = array_filter($sgp_kepala, function($value){
-		       return $value < 5;
-		    });
-		    $temp_ekor = array_filter($sgp_ekor, function($value){
-		       return $value < 5;
-		    });
-		    $gg_as = array_filter($sgp_as, function($value){
-		       return $value % 2;
-		    });
-		    if(count($gg_as) < 15){
-		    	$gg="ganjil";
-		    }elseif(count($gg_as) > 15) {
-		    	$gg="genap";
-		    }elseif(count($gg_as) == 15){
-		    	$gg="rata";
-		    }
-		    if(count($temp_as) < 15){
-		    	$majoritas='besar';
-		    }elseif(count($temp_as) > 15){
-		    	$majoritas='kecil';
-		    }elseif(count($temp_as) == 15){
-		    	$majoritas='rata';
-		    }
+		    
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -101,7 +73,7 @@
 			<div class="frequency-graph">
 
 				<div class="frequency-bar">
-					<div class="bar" id="bar-0-0" style="height: 30%;">{{ count($gg_as) }} <div>
+					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
 						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
