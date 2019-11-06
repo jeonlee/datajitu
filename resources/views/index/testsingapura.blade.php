@@ -70,7 +70,7 @@
 			<div class="frequency-graph">
 
 				<div class="frequency-bar">
-					<div class="bar" id="bar-0-0" style="height: 30%;"> {{ $tes }}<div>
+					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
 						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
