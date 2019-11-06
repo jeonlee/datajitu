@@ -19,8 +19,6 @@
                     $tiga = substr("$singapura->number",2,1);
                     $empat = substr("$singapura->number",3,1);
                     $as=array_count_values($sgp_as);
-                    $as_0=$as['0'];
-                    $as_4=$as['4'];
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -72,70 +70,70 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						3x</div>
+						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1" style="height: 20%;"> <div>
-						{{ (isset($as_0)) ? $as_0 : '0' }}</div>
+						{{ (!empty($as['1'])) ? $as['1'] : '0' }}</div>
 				</div>
 				<div class="number">1</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-2" style="height: 20%;"> <div>
-						{{ (!empty($as['1'])) ? $as['1'] : '0' }}</div>
+						{{ (!empty($as['2'])) ? $as['2'] : '0' }}</div>
 				</div>
 				<div class="number">2</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-3" style="height: 40%;"> <div>
-						4x</div>
+						{{ (!empty($as['3'])) ? $as['3'] : '0' }}</div>
 				</div>
 				<div class="number">3</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-4" style="height: 30%;"> <div>
-						{{ (isset($as_4)) ? $as_4 : '0' }}</div>
+						{{ (!empty($as['4'])) ? $as['4'] : '0' }}</div>
 				</div>
 				<div class="number">4</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-5" style="height: 0%;"> <div>
-						6x</div>
+						{{ (!empty($as['5'])) ? $as['5'] : '0' }}</div>
 				</div>
 				<div class="number">5</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-6" style="height: 50%;"> <div>
-						7x</div>
+						{{ (!empty($as['6'])) ? $as['6'] : '0' }}</div>
 				</div>
 				<div class="number">6</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-7" style="height: 30%;"> <div>
-						8x</div>
+						{{ (!empty($as['7'])) ? $as['7'] : '0' }}</div>
 				</div>
 				<div class="number">7</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-8" style="height: 20%;"> <div>
-						9x</div>
+						{{ (!empty($as['8'])) ? $as['8'] : '0' }}</div>
 				</div>
 				<div class="number">8</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-9" style="height: 60%;"> <div>
-						6x</div>
+						{{ (!empty($as['9'])) ? $as['9'] : '0' }}</div>
 				</div>
 				<div class="number">9</div>
 			</div>
