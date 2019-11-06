@@ -88,6 +88,16 @@ class IndexController extends Controller
         $sgp_kop=array();
         $sgp_kepala=array();
         $sgp_ekor=array();
+        $as_0='';
+        $as_1='';
+        $as_2='';
+        $as_3='';
+        $as_4='';
+        $as_5='';
+        $as_6='';
+        $as_7='';
+        $as_8='';
+        $as_9='';
         foreach($sgp_number as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
             $sgp_kop[]=substr($sgp->number,1,1); 
@@ -95,7 +105,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
 
-    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp'));
+    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','as_0','as_1','as_2','as_3','as_4','as_5','as_6','as_7','as_8','as_9'));
     }
     
     public function showhasilsingapura(Request $request)
@@ -173,16 +183,6 @@ class IndexController extends Controller
         $sgp_kop=array();
         $sgp_kepala=array();
         $sgp_ekor=array();
-        $as_0='';
-        $as_1='';
-        $as_2='';
-        $as_3='';
-        $as_4='';
-        $as_5='';
-        $as_6='';
-        $as_7='';
-        $as_8='';
-        $as_9='';
         foreach($singapuras as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
             $sgp_kop[]=substr($sgp->number,0,2); 
@@ -190,7 +190,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','as_0','as_1','as_2','as_3','as_4','as_5','as_6','as_7','as_8','as_9'));
+        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapura(Request $request)
     {
