@@ -89,7 +89,7 @@ class IndexController extends Controller
         $sgp_kepala=array();
         $sgp_ekor=array();
         $as=array();
-        foreach($sgp_number as $sgp){
+        foreach($singapore as $sgp){
             $sgp_as[]=substr($sgp->number,0,1);  
             $sgp_kop[]=substr($sgp->number,1,1); 
             $sgp_kepala[]=substr($sgp->number,2,1); 
