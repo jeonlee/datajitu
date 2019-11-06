@@ -6,7 +6,7 @@
               <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
-                    <h3>Hasil Keluaran Togel Singapores</h3>
+                    <h3>Hasil Keluaran Togel Singapore</h3>
                   </div>
                 </div>
 
