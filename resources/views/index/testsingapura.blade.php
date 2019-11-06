@@ -70,7 +70,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
-						<?php  echo $count; ?></div>
+						<?php  print_r $as; ?></div>
 				</div>
 				<div class="number">0</div>
 			</div>
