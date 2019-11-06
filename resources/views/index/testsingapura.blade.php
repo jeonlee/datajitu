@@ -78,7 +78,7 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1" style="height: 20%;"> <div>
-						{{ (isset($as_0)) ? '$as_0' : '0' }}</div>
+						{{ (isset($as_0)) ? $as_0 : '0' }}</div>
 				</div>
 				<div class="number">1</div>
 			</div>
