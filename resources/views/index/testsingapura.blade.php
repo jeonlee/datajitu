@@ -34,9 +34,12 @@
 		    $temp_ekor = array_filter($sgp_ekor, function($value){
 		       return $value < 5;
 		    });
-		    if(count($temp) < 15){
+		    $gg_as = array_filter($sgp_as, function($value){
+		       return $value < 5;
+		    });
+		    if(count($temp_as) < 15){
 		    	$majoritas='besar';
-		    }elseif(count($temp) > 15){
+		    }elseif(count($temp_as) > 15){
 		    	$majoritas='kecil';
 		    }else {
 		    	$majoritas='rata';
