@@ -35,8 +35,13 @@
 		       return $value < 5;
 		    });
 		    $gg_as = array_filter($sgp_as, function($value){
-		       return $value < 5;
+		       return $value % 2;
 		    });
+		    if($gg_as==0){
+		    	$gg="genap";
+		    }else {
+		    	$gg="ganjil";
+		    }
 		    if(count($temp_as) < 15){
 		    	$majoritas='besar';
 		    }elseif(count($temp_as) > 15){
@@ -172,7 +177,7 @@
 				</tr>
 				<tr>
 					<td>{{ $majoritas }}</td>
-					<td>Rata</td>
+					<td>{{ $gg }}</td>
 				</tr>
 			</tbody>
 		</table>
