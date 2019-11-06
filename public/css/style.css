@@ -1485,7 +1485,9 @@ body {
 
     text-align: center;
     font-weight: 600;
+    background:transparent;
 
-}.prediksi-table th, .prediksi-table td {
+}
+.prediksi-table th, .prediksi-table td {
 	color:#82dc57;
 }
