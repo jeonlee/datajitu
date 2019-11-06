@@ -106,7 +106,8 @@ class IndexController extends Controller
         $as['8']='0';
         $as['9']='0';
         $as=array_count_values($sgp_as);
-    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','as_0','as_1','as_2','as_3','as_4','as_5','as_6','as_7','as_8','as_9','as'));
+        $count=count($sgp_as);
+    	return view('index.testsingapura', compact('singapura','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','as_0','as_1','as_2','as_3','as_4','as_5','as_6','as_7','as_8','as_9','as','count'));
     }
     
     public function showhasilsingapura(Request $request)
