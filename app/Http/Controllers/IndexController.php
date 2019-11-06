@@ -82,7 +82,7 @@ class IndexController extends Controller
         $sorted = $collection->sortByDesc('periode');
 
         $users = Singapura::paginate(10);
-        $singapore = Singapura::orderBy('periode','desc')->paginate(10);
+        $singapore = Singapura::orderBy('periode','desc')->paginate(30);
         $sgp_number = Singapura::orderBy('periode','asc')->first(['number'])->paginate(10);
         $sgp_as=array();
         $sgp_kop=array();
