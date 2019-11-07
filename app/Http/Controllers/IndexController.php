@@ -96,6 +96,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
         $tes_as=array_count_values($sgp_as);
+        $js_tes=json_encode($tes_as);
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
