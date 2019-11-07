@@ -190,7 +190,7 @@ class IndexController extends Controller
     }
     public function adm_config_reader($value, $view=0){
 		$data = [];
-	    json_encode($value);exit;
+	    json_encode($value);
 		$arrValue = explode(',', $value);
 		foreach ($arrValue as $i => $properties) {
 			$prop = explode(':', $properties);
