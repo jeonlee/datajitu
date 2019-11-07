@@ -448,7 +448,7 @@
   </div>
 </div>
 <script> // AS
-	var as = <?php echo $tes3; ?>
+	var as = "<?php echo $tes3; ?>"
 	var str_as= as.toString();
 	console.log(str_as);
 	let drawAs = str_as.split(",");
