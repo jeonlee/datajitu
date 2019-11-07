@@ -67,7 +67,7 @@
             <div class="frequency-cointainer">
 
 		<h1>Statistik Keluaran Singapore [30 Undian]</h1>
-
+		<div style="display:none;">{{ $as }}</div>
 		<div class="frequency-card">
 			<div class="position">AS</div>
 			<div class="frequency-graph">
