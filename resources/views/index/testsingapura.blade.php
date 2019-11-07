@@ -69,7 +69,7 @@
 
 		<h1>Statistik Keluaran Singapore [30 Undian]</h1>
 		<div style="display:none;">{{ arsort($sgp_as) }}</div>
-		<div style="display:none;">{{ $tes1 }}</div>
+		<div style="display:none;">{{ arsort($tes1) }}</div>
 		<div class="frequency-card">
 			<div class="position">AS</div>
 			<div class="frequency-graph">
