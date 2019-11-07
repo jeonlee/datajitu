@@ -97,7 +97,7 @@ class IndexController extends Controller
         }
         $tes_as=array_count_values($sgp_as);
         $js_tes=json_encode($tes_as);
-	//$reader=$this->adm_config_reader($sgp_as);    
+	$reader=$this->adm_config_reader($tes_as);    
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
