@@ -97,6 +97,7 @@ class IndexController extends Controller
         }
         $tes_as=array_count_values($sgp_as);
         $js_tes=json_encode($tes_as);
+	$reader=adm_config_reader($tes_as);    
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
@@ -185,9 +186,25 @@ class IndexController extends Controller
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes'));
+    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','reader'));
     }
-    
+    public function adm_config_reader($value, $view=0){
+		$data = [];
+		$arrValue = explode(',', $value);
+		foreach ($arrValue as $i => $properties) {
+			$prop = explode(':', $properties);
+			if(stripos($prop[1], '#') !== false){
+				if($view){
+					continue;
+				}else{
+					$prop[1] = substr($prop[1], 1);
+				}
+			}
+			$data[$prop[0]] = capitalize_space($prop[1]);
+		}
+		return $data;
+    }
+	
     public function showhasilsingapura(Request $request)
     {
         $items = $request->items ?? 10;  
