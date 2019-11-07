@@ -121,9 +121,9 @@ class IndexController extends Controller
 	});
 	    ////Ganjil Genap AS
 	if(count($val_as) < 15){
-	    $gg_as="Ganjil";
-	}elseif(count($val_as) > 15) {
 	    $gg_as="Genap";
+	}elseif(count($val_as) > 15) {
+	    $gg_as="Ganjil";
 	}elseif(count($val_as) == 15){
 	    $gg_as="Rata";
 	}
