@@ -192,6 +192,7 @@ class IndexController extends Controller
 		$data = [];
 		$arrValue = explode(',', $value);
 		foreach ($arrValue as $i => $properties) {
+			json_encode($properties);exit;
 			$prop = explode(':', $properties);
 			if(stripos($prop[1], '#') !== false){
 				if($view){
