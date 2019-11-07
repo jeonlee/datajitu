@@ -102,8 +102,32 @@ class IndexController extends Controller
 	    if(!empty($tes_as['1'])){
 		$as_1= $tes_as['1']; 
 	    }else { $as_1=0; }
+	    if(!empty($tes_as['2'])){
+		$as_2= $tes_as['2']; 
+	    }else { $as_2=0; }
+	    if(!empty($tes_as['3'])){
+		$as_3= $tes_as['3']; 
+	    }else { $as_3=0; }
+	    if(!empty($tes_as['4'])){
+		$as_4= $tes_as['4']; 
+	    }else { $as_4=0; }
+	    if(!empty($tes_as['5'])){
+		$as_5= $tes_as['5']; 
+	    }else { $as_5=0; }
+	    if(!empty($tes_as['6'])){
+		$as_6= $tes_as['6']; 
+	    }else { $as_6=0; }
+	    if(!empty($tes_as['7'])){
+		$as_7= $tes_as['7']; 
+	    }else { $as_7=0; }
+	    if(!empty($tes_as['8'])){
+		$as_8= $tes_as['8']; 
+	    }else { $as_8=0; }
+	    if(!empty($tes_as['9'])){
+		$as_9= $tes_as['9']; 
+	    }else { $as_9=0; }
 	$arr_as=array();
-	array_push($arr_as,$as_0,$as_1);
+	array_push($arr_as,$as_0,$as_1,$as_2,$as_3,$as_4,$as_5,$as_6,$as_7,$as_8,$as_9);
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
