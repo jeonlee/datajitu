@@ -76,7 +76,7 @@
 			<div class="frequency-graph">
 
 				<div class="frequency-bar">
-					<div class="bar" id="bar-0-0" style="height: 30%;"> <div>
+					<div class="bar" id="bar-0-0"> <div>
 						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
 				</div>
 				<div class="number">0</div>
@@ -447,7 +447,14 @@
     </div>
   </div>
 </div>
-
+<script> // AS
+	let drawAs = "<?php echo $arr_as ?>".split(",")
+	for (let i = 0; i < 10; i++) {
+		setTimeout(() => {
+			document.getElementById("bar-0-" + i).style.height = drawAs[i] / 30 * 300 + "%"
+		}, 750)
+	}
+</script>
 @endsection
 
 @section('numbergenerator')
