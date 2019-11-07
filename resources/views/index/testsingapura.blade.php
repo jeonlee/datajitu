@@ -150,8 +150,8 @@
 					<th colspan="2">Majoritas</th>
 				</tr>
 				<tr>
-					<td>{{ $majoritas }}</td>
-					<td>{{ $gg }}</td>
+					<td>{{ $majoritas_as }}</td>
+					<td>{{ $gg_as }}</td>
 				</tr>
 			</tbody>
 		</table>
@@ -163,70 +163,70 @@
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-0" style="height: 40%;"> <div>
-					4x</div>
+					{{ (!empty($kop['0'])) ? $kop['0'] : '0' }}x</div>
 			</div>
 			<div class="number">0</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-1" style="height: 50%;"> <div>
-					5x</div>
+					{{ (!empty($kop['1'])) ? $kop['1'] : '0' }}x</div>
 			</div>
 			<div class="number">1</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-2" style="height: 30%;"> <div>
-					3x</div>
+					{{ (!empty($kop['2'])) ? $kop['2'] : '0' }}x</div>
 			</div>
 			<div class="number">2</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-3" style="height: 10%;"> <div>
-					1x</div>
+					{{ (!empty($kop['3'])) ? $kop['3'] : '0' }}x</div>
 			</div>
 			<div class="number">3</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-4" style="height: 30%;"> <div>
-					3x</div>
+					{{ (!empty($kop['4'])) ? $kop['4'] : '0' }}x</div>
 			</div>
 			<div class="number">4</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-5" style="height: 20%;"> <div>
-					2x</div>
+					{{ (!empty($kop['5'])) ? $kop['5'] : '0' }}x</div>
 			</div>
 			<div class="number">5</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-6" style="height: 30%;"> <div>
-					3x</div>
+					{{ (!empty($kop['6'])) ? $kop['6'] : '0' }}x</div>
 			</div>
 			<div class="number">6</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-7" style="height: 20%;"> <div>
-					2x</div>
+					{{ (!empty($kop['7'])) ? $kop['7'] : '0' }}x</div>
 			</div>
 			<div class="number">7</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-8" style="height: 10%;"> <div>
-					1x</div>
+					{{ (!empty($kop['8'])) ? $kop['8'] : '0' }}x</div>
 			</div>
 			<div class="number">8</div>
 		</div>
 
 			<div class="frequency-bar">
 				<div class="bar" id="bar-1-9" style="height: 60%;"> <div>
-					6x</div>
+					{{ (!empty($kop['9'])) ? $kop['9'] : '0' }}x</div>
 			</div>
 			<div class="number">9</div>
 		</div>
@@ -239,8 +239,8 @@
 				<th colspan="2">Majoritas</th>
 			</tr>
 			<tr>
-				<td>Kecil</td>
-				<td>Ganjil</td>
+				<td>{{ $majoritas_kop }}</td>
+				<td>{{ $gg_kop }}</td>
 			</tr>
 		</tbody>
 		</table>
@@ -252,70 +252,70 @@
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-0" style="height: 60%;"> <div>
-				6x</div>
+				{{ (!empty($kepala['0'])) ? $kepala['0'] : '0' }}x</div>
 		</div>
 		<div class="number">0</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-1" style="height: 40%;"> <div>
-				4x</div>
+				{{ (!empty($kepala['1'])) ? $kepala['1'] : '0' }}x</div>
 		</div>
 		<div class="number">1</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-2" style="height: 20%;"> <div>
-				2x</div>
+				{{ (!empty($kepala['2'])) ? $kepala['2'] : '0' }}x</div>
 		</div>
 		<div class="number">2</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-3" style="height: 10%;"> <div>
-				1x</div>
+				{{ (!empty($kepala['3'])) ? $kepala['3'] : '0' }}x</div>
 		</div>
 		<div class="number">3</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-4" style="height: 60%;"> <div>
-				6x</div>
+				{{ (!empty($kepala['4'])) ? $kepala['4'] : '0' }}x</div>
 		</div>
 		<div class="number">4</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-5" style="height: 10%;"> <div>
-				1x</div>
+				{{ (!empty($kepala['5'])) ? $kepala['5'] : '0' }}x</div>
 		</div>
 		<div class="number">5</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-6" style="height: 20%;"> <div>
-				2x</div>
+				{{ (!empty($kepala['6'])) ? $kepala['6'] : '0' }}x</div>
 		</div>
 		<div class="number">6</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-7" style="height: 20%;"> <div>
-				2x</div>
+				{{ (!empty($kepala['70'])) ? $kepala['7'] : '0' }}x</div>
 		</div>
 		<div class="number">7</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-8" style="height: 30%;"> <div>
-				3x</div>
+				{{ (!empty($kepala['8'])) ? $kepala['8'] : '0' }}x</div>
 		</div>
 		<div class="number">8</div>
 		</div>
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-9" style="height: 30%;"> <div>
-				3x</div>
+				{{ (!empty($kepala['9'])) ? $kepala['9'] : '0' }}x</div>
 		</div>
 		<div class="number">9</div>
 		</div>
@@ -328,8 +328,8 @@
 			<th colspan="2">Majoritas</th>
 		</tr>
 		<tr>
-			<td>Kecil</td>
-			<td>Genap</td>
+			<td>{{ $majoritas_kepala }}</td>
+			<td>{{ $gg_kepala }}</td>
 		</tr>
 		</tbody>
 		</table>
@@ -342,70 +342,70 @@
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-0" style="height: 50%;"> <div>
-			5x</div>
+			{{ (!empty($ekor['0'])) ? $ekor['0'] : '0' }}x</div>
 		</div>
 		<div class="number">0</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-1" style="height: 50%;"> <div>
-			5x</div>
+			{{ (!empty($ekor['1'])) ? $ekor['1'] : '0' }}x</div>
 		</div>
 		<div class="number">1</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-2" style="height: 40%;"> <div>
-			4x</div>
+			{{ (!empty($ekor['2'])) ? $ekor['2'] : '0' }}x</div>
 		</div>
 		<div class="number">2</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-3" style="height: 20%;"> <div>
-			2x</div>
+			{{ (!empty($ekor['3'])) ? $ekor['3'] : '0' }}x</div>
 		</div>
 		<div class="number">3</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-4" style="height: 40%;"> <div>
-			4x</div>
+			{{ (!empty($ekor['4'])) ? $ekor['4'] : '0' }}x</div>
 		</div>
 		<div class="number">4</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-5" style="height: 40%;"> <div>
-			4x</div>
+			{{ (!empty($ekor['5'])) ? $ekor['5'] : '0' }}x</div>
 		</div>
 		<div class="number">5</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-6" style="height: 10%;"> <div>
-			1x</div>
+			{{ (!empty($ekor['6'])) ? $ekor['6'] : '0' }}x</div>
 		</div>
 		<div class="number">6</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-7" style="height: 30%;"> <div>
-			3x</div>
+			{{ (!empty($ekor['7'])) ? $ekor['7'] : '0' }}x</div>
 		</div>
 		<div class="number">7</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-8" style="height: 20%;"> <div>
-			2x</div>
+			{{ (!empty($ekor['8'])) ? $ekor['8'] : '0' }}x</div>
 		</div>
 		<div class="number">8</div>
 		</div>
 
 		<div class="frequency-bar">
 		<div class="bar" id="bar-3-9" style="height: 0%;"> <div>
-			</div>
+			{{ (!empty($ekor['9'])) ? $ekor['9'] : '0' }}x</div>
 		</div>
 		<div class="number">9</div>
 		</div>
@@ -418,8 +418,8 @@
 		<th colspan="2">Majoritas</th>
 		</tr>
 		<tr>
-		<td>Kecil</td>
-		<td>Genap</td>
+		<td>{{ $majoritas_ekor }}</td>
+		<td>{{ $gg_ekor }}</td>
 		</tr>
 		</tbody>
 		</table>
