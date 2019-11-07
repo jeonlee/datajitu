@@ -22,7 +22,7 @@
                     $kop=array_count_values($sgp_kop);
                     $kepala=array_count_values($sgp_kepala);
                     $ekor=array_count_values($sgp_ekor);
-		    $tes=json_encode($sgp_as);
+		    $tes=arsort($as);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
