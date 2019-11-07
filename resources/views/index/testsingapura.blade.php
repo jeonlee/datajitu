@@ -23,7 +23,7 @@
                     $kepala=array_count_values($sgp_kepala);
                     $ekor=array_count_values($sgp_ekor);
 		    $tes=arsort($as);
-		    $tes1=json_encode($sgp_as);
+		    $tes1=json_encode($as);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -70,7 +70,6 @@
 		<h1>Statistik Keluaran Singapore [30 Undian]</h1>
 		<div style="display:none;">{{ arsort($sgp_as) }}</div>
 		<div style="display:none;">{{ $tes1 }}</div>
-		<div style="display:none;">{{ $as }}</div>
 		<div class="frequency-card">
 			<div class="position">AS</div>
 			<div class="frequency-graph">
