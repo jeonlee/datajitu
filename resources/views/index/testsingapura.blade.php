@@ -25,7 +25,7 @@
                     $te=array_count_values($as);
 		    $tes=arsort($as);
 		    $tes1=json_encode($as);
-		    $tes3=json_encode($sgp_as);
+		    $tes3=json_encode($arr_as);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
