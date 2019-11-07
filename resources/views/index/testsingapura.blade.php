@@ -22,7 +22,6 @@
                     $kop=array_count_values($sgp_kop);
                     $kepala=array_count_values($sgp_kepala);
                     $ekor=array_count_values($sgp_ekor);
-		    $tess=array_count_values(explode(',', $sgp_as));
 		    $tes=arsort($as);
 		    $tes1=json_encode($as);
                  ?>
@@ -70,7 +69,7 @@
 
 		<h1>Statistik Keluaran Singapore [30 Undian]</h1>
 		<div style="display:none;">{{ arsort($sgp_as) }}</div>
-		<div style="display:none;"><?php arsort($tess); ?></div>
+		<div style="display:none;">{{ arsort($tes1) }}</div>
 		<div class="frequency-card">
 			<div class="position">AS</div>
 			<div class="frequency-graph">
