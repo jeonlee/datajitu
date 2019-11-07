@@ -96,35 +96,94 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
         $temp_as = array_filter($sgp_as, function($value){
-		       return $value < 5;
-		    });
-		    $temp_kop = array_filter($sgp_kop, function($value){
-		       return $value < 5;
-		    });
-		    $temp_kepala = array_filter($sgp_kepala, function($value){
-		       return $value < 5;
-		    });
-		    $temp_ekor = array_filter($sgp_ekor, function($value){
-		       return $value < 5;
-		    });
-		    $gg_as = array_filter($sgp_as, function($value){
-		       return $value % 2;
-		    });
-		    if(count($gg_as) < 15){
-		    	$gg="Ganjil";
-		    }elseif(count($gg_as) > 15) {
-		    	$gg="Genap";
-		    }elseif(count($gg_as) == 15){
-		    	$gg="Rata";
-		    }
-		    if(count($temp_as) < 15){
-		    	$majoritas='Besar';
-		    }elseif(count($temp_as) > 15){
-		    	$majoritas='Kecil';
-		    }elseif(count($temp_as) == 15){
-		    	$majoritas='Rata';
-		    }
-    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas'));
+       	    return $value < 5;
+	});
+	$temp_kop = array_filter($sgp_kop, function($value){
+	    return $value < 5;
+	});
+	$temp_kepala = array_filter($sgp_kepala, function($value){
+	    return $value < 5;
+	});
+	$temp_ekor = array_filter($sgp_ekor, function($value){
+	    return $value < 5;
+	});
+	$val_as = array_filter($sgp_as, function($value){
+	    return $value % 2;
+	});
+	$val_kop = array_filter($sgp_kop, function($value){
+	    return $value % 2;
+	});
+	$val_kepala = array_filter($sgp_kepala, function($value){
+	    return $value % 2;
+	});
+	$val_ekor = array_filter($sgp_ekor, function($value){
+	    return $value % 2;
+	});
+	    ////Ganjil Genap AS
+	if(count($val_as) < 15){
+	    $gg_as="Ganjil";
+	}elseif(count($val_as) > 15) {
+	    $gg_as="Genap";
+	}elseif(count($val_as) == 15){
+	    $gg_as="Rata";
+	}
+	   ////Ganjil Genap KOP 
+	if(count($val_kop) < 15){
+	    $gg_kop="Ganjil";
+	}elseif(count($val_kop) > 15) {
+	    $gg_kop="Genap";
+	}elseif(count($val_kop) == 15){
+	    $gg_kop="Rata";
+	}
+	   ////Ganjil Genap KEPALA
+	if(count($val_kepala) < 15){
+	    $gg_kepala="Ganjil";
+	}elseif(count($val_kepala) > 15) {
+	    $gg_kepala="Genap";
+	}elseif(count($val_kepala) == 15){
+	    $gg_kepala="Rata";
+	}
+	   ////Ganjil Genap EKOR
+	if(count($val_ekor) < 15){
+	    $gg_ekor="Ganjil";
+	}elseif(count($val_ekor) > 15) {
+	    $gg_ekor="Genap";
+	}elseif(count($val_ekor) == 15){
+	    $gg_ekor="Rata";
+	}
+	    ////Besar Kecil AS
+	if(count($temp_as) < 15){
+	    $majoritas_as='Besar';
+	}elseif(count($temp_as) > 15){
+	    $majoritas_as='Kecil';
+	}elseif(count($temp_as) == 15){
+	    $majoritas_as='Rata';
+	}
+	   ////Besar Kecil KOP    
+	if(count($temp_kop) < 15){
+	    $majoritas_kop='Besar';
+	}elseif(count($temp_kop) > 15){
+	    $majoritas_kop='Kecil';
+	}elseif(count($temp_kop) == 15){
+	    $majoritas_kop='Rata';
+	}
+	    ////Besar Kecil KEPALA
+	if(count($temp_kepala) < 15){
+	    $majoritas_kepala='Besar';
+	}elseif(count($temp_kepala) > 15){
+	    $majoritas_kepala='Kecil';
+	}elseif(count($temp_kepala) == 15){
+	    $majoritas_kepala='Rata';
+	}
+	    ////Besar Kecil EKOR
+	if(count($temp_ekor) < 15){
+	    $majoritas_ekor='Besar';
+	}elseif(count($temp_ekor) > 15){
+	    $majoritas_ekor='Kecil';
+	}elseif(count($temp_ekor) == 15){
+	    $majoritas_ekor='Rata';
+	}
+    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor'));
     }
     
     public function showhasilsingapura(Request $request)
