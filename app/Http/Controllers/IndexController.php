@@ -129,25 +129,25 @@ class IndexController extends Controller
 	}
 	   ////Ganjil Genap KOP 
 	if(count($val_kop) < 15){
-	    $gg_kop="Ganjil";
-	}elseif(count($val_kop) > 15) {
 	    $gg_kop="Genap";
+	}elseif(count($val_kop) > 15) {
+	    $gg_kop="Ganjil";
 	}elseif(count($val_kop) == 15){
 	    $gg_kop="Rata";
 	}
 	   ////Ganjil Genap KEPALA
 	if(count($val_kepala) < 15){
-	    $gg_kepala="Ganjil";
-	}elseif(count($val_kepala) > 15) {
 	    $gg_kepala="Genap";
+	}elseif(count($val_kepala) > 15) {
+	    $gg_kepala="Ganjil";
 	}elseif(count($val_kepala) == 15){
 	    $gg_kepala="Rata";
 	}
 	   ////Ganjil Genap EKOR
 	if(count($val_ekor) < 15){
-	    $gg_ekor="Ganjil";
-	}elseif(count($val_ekor) > 15) {
 	    $gg_ekor="Genap";
+	}elseif(count($val_ekor) > 15) {
+	    $gg_ekor="Ganjil";
 	}elseif(count($val_ekor) == 15){
 	    $gg_ekor="Rata";
 	}
