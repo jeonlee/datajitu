@@ -96,8 +96,14 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
         $tes_as=array_count_values($sgp_as);
-        $js_tes=json_encode($tes_as);
-	//$reader=$this->adm_config_reader($tes_as);    
+	    if(!empty($tes_as['0'])){
+		$as_0= $tes_as['0']; 
+	    }else { $as_0=0; }
+	    if(!empty($tes_as['1'])){
+		$as_1= $tes_as['1']; 
+	    }else { $as_1=0; }
+	$arr_as=array();
+	array_push($arr_as,$as_0,$as_1);
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
@@ -186,7 +192,7 @@ class IndexController extends Controller
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','reader'));
+    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as'));
     }
     public function adm_config_reader($value, $view=0){
 		$data = [];
