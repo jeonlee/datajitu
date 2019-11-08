@@ -22,7 +22,10 @@
                     $kop=array_count_values($sgp_kop);
                     $kepala=array_count_values($sgp_kepala);
                     $ekor=array_count_values($sgp_ekor);
-		    $tes4=implode(",",$arr_as);
+		    $percent_as=implode(",",$arr_as);
+		    $percent_kop=implode(",",$arr_kop);
+		    $percent_kepala=implode(",",$arr_kepala);
+		    $percent_ekor=implode(",",$arr_ekor);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -444,10 +447,34 @@
   </div>
 </div>
 <script> // AS
-	var drawAs = "<?php echo $tes4; ?>".split(",");
+	var drawAs = "<?php echo $percent_as; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
 			document.getElementById("bar-0-" + i).style.height = drawAs[i] / 30 * 300 + "%"
+		}, 750)
+	}
+</script>
+<script> // KOP
+	var drawKop = "<?php echo $percent_kop; ?>".split(",");
+	for (let i = 0; i < 10; i++) {
+		setTimeout(() => {
+			document.getElementById("bar-0-" + i).style.height = drawKop[i] / 30 * 300 + "%"
+		}, 750)
+	}
+</script>
+<script> // KEPALA
+	var drawKepala = "<?php echo $percent_kepala; ?>".split(",");
+	for (let i = 0; i < 10; i++) {
+		setTimeout(() => {
+			document.getElementById("bar-0-" + i).style.height = drawKepala[i] / 30 * 300 + "%"
+		}, 750)
+	}
+</script>
+<script> // EKOR
+	var drawEkor = "<?php echo $percent_ekor; ?>".split(",");
+	for (let i = 0; i < 10; i++) {
+		setTimeout(() => {
+			document.getElementById("bar-0-" + i).style.height = drawEkor[i] / 30 * 300 + "%"
 		}, 750)
 	}
 </script>
