@@ -1,7 +1,8 @@
 @extends('layouts.index')
 
 @section('content')
-
+      
+            
               <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
@@ -12,12 +13,10 @@
                 <div class="panel-body">
                 @foreach ($sorted->slice(0, 5) as $cambodia)
                  <?php
-
                     $satu = substr("$cambodia->number",0,1);
                     $dua = substr("$cambodia->number",1,1);
                     $tiga = substr("$cambodia->number",2,1);
                     $empat = substr("$cambodia->number",3,1);
-
                     $as=array_count_values($cmb_as);
                     $kop=array_count_values($cmb_kop);
                     $kepala=array_count_values($cmb_kepala);
@@ -75,12 +74,9 @@
                 </div><!-- sideheader -->
                 <br><br>
               </div><!-- end resultbox -->
+            <div class="frequency-cointainer">
 
-              <!-- start statistic -->
-
-              <div class="frequency-cointainer">
-
-				<h1>Statistik Keluaran Cambodia [30 Undian]</h1>
+		<h1>Statistik Keluaran Cambodia [30 Undian]</h1>
 		<div class="frequency-card">
 			<div class="position">AS</div>
 			<div class="frequency-graph">
@@ -440,42 +436,54 @@
 
 		</div>
 
-		<!-- end statistic -->
-
-
             </div>
-            
-            @endforeach
-             
-	 <div class="table">
-	  		<table class="middle">
-	    		<thead>
-	      			<tr class="kolom red">
-						<th><div class="th_jam">DATE</div></th>
-						<th><div class="th_jam">PERIODE</div></th>
-						<th><div class="th_jam">RESULT</div></th>
-			      	</tr>
-	    		</thead>
-	    		<tbody>
-	    		@foreach ($cambodia as $mcb)
-		      		<tr>
-						<td><div class="t_no f20">{{ Carbon\Carbon::parse($mcb->tanggal)->format('d-m-Y') }}</div></td>
-						<td><div class="t_hari f20">{{ $mcb->periode }}-SG</div></td>
-						<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $mcb->id }}">{{ $mcb->number }}</a></div></td>   
 
-		      		</tr>   
-	      		@endforeach
-	   		 	</tbody>
-			</table>
-			</div>
+             @endforeach
+	     
+	   
+	<div class="table">
+	  <table class="middle">
+	    <thead>
+	      <tr class="kolom blue">
 
-		</div>
-  	</div>
-             
+		<th><div class="th_jam">DATE</div></th>
+		<th><div class="th_jam">PERIODE</div></th>
+		<th><div class="th_jam">RESULT</div></th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	    @foreach ($cmbodia as $cmbd)
 
-     
+	      <tr>
+		<td><div class="t_no f20">{{ Carbon\Carbon::parse($cmbd->tanggal)->format('d-m-Y') }}</div></td>
+		<td><div class="t_hari f20">{{ $cmbd->periode }}-SG</div></td>
+
+		<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $cmbd->id }}">{{ $cmbd->number }}</a></div></td>   
 
 
+
+	      </tr>   
+
+	      @endforeach
+
+	    </tbody>
+
+
+	</table>
+	</div>
+
+
+
+                </div>
+              </div>
+            </div><!-- col-xs-9 -->    
+
+      
+
+
+    </div>
+  </div>
+</div>
 <script> // AS
 	var drawAs = "<?php echo $percent_as; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
@@ -508,8 +516,6 @@
 		}, 750)
 	}
 </script>
-            
-
 @endsection
 
 @section('numbergenerator')
