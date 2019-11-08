@@ -470,17 +470,9 @@
 
 	</table>
 	</div>
+ 
 
 
-
-                </div>
-              </div>
-            </div><!-- col-xs-9 -->    
-
-      
-
-
-    </div>
   </div>
 </div>
 <script> // AS
