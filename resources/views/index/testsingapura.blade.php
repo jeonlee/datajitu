@@ -26,6 +26,7 @@
 		    $tes=arsort($as);
 		    $tes1=json_encode($as);
 		    $tes3=json_encode($arr_as);
+		    $tes4=implode(",",$tes3);
                  ?>
                   <div class="col-xs-12" style="margin-top:15px;">
               <h3 class="josefin">TOGEL SINGAPURA</h3>
@@ -450,7 +451,7 @@
 <script> // AS
 	var as = "<?php echo $tes3; ?>"
 	var str_as= as.toString();
-	var drawAs = str_as.split(",");
+	var drawAs = "<?php echo $tes4; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
 			document.getElementById("bar-0-" + i).style.height = drawAs[i] / 30 * 300 + "%"
