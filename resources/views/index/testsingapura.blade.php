@@ -48,7 +48,7 @@
              
                   <br><br>
           
-                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+                  
                 </div>
               </div>
               
@@ -66,7 +66,14 @@
                 </div><!-- sideheader -->
                 <br><br>
              </div><!-- end resultbox -->
-            
+            <div class="col-xs-12">
+	    <div class="col-xs-6">
+	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Prediksi Selanjutnya</a>
+	    </div>
+	    <div class="col-xs-6">
+	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+	    </div>
+	    </div>
             <div class="frequency-cointainer">
 
 		<h1>Statistik Keluaran Singapore [30 Undian]</h1>
