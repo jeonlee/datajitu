@@ -444,8 +444,6 @@
   </div>
 </div>
 <script> // AS
-	var as = "<?php echo $tes3; ?>"
-	var str_as= as.toString();
 	var drawAs = "<?php echo $tes4; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
