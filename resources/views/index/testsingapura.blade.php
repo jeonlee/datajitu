@@ -433,7 +433,7 @@
 
              @endforeach
 	     
-	     //30 result
+	   
 	<div class="table-responsive">
 	  <table class="middle">
 	    <thead>
@@ -464,7 +464,7 @@
 
 	</table>
 	</div>
-// end 30 result
+
 
 
                 </div>
