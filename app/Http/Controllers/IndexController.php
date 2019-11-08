@@ -56,22 +56,22 @@ class IndexController extends Controller
     	return view('index.index', compact('singapura','cambodia','sydney','taiwan','china','hongkong','sorted','sorted1','sorted2','sorted3','sorted4','sorted5'));
     }
 
-    public function showsingapura()
-    {
-    	$singapura = Singapura::all()->last();
+//     public function showsingapura()
+//     {
+//     	$singapura = Singapura::all()->last();
 
-    	$singapuras = Singapura::all();
+//     	$singapuras = Singapura::all();
 
-        $collection = collect($singapuras);
+//         $collection = collect($singapuras);
 
-        $sorted = $collection->sortByDesc('periode');
+//         $sorted = $collection->sortByDesc('periode');
 
-        $users = Singapura::paginate(10);
+//         $users = Singapura::paginate(10);
 
-    	return view('index.singapura', compact('singapura','sorted','users'));
-    }
+//     	return view('index.singapura', compact('singapura','sorted','users'));
+//     }
     
-    public function showtestsingapura()
+    public function showsingapura()
     {
     	$singapura = Singapura::all()->last();
 
@@ -238,7 +238,7 @@ class IndexController extends Controller
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.testsingapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.singapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasilsingapura(Request $request)
