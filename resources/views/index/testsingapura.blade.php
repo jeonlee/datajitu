@@ -434,7 +434,7 @@
              @endforeach
 	     
 	   
-	<div class="table-responsive">
+	<div class="table">
 	  <table class="middle">
 	    <thead>
 	      <tr class="kolom blue">
