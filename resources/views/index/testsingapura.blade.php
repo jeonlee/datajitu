@@ -458,7 +458,7 @@
 	var drawKop = "<?php echo $percent_kop; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
-			document.getElementById("bar-0-" + i).style.height = drawKop[i] / 30 * 300 + "%"
+			document.getElementById("bar-1-" + i).style.height = drawKop[i] / 30 * 300 + "%"
 		}, 750)
 	}
 </script>
@@ -466,7 +466,7 @@
 	var drawKepala = "<?php echo $percent_kepala; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
-			document.getElementById("bar-0-" + i).style.height = drawKepala[i] / 30 * 300 + "%"
+			document.getElementById("bar-2-" + i).style.height = drawKepala[i] / 30 * 300 + "%"
 		}, 750)
 	}
 </script>
@@ -474,7 +474,7 @@
 	var drawEkor = "<?php echo $percent_ekor; ?>".split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
-			document.getElementById("bar-0-" + i).style.height = drawEkor[i] / 30 * 300 + "%"
+			document.getElementById("bar-3-" + i).style.height = drawEkor[i] / 30 * 300 + "%"
 		}, 750)
 	}
 </script>
