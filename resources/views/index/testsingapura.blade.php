@@ -450,8 +450,7 @@
 <script> // AS
 	var as = "<?php echo $tes3; ?>"
 	var str_as= as.toString();
-	console.log(str_as);
-	let drawAs = str_as.split(",");
+	let drawAs = as.split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
 			document.getElementById("bar-0-" + i).style.height = drawAs[i] / 30 * 300 + "%"
