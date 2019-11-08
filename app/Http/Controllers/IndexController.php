@@ -635,21 +635,23 @@ class IndexController extends Controller
 	
     public function showcambodia()
     {
-        $cambodias = Cambodia::all();
+        $cambodia = Cambodia::all()->last();
+
+    	$cambodias = Cambodia::all();
 
         $collection = collect($cambodias);
 
         $sorted = $collection->sortByDesc('periode');
 
         $users = Cambodia::paginate(10);
-        $cambodia = Cambodia::orderBy('periode','desc')->paginate(30);
+        $cmbodia = Cambodia::orderBy('periode','desc')->paginate(30);
         $cmb_number = Cambodia::orderBy('periode','asc')->first(['number'])->paginate(10);
         $cmb_as=array();
         $cmb_kop=array();
         $cmb_kepala=array();
         $cmb_ekor=array();
         $as=array();
-        foreach($cambodia as $cmb){
+        foreach($cmbodia as $cmb){
             $cmb_as[]=substr($cmb->number,0,1);  
             $cmb_kop[]=substr($cmb->number,1,1); 
             $cmb_kepala[]=substr($cmb->number,2,1); 
@@ -838,6 +840,19 @@ class IndexController extends Controller
 
         return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
+//     public function showtaiwan()
+//     {
+//         $taiwan = Taiwan::all()->last();
+
+//         $taiwans = Taiwan::all();
+        
+//         $collection = collect($taiwans);
+
+//         $sorted = $collection->sortByDesc('periode');
+
+//         return view('index.taiwan', compact('taiwan','sorted'));
+//     }
+	
     public function showtaiwan()
     {
         $taiwan = Taiwan::all()->last();
@@ -850,6 +865,7 @@ class IndexController extends Controller
 
         return view('index.taiwan', compact('taiwan','sorted'));
     }
+	
     public function showhasiltaiwan(Request $request)
     {
         $items = $request->items ?? 10; 
