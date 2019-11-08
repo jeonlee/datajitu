@@ -453,6 +453,7 @@
 	let drawAs = as.split(",");
 	for (let i = 0; i < 10; i++) {
 		setTimeout(() => {
+		let drawAs = str_as.split(",");
 			document.getElementById("bar-0-" + i).style.height = drawAs[i] / 30 * 300 + "%"
 		}, 750)
 	}
