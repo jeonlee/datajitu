@@ -66,11 +66,11 @@
                 </div><!-- sideheader -->
                 <br><br>
              </div><!-- end resultbox -->
-            <div class="col-xs-12">
-	    <div class="col-xs-6">
-	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Prediksi Selanjutnya</a>
+            <div class="col-xs-8 col-xs-offset-2">
+	    <div class="col-xs-6 text-center">
+	    <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Prediksi Selanjutnya</a>
 	    </div>
-	    <div class="col-xs-6">
+	    <div class="col-xs-6 text-center">
 	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
 	    </div>
 	    </div>
