@@ -649,7 +649,7 @@ class IndexController extends Controller
         $cmb_kepala=array();
         $cmb_ekor=array();
         $as=array();
-        foreach($sidney as $cmb){
+        foreach($cambodia as $cmb){
             $cmb_as[]=substr($cmb->number,0,1);  
             $cmb_kop[]=substr($cmb->number,1,1); 
             $cmb_kepala[]=substr($cmb->number,2,1); 
