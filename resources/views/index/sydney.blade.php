@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sorted->slice(0, 5) as $sydney)
+                @foreach ($sorted->slice(0, 1) as $sydney)
                 <?php
 
                     $satu = substr("$sydney->number",0,1);
