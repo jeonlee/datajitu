@@ -448,7 +448,7 @@
 	    		@foreach ($sidney as $sydy)
 		      		<tr>
 						<td><div class="t_no f20">{{ Carbon\Carbon::parse($sydy->tanggal)->format('d-m-Y') }}</div></td>
-						<td><div class="t_hari f20">{{ $sydy->periode }}-SG</div></td>
+						<td><div class="t_hari f20">{{ $sydy->periode }}-SD</div></td>
 						<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $sydy->id }}">{{ $sydy->number }}</a></div></td>   
 
 		      		</tr>   
