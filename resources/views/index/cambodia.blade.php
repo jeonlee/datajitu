@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sorted->slice(0, 5) as $cambodia)
+                @foreach ($sorted->slice(0, 1) as $cambodia)
                  <?php
                     $satu = substr("$cambodia->number",0,1);
                     $dua = substr("$cambodia->number",1,1);
