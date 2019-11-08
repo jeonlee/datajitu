@@ -873,7 +873,7 @@ class IndexController extends Controller
         $twn_kepala=array();
         $twn_ekor=array();
         $as=array();
-        foreach($cmbodia as $twn){
+        foreach($taiwn as $twn){
             $twn_as[]=substr($twn->number,0,1);  
             $twn_kop[]=substr($twn->number,1,1); 
             $twn_kepala[]=substr($twn->number,2,1); 
