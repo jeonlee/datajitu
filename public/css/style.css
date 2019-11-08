@@ -1490,7 +1490,7 @@ body {
 }
 .button-grey {
     background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #cecece 0%, #9d9d9d 97%, #c0c0c0 97%) repeat scroll 0 0;
-    border-bottom: 5px solid #9b9b9b;
+    border-bottom: 5px solid #707070;
     border-radius: 8px;
     box-shadow: 0 3px 5px -3px #333;
     color: #000 !important;
