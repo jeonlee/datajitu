@@ -76,70 +76,70 @@
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-0"> <div>
-						{{ (!empty($as['0'])) ? $as['0'] : '0' }}</div>
+						{{ (!empty($as['0'])) ? $as['0'] : '0' }}x</div>
 				</div>
 				<div class="number">0</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-1"> <div>
-						{{ (!empty($as['1'])) ? $as['1'] : '0' }}</div>
+						{{ (!empty($as['1'])) ? $as['1'] : '0' }}x</div>
 				</div>
 				<div class="number">1</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-2"> <div>
-						{{ (!empty($as['2'])) ? $as['2'] : '0' }}</div>
+						{{ (!empty($as['2'])) ? $as['2'] : '0' }}x</div>
 				</div>
 				<div class="number">2</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-3"> <div>
-						{{ (!empty($as['3'])) ? $as['3'] : '0' }}</div>
+						{{ (!empty($as['3'])) ? $as['3'] : '0' }}x</div>
 				</div>
 				<div class="number">3</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-4"> <div>
-						{{ (!empty($as['4'])) ? $as['4'] : '0' }}</div>
+						{{ (!empty($as['4'])) ? $as['4'] : '0' }}x</div>
 				</div>
 				<div class="number">4</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-5"> <div>
-						{{ (!empty($as['5'])) ? $as['5'] : '0' }}</div>
+						{{ (!empty($as['5'])) ? $as['5'] : '0' }}x</div>
 				</div>
 				<div class="number">5</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-6"> <div>
-						{{ (!empty($as['6'])) ? $as['6'] : '0' }}</div>
+						{{ (!empty($as['6'])) ? $as['6'] : '0' }}x</div>
 				</div>
 				<div class="number">6</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-7"> <div>
-						{{ (!empty($as['7'])) ? $as['7'] : '0' }}</div>
+						{{ (!empty($as['7'])) ? $as['7'] : '0' }}x</div>
 				</div>
 				<div class="number">7</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-8"> <div>
-						{{ (!empty($as['8'])) ? $as['8'] : '0' }}</div>
+						{{ (!empty($as['8'])) ? $as['8'] : '0' }}x</div>
 				</div>
 				<div class="number">8</div>
 			</div>
 
 				<div class="frequency-bar">
 					<div class="bar" id="bar-0-9"> <div>
-						{{ (!empty($as['9'])) ? $as['9'] : '0' }}</div>
+						{{ (!empty($as['9'])) ? $as['9'] : '0' }}x</div>
 				</div>
 				<div class="number">9</div>
 			</div>
