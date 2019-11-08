@@ -46,7 +46,6 @@
                   <div class="result medium lotto-ball"><?php  echo $empat; ?></div>
              
                   <br><br>
-                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a>
                 </div>
               </div>
               
