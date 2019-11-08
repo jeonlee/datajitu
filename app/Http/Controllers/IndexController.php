@@ -95,39 +95,61 @@ class IndexController extends Controller
             $sgp_kepala[]=substr($sgp->number,2,1); 
             $sgp_ekor[]=substr($sgp->number,3,1);  
         }
-        $tes_as=array_count_values($sgp_as);
-	    if(!empty($tes_as['0'])){
-		$as_0= $tes_as['0']; 
-	    }else { $as_0=0; }
-	    if(!empty($tes_as['1'])){
-		$as_1= $tes_as['1']; 
-	    }else { $as_1=0; }
-	    if(!empty($tes_as['2'])){
-		$as_2= $tes_as['2']; 
-	    }else { $as_2=0; }
-	    if(!empty($tes_as['3'])){
-		$as_3= $tes_as['3']; 
-	    }else { $as_3=0; }
-	    if(!empty($tes_as['4'])){
-		$as_4= $tes_as['4']; 
-	    }else { $as_4=0; }
-	    if(!empty($tes_as['5'])){
-		$as_5= $tes_as['5']; 
-	    }else { $as_5=0; }
-	    if(!empty($tes_as['6'])){
-		$as_6= $tes_as['6']; 
-	    }else { $as_6=0; }
-	    if(!empty($tes_as['7'])){
-		$as_7= $tes_as['7']; 
-	    }else { $as_7=0; }
-	    if(!empty($tes_as['8'])){
-		$as_8= $tes_as['8']; 
-	    }else { $as_8=0; }
-	    if(!empty($tes_as['9'])){
-		$as_9= $tes_as['9']; 
-	    }else { $as_9=0; }
+        $val_as=array_count_values($sgp_as);
+        $val_kop=array_count_values($sgp_kop);
+        $val_kepala=array_count_values($sgp_kepala);
+        $val_ekor=array_count_values($sgp_ekor);
+	    if(!empty($val_as['0'])){ $as_0= $val_as['0']; }else { $as_0=0; }
+	    if(!empty($val_as['1'])){ $as_1= $val_as['1']; }else { $as_1=0; }
+	    if(!empty($val_as['2'])){ $as_2= $val_as['2']; }else { $as_2=0; }
+	    if(!empty($val_as['3'])){ $as_3= $val_as['3']; }else { $as_3=0; }
+	    if(!empty($val_as['4'])){ $as_4= $val_as['4']; }else { $as_4=0; }
+	    if(!empty($val_as['5'])){ $as_5= $val_as['5']; }else { $as_5=0; }
+	    if(!empty($val_as['6'])){ $as_6= $val_as['6']; }else { $as_6=0; }
+	    if(!empty($val_as['7'])){ $as_7= $val_as['7']; }else { $as_7=0; }
+	    if(!empty($val_as['8'])){ $as_8= $val_as['8']; }else { $as_8=0; }
+	    if(!empty($val_as['9'])){ $as_9= $val_as['9']; }else { $as_9=0; }
+	    
+	    if(!empty($val_kop['0'])){ $kop_0= $val_kop['0']; }else { $kop_0=0; }
+	    if(!empty($val_kop['1'])){ $kop_1= $val_kop['1']; }else { $kop_1=0; }
+	    if(!empty($val_kop['2'])){ $kop_2= $val_kop['2']; }else { $kop_2=0; }
+	    if(!empty($val_kop['3'])){ $kop_3= $val_kop['3']; }else { $kop_3=0; }
+	    if(!empty($val_kop['4'])){ $kop_4= $val_kop['4']; }else { $kop_4=0; }
+	    if(!empty($val_kop['5'])){ $kop_5= $val_kop['5']; }else { $kop_5=0; }
+	    if(!empty($val_kop['6'])){ $kop_6= $val_kop['6']; }else { $kop_6=0; }
+	    if(!empty($val_kop['7'])){ $kop_7= $val_kop['7']; }else { $kop_7=0; }
+	    if(!empty($val_kop['8'])){ $kop_8= $val_kop['8']; }else { $kop_8=0; }
+	    if(!empty($val_kop['9'])){ $kop_9= $val_kop['9']; }else { $kop_9=0; }
+
+	    if(!empty($val_kepala['0'])){ $kepala_0= $val_kepala['0']; }else { $kepala_0=0; }
+	    if(!empty($val_kepala['1'])){ $kepala_1= $val_kepala['1']; }else { $kepala_1=0; }
+	    if(!empty($val_kepala['2'])){ $kepala_2= $val_kepala['2']; }else { $kepala_2=0; }
+	    if(!empty($val_kepala['3'])){ $kepala_3= $val_kepala['3']; }else { $kepala_3=0; }
+	    if(!empty($val_kepala['4'])){ $kepala_4= $val_kepala['4']; }else { $kepala_4=0; }
+	    if(!empty($val_kepala['5'])){ $kepala_5= $val_kepala['5']; }else { $kepala_5=0; }
+	    if(!empty($val_kepala['6'])){ $kepala_6= $val_kepala['6']; }else { $kepala_6=0; }
+	    if(!empty($val_kepala['7'])){ $kepala_7= $val_kepala['7']; }else { $kepala_7=0; }
+	    if(!empty($val_kepala['8'])){ $kepala_8= $val_kepala['8']; }else { $kepala_8=0; }
+	    if(!empty($val_kepala['9'])){ $kepala_9= $val_kepala['9']; }else { $kepala_9=0; }
+
+	    if(!empty($val_ekor['0'])){ $ekor_0= $val_ekor['0']; }else { $ekor_0=0; }
+	    if(!empty($val_ekor['1'])){ $ekor_1= $val_ekor['1']; }else { $ekor_1=0; }
+	    if(!empty($val_ekor['2'])){ $ekor_2= $val_ekor['2']; }else { $ekor_2=0; }
+	    if(!empty($val_ekor['3'])){ $ekor_3= $val_ekor['3']; }else { $ekor_3=0; }
+	    if(!empty($val_ekor['4'])){ $ekor_4= $val_ekor['4']; }else { $ekor_4=0; }
+	    if(!empty($val_ekor['5'])){ $ekor_5= $val_ekor['5']; }else { $ekor_5=0; }
+	    if(!empty($val_ekor['6'])){ $ekor_6= $val_ekor['6']; }else { $ekor_6=0; }
+	    if(!empty($val_ekor['7'])){ $ekor_7= $val_ekor['7']; }else { $ekor_7=0; }
+	    if(!empty($val_ekor['8'])){ $ekor_8= $val_ekor['8']; }else { $ekor_8=0; }
+	    if(!empty($val_ekor['9'])){ $ekor_9= $val_ekor['9']; }else { $ekor_9=0; }
 	$arr_as=array();
+	$arr_kop=array();
+	$arr_kepala=array();
+	$arr_ekor=array();
 	array_push($arr_as,$as_0,$as_1,$as_2,$as_3,$as_4,$as_5,$as_6,$as_7,$as_8,$as_9);
+	array_push($arr_kop,$kop_0,$kop_1,$kop_2,$kop_3,$kop_4,$kop_5,$kop_6,$kop_7,$kop_8,$kop_9);
+	array_push($arr_kepala,$kepala_0,$kepala_1,$kepala_2,$kepala_3,$kepala_4,$kepala_5,$kepala_6,$kepala_7,$kepala_8,$kepala_9);
+	array_push($arr_ekor,$ekor_0,$ekor_1,$ekor_2,$ekor_3,$ekor_4,$ekor_5,$ekor_6,$ekor_7,$ekor_8,$ekor_9);
         $temp_as = array_filter($sgp_as, function($value){
        	    return $value < 5;
 	});
