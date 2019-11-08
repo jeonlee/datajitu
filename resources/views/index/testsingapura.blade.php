@@ -303,7 +303,7 @@
 
 		<div class="frequency-bar">
 			<div class="bar" id="bar-2-7"> <div>
-				{{ (!empty($kepala['70'])) ? $kepala['7'] : '0' }}x</div>
+				{{ (!empty($kepala['7'])) ? $kepala['7'] : '0' }}x</div>
 		</div>
 		<div class="number">7</div>
 		</div>
