@@ -30,7 +30,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $singapura->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-                <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+                <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
                   <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
                   <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
                   <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
@@ -90,7 +90,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $cambodia->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($cambodia->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-              <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+              <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
                 <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
                 <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
                 <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -148,7 +148,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $sydney->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($sydney->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+            <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
           <div class="result medium lotto-ball"><?php  echo $satu; ?></div>
           <div class="result medium lotto-ball"><?php  echo $dua; ?></div>
           <div class="result medium lotto-ball"><?php  echo $tiga; ?></div>
@@ -205,7 +205,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $china->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($china->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+            <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
           <div class="result medium health-ball"><?php  echo $satu; ?></div>
           <div class="result medium health-ball"><?php  echo $dua; ?></div>
           <div class="result medium health-ball"><?php  echo $tiga; ?></div>
@@ -264,7 +264,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($taiwan->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+            <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
           <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
           <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
           <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
@@ -322,7 +322,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $hongkong->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($hongkong->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-            <div style=" padding: 12px 2px 0 0;" class="floatRight centred">
+            <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
           <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
           <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
           <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
