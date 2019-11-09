@@ -455,7 +455,7 @@
           @foreach ($chaina as $chna)
           <tr>
             <td><div class="t_no f20">{{ Carbon\Carbon::parse($chna->tanggal)->format('d-m-Y') }}</div></td>
-            <td><div class="t_hari f20">{{ $chna->periode }}-SG</div></td>
+            <td><div class="t_hari f20">{{ $chna->periode }}-CN</div></td>
             <td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $chna->id }}">{{ $chna->number }}</a></div></td>   
           </tr>   
 
