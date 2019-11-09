@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="panel-body">
-                @foreach ($sorted->slice(0, 5) as $hongkong)
+                @foreach ($sorted->slice(0, 1) as $hongkong)
                 <?php
 
                     $satu = substr("$hongkong->number",0,1);
