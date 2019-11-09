@@ -862,14 +862,14 @@ class IndexController extends Controller
         $sorted = $collection->sortByDesc('periode');
 
         $users = Taiwan::paginate(10);
-        $taiwan = Taiwan::orderBy('periode','desc')->paginate(30);
+        $taiwn = Taiwan::orderBy('periode','desc')->paginate(30);
         $twn_number = Taiwan::orderBy('periode','asc')->first(['number'])->paginate(10);
         $twn_as=array();
         $twn_kop=array();
         $twn_kepala=array();
         $twn_ekor=array();
         $as=array();
-        foreach($taiwan as $twn){
+        foreach($taiwn as $twn){
             $twn_as[]=substr($twn->number,0,1);  
             $twn_kop[]=substr($twn->number,1,1); 
             $twn_kepala[]=substr($twn->number,2,1); 
@@ -1018,7 +1018,7 @@ class IndexController extends Controller
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.taiwan', compact('taiwan','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.taiwan', compact('taiwan','taiwn','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasiltaiwan(Request $request)
