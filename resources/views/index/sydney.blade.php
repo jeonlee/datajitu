@@ -55,7 +55,7 @@
 	    <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/prediksisgp') }}">Prediksi Selanjutnya</a>
 	    </div>
 	    <div class="col-xs-6 text-center">
-	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydnet') }}">Hasil Lengkap</a>
+	    <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a>
 	    </div>
 	    </div>
 	    
