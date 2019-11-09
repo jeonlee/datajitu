@@ -439,37 +439,7 @@
              @endforeach
 	     
 	   
-	<div class="table">
-	  <table class="middle">
-	    <thead>
-	      <tr class="kolom yellow1">
-
-		<th><div class="th_jam">DATE</div></th>
-		<th><div class="th_jam">PERIODE</div></th>
-		<th><div class="th_jam">RESULT</div></th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	    @foreach ($taiwan as $twin)
-
-	      <tr>
-		<td><div class="t_no f20">{{ Carbon\Carbon::parse($twin->tanggal)->format('d-m-Y') }}</div></td>
-		<td><div class="t_hari f20">{{ $twin->periode }}-SG</div></td>
-
-		<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $twin->id }}">{{ $twin->number }}</a></div></td>   
-
-
-
-	      </tr>   
-
-	      @endforeach
-
-	    </tbody>
-
-
-	</table>
-	</div>
-
+	
 
 
                 </div>
