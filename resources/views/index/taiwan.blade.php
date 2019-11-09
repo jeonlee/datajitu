@@ -440,7 +440,7 @@
 	     <div class="table">
   	<table class="middle">
 	    <thead>
-	      	<tr class="kolom blue">
+	      	<tr class="kolom yellow1">
 				<th><div class="th_jam">DATE</div></th>
 				<th><div class="th_jam">PERIODE</div></th>
 				<th><div class="th_jam">RESULT</div></th>
