@@ -38,7 +38,7 @@
                     <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $taiwan->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($taiwan->tanggal)->format('d-m-Y') }}</span></h3>
                   </div>
                 </div><!-- sideheader -->
-                <div style=" padding: 12px 30px 0 0;" class="floatRight centred">
+                <div style=" padding: 33px 30px 0 0;" class="floatRight centred">
                   <div class="result medium euromillions-lucky-star"><?php  echo $satu; ?></div>
                   <div class="result medium euromillions-lucky-star"><?php  echo $dua; ?></div>
                   <div class="result medium euromillions-lucky-star"><?php  echo $tiga; ?></div>
