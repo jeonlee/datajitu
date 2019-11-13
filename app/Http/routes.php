@@ -127,6 +127,14 @@ Route::get('/admin/singapura/{singapura}/edit', 'SingapuraController@edit');
 Route::patch('/admin/singapura/{singapura}', 'SingapuraController@update');
 Route::delete('/admin/singapura/{singapura}/delete', 'SingapuraController@delete');
 
+Route::get('/admin/sgp', 'SgpController@index');
+Route::get('/admin/sgp/create', 'SgpController@create');
+Route::post('/admin/sgp', 'SgpController@store');
+Route::get('/admin/sgp/{sgp}', 'SgpController@show');
+Route::get('/admin/sgp/{sgp}/edit', 'SgpController@edit');
+Route::patch('/admin/sgp/{sgp}', 'SgpController@update');
+Route::delete('/admin/sgp/{sgp}/delete', 'SgpController@delete');
+
 Route::get('/admin/sydney', 'SydneyController@index');
 Route::get('/admin/sydney/create', 'SydneyController@create');
 Route::post('/admin/sydney', 'SydneyController@store');
