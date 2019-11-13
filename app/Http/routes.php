@@ -127,14 +127,6 @@ Route::get('/admin/singapura/{singapura}/edit', 'SingapuraController@edit');
 Route::patch('/admin/singapura/{singapura}', 'SingapuraController@update');
 Route::delete('/admin/singapura/{singapura}/delete', 'SingapuraController@delete');
 
-Route::get('/admin/sgp', 'SgpController@index');
-Route::get('/admin/sgp/create', 'SgpController@create');
-Route::post('/admin/sgp', 'SgpController@store');
-Route::get('/admin/sgp/{sgp}', 'SgpController@show');
-Route::get('/admin/sgp/{sgp}/edit', 'SgpController@edit');
-Route::patch('/admin/sgp/{sgp}', 'SgpController@update');
-Route::delete('/admin/sgp/{sgp}/delete', 'SgpController@delete');
-
 Route::get('/admin/sydney', 'SydneyController@index');
 Route::get('/admin/sydney/create', 'SydneyController@create');
 Route::post('/admin/sydney', 'SydneyController@store');
@@ -182,6 +174,14 @@ Route::get('/admin/prediksisgp/{singapura}', 'PrediksisgpController@show');
 Route::get('/admin/prediksisgp/{singapura}/edit', 'PrediksisgpController@edit');
 Route::patch('/admin/prediksisgp/{singapura}', 'PrediksisgpController@update');
 Route::delete('/admin/prediksisgp/{singapura}/delete', 'PrediksisgpController@delete');
+
+Route::get('/admin/prediksisgps', 'PrediksisgpsController@index');
+Route::get('/admin/prediksisgps/create', 'PrediksisgpsController@create');
+Route::post('/admin/prediksisgps', 'PrediksisgpsController@store');
+Route::get('/admin/prediksisgps/{singapura}', 'PrediksisgpsController@show');
+Route::get('/admin/prediksisgps/{singapura}/edit', 'PrediksisgpsController@edit');
+Route::patch('/admin/prediksisgps/{singapura}', 'PrediksisgpsController@update');
+Route::delete('/admin/prediksisgps/{singapura}/delete', 'PrediksisgpsController@delete');
 
 Route::get('/admin/prediksisyd', 'PrediksisydController@index');
 Route::get('/admin/prediksisyd/create', 'PrediksisydController@create');
