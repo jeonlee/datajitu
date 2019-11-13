@@ -7,17 +7,17 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class PrediksisgpController extends Controller
+class PrediksisgpsController extends Controller
 {
     public function index()
 	{
     	$prediksisgps = Prediksisgp::orderBy('tanggal','desc')->paginate(5);
 
-    	return view('prediksisgps.index', compact('prediksisgps'));
+    	return view('prediksisgpss.index', compact('prediksisgps'));
 	}
 	public function create()
 	{
-		return view('prediksisgps.create');
+		return view('prediksisgpss.create');
 	}
 
 	public function store(Request $request, Prediksisgp $prediksisgp)
@@ -26,21 +26,21 @@ class PrediksisgpController extends Controller
 
         $prediksisgps = Prediksisgp::orderBy('tanggal','desc')->paginate(5);
 
-        return view('prediksisgps.index', compact('prediksisgps'));
+        return view('prediksisgpss.index', compact('prediksisgps'));
 	}
 	public function show($id)
     {
         // $categories = Category::find($id);
         $prediksisgps = Prediksisgp::find($id);
 
-        return view('prediksisgps.show', compact('prediksisgps'));
+        return view('prediksisgpss.show', compact('prediksisgps'));
     }
 
     public function edit($id)
     {
         $prediksisgps = Prediksisgp::find($id);
 
-        return view('prediksisgps.edit', compact('prediksisgps'));
+        return view('prediksisgpss.edit', compact('prediksisgps'));
     }
 
     public function update($id, Request $request)
@@ -53,7 +53,7 @@ class PrediksisgpController extends Controller
 
         $prediksisgps = Prediksisgp::orderBy('tanggal','desc')->paginate(5);
 
-        return view('prediksisgps.index', compact('prediksisgps'));
+        return view('prediksisgpss.index', compact('prediksisgps'));
     }
 
     public function delete($id)
