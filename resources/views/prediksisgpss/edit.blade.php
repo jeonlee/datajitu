@@ -21,7 +21,7 @@
                     <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksisgps->number }}">
                 </div>
                 <div class="form-group">
-                    <label for="title">Deskripsi</label>{{ $prediksisgps->id }}
+                    <label for="title">Deskripsi</label>{{ $tes }}
                     <textarea for="text" class="form-control">{{ $prediksisgps->deskripsi }}</textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
