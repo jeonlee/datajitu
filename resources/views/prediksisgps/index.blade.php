@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="text-center">
-		<a href="{{ url('/admin/prediksisgp/create') }}" class="btn btn-primary">Create New</a>
+		<a href="{{ url('/admin/prediksisgps/create') }}" class="btn btn-primary">Create New</a>
 	</div>
 
 	<hr>
@@ -31,7 +31,7 @@
                             <th>{{ $prediksisgp->hari }}</th>
                             <th>{{ Carbon\Carbon::parse($prediksisgp->tanggal)->format('d-m-Y') }}</th>
                             <td>{{ $prediksisgp->prediksi }}</td>
-                            <td><a href="/admin/prediksisgp/{{ $prediksisgp->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
+                            <td><a href="/admin/prediksisgps/{{ $prediksisgp->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
                                 <form method="POST" action="/admin/prediksisgp/{{ $prediksisgp->id }}/delete">
                                     {{ csrf_field() }}
