@@ -175,6 +175,14 @@ Route::get('/admin/prediksisgp/{singapura}/edit', 'PrediksisgpController@edit');
 Route::patch('/admin/prediksisgp/{singapura}', 'PrediksisgpController@update');
 Route::delete('/admin/prediksisgp/{singapura}/delete', 'PrediksisgpController@delete');
 
+Route::get('/admin/prediksisgps', 'PrediksisgpsController@index');
+Route::get('/admin/prediksisgps/create', 'PrediksisgpsController@create');
+Route::post('/admin/prediksisgps', 'PrediksisgpsController@store');
+Route::get('/admin/prediksisgps/{singapura}', 'PrediksisgpsController@show');
+Route::get('/admin/prediksisgps/{singapura}/edit', 'PrediksisgpsController@edit');
+Route::patch('/admin/prediksisgps/{singapura}', 'PrediksisgpsController@update');
+Route::delete('/admin/prediksisgps/{singapura}/delete', 'PrediksisgpsController@delete');
+
 
 Route::get('/admin/prediksisyd', 'PrediksisydController@index');
 Route::get('/admin/prediksisyd/create', 'PrediksisydController@create');
