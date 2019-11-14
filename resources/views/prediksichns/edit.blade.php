@@ -4,21 +4,21 @@
     <div class="panel panel-default">
         <div class="panel-heading">
         	<div class="panel-title">
-        		Edit {{ $chinas->periode }}
+        		Edit {{ $prediksichns->periode }}
         	</div>
         </div>
 
         <div class="panel-body">
-        	<form method="POST" action="/admin/china/{{ $chinas->id }}">
+        	<form method="POST" action="/admin/china/{{ $prediksichns->id }}">
         		{{ csrf_field() }}
                 {{ method_field('PATCH') }}
                 <div class="form-group">
                     <label for="title">Periode</label>
-                    <input type="text" name="periode" id="periode" class="form-control input-sm" placeholder="{{ $chinas->periode }}">
+                    <input type="text" name="periode" id="periode" class="form-control input-sm" placeholder="{{ $prediksichns->periode }}">
                 </div>
                 <div class="form-group">
                     <label for="title">Number</label>
-                    <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $chinas->number }}">
+                    <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksichns->number }}">
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
