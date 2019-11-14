@@ -12,17 +12,14 @@
         	<form method="POST" action="/admin/prediksisgps/{{ $prediksisgps->id }}">
         		{{ csrf_field() }}
                 {{ method_field('PATCH') }}
-                <div class="form-group">
-                    <label for="title">Periode</label>
-                    <input type="text" name="periode" id="periode" class="form-control input-sm" placeholder="{{ $prediksisgps->periode }}">
-                </div>
+                
                 <div class="form-group">
                     <label for="title">Number</label>
-                    <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksisgps->number }}">
+                    <input type="text" name="prediksi" id="prediksi" class="form-control input-sm" placeholder="{{ $prediksisgps->number }}">
                 </div>
                 <div class="form-group">
                     <label for="title">Deskripsi</label>{{ $tes }}
-                    <textarea for="text" class="form-control">{{ $prediksisgps->deskripsi }}</textarea>
+                    <textarea for="text" name="deskripsi" id="deskripsi" class="form-control">{{ $prediksisgps->deskripsi }}</textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
