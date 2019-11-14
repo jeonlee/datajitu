@@ -39,7 +39,7 @@ class PrediksisgpsController extends Controller
     public function edit($id)
     {
         $prediksisgps = Prediksisgp::find($id);
-	$tes=json_encode($prediksisgps);
+	$tes=json_encode($prediksisgps->prediksi);
         return view('prediksisgpss.edit', compact('prediksisgps','tes'));
     }
 
