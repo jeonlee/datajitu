@@ -31,7 +31,7 @@
                     <input type="text" name="prediksi" id="number" class="form-control input-sm">
                 </div>
 		<div class="form-group">
-                    <label for="body">Prediksi</label>
+                    <label for="body">Deskripsi</label>
                     <textarea></textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
