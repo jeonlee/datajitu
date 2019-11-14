@@ -32,7 +32,7 @@
                 </div>
 		<div class="form-group">
                     <label for="body">Deskripsi</label>
-                    <textarea></textarea>
+                    <textarea class="form-control"></textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
