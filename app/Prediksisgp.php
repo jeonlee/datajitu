@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Prediksisgp extends Model
 {
    protected $fillable = [
-        'tanggal', 'hari', 'prediksi', 'date','deskripsi'
+        'tanggal', 'hari', 'prediksi', 'date'
     ];
     public function path()
     {
