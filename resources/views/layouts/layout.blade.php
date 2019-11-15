@@ -111,7 +111,7 @@
                $("#datepicker").datepicker({ dateFormat: "yy-mm-dd" }).val()
        });
    </script>
-   <script src="{{ assetVersion('/js/summernote.min.js') }}"></script>
+   <script src="/js/summernote.min.js"></script>
     <script>
         var allowedNum = 3;
         var karakter= 2000;
