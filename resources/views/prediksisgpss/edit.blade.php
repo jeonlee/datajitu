@@ -19,7 +19,7 @@
                 </div>
                 <div class="form-group">
                     <label for="title">Deskripsi</label>
-                    <textarea for="text" name="deskripsi" id="deskripsi" class="form-control summernote">{{ $prediksisgps->deskripsi }}</textarea>
+                    <textarea for="text" name="deskripsi" id="summernote" class="form-control summernote">{{ $prediksisgps->deskripsi }}</textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
