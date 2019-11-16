@@ -52,6 +52,12 @@ Route::get('/livedrawtw', 'IndexController@showlivedrawtw');
 Route::get('/livedrawchn', 'IndexController@showlivedrawchn');
 Route::get('/livedrawhk', 'IndexController@showlivedrawhk');
 Route::get('/prediksisgp', 'IndexController@showprediksisgp');
+Route::get('/prediksisgpdet', 'IndexController@showprediksisgpdet');
+Route::get('/prediksisyddet', 'IndexController@showprediksisyddet');
+Route::get('/prediksicmbdet', 'IndexController@showprediksicmbdet');
+Route::get('/prediksichndet', 'IndexController@showprediksichndet');
+Route::get('/prediksitwdet', 'IndexController@showprediksitwdet');
+Route::get('/prediksihkdet', 'IndexController@showprediksihkdet');
 Route::get('/comingsoon', 'IndexController@showcomingsoon');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
