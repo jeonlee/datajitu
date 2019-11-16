@@ -302,7 +302,42 @@ class IndexController extends Controller
         return view('index.prediksisgp', compact('prediksisgp','prediksisgps', 'prediksisyd', 'prediksisyds', 'prediksicmb', 'prediksicmbs', 'prediksitw', 'prediksitws', 'prediksichn', 'prediksichns', 'prediksihk', 'prediksihks','sorted','sorted1','sorted2','sorted3','sorted4','sorted5'));
     }
     
-    
+    public function showprediksisgpdet()
+    {
+	$prediksisgp = Prediksisgp::all()->last();
+	return view('index.prediksisgpdet', compact('prediksisgp'))
+    }
+	
+    public function showprediksisyddet()
+    {
+	$prediksisyd = Prediksisyd::all()->last();
+	return view('index.prediksisyddet', compact('prediksisyd'))
+    }
+	
+    public function showprediksicmbdet()
+    {
+	$prediksicmb = Prediksicmb::all()->last();
+	return view('index.prediksicmbdet', compact('prediksicmb'))
+    }
+	
+    public function showprediksichndet()
+    {
+	$prediksichn = Prediksichn::all()->last();
+	return view('index.prediksichndet', compact('prediksichn'))
+    }
+	
+    public function showprediksitwdet()
+    {
+	$prediksitw = Prediksitw::all()->last();
+	return view('index.prediksitwdet', compact('prediksitw'))
+    }
+	
+    public function showprediksihkdet()
+    {
+	$prediksihk = Prediksihk::all()->last();
+	return view('index.prediksihkdet', compact('prediksihk'))
+    }
+	
     public function showanalisissingapura()
     {
         $singapura = Singapura::all()->last();
