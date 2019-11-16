@@ -9,7 +9,7 @@
     </div>
 
     <div class="panel-body">
-      {{ $prediksisgp->deskripsi }}
+      {!! $prediksisgp->deskripsi !!}
     </div>
   </div>
   
