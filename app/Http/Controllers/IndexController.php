@@ -305,37 +305,37 @@ class IndexController extends Controller
     public function showprediksisgpdet()
     {
 	$prediksisgp = Prediksisgp::all()->last();
-	return view('index.prediksisgpdet', compact('prediksisgp'))
+	return view('index.prediksisgpdet', compact('prediksisgp'));
     }
 	
     public function showprediksisyddet()
     {
 	$prediksisyd = Prediksisyd::all()->last();
-	return view('index.prediksisyddet', compact('prediksisyd'))
+	return view('index.prediksisyddet', compact('prediksisyd'));
     }
 	
     public function showprediksicmbdet()
     {
 	$prediksicmb = Prediksicmb::all()->last();
-	return view('index.prediksicmbdet', compact('prediksicmb'))
+	return view('index.prediksicmbdet', compact('prediksicmb'));
     }
 	
     public function showprediksichndet()
     {
 	$prediksichn = Prediksichn::all()->last();
-	return view('index.prediksichndet', compact('prediksichn'))
+	return view('index.prediksichndet', compact('prediksichn'));
     }
 	
     public function showprediksitwdet()
     {
 	$prediksitw = Prediksitw::all()->last();
-	return view('index.prediksitwdet', compact('prediksitw'))
+	return view('index.prediksitwdet', compact('prediksitw'));
     }
 	
     public function showprediksihkdet()
     {
 	$prediksihk = Prediksihk::all()->last();
-	return view('index.prediksihkdet', compact('prediksihk'))
+	return view('index.prediksihkdet', compact('prediksihk'));
     }
 	
     public function showanalisissingapura()
