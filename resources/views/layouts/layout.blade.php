@@ -115,60 +115,9 @@
     
    <script src="/js/summernote.min.js"></script>
     <script>
-        var allowedNum = 3;
-        var karakter= 2000;
-        $(document).ready(function(){
-            $('.summernote').summernote({
-                toolbar: [
-                    ['style', ['bold', 'italic', 'underline', 'clear']],
-                    ['fontsize', ['fontsize']],
-                    ['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['height', ['height']],
-                    ['insert', ['link', 'picture']],
-                    ['view', ['codeview', 'help']]
-                ],
-                minHeight: 200,
-                callbacks: {
-                    onImageUpload: function(image) {
-                        if($(this).hasClass('compose_summernote')){
-                            var numofImg= getImgSrc($('.summernote').summernote('code'));
-                            if(numofImg.length>allowedNum) swal("", "Max image yang bisa diupload adalah "+allowedNum+" gambar.", "warning");
-                            else{
-                                uploadImage(image[0]);
-                            }
-                        }
-
-                    },
-                    onBlur: function(e) {
-                        if($(this).hasClass('compose_summernote')){
-                            var t = e.currentTarget.innerText; 
-                            var numofImg= getImgSrc($('.summernote').summernote('code'));
-                            if(numofImg.length>allowedNum){
-                                jQuery('#btn_submit').attr('disabled','disabled');
-                                jQuery('.summernote').summernote({ disableDragAndDrop: true});
-                                swal("", "Max image yang bisa diupload adalah "+allowedNum+". Mohon hapus image.", "warning");
-                            }else{
-                                jQuery('#btn_submit').removeAttr('disabled');
-                                jQuery('.summernote').summernote({ disableDragAndDrop: false});
-                            }
-                        }
-
-                    },
-                    // onPaste: function (e) {
-                    //  var t = e.currentTarget.innerText;
-                    //  var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
-                    //  e.preventDefault();
-                    //  var all = t + bufferText;
-                    //  document.execCommand('insertText', false, all.trim().substring(0, karakter));
-                    //  var remaining=(karakter - t.length);                    
-                    //  $("#hitung").html(" <strong>"+  remaining+"</strong> karakter tersisa"); 
-                    //  $("#hitung").css("color","red");
-                    // },
-
-                }
-            });
-
-        });
+        $(document).ready(function() {
+  $('#summernote').summernote();
+});
+</script>
   </body>
 </html>
