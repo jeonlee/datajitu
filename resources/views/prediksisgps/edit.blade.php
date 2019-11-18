@@ -13,12 +13,12 @@
         		{{ csrf_field() }}
                 {{ method_field('PATCH') }}
                 <div class="form-group">
-                    <label for="title">Periode</label>
-                    <input type="text" name="periode" id="periode" class="form-control input-sm" placeholder="{{ $prediksisgps->periode }}">
-                </div>
-                <div class="form-group">
                     <label for="title">Number</label>
                     <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksisgps->number }}">
+                </div>
+		<div class="form-group">
+                    <label for="title">Deskripsi</label>
+                    <textarea for="text" name="deskripsi" id="summernote" class="form-control summernote">{{ $prediksisgps->deskripsi }}</textarea>
                 </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
