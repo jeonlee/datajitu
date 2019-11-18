@@ -95,9 +95,14 @@
         <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilcambodia') }}">Hasil Lengkap</a> -->
       </div>
     </div>
-    <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/cambodia') }}">Statistik</a>
-    </div>  
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/cambodia') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksicmbdet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div> 
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader lotto" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
@@ -144,9 +149,14 @@
         <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsydney') }}">Hasil Lengkap</a> -->
       </div>
     </div>
-    <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/sydney') }}">Statistik</a>
-    </div>      
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/sydney') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksisyddet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>     
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader hotpicks" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
@@ -195,9 +205,14 @@
       <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilchina') }}">Hasil Lengkap</a> -->
     </div>
   </div>
-  <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/china') }}">Statistik</a>
-    </div>       
+  <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/china') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksichndet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>     
   <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
     <div class="sideHeader health" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
       <div class="col-xs-12">
@@ -248,9 +263,14 @@
         <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasiltaiwan') }}">Hasil Lengkap</a> -->
       </div>
     </div>
-    <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/taiwan') }}">Statistik</a>
-    </div>     
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/taiwan') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksitwdet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>    
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader postcode" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
@@ -296,9 +316,14 @@
         <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilhongkong') }}">Hasil Lengkap</a> -->
       </div>
     </div>
-    <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hongkong') }}">Statistik</a>
-    </div>          
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/hongkong') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksihkdet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>      
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader thunderball" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
