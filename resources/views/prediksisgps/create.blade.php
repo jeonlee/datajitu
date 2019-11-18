@@ -30,6 +30,10 @@
                     <label for="body">Prediksi</label>
                     <input type="text" name="prediksi" id="number" class="form-control input-sm">
                 </div>
+		<div class="form-group">
+                    <label for="title">Deskripsi</label>
+                    <textarea for="text" name="deskripsi" id="summernote" class="form-control summernote"></textarea>
+                </div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
         </div>
