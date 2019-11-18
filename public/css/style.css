@@ -1505,3 +1505,6 @@ body {
     top: 0;
     transition: all 0.1s linear 0s;
 }
+.table-hover, th, td {
+    color:#000;
+}
