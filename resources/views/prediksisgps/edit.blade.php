@@ -14,7 +14,7 @@
                 {{ method_field('PATCH') }}
                 <div class="form-group">
                     <label for="title">Number</label>
-                    <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksisgps->number }}">
+                    <input type="text" name="number" id="number" class="form-control input-sm" placeholder="{{ $prediksisgps->prediksi }}">
                 </div>
 		<div class="form-group">
                     <label for="title">Deskripsi</label>
