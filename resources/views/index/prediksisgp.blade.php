@@ -39,10 +39,15 @@
           
         <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>-->
       </div>
-    </div><!-- end result-box -->
-    <div class="col-xs-12 text-center hidden-sm hidden-xs" style="margin-bottom:15px;">
-        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/singapura') }}">Statistik</a>
-    </div>          
+    </div><!-- end result-box --> 
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/singapura') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksisgpdet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>
     <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
       <div class="sideHeader euromillions" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
         <div class="col-xs-12">
