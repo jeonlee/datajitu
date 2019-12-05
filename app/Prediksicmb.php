@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Prediksicmb extends Model
 {
    protected $fillable = [
-        'tanggal', 'hari', 'prediksi', 'date'
+        'tanggal', 'hari', 'prediksi', 'date','deskripsi'
     ];
     public function path()
     {
