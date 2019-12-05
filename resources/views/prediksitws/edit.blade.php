@@ -9,7 +9,7 @@
         </div>
 
         <div class="panel-body">
-        	<form method="POST" action="/admin/taiwan/{{ $prediksitws->id }}">
+        	<form method="POST" action="/admin/prediksitw/{{ $prediksitws->id }}">
         		{{ csrf_field() }}
                 {{ method_field('PATCH') }}
                 <div class="form-group">
