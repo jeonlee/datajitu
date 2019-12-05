@@ -51,7 +51,7 @@ class PrediksichnController extends Controller
 
         $prediksichn->fill($input)->save();
 
-        $prediksichns = Prediksichn::all();
+        $prediksichns = Prediksichn::orderBy('tanggal','desc')->paginate(5);
 
         return view('prediksichns.index', compact('prediksichns'));
     }
