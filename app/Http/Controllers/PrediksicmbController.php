@@ -51,7 +51,7 @@ class PrediksicmbController extends Controller
 
         $prediksicmb->fill($input)->save();
 
-        $prediksicmbs = Prediksicmb::all();
+        $prediksicmbs = Prediksicmb::orderBy('tanggal','desc')->paginate(5);
 
         return view('prediksicmbs.index', compact('prediksicmbs'));
     }
