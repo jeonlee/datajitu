@@ -51,7 +51,7 @@ class PrediksisydController extends Controller
 
         $prediksisyd->fill($input)->save();
 
-        $prediksisyds = Prediksisyd::all();
+        $prediksisyds = Prediksisyd::orderBy('tanggal','desc')->paginate(5);
 
         return view('prediksisyds.index', compact('prediksisyds'));
     }
