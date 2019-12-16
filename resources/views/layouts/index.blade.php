@@ -273,7 +273,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Brotogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://brotogel.com" target="_blank">www.brotogel.com</a></li> -->
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotgl20.com" target="_blank">www.brotgl20.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://brotogel2020.com" target="_blank">www.brotogel2020.com</a></li>
                           
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.21" target="_blank">103.10.201.21</a></li>
@@ -313,7 +313,6 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.201.25" target="_blank">103.10.201.25</a></li>
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://totobet2020.com" target="_blank">www.totobet2020.com</a></li>
                         </ul>
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Analisatoto</a>
