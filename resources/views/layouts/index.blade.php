@@ -61,7 +61,7 @@
           <nav class="navbar navbar-default navbar-fixed-top hf header" style="top:40px;">
             <div class="container hidden-sm hidden-xs" style="width:1350px;">
               <div class="col-xs-2">
-                <a href="index.php?home"><img width="80%" src="/images/logo.png"></a>
+                <a href="{{ url('/') }}"><img width="80%" src="/images/logo.png"></a>
               </div>
               <div class="col-xs-10 text-center">
                 <nav class="pull-left hidden-xs hidden-sm cl-effect-5" id="nav cl-effect-5" style="margin-left:30px;">
