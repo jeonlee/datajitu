@@ -128,7 +128,7 @@
                           <li><a href="{{ url('/analisischina') }}">Togel China</a></li>
                           <li><a href="{{ url('/analisishongkong') }}">Togel Hongkong</a></li>
                         </ul>
-                        <li><a href="{{ url('/bukumimpi') }}"><i class="fa fa-book fa-lg"></i>BUKU MIMPI</a></li>
+                        <li><a href="{{ url('/bukumimpi-m') }}"><i class="fa fa-book fa-lg"></i>BUKU MIMPI</a></li>
                         <li data-toggle="collapse" data-target="#totosgp" class="collapsed">
                           <a href="#"><i class="fa fa-bar-chart fa-lg"></i> TOTO SGP <span class="arrow"></span></a>
                         </li>  
