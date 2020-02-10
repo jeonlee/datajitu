@@ -1323,7 +1323,7 @@ sup {
     transition: all 0.5s ease-in-out 0s;
 }
 .sidemenu li.menutitle::after {
-    background: transparent url("../images/spritesheet.png") no-repeat scroll -200px -553px;
+    /*background: transparent url("../images/spritesheet.png") no-repeat scroll -200px -553px;*/
     content: "";
     height: 10px;
     position: absolute;
