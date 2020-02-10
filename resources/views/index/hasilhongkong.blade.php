@@ -13,7 +13,7 @@
                 <div class="table-responsive">
                   <table class="middle">
                     <thead>
-                      <tr class="kolom purple">
+                      <tr class="kolom purple tmob">
                                                            
                         <th><div class="th_jam">DATE</div></th>
                         <th><div class="th_jam">PERIODE</div></th>
