@@ -2647,3 +2647,8 @@ input.inp1 {
     outline: 0 none;
     text-decoration: none;
 }
+@media (max-width: 1280px) {
+  .tmob {
+    padding:0px;
+  }
+}
