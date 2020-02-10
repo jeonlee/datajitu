@@ -1540,6 +1540,10 @@ class IndexController extends Controller
     {
         return view('index.bukumimpi', compact('bukumimpi'));
     }
+    public function showbukumimpim()
+    {
+        return view('index.bukumimpi-m', compact('bukumimpi'));
+    }
     public function showcomingsoon()
     {
         return view('index.comingsoon', compact('comingsoon','comingsoons'));
