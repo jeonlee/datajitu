@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 
-                <ul class="list-group" id="contact-list" style="max-height: 620px; overflow: hidden;">
+                <ul class="list-group commentlist" id="contact-list" style="max-height: 620px; overflow: hidden;">
                     <li class="list-group-item bg-white">
                         <div class="col-xs-12">
                             <img src="images/buku-mimpi/buku-mimpi-0.jpg" alt="00" class="img-responsive" />
