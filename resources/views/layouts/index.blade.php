@@ -581,7 +581,7 @@
      
       <div class="col-xs-12 visible-sm visible-xs" style="padding:0px;">
         @yield('numbergeneratorm')
-          @yield('content1')
+          @yield('content')
       </div>
 </div><!-- end col-xs-12 -->
 
