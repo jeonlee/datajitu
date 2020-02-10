@@ -96,7 +96,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a href="index.php?home"><img width="40%" src="/images/logo.png"></a>
+                      <a href="{{ url('/') }}"><img width="40%" src="/images/logo.png"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
