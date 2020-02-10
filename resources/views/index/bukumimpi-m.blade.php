@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('content')
+@section('content1')
 <?php function get_script() { ?>
   <link rel="stylesheet" href="css/galleriffic-5.css" type="text/css" />
    <link rel="stylesheet" href="css/white.css" type="text/css" />
