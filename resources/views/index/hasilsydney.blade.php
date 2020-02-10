@@ -14,7 +14,7 @@
                 <div class="table-responsive">
                   <table class="middle">
                     <thead>
-                      <tr class="kolom orange">
+                      <tr class="kolom orange tmob">
                                                            
                         <th><div class="th_jam">DATE</div></th>
                         <th><div class="th_jam">PERIODE</div></th>
