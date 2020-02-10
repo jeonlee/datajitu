@@ -315,12 +315,12 @@
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.201.25" target="_blank">103.10.201.25</a></li>
                         </ul>
                       </li>
-                      <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Analisatoto</a>
+                      <!--<li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Analisatoto</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://analisatoto20.com" target="_blank">www.analisatoto20.com</a></li>
                         </ul>
-                      </li>
+                      </li>-->
                     </ul>
                   </li>
                 </ul>
