@@ -36,6 +36,7 @@ Route::get('/hasilhongkong', 'IndexController@showhasilhongkong');
 Route::get('/jadwalkeluaran', 'IndexController@showjadwalkeluaran');
 Route::get('/numbergenerator', 'IndexController@shownumbergenerator');
 Route::get('/bukumimpi', 'IndexController@showbukumimpi');
+Route::get('/bukumimpi-m', 'IndexController@showbukumimpi');
 Route::get('/analisissingapura', 'IndexController@showanalisissingapura');
 Route::get('/analisissydney', 'IndexController@showanalisissydney');
 Route::get('/analisiscambodia', 'IndexController@showanalisiscambodia');
