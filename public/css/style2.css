@@ -2648,7 +2648,7 @@ input.inp1 {
     text-decoration: none;
 }
 @media (max-width: 1280px) {
-  .tmob {
+  .tmob th {
     padding:0px;
   }
 }
