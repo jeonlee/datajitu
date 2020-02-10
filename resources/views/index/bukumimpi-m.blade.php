@@ -145,7 +145,7 @@
                 <div class="row">
                     <div class="col-xs-6 col-xs-offset-3">
                         <div class="input-group c-search">
-                            <input type="text" class="form-control" id="contact-list-search">
+                            <input type="text" class="form-control" id="contact-list-search1">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search text-muted"></span></button>
                             </span>
