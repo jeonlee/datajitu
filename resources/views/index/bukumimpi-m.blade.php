@@ -2,6 +2,7 @@
 
 @section('content')
 <?php function get_script() { ?>
+<script>
   $(document).ready(function(){
     $("#filter").keyup(function(){
  
@@ -27,6 +28,7 @@
         $("#filter-count").text("Number of Comments = "+count);
     });
 });
+</script>
 <?php } ?>  
 <div class="row">
         <div class="col-xs-12">
