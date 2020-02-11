@@ -255,6 +255,20 @@ class IndexController extends Controller
         return view('index.hasilsingapura', compact('singapura','singapuras','users','items'));
     }
 
+    public function showhasilsingapuram(Request $request)
+    {
+        $items = $request->items ?? 10;  
+        
+        $singapura = Singapura::all()->last();
+
+        $singapuras = Singapura::orderBy('periode','desc')->paginate($items);
+
+        $collection = collect($singapuras);
+
+        
+        return view('index.hasilsingapura-m', compact('singapura','singapuras','users','items'));
+    }
+
     public function showprediksisgp()
     {
         $prediksisgp = Prediksisgp::all()->last();
