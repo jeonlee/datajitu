@@ -10,7 +10,7 @@
 .styled input.text-input {background: none; border: 1px solid #ccc; padding: 5px; width: 246px; font-size: 16px; line-height: 1em;}
 </style>
 <?php } ?>  
-<div class="row">
+<div class="row visible-sm visible-xs">
         <div class="col-xs-12">
             <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
