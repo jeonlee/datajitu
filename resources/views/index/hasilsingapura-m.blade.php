@@ -48,7 +48,7 @@
             
                
             
-            <div class="text-center visible-sm visible-xs">
+            <div class="text-center">
                 <form action="#">
                    <select id="paginations" name="items">
                         <option value="10" @if($items == 10) selected @endif >10</option>
