@@ -806,7 +806,7 @@ $(function () {
   </script>
   <script type="text/javascript">
   $(document).ready(function(){
-    $("#filter").keyup touchend(function(){
+    $("#filter").keyup(function(){
  
         // Retrieve the input field text and reset the count to zero
         var filter = $(this).val(), count = 0;
