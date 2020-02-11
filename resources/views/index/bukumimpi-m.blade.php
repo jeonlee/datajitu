@@ -29,50 +29,36 @@
     });
 });
 </script>
+<style type="text/css">
+/*Form styles*/
+.styled fieldset, .styled fieldset ol, .styled fieldset li {border: none; padding: 0; margin: 0;}
+.styled {font-family: Arial, sans-serif; font-size: 15px; color: #333;}
+.styled fieldset {padding: 20px 0}
+.styled input.text-input {background: none; border: 1px solid #ccc; padding: 5px; width: 246px; font-size: 16px; line-height: 1em;}
+</style>
 <?php } ?>  
 <div class="row">
         <div class="col-xs-12">
-            <div class="panel panel-primary">
-                <div class="panel-heading p15 black font">
-                  <div class="panel-title">
-                    <h3>BUKU MIMPI</h3>
-                  </div>  
-                    
-                </div>
-                
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3">
-                        <form id="live-search" action="" class="styled" method="post">
-                            <fieldset>
-                                <input type="text" class="form-control text-input" id="filter" value="" />
-                                <span id="filter-count"></span>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-                
-                <ol class="commentlist">
-  <li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
-  <li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</li>
-  <li>ccccccccccccccccccccccccccccccccccc</li>
-  <li>dddddddddddddddddddddddddddddddddddd</li>
-  <li>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</li>
-  <li>ffffffffffffffffffffffffffffffffffff</li>
-</ol>
-            </div>
+            <form id="live-search" action="" class="styled" method="post">
+                <fieldset>
+                    <input type="text" class="text-input" id="filter" value="" />
+                    <span id="filter-count"></span>
+                </fieldset>
+            </form>
         </div>
+        <ol class="commentlist">
+          <li>aaaaaaaaaaaaa</li>
+          <li>bbbbbbbbbbbbb</li>
+        </ol>
   </div>
     
     
 
 
         
-      </div>
     
                   
 <?php get_script(); ?>
-                </div>   <!-- end body -->   
-          </div>
-        </div>
+            
 
 @endsection
