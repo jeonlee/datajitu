@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
-<?php function get_script() { ?>
+
 <script type="text/javascript">
   $(document).ready(function(){
     $("#filter").keyup(function(){
@@ -36,7 +36,7 @@
 .styled fieldset {padding: 20px 0}
 .styled input.text-input {background: none; border: 1px solid #ccc; padding: 5px; width: 246px; font-size: 16px; line-height: 1em;}
 </style>
-<?php } ?>  
+
 <div class="row">
         <div class="col-xs-12">
             <form id="live-search" action="" class="styled" method="post">
@@ -55,10 +55,6 @@
     
 
 
-        
-    
-                  
-<?php get_script(); ?>
-            
+
 
 @endsection
