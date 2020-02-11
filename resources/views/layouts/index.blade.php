@@ -583,6 +583,7 @@
         @yield('numbergeneratorm')
           @yield('content')
           @yield('bukumimpi')
+          @yield('content1')
       </div>
 </div><!-- end col-xs-12 -->
 
