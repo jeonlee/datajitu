@@ -41,10 +41,7 @@
                         <div class="clearfix"></div>
                     </li>
                     <li class="list-group-item bg-white">
-                        <div class="col-xs-12">
-                            <img src="images/buku-mimpi/buku-mimpi-1.jpg" alt="01" class="img-responsive" />
-                            <span class="name hide">mimpi 01 - setan - ikan bandeng - jual ikan - jambu mete - tangan - obor - batara kala</span><br/>
-                        </div>
+                        bbbbbbbbbbbbbbbbbbb
                         
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
