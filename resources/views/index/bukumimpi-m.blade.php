@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('content')
+@section('bukumimpi')
 <?php function get_script() { ?>
   <style type="text/css">
 /*Form styles*/
