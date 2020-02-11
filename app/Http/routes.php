@@ -23,6 +23,7 @@ Route::get('/', 'IndexController@index');
 Route::get('/singapura', 'IndexController@showsingapura');
 Route::get('/testsingapura', 'IndexController@showtestsingapura');
 Route::get('/hasilsingapura', 'IndexController@showhasilsingapura');
+Route::get('/hasilsingapura-m', 'IndexController@showhasilsingapuram');
 Route::get('/sydney', 'IndexController@showsydney');
 Route::get('/hasilsydney', 'IndexController@showhasilsydney');
 Route::get('/cambodia', 'IndexController@showcambodia');
