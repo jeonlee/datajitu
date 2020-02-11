@@ -3,7 +3,7 @@
 @section('content')
 
 <script type="text/javascript">
-  $(document).ready(function(){
+  jQuery(document).ready(function(){
     $("#filter").keyup(function(){
  
         // Retrieve the input field text and reset the count to zero
