@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 
-                <ul class="list-group commentlist" id="contact-list" style="max-height: 620px; overflow: hidden;">
+                <ol class="list-group commentlist" id="contact-list" style="max-height: 620px; overflow: hidden;">
                     <li class="list-group-item bg-white">
                         <div class="col-xs-12">
                             <img src="images/buku-mimpi/buku-mimpi-0.jpg" alt="00" class="img-responsive" />
@@ -67,27 +67,7 @@
                         </div>
                         
                         <div class="clearfix"></div>
-                    </li> <li class="comment odd alt thread-odd thread-alt depth-1 clearfix list-group-item bg-white" id="li-comment-12513">
-
- 
-     <div id="comment-12513">
-	  <div class="comment-meta commentmetadata clearfix">
-	    <strong><a href='http://Website' rel='external nofollow' class='url'>Jeff</a></strong> <span>2011 May 04 at 2:20 pm	  </span>
-	  </div>
-
-	  
-      <div class="text">
-		  <p>Hi Lee, </p>
-<p>Thank you for your solution</p>
-<p>I just add the z-index for the skin of jquery-mega-menu because my theme can&#8217;t found any z-index. The problem has been solved <img src='http://www.designchemical.com/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
-	  </div>
-	  
-	  
-      <div class="reply">
-         <a rel='nofollow' class='comment-reply-link' href='/blog/index.php/wordpress-plugins/wordpress-plugin-jquery-drop-down-mega-menu-widget/?replytocom=12513#respond' onclick='return addComment.moveForm("comment-12513", "12513", "respond", "1230")'>Reply</a>      </div>
-
-     </div>
-</li><li class="list-group-item bg-white">
+                    </li> <li class="list-group-item bg-white">
                         <div class="col-xs-12">
                             <img src="images/buku-mimpi/buku-mimpi-3.jpg" alt="Scott Stevens" class="img-responsive" />
                             <span class="name hide">mimpi 03 - orang mati - angsa - lompat galah - sawi - kaki - cemburu - subali</span><br/>
@@ -770,7 +750,7 @@
                         
                         <div class="clearfix"></div>
                     </li>
-                </ul>
+                </ol>
             </div>
         </div>
   </div>
