@@ -59,7 +59,7 @@
                 </form>
                
                  <script type="text/javascript">
-                    jquery(document).getElementById('paginations').onchange = function() {
+                    jQuery(document).getElementById('paginations').onchange = function() {
                         window.location.href = "{{ $singapuras->url(1) }}&items=" + this.value;
                     };
                 </script>
