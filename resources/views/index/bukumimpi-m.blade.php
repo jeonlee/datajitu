@@ -68,10 +68,7 @@
                         
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
-                        <div class="col-xs-12">
-                            <img src="images/buku-mimpi/buku-mimpi-2.jpg" alt="02" class="img-responsive" />
-                            <span class="name hide">mimpi 02 - sarjana - bekicot - lompat tinggi - wortel - jangkar - sandal - batara bromo</span><br/>
-                        </div>
+                        Is it possible to add a list of links for posts to the menu, after the categories & subcategories, like a new third level?
                         
                         <div class="clearfix"></div>
                     </li><li class="list-group-item bg-white">
