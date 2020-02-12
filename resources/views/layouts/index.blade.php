@@ -107,7 +107,7 @@
                           <a href="#"><i class="fa fa-table fa-lg"></i> HASIL KELUARAN <span class="arrow"></span></a>
                         </li>  
                         <ul class="sub-menu collapse" id="hasilkeluaran">
-                          <li><a href="{{ url('/hasilsingapura') }}">Togel Singapura</a></li>
+                          <li><a href="{{ url('/hasilsingapura-m') }}">Togel Singapura</a></li>
                           <li><a href="{{ url('/hasilsydney') }}">Togel Sydney</a></li>
                           <li><a href="{{ url('/hasilcambodia') }}">Togel Cambodia</a></li>
                           <li><a href="{{ url('/hasiltaiwan') }}">Togel Taiwan</a></li>
