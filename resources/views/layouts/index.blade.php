@@ -108,11 +108,11 @@
                         </li>  
                         <ul class="sub-menu collapse" id="hasilkeluaran">
                           <li><a href="{{ url('/hasilsingapura-m') }}">Togel Singapura</a></li>
-                          <li><a href="{{ url('/hasilsydney') }}">Togel Sydney</a></li>
-                          <li><a href="{{ url('/hasilcambodia') }}">Togel Cambodia</a></li>
-                          <li><a href="{{ url('/hasiltaiwan') }}">Togel Taiwan</a></li>
-                          <li><a href="{{ url('/hasilchina') }}">Togel China</a></li>
-                          <li><a href="{{ url('/hasilhongkong') }}">Togel Hongkong</a></li>
+                          <li><a href="{{ url('/hasilsydney-m') }}">Togel Sydney</a></li>
+                          <li><a href="{{ url('/hasilcambodia-m') }}">Togel Cambodia</a></li>
+                          <li><a href="{{ url('/hasiltaiwan-m') }}">Togel Taiwan</a></li>
+                          <li><a href="{{ url('/hasilchina-m') }}">Togel China</a></li>
+                          <li><a href="{{ url('/hasilhongkong-m') }}">Togel Hongkong</a></li>
                         </ul>
                         <li><a href="{{ url('/jadwalkeluaran') }}"><i class="fa fa-calendar fa-lg"></i>JADWAL KELUARAN TOGEL</a></li>
                         <li><a href="{{ url('/prediksisgp') }}"><i class="fa fa-table fa-lg"></i>PREDIKSI TOGEL</a></li>
