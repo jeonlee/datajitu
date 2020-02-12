@@ -47,7 +47,7 @@
                   <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/prediksisgp') }}">Prediksi Selanjutnya</a>
                 </div>
                 <div class="col-xs-6 text-center">
-                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura-m') }}">Hasil Lengkap</a>
                 </div>
               </div>
               <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
