@@ -21,7 +21,7 @@
                 </div>
                 
                 <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3">
+                    <div class="col-xs-6 col-xs-offset-2">
                         <form id="live-search" action="" class="styled" method="post">
                             <fieldset>
                                 <input type="text" class="text-input" placeholder="search" id="filter" value="" />
