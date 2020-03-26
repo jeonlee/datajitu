@@ -7,8 +7,16 @@
       <h3>LIVE DRAW TOGEL TAIWAN</h3>
     </div>
   </div>
-  <div class="panel-body">
+  <div class="panel-body hidden-sm hidden-xs">
     <div style="width:677px; height:500px; left:70px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
+            <iframe scrolling="no" src="http://www.taiwanlottery.net/" style="border: 0px none; margin-left: -276px; margin-top: -84px; width: 960px; height: 555px;"></iframe>
+        </div>
+        <!--<div style="width:310px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
+          <iframe scrolling="no" src=http://www.check4d.com/singapore-pools-results/" style="border: 0px none; margin-top: -401px; width: 707px; height: 737px; margin-left: -392px;"></iframe>
+        </div>-->
+    </div>
+    <div class="panel-body visible-sm visible-xs">
+    <div style="width:362px; height:500px; left:9px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
             <iframe scrolling="no" src="http://www.taiwanlottery.net/" style="border: 0px none; margin-left: -276px; margin-top: -84px; width: 960px; height: 555px;"></iframe>
         </div>
         <!--<div style="width:310px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
