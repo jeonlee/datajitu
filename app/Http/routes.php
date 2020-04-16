@@ -17,7 +17,9 @@ Route::get('/admin', function () {
 Route::get('/buatakun', function() {
 	return view('buatakun');
 })->middleware('auth');
-Route::get('/register', 'Auth\AuthController@create')->middleware('auth');
+Route::get('/register', function() {
+	return view('Auth.register');
+})->middleware('auth');
 
 Route::get('/', 'IndexController@index');
 Route::get('/singapura', 'IndexController@showsingapura');
