@@ -76,6 +76,7 @@
                   <li><a href="{{ url('/admin/taiwan') }}">Togel Taiwan</a></li>
                   <li><a href="{{ url('/admin/china') }}">Togel China</a></li>
                   <li><a href="{{ url('/admin/hongkong') }}">Togel Hongkong</a></li>
+                  <li><a href="{{ url('/admin/japan') }}">Togel Japan</a></li>
 
                <li><a href="#" data-toggle="collapse" data-target="#prediksis" aria-expanded="false" aria-controls="results">Prediksi Togel <span class="pull-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a></li>
               <div class="collapse" id="prediksis">
@@ -86,6 +87,7 @@
                   <li><a href="{{ url('/admin/prediksitw') }}">Togel Taiwan</a></li>
                   <li><a href="{{ url('/admin/prediksichn') }}">Togel China</a></li>
                   <li><a href="{{ url('/admin/prediksihk') }}">Togel Hongkong</a></li>
+                  <li><a href="{{ url('/admin/prediksijpn') }}">Togel Japan</a></li>
 
                 </ol>
               </div>
