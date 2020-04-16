@@ -1940,6 +1940,10 @@ nav.sidebar, .main{
     background-color: #690037;
     background-position: 0 -800px;
 }
+.latestHeader.tokyoball, .sideHeader.tokyoball, .table.tokyoball th {
+    background-color: #483c30;
+    background-position: 0 -800px;
+}
 .thunderball-ball {
     background: #f06 none repeat scroll 0 0;
     color: #fff;
