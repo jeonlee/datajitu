@@ -381,10 +381,10 @@
                   </div>
                 </div><!-- sideheader -->
             <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
-          <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
-          <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
-          <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
-          <div class="result medium thunderball-ball"><?php  echo $empat; ?></div>
+          <div class="result medium tokyoball-ball"><?php  echo $satu; ?></div>
+          <div class="result medium tokyoball-ball"><?php  echo $dua; ?></div>
+          <div class="result medium tokyoball-ball"><?php  echo $tiga; ?></div>
+          <div class="result medium tokyoball-ball"><?php  echo $empat; ?></div>
          
           <br><br>
           
@@ -404,10 +404,10 @@
                     
                     <h3 style="color: #FFF;"><span class="smallerHeading">{{ $japan->hari }}</span> <br><span class="smallerHeading">{{ $japan->tanggal }}</span></h3>
                   </div>
-                  <div class="result medium thunderball-ball"><?php  echo $satu; ?></div>
-                  <div class="result medium thunderball-ball"><?php  echo $dua; ?></div>
-                  <div class="result medium thunderball-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium thunderball-ball"><?php  echo $empat; ?></div><br>
+                  <div class="result medium tokyoball-ball"><?php  echo $satu; ?></div>
+                  <div class="result medium tokyoball-ball"><?php  echo $dua; ?></div>
+                  <div class="result medium tokyoball-ball"><?php  echo $tiga; ?></div>
+                  <div class="result medium tokyoball-ball"><?php  echo $empat; ?></div><br>
                   <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasiljapan-m') }}">Hasil Lengkap</a>
                 </div><!-- sideheader -->
                 <br><br>
