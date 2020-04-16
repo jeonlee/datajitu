@@ -1944,6 +1944,11 @@ nav.sidebar, .main{
     background-color: #5c4d3b;
     background-position: 0 -1742px;
 }
+
+.tokyoball-ball {
+    background: #bb9c69 none repeat scroll 0 0;
+    color: #fff;
+}
 .thunderball-ball {
     background: #f06 none repeat scroll 0 0;
     color: #fff;
