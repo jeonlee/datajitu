@@ -16,7 +16,7 @@ Route::get('/admin', function () {
 });
 Route::get('/buatakun', function() {
 	return view('buatakun');
-});
+})->middleware('auth');
 
 
 Route::get('/', 'IndexController@index');
