@@ -370,7 +370,7 @@
           <div class="col-xs-12" style="margin-top:15px;">
           <h3 class="josefin">TOGEL JAPAN</h3>
               <div class="resultBox shorter centred hidden-sm hidden-xs">
-            <div class="sideHeader thunderball">
+            <div class="sideHeader tokyoball">
              <div class="col-xs-5">
                 <img width="100%" src="images/logo-togel-japan.png">
                 
@@ -399,7 +399,7 @@
                 </div>
               </div>
             <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
-                <div class="sideHeader thunderball" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
+                <div class="sideHeader tokyoball" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
                   <div class="col-xs-12">
                     
                     <h3 style="color: #FFF;"><span class="smallerHeading">{{ $japan->hari }}</span> <br><span class="smallerHeading">{{ $japan->tanggal }}</span></h3>
