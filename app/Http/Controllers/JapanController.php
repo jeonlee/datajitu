@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Singapura;
+use App\Japan;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
