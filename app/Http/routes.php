@@ -39,6 +39,9 @@ Route::get('/hasilchina-m', 'IndexController@showhasilchinam');
 Route::get('/hongkong', 'IndexController@showhongkong');
 Route::get('/hasilhongkong', 'IndexController@showhasilhongkong');
 Route::get('/hasilhongkong-m', 'IndexController@showhasilhongkongm');
+Route::get('/japan', 'IndexController@showjapan');
+Route::get('/hasiljapan', 'IndexController@showhasiljapan');
+Route::get('/hasiljapan-m', 'IndexController@showhasiljapanm');
 Route::get('/jadwalkeluaran', 'IndexController@showjadwalkeluaran');
 Route::get('/numbergenerator', 'IndexController@shownumbergenerator');
 Route::get('/bukumimpi', 'IndexController@showbukumimpi');
@@ -49,6 +52,7 @@ Route::get('/analisiscambodia', 'IndexController@showanalisiscambodia');
 Route::get('/analisistaiwan', 'IndexController@showanalisistaiwan');
 Route::get('/analisischina', 'IndexController@showanalisischina');
 Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
+Route::get('/analisisjapan', 'IndexController@showanalisisjapan');
 Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 Route::get('/resultsgp', 'IndexController@showresultsgp');
@@ -58,6 +62,7 @@ Route::get('/livedrawcmb', 'IndexController@showlivedrawcmb');
 Route::get('/livedrawtw', 'IndexController@showlivedrawtw');
 Route::get('/livedrawchn', 'IndexController@showlivedrawchn');
 Route::get('/livedrawhk', 'IndexController@showlivedrawhk');
+Route::get('/livedrawjpn', 'IndexController@showlivedrawjpn');
 Route::get('/prediksisgp', 'IndexController@showprediksisgp');
 Route::get('/prediksisgpdet', 'IndexController@showprediksisgpdet');
 Route::get('/prediksisyddet', 'IndexController@showprediksisyddet');
@@ -65,6 +70,7 @@ Route::get('/prediksicmbdet', 'IndexController@showprediksicmbdet');
 Route::get('/prediksichndet', 'IndexController@showprediksichndet');
 Route::get('/prediksitwdet', 'IndexController@showprediksitwdet');
 Route::get('/prediksihkdet', 'IndexController@showprediksihkdet');
+Route::get('/prediksijpndet', 'IndexController@showprediksijpndet');
 Route::get('/comingsoon', 'IndexController@showcomingsoon');
 
 Route::post('/searchResultSingapura', 'IndexController@searchResultSingapura');
@@ -73,6 +79,7 @@ Route::post('/searchResultCambodia', 'IndexController@searchResultCambodia');
 Route::post('/searchResultTaiwan', 'IndexController@searchResultTaiwan');
 Route::post('/searchResultChina', 'IndexController@searchResultChina');
 Route::post('/searchResultHongkong', 'IndexController@searchResultHongkong');
+Route::post('/searchResultJapan', 'IndexController@searchResultJapan');
 
 Route::auth();
 Route::get('/home', function() {
@@ -132,6 +139,14 @@ Route::get('/analisishk/{hongkong}/edit', 'AnalisishkController@edit');
 Route::patch('/analisishk/{hongkong}', 'AnalisishkController@update');
 Route::delete('/analisishk/{hongkong}/delete', 'AnalisishkController@delete');
 
+Route::get('/analisisjpn', 'AnalisisjpnController@index');
+Route::get('/analisisjpn/create', 'AnalisisjpnController@create');
+Route::post('/analisisjpn', 'AnalisisjpnController@store');
+Route::get('/analisisjpn/{japan}', 'AnalisisjpnController@show');
+Route::get('/analisisjpn/{japan}/edit', 'AnalisisjpnController@edit');
+Route::patch('/analisisjpn/{japan}', 'AnalisisjpnController@update');
+Route::delete('/analisisjpn/{japan}/delete', 'AnalisisjpnController@delete');
+
 Route::get('/admin/singapura', 'SingapuraController@index');
 Route::get('/admin/singapura/create', 'SingapuraController@create');
 Route::post('/admin/singapura', 'SingapuraController@store');
@@ -179,6 +194,14 @@ Route::get('/admin/hongkong/{hongkong}', 'HongkongController@show');
 Route::get('/admin/hongkong/{hongkong}/edit', 'HongkongController@edit');
 Route::patch('/admin/hongkong/{hongkong}', 'HongkongController@update');
 Route::delete('/admin/hongkong/{hongkong}/delete', 'HongkongController@delete');
+
+Route::get('/admin/japan', 'JapanController@index');
+Route::get('/admin/japan/create', 'JapanController@create');
+Route::post('/admin/japan', 'JapanController@store');
+Route::get('/admin/japan/{japan}', 'JapanController@show');
+Route::get('/admin/japan/{japan}/edit', 'JapanController@edit');
+Route::patch('/admin/japan/{japan}', 'JapanController@update');
+Route::delete('/admin/japan/{japan}/delete', 'JapanController@delete');
 
 Route::get('/admin/prediksisgp', 'PrediksisgpController@index');
 Route::get('/admin/prediksisgp/create', 'PrediksisgpController@create');
@@ -236,6 +259,14 @@ Route::get('/admin/prediksihk/{hongkong}', 'PrediksihkController@show');
 Route::get('/admin/prediksihk/{hongkong}/edit', 'PrediksihkController@edit');
 Route::patch('/admin/prediksihk/{hongkong}', 'PrediksihkController@update');
 Route::delete('/admin/prediksihk/{hongkong}/delete', 'PrediksihkController@delete');
+
+Route::get('/admin/prediksijpn', 'PrediksijpnController@index');
+Route::get('/admin/prediksijpn/create', 'PrediksijpnController@create');
+Route::post('/admin/prediksijpn', 'PrediksijpnController@store');
+Route::get('/admin/prediksijpn/{japan}', 'PrediksijpnController@show');
+Route::get('/admin/prediksijpn/{japan}/edit', 'PrediksijpnController@edit');
+Route::patch('/admin/prediksijpn/{japan}', 'PrediksijpnController@update');
+Route::delete('/admin/prediksijpn/{japan}/delete', 'PrediksijpnController@delete');
 
 Route::get('/users', 'UsersController@index');
 Route::get('/users/create', 'UsersController@create');
