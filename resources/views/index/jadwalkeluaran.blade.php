@@ -71,6 +71,14 @@
                 <td><div class="t_city">23:00</div></td>
                 <td><div class="t_city"><a class="resmi" href="http://www.hongkongpools.com" target="_blank">www.hongkongpools.com</a></div></td>
               </tr> 
+              <tr>
+                <td><div class="t_no">6</div></td>
+                <td><div class="t_hari">Togel Japan</div></td>
+                <td><div class="t_tgl">Setiap Hari</div></td>                                    
+                <td><div class="t_city">18:30</div></td>
+                <td><div class="t_city">19:00</div></td>
+                <td><div class="t_city"><a class="resmi" href="http://www.japanpools.online" target="_blank">www.japanpools.online</a></div></td>
+              </tr> 
                                                                                                                                                                                                                                            
             </tbody>
         </table>
