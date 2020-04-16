@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    <a href="{{ url('/register') }}">Register</a>
+                    <a href="{{ url('/register123321') }}">Register</a>
                 </div>
             </div>
         </div>
