@@ -34,13 +34,15 @@
                             <td>{{ $china->periode }}-CN</td>
                             <td>{{ $china->number }}</td>
                             <td><a href="/admin/china/{{ $china->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
-                             <!-- <td>
+                             <td>
+			     	@if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
                                 <form method="POST" action="/admin/china/{{ $china->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
                                      <button type="submit" class="btn btn-danger btn-sm">Delete</button>            
                                 </form>
-                            </td> -->
+				@endif
+                            </td>
                         </tr>
                     @endforeach
                 </tbody>
