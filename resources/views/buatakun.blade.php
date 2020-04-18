@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
                 @if(Auth::user()->name =='khalnimo')
                 <div class="panel-body">
-                    <a href="{{ url('/register123321') }}">Register</a>
+                    <a href="{{ url('/register') }}">Register</a>
                 </div>
                 @endif
             </div>
