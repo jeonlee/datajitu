@@ -41,7 +41,7 @@
                                     {{ method_field('DELETE') }}
                                     <!-- <button type="submit" class="btn btn-danger btn-sm">Delete</button> -->               
                                 </form>
-                                @if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
+                                @endif
                             </td>
                         </tr>
                     @endforeach
