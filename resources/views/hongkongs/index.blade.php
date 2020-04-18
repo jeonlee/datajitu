@@ -35,11 +35,13 @@
                             <td>{{ $hongkong->number }}</td>
                             <td><a href="/admin/hongkong/{{ $hongkong->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
+			    	@if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
                                 <form method="POST" action="/admin/hongkong/{{ $hongkong->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
-                                    <!-- <button type="submit" class="btn btn-danger btn-sm">Delete</button> -->             
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>            
                                 </form>
+				@endif
                             </td>
                         </tr>
                     @endforeach
