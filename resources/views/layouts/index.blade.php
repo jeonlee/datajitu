@@ -223,7 +223,7 @@
                       <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawsyd') }}">Sydney</a></li>
                       <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawcmb') }}">Cambodia</a></li>
                       <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawchn') }}">China</a></li>
-                      <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawjpn') }}">Hongkong</a></li>
+                      <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawjpn') }}">Japan</a></li>
                       <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawtw') }}">Taiwan</a></li>
                       <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="{{ url('/livedrawhk') }}">Hongkong</a></li>
                     </ul>
