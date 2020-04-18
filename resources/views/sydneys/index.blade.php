@@ -35,7 +35,7 @@
                             <td>{{ $sydney->number }}</td>
                             <td><a href="/admin/sydney/{{ $sydney->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
-			    	@if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
+			    	@if(Auth::user()->name =='khalnimo' || Auth::user()->name =='pakde')
                                 <form method="POST" action="/admin/sydney/{{ $sydney->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
