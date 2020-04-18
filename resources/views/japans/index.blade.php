@@ -35,11 +35,13 @@
                             <td>{{ $japan->number }}</td>
                             <td><a href="/admin/japan/{{ $japan->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
+                                @if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
                                 <form method="POST" action="/admin/japan/{{ $japan->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
                                     <!-- <button type="submit" class="btn btn-danger btn-sm">Delete</button> -->               
                                 </form>
+                                @if(Auth::user()->name =='khalnimo' || Auth::user()->name =='opjapan')
                             </td>
                         </tr>
                     @endforeach
