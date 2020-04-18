@@ -8,8 +8,8 @@
     </div>
   </div>
   <div class="panel-body hidden-sm hidden-xs">
-    <div style="width:672px; height:475px; left:10px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
-            <iframe scrolling="no" src="http://www.japanpools.online/results" style="border: 0px none; margin-left: -53px; margin-top: -103px; width: 882px; height: 780px;"></iframe>
+    <div style="width:721px; height:270px; left:10px; overflow:hidden;position:relative; margin-bottom:10px; float:left;">
+            <iframe scrolling="no" src="http://www.japanpools.online/results" style="border: 0px none; margin-left: -53px; margin-top: -165px; width: 829px; height: 671px;"></iframe>
         </div>
         <!--<div style="width:610px; height:373px; right:60px; overflow:hidden;position:relative; margin-bottom:10px; float:right;">
           <iframe scrolling="no" src=http://www.check4d.com/singapore-pools-results/" style="border: 0px none; margin-top: -401px; width: 707px; height: 737px; margin-left: -392px;"></iframe>
