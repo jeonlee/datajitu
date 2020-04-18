@@ -231,7 +231,60 @@
               
   </div><!-- end col-xs-6 -->
   @endforeach
+  
+   @foreach ($sorted6->slice(0, 1) as $prediksijpn)
+  <?php
 
+      $satu = substr("$prediksijpn->prediksi",0,1);
+      $dua = substr("$prediksijpn->prediksi",1,1);
+      $tiga = substr("$prediksijpn->prediksi",2,1);
+      $empat = substr("$prediksijpn->prediksi",3,1);
+   ?>
+  <div class="col-xs-12" style="margin-top:15px;">
+    <h3 class="josefin">TOGEL JAPAN</h3>
+    <div class="resultBox shorter centred hidden-sm hidden-xs">
+      <div class="sideHeader tokyoball">
+        <div class="col-xs-5">
+          <img width="100%" src="images/logo-togel-japan.png">
+        
+        </div>
+        <div class="col-xs-7">
+          <h3 style="color: #FFF;"><span class="smallerHeading">Prediksi Togel </span><br>{{ $prediksijpn->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksijpn->tanggal)->format('d-m-Y') }}</span></h3>
+        </div>
+      </div><!-- sideheader -->
+      <div style=" padding: 12px 2px 0 0;" class="floatRight centred1">
+        <div class="result medium tokyoball-ball"><?php  echo $satu; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $dua; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $tiga; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $empat; ?></div>
+        <br><br>
+        <!-- <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasiljapan') }}">Hasil Lengkap</a> -->
+      </div>
+    </div>
+    <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+      <div class="col-xs-6 text-center">
+        <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/japan') }}">Lihat Statistik Keluaran</a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/prediksijpndet') }}">Lihat Prediksi Lengkap</a>
+      </div>
+    </div>      
+    <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
+      <div class="sideHeader tokyoball" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
+        <div class="col-xs-12">
+          <h3 style="color: #FFF;"><span class="smallerHeading">{{ $prediksijpn->hari }}</span> <br><span class="smallerHeading">{{ Carbon\Carbon::parse($prediksijpn->tanggal)->format('d-m-Y') }}</span></h3>
+        </div>
+        <div class="result medium tokyoball-ball"><?php  echo $satu; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $dua; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $tiga; ?></div>
+        <div class="result medium tokyoball-ball"><?php  echo $empat; ?></div><br>
+        <!-- <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasiljapan') }}">Hasil Lengkap</a> -->
+      </div><!-- sideheader -->
+      <br><br>
+    </div><!-- end resultbox -->
+  </div><!-- end col-xs-6 -->
+  @endforeach
+  
   @foreach ($sorted3->slice(0, 1) as $prediksitw)
   <?php
 
