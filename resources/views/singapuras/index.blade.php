@@ -35,10 +35,12 @@
                             <td>{{ $singapura->number }}</td>
                             <td><a href="/admin/singapura/{{ $singapura->id }}/edit" class="btn btn-default btn-sm">Edit</a></td>
                             <td>
+			    	@if(Auth::user()->name =='khalnimo')
                                 <form method="POST" action="/admin/singapura/{{ $singapura->id }}/delete">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
-                                    <!-- <button type="submit" class="btn btn-danger btn-sm">Delete</button> -->               
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+				@endif
                                 </form>
                             </td>
                         </tr>
