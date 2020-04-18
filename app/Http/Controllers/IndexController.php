@@ -302,6 +302,10 @@ class IndexController extends Controller
 
         $prediksihks = Prediksihk::all();
 
+        $prediksijpn = Prediksijpn::all()->last();
+
+        $prediksijpns = Prediksijpn::all();
+
         $collection = collect($prediksisgps);
         $sorted = $collection->sortByDesc('tanggal');
 
@@ -319,8 +323,11 @@ class IndexController extends Controller
 
         $collection5 = collect($prediksihks);
         $sorted5 = $collection5->sortByDesc('tanggal');
+	    
+        $collection6 = collect($prediksijpns);
+        $sorted6 = $collection6->sortByDesc('tanggal');
 
-        return view('index.prediksisgp', compact('prediksisgp','prediksisgps', 'prediksisyd', 'prediksisyds', 'prediksicmb', 'prediksicmbs', 'prediksitw', 'prediksitws', 'prediksichn', 'prediksichns', 'prediksihk', 'prediksihks','sorted','sorted1','sorted2','sorted3','sorted4','sorted5'));
+        return view('index.prediksisgp', compact('prediksisgp','prediksisgps', 'prediksisyd', 'prediksisyds', 'prediksicmb', 'prediksicmbs', 'prediksitw', 'prediksitws', 'prediksichn', 'prediksichns', 'prediksihk', 'prediksihks','prediksijpn','prediksijpns','sorted','sorted1','sorted2','sorted3','sorted4','sorted5','sorted6'));
     }
     
     public function showprediksisgpdet()
