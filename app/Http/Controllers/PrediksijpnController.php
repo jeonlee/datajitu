@@ -20,7 +20,7 @@ class PrediksijpnController extends Controller
 		return view('prediksijpns.create');
 	}
 
-	public function store(Request $request, Prediksisgp $prediksisgp)
+	public function store(Request $request, Prediksijpn $prediksijpn)
 	{
         Prediksijpn::create($request->all());
 
@@ -45,11 +45,11 @@ class PrediksijpnController extends Controller
 
     public function update($id, Request $request)
     {
-        $prediksisgp = Prediksijpn::findOrFail($id);
+        $prediksijpn = Prediksijpn::findOrFail($id);
 
         $input = $request->all();
 
-        $prediksisgp->fill($input)->save();
+        $prediksijpn->fill($input)->save();
 
         $prediksijpns = Prediksijpn::orderBy('tanggal','desc')->paginate(5);
 
