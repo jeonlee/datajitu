@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Prediksisgp;
+use App\Prediksijpn;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class PrediksijpnsController extends Controller
+class PrediksijpnController extends Controller
 {
     public function index()
 	{
