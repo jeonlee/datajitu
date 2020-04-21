@@ -129,8 +129,8 @@
                           <li><a href="{{ url('/analisiscambodia') }}">Togel Cambodia</a></li>
                           <li><a href="{{ url('/analisistaiwan') }}">Togel Taiwan</a></li>
                           <li><a href="{{ url('/analisischina') }}">Togel China</a></li>
-                          <li><a href="{{ url('/analisishongkong') }}">Togel Hongkong</a></li>
                           <li><a href="{{ url('/analisisjapan') }}">Togel Japan</a></li>
+                          <li><a href="{{ url('/analisishongkong') }}">Togel Hongkong</a></li>
                         </ul>
                         <li><a href="{{ url('/bukumimpi-m') }}"><i class="fa fa-book fa-lg"></i>BUKU MIMPI</a></li>
                         <li data-toggle="collapse" data-target="#totosgp" class="collapsed">
