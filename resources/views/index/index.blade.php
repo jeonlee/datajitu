@@ -10,66 +10,6 @@
           </div>
 
           <div class="panel-body">
-          @foreach ($sorted->slice(0, 1) as $singapura)
-                <?php
-
-                    $satu = substr("$singapura->number",0,1);
-                    $dua = substr("$singapura->number",1,1);
-                    $tiga = substr("$singapura->number",2,1);
-                    $empat = substr("$singapura->number",3,1);
-                 ?>
-            <div class="col-xs-12" style="margin-top:15px;">
-              <h3 class="josefin">TOGEL SINGAPURA</h3>
-              <div class="resultBox shorter centred hidden-sm hidden-xs">
-                <div class="sideHeader euromillions">
-                  <div class="col-xs-5">
-                    <img width="100%" src="images/singapura.png">
-                  </div>
-                  <div class="col-xs-7">
-                    
-                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $singapura->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</span></h3>
-                  </div>
-                </div><!-- sideheader -->
-                <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
-                  <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div>
-                  
-             
-                  <br><br>
-          
-                  
-                </div>
-              </div><!-- end result-box -->
-              <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
-                <div class="col-xs-6 text-center">
-                  <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/prediksisgp') }}">Prediksi Selanjutnya</a>
-                </div>
-                <div class="col-xs-6 text-center">
-                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
-                </div>
-              </div>
-              <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
-                <div class="sideHeader euromillions" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
-                  <div class="col-xs-12">
-                    
-                    <h3 style="color: #FFF;"><span class="smallerHeading">{{ $singapura->hari }}</span> <br><span class="smallerHeading">{{ $singapura->tanggal }}</span></h3>
-                  </div>
-                  <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
-                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div><br>
-                  <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura-m') }}">Hasil Lengkap</a>
-                </div><!-- sideheader -->
-                <br><br>
-              </div><!-- end resultbox -->
-              
-            </div>
-            @endforeach
-          
-
-
             @foreach ($sorted1->slice(0, 1) as $cambodia)
                 <?php
 
@@ -298,7 +238,66 @@
               
           </div><!-- end col-xs-6 -->
           @endforeach
+          
+          
+          @foreach ($sorted->slice(0, 1) as $singapura)
+                <?php
 
+                    $satu = substr("$singapura->number",0,1);
+                    $dua = substr("$singapura->number",1,1);
+                    $tiga = substr("$singapura->number",2,1);
+                    $empat = substr("$singapura->number",3,1);
+                 ?>
+            <div class="col-xs-12" style="margin-top:15px;">
+              <h3 class="josefin">TOGEL SINGAPURA</h3>
+              <div class="resultBox shorter centred hidden-sm hidden-xs">
+                <div class="sideHeader euromillions">
+                  <div class="col-xs-5">
+                    <img width="100%" src="images/singapura.png">
+                  </div>
+                  <div class="col-xs-7">
+                    
+                    <h3 style="color: #FFF;"><span class="smallerHeading">Hasil Keluaran </span><br>{{ $singapura->hari }} <br><span class="smallerHeading">{{ Carbon\Carbon::parse($singapura->tanggal)->format('d-m-Y') }}</span></h3>
+                  </div>
+                </div><!-- sideheader -->
+                <div style=" padding: 33px 2px 0 0;" class="floatRight centred">
+                  <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div>
+                  
+             
+                  <br><br>
+          
+                  
+                </div>
+              </div><!-- end result-box -->
+              <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-xs" style="margin-bottom:15px;">
+                <div class="col-xs-6 text-center">
+                  <a class="button-grey" title="Lottery Results - Lotto" href="{{ url('/prediksisgp') }}">Prediksi Selanjutnya</a>
+                </div>
+                <div class="col-xs-6 text-center">
+                  <a class="button-blue" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura') }}">Hasil Lengkap</a>
+                </div>
+              </div>
+              <div class="resultBox shorter centred visible-xs visible-sm" style="width: 100%;">
+                <div class="sideHeader euromillions" style="height: 150px; width: 100%; padding-top:0px; padding-bottom: 0px;">
+                  <div class="col-xs-12">
+                    
+                    <h3 style="color: #FFF;"><span class="smallerHeading">{{ $singapura->hari }}</span> <br><span class="smallerHeading">{{ $singapura->tanggal }}</span></h3>
+                  </div>
+                  <div class="result medium euromillions-ball"><?php  echo $satu; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $dua; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $tiga; ?></div>
+                  <div class="result medium euromillions-ball"><?php  echo $empat; ?></div><br>
+                  <a class="button-blue-mobile" title="Lottery Results - Lotto" href="{{ url('/hasilsingapura-m') }}">Hasil Lengkap</a>
+                </div><!-- sideheader -->
+                <br><br>
+              </div><!-- end resultbox -->
+              
+            </div>
+            @endforeach
+            
           @foreach ($sorted4->slice(0, 1) as $taiwan)
                 <?php
 
