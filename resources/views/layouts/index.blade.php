@@ -114,8 +114,8 @@
                           <li><a href="{{ url('/hasilcambodia-m') }}">Togel Cambodia</a></li>
                           <li><a href="{{ url('/hasiltaiwan-m') }}">Togel Taiwan</a></li>
                           <li><a href="{{ url('/hasilchina-m') }}">Togel China</a></li>
-                          <li><a href="{{ url('/hasilhongkong-m') }}">Togel Hongkong</a></li>
                           <li><a href="{{ url('/hasiljapan-m') }}">Togel Japan</a></li>
+                          <li><a href="{{ url('/hasilhongkong-m') }}">Togel Hongkong</a></li>
                         </ul>
                         <li><a href="{{ url('/jadwalkeluaran') }}"><i class="fa fa-calendar fa-lg"></i>JADWAL KELUARAN TOGEL</a></li>
                         <li><a href="{{ url('/prediksisgp') }}"><i class="fa fa-table fa-lg"></i>PREDIKSI TOGEL</a></li>
@@ -190,8 +190,8 @@
                       <li><a title="EuroMillions Results" href="{{ url('/hasilcambodia') }}">Cambodia</a></li>
                       <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/hasiltaiwan') }}">Taiwan</a></li>
                       <li><a title="Thunderball Results" href="{{ url('/hasilchina') }}">China</a></li>
-                      <li><a title="Lotto HotPicks Results" href="{{ url('/hasilhongkong') }}">Hongkong</a></li>
                       <li><a title="Lotto HotPicks Results" href="{{ url('/hasiljapan') }}">Japan</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/hasilhongkong') }}">Hongkong</a></li>
                     </ul>
                   </li>
                   <li><a class="nav-results" title="Jadwal Keluaran" href="{{ url('/jadwalkeluaran') }}">Jadwal Keluaran Togel</a></li>
@@ -205,8 +205,8 @@
                       <li><a title="EuroMillions Results" href="{{ url('/analisiscambodia') }}">Cambodia</a></li>
                       <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/analisistaiwan') }}">Taiwan</a></li>
                       <li><a title="Thunderball Results" href="{{ url('/analisischina') }}">China</a></li>
-                      <li><a title="Lotto HotPicks Results" href="{{ url('/analisishongkong') }}">Hongkong</a></li>
                       <li><a title="Lotto HotPicks Results" href="{{ url('/analisisjapan') }}">Japan</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/analisishongkong') }}">Hongkong</a></li>
                     </ul>
                   </li>
                   <li><a class="nav-news" title="Lottery News" href="{{ url('/bukumimpi') }}">Buku Mimpi</a></li>
@@ -375,8 +375,8 @@
                       <li><a title="EuroMillions Results" href="{{ url('/cambodia') }}">Cambodia</a></li>
                       <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/taiwan') }}">Taiwan</a></li>
                       <li><a title="Thunderball Results" href="{{ url('/china') }}">China</a></li>
-                      <li><a title="Lotto HotPicks Results" href="{{ url('/hongkong') }}">Hongkong</a></li>
                       <li><a title="Lotto HotPicks Results" href="{{ url('/japan') }}">Japan</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/hongkong') }}">Hongkong</a></li>
                     </ul>
                   </li>
                   <li><a class="nav-results" title="Jadwal Keluaran" href="{{ url('/jadwalkeluaran') }}">Jadwal Keluaran Togel</a></li>
@@ -390,8 +390,8 @@
                       <li><a title="EuroMillions Results" href="{{ url('/analisiscambodia') }}">Cambodia</a></li>
                       <li><a title="EuroMillions Millionaire Maker Results" href="{{ url('/analisistaiwan') }}">Taiwan</a></li>
                       <li><a title="Thunderball Results" href="{{ url('/analisischina') }}">China</a></li>
-                      <li><a title="Lotto HotPicks Results" href="{{ url('/analisishongkong') }}">Hongkong</a></li>
                       <li><a title="Lotto HotPicks Results" href="{{ url('/analisisjapan') }}">Japan</a></li>
+                      <li><a title="Lotto HotPicks Results" href="{{ url('/analisishongkong') }}">Hongkong</a></li>
                     </ul>
                   </li>
                   <li><a class="nav-news" title="Lottery News" href="{{ url('/bukumimpi') }}">Buku Mimpi</a></li>
