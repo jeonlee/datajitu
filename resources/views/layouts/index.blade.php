@@ -168,7 +168,7 @@
     <div class="yellowbar">
       <div class="well">
         <div class='marquee' data-duration='32000' data-gap='20' data-duplicated='true' >
-    www.singaporepools.com.sg ---- www.sydneypoolstoday.com ---- www.magnumcambodia.com ---- www.taiwanlottery.net ---- www.chinapools.asia ---- www.hongkongpools.com ---- www.japanpools.online ----
+    www.magnumcambodia.com ---- www.sydneypoolstoday.com ---- www.chinapools.asia ---- www.japanpools.online ----www.singaporepools.com.sg ---- www.taiwanlottery.net ---- www.hongkongpools.com ---- 
 </div>
   </div>
   </div>
