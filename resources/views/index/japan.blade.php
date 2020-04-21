@@ -32,7 +32,7 @@
               <div class="resultBox shorter centred hidden-sm hidden-xs">
                 <div class="sideHeader euromillions">
                   <div class="col-xs-5">
-                    <img width="100%" src="images/japan.png">
+                    <img width="100%" src="images/logo-togel-japan.png">
                   </div>
                   <div class="col-xs-7">
                     
