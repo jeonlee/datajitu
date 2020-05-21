@@ -24,7 +24,7 @@
             </thead>
             <tbody>            
               <tr>
-                <td><div class="t_no">3</div></td>
+                <td><div class="t_no">1</div></td>
                 <td><div class="t_hari">Togel Cambodia</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">11:35</div></td>
@@ -40,7 +40,7 @@
                 <td><div class="t_city"><a class="resmi" href="http://www.sydneypoolstoday.com" target="_blank">www.sydneypoolstoday.com</a></div></td>
               </tr>        
               <tr>
-                <td><div class="t_no">5</div></td>
+                <td><div class="t_no">3</div></td>
                 <td><div class="t_hari">Togel China</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">15:15</div></td>
@@ -48,7 +48,7 @@
                 <td><div class="t_city"><a class="resmi" href="http://www.chinapools.asia" target="_blank">www.chinapools.asia</a></div></td>
               </tr>   
               <tr>
-                <td><div class="t_no">6</div></td>
+                <td><div class="t_no">4</div></td>
                 <td><div class="t_hari">Togel Japan</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">17:00</div></td>
@@ -56,7 +56,7 @@
                 <td><div class="t_city"><a class="resmi" href="http://www.japanpools.online" target="_blank">www.japanpools.online</a></div></td>
               </tr> 
               <tr>
-                <td><div class="t_no">1</div></td>
+                <td><div class="t_no">5</div></td>
                 <td><div class="t_hari">Togel Singapura</div></td>
                 <td><div class="t_tgl">Setiap Hari (kecuali Selasa, Jumat)</div></td>                                    
                 <td><div class="t_city">17:30</div></td>
@@ -64,7 +64,7 @@
                 <td><div class="t_city"><a class="resmi" href="http://www.singaporepools.com.sg" target="_blank">www.singaporepools.com.sg</a></div></td>
               </tr>             
               <tr>
-                <td><div class="t_no">4</div></td>
+                <td><div class="t_no">6</div></td>
                 <td><div class="t_hari">Togel Taiwan</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">20:35</div></td>
@@ -72,7 +72,7 @@
                 <td><div class="t_city"><a class="resmi" href="http://www.taiwanlottery.net" target="_blank">www.taiwanlottery.net</a></div></td>
               </tr>   
               <tr>
-                <td><div class="t_no">6</div></td>
+                <td><div class="t_no">7</div></td>
                 <td><div class="t_hari">Togel Hongkong</div></td>
                 <td><div class="t_tgl">Setiap Hari</div></td>                                    
                 <td><div class="t_city">22:45</div></td>
