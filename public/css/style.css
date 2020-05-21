@@ -1527,3 +1527,9 @@ table.table-bootstrap td, table.table-bootstrap th {
     margin-bottom: 1rem;
     color: #212529;
 }
+
+.table-res {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
