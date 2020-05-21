@@ -42,7 +42,7 @@ Route::get('/japan', 'IndexController@showjapan');
 Route::get('/hasiljapan', 'IndexController@showhasiljapan');
 Route::get('/hasiljapan-m', 'IndexController@showhasiljapanm');
 Route::get('/jadwalkeluaran', 'IndexController@showjadwalkeluaran');
-Route::get('/jadwalkeluaran-m', 'IndexController@showjadwalkeluaran');
+Route::get('/jadwalkeluaran-m', 'IndexController@showjadwalkeluaranm');
 Route::get('/numbergenerator', 'IndexController@shownumbergenerator');
 Route::get('/bukumimpi', 'IndexController@showbukumimpi');
 Route::get('/bukumimpi-m', 'IndexController@showbukumimpim');
