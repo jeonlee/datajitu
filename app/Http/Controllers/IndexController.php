@@ -1944,6 +1944,10 @@ class IndexController extends Controller
     {
         return view('index.jadwalkeluaran', compact('jadwalkeluaran','jadwalkeluarans'));
     }
+    public function showjadwalkeluaranm()
+    {
+        return view('index.jadwalkeluaran-m', compact('jadwalkeluaran-m','jadwalkeluarans'));
+    }
     public function shownumbergenerator()
     {
         return view('index.numbergenerator', compact('numbergenerator','numbergenerators'));
