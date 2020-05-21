@@ -1522,3 +1522,8 @@ table.table-bootstrap td, table.table-bootstrap th {
     vertical-align: top;
     border-top: 1px solid #dee2e6;
 }
+.table-bootstrap {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
