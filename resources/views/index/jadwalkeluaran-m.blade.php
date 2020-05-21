@@ -11,43 +11,77 @@
         </div>
         <div class="panel-body">
           <div class="table-responsive">
-          <table>
-              <caption>Statement Summary</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Account</th>
-                  <th scope="col">Due Date</th>
-                  <th scope="col">Amount</th>
-                  <th scope="col">Period</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td data-label="Account">Visa - 3412</td>
-                  <td data-label="Due Date">04/01/2016</td>
-                  <td data-label="Amount">$1,190</td>
-                  <td data-label="Period">03/01/2016 - 03/31/2016</td>
-                </tr>
-                <tr>
-                  <td scope="row" data-label="Account">Visa - 6076</td>
-                  <td data-label="Due Date">03/01/2016</td>
-                  <td data-label="Amount">$2,443</td>
-                  <td data-label="Period">02/01/2016 - 02/29/2016</td>
-                </tr>
-                <tr>
-                  <td scope="row" data-label="Account">Corporate AMEX</td>
-                  <td data-label="Due Date">03/01/2016</td>
-                  <td data-label="Amount">$1,181</td>
-                  <td data-label="Period">02/01/2016 - 02/29/2016</td>
-                </tr>
-                <tr>
-                  <td scope="row" data-label="Acount">Visa - 3412</td>
-                  <td data-label="Due Date">02/01/2016</td>
-                  <td data-label="Amount">$842</td>
-                  <td data-label="Period">01/01/2016 - 01/31/2016</td>
-                </tr>
-              </tbody>
-            </table>
+          <table class="table-bootstrap">
+            <thead class="head-bootstrap">
+              <tr class="kolom">
+                <th>No</th>
+                <th>Togel</th>
+                <th>Hari</th>                                    
+                <th>Jam Tutup</th>
+                <th>Jam Buka</th>
+                <th>Situs Resmi</th>
+              </tr>
+            </thead>
+            <tbody>            
+              <tr>
+                <td>1</td>
+                <td>Togel Cambodia</td>
+                <td>Setiap Hari</td>                                    
+                <td>11:35</td>
+                <td>11:50</td>
+                <td><a class="resmi" href="http://www.magnumcambodia.com" target="_blank">www.magnumcambodia.com</a></td>
+              </tr> 
+              <tr>
+                <td>2</td>
+                <td>Togel Sydney</td>
+                <td>Setiap Hari</td>                                    
+                <td>13:35</td>
+                <td>13:50</td>
+                <td><a class="resmi" href="http://www.sydneypoolstoday.com" target="_blank">www.sydneypoolstoday.com</a></td>
+              </tr>        
+              <tr>
+                <td>3</td>
+                <td>Togel China</td>
+                <td>Setiap Hari</td>                                    
+                <td>15:15</td>
+                <td>15:30</td>
+                <td><a class="resmi" href="http://www.chinapools.asia" target="_blank">www.chinapools.asia</a></td>
+              </tr>   
+              <tr>
+                <td>4</td>
+                <td>Togel Japan</td>
+                <td>Setiap Hari</td>                                    
+                <td>17:00</td>
+                <td>17:20</td>
+                <td><a class="resmi" href="http://www.japanpools.online" target="_blank">www.japanpools.online</a></td>
+              </tr> 
+              <tr>
+                <td>5</td>
+                <td>Togel Singapura</td>
+                <td>Setiap Hari (kecuali Selasa, Jumat)</td>                                    
+                <td>17:30</td>
+                <td>17:40</td>
+                <td><a class="resmi" href="http://www.singaporepools.com.sg" target="_blank">www.singaporepools.com.sg</a></td>
+              </tr>             
+              <tr>
+                <td>6</td>
+                <td>Togel Taiwan</td>
+                <td>Setiap Hari</td>                                    
+                <td>20:35</td>
+                <td>20:45</td>
+                <td><a class="resmi" href="http://www.taiwanlottery.net" target="_blank">www.taiwanlottery.net</a></td>
+              </tr>   
+              <tr>
+                <td>7</td>
+                <td>Togel Hongkong</td>
+                <td>Setiap Hari</td>                                    
+                <td>22:45</td>
+                <td>23:00</td>
+                <td><a class="resmi" href="http://www.hongkongpools.com" target="_blank">www.hongkongpools.com</a></td>
+              </tr> 
+                                                                                                                                                                                                                                           
+            </tbody>
+        </table>
         </div>
                 </div>
               </div>
