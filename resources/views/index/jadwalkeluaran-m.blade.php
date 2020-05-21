@@ -11,7 +11,7 @@
         </div>
         <div class="panel-body">
           <div class="table-responsive">
-          <table class="table-bootstrap">
+          <table class="table-bootstrap table-res">
             <thead class="head-bootstrap">
               <tr class="kolom">
                 <th>No</th>
