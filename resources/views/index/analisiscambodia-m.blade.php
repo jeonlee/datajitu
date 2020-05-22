@@ -32,7 +32,7 @@
 	  <nav class=" navbar-default sidebar" role="navigation">
     	    <div class="container-fluid">
     
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+    <div class="navbar-collapse" id="bs-sidebar-navbar-collapse-1">
       <ul class="nav navbar-nav horizontal-nav" style="overflow:auto; white-space:nowrap;">
         <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
         <li class="dropdown">
