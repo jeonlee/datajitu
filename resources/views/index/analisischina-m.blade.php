@@ -28,7 +28,7 @@
       <button type="submit">Submit</button>
     </form>
     <div class="col-xs-12" style="padding:0px;">
-                <div class="col-xs-3" style="width:20%; padding:0px;">
+                <div class="col-xs-12" style="padding:0px;">
                 <nav class=" navbar-default sidebar" role="navigation">
     <div class="container-fluid">
     
@@ -98,7 +98,7 @@
   </div>
 </nav>
 </div>
-      <div class="col-xs-9">
+      <div class="col-xs-12">
         <div class="tab-content">
         <div class="tab-pane active" id="4d">
           <h5 style="font-weight:bold;">Analisis Data 4D China</h5>
