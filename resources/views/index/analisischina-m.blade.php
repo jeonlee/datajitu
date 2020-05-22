@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="panel-body p15">
-                <form method="POST" action="/searchResultChina">
+                <form method="POST" action="/searchResultChina-m">
     {{ csrf_field() }}
       <div class="form-group" style="overflow:hidden;">
         <div class="col-xs-6">
@@ -32,8 +32,8 @@
                 <nav class=" navbar-default sidebar" role="navigation">
     <div class="container-fluid">
     
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+    <div class="navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav horizontal-nav">
         <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Besar-Kecil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
