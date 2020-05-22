@@ -124,7 +124,7 @@
                           <a href="#"><i class="fa fa-bar-chart fa-lg"></i> ANALISIS TOGEL <span class="arrow"></span></a>
                         </li>  
                         <ul class="sub-menu collapse" id="analisistogel">
-                          <li><a href="{{ url('/analisiscambodia') }}">Togel Cambodia</a></li>
+                          <li><a href="{{ url('/analisiscambodia-m') }}">Togel Cambodia</a></li>
                           <li><a href="{{ url('/analisissydney') }}">Togel Sydney</a></li>
                           <li><a href="{{ url('/analisischina') }}">Togel China</a></li>
                           <li><a href="{{ url('/analisisjapan') }}">Togel Japan</a></li>
