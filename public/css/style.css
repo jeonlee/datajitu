@@ -1536,3 +1536,7 @@ table.table-bootstrap td, table.table-bootstrap th {
 .horizontal-nav > li {
   display:inline-block;
 }
+.horizontal-nav {
+	overflow:auto;
+	white-space:nowrap;
+}
