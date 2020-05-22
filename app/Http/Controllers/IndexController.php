@@ -945,6 +945,31 @@ class IndexController extends Controller
 
         return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
+	
+public function showanalisiscambodiam()
+    {
+        $cambodia = Cambodia::all()->last();
+
+         $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($cambodias);
+
+
+        
+        
+        return view('index.analisiscambodia-m', compact('cambodia','cambodias','satux1'));
+    }
+    public function searchResultCambodiam(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $cambodia = Cambodia::all()->last();
+
+        $cambodias = Cambodia::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisiscambodia-m', compact('cambodia','cambodias'));
+    }
 //     public function showtaiwan()
 //     {
 //         $taiwan = Taiwan::all()->last();
