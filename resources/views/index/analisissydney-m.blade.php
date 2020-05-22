@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="panel-body p15">
-                <form method="POST" action="/searchResultSydney">
+                <form method="POST" action="/searchResultSydney-m">
     {{ csrf_field() }}
       <div class="form-group" style="overflow:hidden;">
         <div class="col-xs-6">
@@ -28,12 +28,12 @@
       <button type="submit">Submit</button>
     </form>
     <div class="col-xs-12" style="padding:0px;">
-                <div class="col-xs-3" style="width:20%; padding:0px;">
+                <div class="col-xs-12" style="padding:0px;">
                 <nav class=" navbar-default sidebar" role="navigation">
     <div class="container-fluid">
     
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+    <div class="navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav horizontal-nav">
         <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Besar-Kecil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
@@ -98,7 +98,7 @@
   </div>
 </nav>
 </div>
-      <div class="col-xs-9">
+      <div class="col-xs-12">
         <div class="tab-content">
         <div class="tab-pane active" id="4d">
           <h5 style="font-weight:bold;">Analisis Data 4D Sydney</h5>
