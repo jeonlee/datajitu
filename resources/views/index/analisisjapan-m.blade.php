@@ -11,7 +11,7 @@
     <div class="panel-body p15">
     
 
-    <form method="POST" action="/searchResultJapan">
+    <form method="POST" action="/searchResultJapan-m">
     {{ csrf_field() }}
 
       <div class="form-group" style="overflow:hidden;">
