@@ -81,6 +81,7 @@ Route::post('/searchResultTaiwan', 'IndexController@searchResultTaiwan');
 Route::post('/searchResultChina', 'IndexController@searchResultChina');
 Route::post('/searchResultHongkong', 'IndexController@searchResultHongkong');
 Route::post('/searchResultJapan', 'IndexController@searchResultJapan');
+Route::post('/searchResultCambodia-m', 'IndexController@searchResultCambodiam');
 
 Route::auth();
 Route::get('/home', function() {
