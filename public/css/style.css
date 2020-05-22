@@ -1533,3 +1533,6 @@ table.table-bootstrap td, table.table-bootstrap th {
     margin-bottom: 1rem;
     color: #212529;
 }
+.horizontal-nav > li {
+  display:inline-block;
+}
