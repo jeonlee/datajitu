@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="panel-body p15">
-                <form method="POST" action="/searchResultCambodia">
+                <form method="POST" action="/searchResultCambodiam">
     {{ csrf_field() }}
       <div class="form-group" style="overflow:hidden;">
         <div class="col-xs-6">
