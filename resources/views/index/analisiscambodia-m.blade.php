@@ -98,7 +98,7 @@
   </div>
 </nav>
 </div>
-      <div class="col-xs-9">
+      <div class="col-xs-12">
         <div class="tab-content">
         <div class="tab-pane active" id="4d">
           <h5 style="font-weight:bold;">Analisis Data 4D Cambodia</h5>
