@@ -28,12 +28,12 @@
       <button type="submit">Submit</button>
     </form>
      <div class="col-xs-12" style="padding:0px;">
-	<div class="col-xs-3" style="width:20%; padding:0px;">
+	<div class="col-xs-12" style="padding:0px;">
 	  <nav class=" navbar-default sidebar" role="navigation">
     	    <div class="container-fluid">
     
     <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav horizontal-nav" style="overflow:auto; white-space:nowrap;">
         <li class="active"><a href="#4d" data-toggle="tab">4D<span style="font-size:16px;"  class="pull-right hidden-xs showopacity"></span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Besar-Kecil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a>
