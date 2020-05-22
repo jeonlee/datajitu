@@ -49,6 +49,7 @@ Route::get('/bukumimpi-m', 'IndexController@showbukumimpim');
 Route::get('/analisissingapura', 'IndexController@showanalisissingapura');
 Route::get('/analisissydney', 'IndexController@showanalisissydney');
 Route::get('/analisiscambodia', 'IndexController@showanalisiscambodia');
+Route::get('/analisiscambodia-m', 'IndexController@showanalisiscambodiam');
 Route::get('/analisistaiwan', 'IndexController@showanalisistaiwan');
 Route::get('/analisischina', 'IndexController@showanalisischina');
 Route::get('/analisishongkong', 'IndexController@showanalisishongkong');
