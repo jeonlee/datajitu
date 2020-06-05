@@ -41,7 +41,7 @@
    }
    
    function convert(){
-    var fom = document.getElementsByTagName(fom);
+    var fom = document.getElementById("fom");
     var s1 = eval("fom.s1");
     var s2 = eval("fom.s2");
     var s3 = eval("fom.s3");
@@ -132,7 +132,7 @@
    //-->
 </script>
 <br />
-<form name="fom" id="">
+<form name="fom" id="fom">
    <center>
       <div id="muka" name="muka">
          <center>
