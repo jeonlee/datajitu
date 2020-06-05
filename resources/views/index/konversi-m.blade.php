@@ -150,12 +150,12 @@
                   <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;">Winning Numbers</td>
                </tr>
                <tr style="background: white;">
-                  <td align="center"><input class="isi" id="s1" maxlength="2" name="s1" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="1" type="text" /></td>
-                  <td align="center"><input class="isi" id="s2" maxlength="2" name="s2" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="2" type="text" /></td>
-                  <td align="center"><input class="isi" id="s3" maxlength="2" name="s3" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="3" type="text" /></td>
-                  <td align="center"><input class="isi" id="s4" maxlength="2" name="s4" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="4" type="text" /></td>
-                  <td align="center"><input class="isi" id="s5" maxlength="2" name="s5" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="5" type="text" /></td>
-                  <td align="center"><input class="isi" id="s6" maxlength="2" name="s6" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="6" type="text" /></td>
+                  <td align="center"><input class="isi" id="s1" maxlength="2" name="s1" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="1" type="number" /></td>
+                  <td align="center"><input class="isi" id="s2" maxlength="2" name="s2" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="2" type="number" /></td>
+                  <td align="center"><input class="isi" id="s3" maxlength="2" name="s3" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="3" type="number" /></td>
+                  <td align="center"><input class="isi" id="s4" maxlength="2" name="s4" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="4" type="number" /></td>
+                  <td align="center"><input class="isi" id="s5" maxlength="2" name="s5" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="5" type="number" /></td>
+                  <td align="center"><input class="isi" id="s6" maxlength="2" name="s6" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver; font-size:1rem;" tabindex="6" type="number" /></td>
                </tr>
                <tr>
                   <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;" width="400px">Additional&nbsp; Number</td>
