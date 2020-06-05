@@ -144,7 +144,7 @@
          </center>
          <hr>
          <br />
-         <table align="center" border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse; height: 10%px; width: 400pxpx;">
+         <table align="center" border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse;">
             <tbody>
                <tr>
                   <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;">Winning Numbers</td>
