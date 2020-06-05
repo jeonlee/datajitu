@@ -68,6 +68,8 @@
     document.getElementById("ab3").innerHTML = c;
     document.getElementById("ab4").innerHTML = d;
   }
+  _dom = 0;
+_dom=document.all?3:(document.getElementById?1:(document.layers?2:0));
   function huruf(obj,e) {             //=============================================================
 
  //thispost=parseInt(obj.name.slice(-1));
