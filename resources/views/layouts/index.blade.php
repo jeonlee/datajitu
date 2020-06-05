@@ -397,7 +397,7 @@
                   <li><a class="nav-news" title="Lottery News" href="{{ url('/bukumimpi') }}">Buku Mimpi</a></li>
                   <li><a class="nav-stats subAvailable" title="Analisis Togel" href="/">TOTO SGP</a>
                     <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
-                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/konversi') }}">Konversi</a></li>
+                      <li><a style="padding:0 24px !important;" title="Lotto Results" href="{{ url('/konversi-m') }}">Konversi</a></li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/carahitung') }}">Cara Hitung</a></li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="{{ url('/resultsgp') }}">Result SGP</a></li>
                     </ul>
