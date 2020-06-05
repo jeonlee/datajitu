@@ -445,7 +445,12 @@ public function showanalisissingapuram()
         
         return view('index.konversi');
     }
-
+public function showkonversim()
+    {
+        
+        
+        return view('index.konversi-m');
+    }
     public function showcarahitung()
     {
         
