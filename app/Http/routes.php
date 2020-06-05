@@ -61,6 +61,7 @@ Route::get('/analisishongkong-m', 'IndexController@showanalisishongkongm');
 Route::get('/analisisjapan', 'IndexController@showanalisisjapan');
 Route::get('/analisisjapan-m', 'IndexController@showanalisisjapanm');
 Route::get('/konversi', 'IndexController@showkonversi');
+Route::get('/konversi-m', 'IndexController@showkonversim');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 Route::get('/resultsgp', 'IndexController@showresultsgp');
 Route::get('/livedrawsgp', 'IndexController@showlivedrawsgp');
