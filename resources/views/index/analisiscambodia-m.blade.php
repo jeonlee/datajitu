@@ -15,13 +15,13 @@
         <div class="col-xs-6">
           Dari :
           <div style="overflow:hidden;" class="form-group">
-            <input type="date" name="startDate" id="from" class="form-control input-sm" onfocus="(this.type='date')" placeholder="dd-mm-yyyy">
+            <input type="text" name="startDate" id="from" class="form-control input-sm" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="dd-mm-yyyy">
         </div>
         </div>
         <div class="col-xs-6">
           Sampai :
           <div style="overflow:hidden;" class="form-group">
-            <input type="date" class="input-sm form-control" name="endDate" onfocus="(this.type='date')" id="to" placeholder="dd-mm-yyyy">
+            <input type="text" class="input-sm form-control" name="endDate" onfocus="(this.type='date')" onblur="(this.type='text')" id="to" placeholder="dd-mm-yyyy">
         </div>
       </div> 
       </div>
