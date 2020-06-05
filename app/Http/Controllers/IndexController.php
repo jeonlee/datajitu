@@ -2102,7 +2102,7 @@ public function showanalisishongkongm()
         
         return view('index.analisisjapan-m', compact('japan','japans','satux1','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
     }
-    public function searchResultJapan(Request $request)
+    public function searchResultJapanm(Request $request)
     {
         $startDate = $request->startDate;
         $endDate = $request->endDate;
