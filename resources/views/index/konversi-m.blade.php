@@ -18,6 +18,7 @@
    if(isNaN(Isi.value)==true){ Isi.value="";Isi.focus();}else{convert();}
    
    }
+   console.log(isi);
    function hapusx(){
     var fom = document.fom;
     hsl.style.display = "none";
