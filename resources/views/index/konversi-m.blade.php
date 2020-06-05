@@ -164,7 +164,7 @@
                   <td align="center" colspan="6"><input class="isi" id="s7" maxlength="2" name="s7" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="7" type="text" /></td>
                </tr>
                <tr style="background: white;">
-                  <td align="center" colspan="6"><input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Hapus" />&nbsp;&nbsp;&nbsp;&nbsp;<input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert!" /></td>
+                  <td align="center" colspan="6"><input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Clear" />&nbsp;&nbsp;&nbsp;&nbsp;<input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert" /></td>
                </tr>
             </tbody>
          </table>
