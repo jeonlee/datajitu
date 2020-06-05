@@ -43,13 +43,6 @@
     var s5 = eval("fom.s5");
     var s6 = eval("fom.s6");
     var s7 = eval("fom.s7");
-   var s1.value = "";
-    var s2.value = "";
-    var s3.value = "";
-    var s4.value = "";
-    var s5.value = "";
-    var s6.value = "";
-    var s7.value = "";
     if ((!s1.value) || (!s2.value) || (!s3.value) || (!s4.value) || (!s5.value) || (!s6.value) || (!s7.value)){
      alert("Winning Numbers dan Additional Number harus diisi dengan angka \n Tidak boleh dikosongi!! Prediksi Dua Angka");
      s1.focus();
