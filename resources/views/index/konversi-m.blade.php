@@ -68,6 +68,47 @@
     document.getElementById("ab3").innerHTML = c;
     document.getElementById("ab4").innerHTML = d;
   }
+  function huruf(obj,e) {             //=============================================================
+
+ //thispost=parseInt(obj.name.slice(-1));
+ //alert(obj.name)
+ if (_dom == 3 || (_dom == 1 && navigator.userAgent.indexOf("Opera/")==0)) // for IE
+ {
+  //alert(event.keyCode)
+  if (event.keyCode > 47 & event.keyCode < 58) {
+   //tebak.value = String.fromCharCode(event.keyCode);
+   //event.returnValue=false;
+  }
+  else  { 
+   event.returnValue=false;
+   return false;
+  }
+
+  
+ }
+ else {
+  //alert(e.charCode)
+  if (e.charCode > 47 && e.charCode < 58) {
+   //alert('ttttt')
+   //tebak.value = String.fromCharCode(e.charCode);
+   //event.returnValue=false;
+  } 
+  else if (e.charCode == 0){
+   event.returnValue=false;
+   return false;
+  }
+  else  { 
+   var fom = document.fom;
+   var nam = eval("fom."+obj.name);
+   e.returnValue=false;
+   //alert(nam.value)
+   nam.value = "";
+   alert("Winning Numbers dan Additional Number harus diisi dengan angka! \n Jangan memasukkan selain angka!!");
+   return true;
+   
+  }
+ }
+}
   </script>
 <form name="fom">
    <center>
