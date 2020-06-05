@@ -406,6 +406,39 @@ class IndexController extends Controller
 
         return view('index.analisissingapura', compact('singapura','singapuras'));
     }
+public function showanalisissingapuram()
+    {
+        $singapura = Singapura::all()->last();
+
+         $singapuras = Singapura::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($singapuras);
+        $sgp_number = Singapura::orderBy('periode','desc')->first(['number'])->paginate(10);
+        $numb=substr("$sgp_number",0,1);
+        $sgp_as=array();
+        $sgp_kop=array();
+        $sgp_kepala=array();
+        $sgp_ekor=array();
+        foreach($singapuras as $sgp){
+            $sgp_as[]=substr($sgp->number,0,1);  
+            $sgp_kop[]=substr($sgp->number,0,2); 
+            $sgp_kepala[]=substr($sgp->number,0,3); 
+            $sgp_ekor[]=substr($sgp->number,0,4);  
+        }
+        
+        return view('index.analisissingapura-m', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
+    }
+    public function searchResultSingapuram(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $singapura = Singapura::all()->last();
+
+        $singapuras = Singapura::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisissingapura-m', compact('singapura','singapuras'));
+    }
     public function showkonversi()
     {
         
@@ -709,6 +742,30 @@ class IndexController extends Controller
         $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisissydney', compact('sydney','sydneys'));
+    }
+ public function showanalisissydneym()
+    {
+        $sydney = Sydney::all()->last();
+
+         $sydneys = Sydney::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($sydneys);
+
+
+        
+        
+        return view('index.analisissydney-m', compact('sydney','sydneys'));
+    }
+public function searchResultSydneym(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $sydney = Sydney::all()->last();
+
+        $sydneys = Sydney::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisissydney-m', compact('sydney','sydneys'));
     }
 //     public function showcambodia()
 //     {
@@ -1203,6 +1260,30 @@ public function showanalisiscambodiam()
 
         return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
+public function showanalisistaiwanm()
+    {
+        $taiwan = Taiwan::all()->last();
+
+         $taiwans = Taiwan::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($taiwans);
+
+
+        
+        
+        return view('index.analisistaiwan-m', compact('taiwan','taiwans','satux1'));
+    }
+    public function searchResultTaiwanm(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $taiwan = Taiwan::all()->last();
+
+        $taiwans = Taiwan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisistaiwan-m', compact('taiwan','taiwans'));
+    }
 //     public function showchina()
 //     {
 //         $china = China::all()->last();
@@ -1437,6 +1518,30 @@ public function showanalisiscambodiam()
         $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
 
         return view('index.analisischina', compact('china','chinas'));
+    }
+public function showanalisischinam()
+    {
+        $china = China::all()->last();
+
+         $chinas = China::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($chinas);
+
+
+        
+        
+        return view('index.analisischina-m', compact('china','chinas','satux1'));
+    }
+    public function searchResultChinam(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $china = China::all()->last();
+
+        $chinas = China::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisischina-m', compact('china','chinas'));
     }
 //     public function showhongkong()
 //     {
@@ -1673,7 +1778,30 @@ public function showanalisiscambodiam()
 
         return view('index.analisishongkong', compact('hongkong','hongkongs'));
     }
-	
+public function showanalisishongkongm()
+    {
+        $hongkong = Hongkong::all()->last();
+
+         $hongkongs = Hongkong::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($hongkongs);
+
+
+        
+        
+        return view('index.analisishongkong-m', compact('hongkong','hongkongs','satux1'));
+    }
+    public function searchResultHongkongm(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $hongkong = Hongkong::all()->last();
+
+        $hongkongs = Hongkong::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisishongkong-m', compact('hongkong','hongkongs'));
+    }
     public function showjapan()
     {
         $japan = Japan::all()->last();
@@ -1952,7 +2080,39 @@ public function showanalisiscambodiam()
 
         return view('index.analisisjapan', compact('japan','japans'));
     }
-	
+ public function showanalisisjapanm()
+    {
+        $japan = Japan::all()->last();
+
+         $japans = Japan::orderBy('periode','desc')->paginate(10);
+
+        $collection = collect($japans);
+        $jpn_number = Japan::orderBy('periode','desc')->first(['number'])->paginate(10);
+        $numb=substr("$jpn_number",0,1);
+        $jpn_as=array();
+        $jpn_kop=array();
+        $jpn_kepala=array();
+        $jpn_ekor=array();
+        foreach($japans as $jpn){
+            $jpn_as[]=substr($jpn->number,0,1);  
+            $jpn_kop[]=substr($jpn->number,0,2); 
+            $jpn_kepala[]=substr($jpn->number,0,3); 
+            $jpn_ekor[]=substr($jpn->number,0,4);  
+        }
+        
+        return view('index.analisisjapan-m', compact('japan','japans','satux1','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
+    }
+    public function searchResultJapan(Request $request)
+    {
+        $startDate = $request->startDate;
+        $endDate = $request->endDate;
+
+        $japan = Japan::all()->last();
+
+        $japans = Japan::whereBetween('tanggal', array( $startDate , $endDate))->orderBy('periode','desc')->get();
+
+        return view('index.analisisjapan-m', compact('japan','japans'));
+    }
     public function showbukumimpi()
     {
         return view('index.bukumimpi', compact('bukumimpi'));
