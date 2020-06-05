@@ -21,7 +21,7 @@
    
    function hapusx(){
     var fom = document.fom;
-    hsl.style.display = "none";
+    document.getElementById("hsl").style.display = "none";
     var s1x = eval("fom.s1");
     var s2x = eval("fom.s2");
     var s3x = eval("fom.s3");
@@ -49,7 +49,7 @@
     var s5 = eval("fom.s5");
     var s6 = eval("fom.s6");
     var s7 = eval("fom.s7");
-    var hsl = eval("fom.hsl");
+    
     console.log(fom);
     console.log(s1.value);
     console.log(hsl);
@@ -58,7 +58,7 @@
      s1.focus();
      return;
     }//else if ()
-    hsl.style.display = "block";
+    document.getElementById("hsl").style.display = "block";
     var myarray=[s1.value, s2.value, s3.value, s4.value, s5.value, s6.value]
     myarray.sort(function(a,b){return a - b}); 
     var c = parseInt(myarray[0]) + parseInt(myarray[1]) + parseInt(myarray[2]) + parseInt(myarray[3]) + parseInt(myarray[4]) + parseInt(myarray[5]);
