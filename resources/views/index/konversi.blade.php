@@ -169,14 +169,22 @@ document.write(unescape("%3Cscript%20language%3D%22javascript%22%3E%0D%0Afunctio
                   <td align="center" colspan="6"><input class="isi" id="s7" maxlength="2" name="s7" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="7" type="text" /></td>
                </tr>
                <tr style="background: white;">
-                  <td align="center" colspan="6"><input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Clear" />&nbsp;&nbsp;&nbsp;&nbsp;<input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert" /></td>
+                  <td align="center" colspan="6">
+                  <input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Clear" />
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert" /></td>
                </tr>
             </tbody>
          </table>
       </div>
       <div id="hsl" name="hsl" style="display: none;">
          <table align="center" border="0" bordercolor="silver" cellpadding="0" cellspacing="9">
-            <input class="td2" id="wn1" name="wn1" type="hidden" /><input class="td2" id="wn2" name="wn2" type="hidden" /><input class="td2" id="wn3" name="wn3" type="hidden" /><input class="td2" id="wn4" name="wn4" type="hidden" /><input class="td2" id="wn5" name="wn5" type="hidden" /><input class="td2" id="wn6" name="wn6" type="hidden" />
+            <input class="td2" id="wn1" name="wn1" type="hidden" />
+            <input class="td2" id="wn2" name="wn2" type="hidden" />
+            <input class="td2" id="wn3" name="wn3" type="hidden" />
+            <input class="td2" id="wn4" name="wn4" type="hidden" />
+            <input class="td2" id="wn5" name="wn5" type="hidden" />
+            <input class="td2" id="wn6" name="wn6" type="hidden" />
             <input colspan="2" id="wn7" name="wn7" style="border-color: silver; border: solid silver .5pt;" type="hidden" />
             <tbody>
                <tr>
