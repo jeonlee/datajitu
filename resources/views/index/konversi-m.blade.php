@@ -13,7 +13,7 @@
     
 
     <script type="text/javascript">
-   <!--
+  
    document.write(unescape("<script language="javascript">
    function fCheckNum(Isi){
    if(isNaN(Isi.value)==true){ Isi.value="";Isi.focus();}else{fCalculate();}
@@ -127,7 +127,7 @@
    </center>
 </form>
 "));
-//-->
+
 </script>
                 </div>
               </div>
