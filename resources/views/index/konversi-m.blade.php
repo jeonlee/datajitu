@@ -147,7 +147,7 @@
          <table align="center" border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse; height: 10%px; width: 400pxpx;">
             <tbody>
                <tr>
-                  <td align="center" colspan="6" style="background-color: #ac0031; border: solid #ac0031 .5pt; color: white; font-weight: bold;">Winning Numbers</td>
+                  <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;">Winning Numbers</td>
                </tr>
                <tr style="background: white;">
                   <td align="center"><input class="isi" id="s1" maxlength="2" name="s1" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="1" type="text" /></td>
@@ -158,7 +158,7 @@
                   <td align="center"><input class="isi" id="s6" maxlength="2" name="s6" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="6" type="text" /></td>
                </tr>
                <tr>
-                  <td align="center" colspan="6" style="background-color: #ac0031; border: solid #ac0031 .5pt; color: white; font-weight: bold;" width="400px">Additional&nbsp; Number</td>
+                  <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;" width="400px">Additional&nbsp; Number</td>
                </tr>
                <tr style="background: white;">
                   <td align="center" colspan="6"><input class="isi" id="s7" maxlength="2" name="s7" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="7" type="text" /></td>
