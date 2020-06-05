@@ -41,7 +41,7 @@
    }
    
    function convert(){
-    var fom = document.fom;
+    var fom = document.getElementsByTagName(fom)
     var s1 = eval("fom.s1");
     var s2 = eval("fom.s2");
     var s3 = eval("fom.s3");
@@ -147,12 +147,12 @@
                   <td align="center" colspan="6" style="background-color: #ac0031; border: solid #ac0031 .5pt; color: white; font-weight: bold;">Winning Numbers</td>
                </tr>
                <tr style="background: white;">
-                  <td align="center"><input class="isi" id="s1" maxlength="2" name="s1" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="1" type="text" /></td>
-                  <td align="center"><input class="isi" id="s2" maxlength="2" name="s2" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="2" type="text" /></td>
-                  <td align="center"><input class="isi" id="s3" maxlength="2" name="s3" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="3" type="text" /></td>
-                  <td align="center"><input class="isi" id="s4" maxlength="2" name="s4" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="4" type="text" /></td>
-                  <td align="center"><input class="isi" id="s5" maxlength="2" name="s5" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="5" type="text" /></td>
-                  <td align="center"><input class="isi" id="s6" maxlength="2" name="s6" onkeypress="fCheckNum(this);" size="2" style="border: 1px solid silver;" tabindex="6" type="text" /></td>
+                  <td align="center"><input class="isi" id="s1" maxlength="2" name="s1" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="1" type="text" /></td>
+                  <td align="center"><input class="isi" id="s2" maxlength="2" name="s2" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="2" type="text" /></td>
+                  <td align="center"><input class="isi" id="s3" maxlength="2" name="s3" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="3" type="text" /></td>
+                  <td align="center"><input class="isi" id="s4" maxlength="2" name="s4" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="4" type="text" /></td>
+                  <td align="center"><input class="isi" id="s5" maxlength="2" name="s5" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="5" type="text" /></td>
+                  <td align="center"><input class="isi" id="s6" maxlength="2" name="s6" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="6" type="text" /></td>
                </tr>
                <tr>
                   <td align="center" colspan="6" style="background-color: #ac0031; border: solid #ac0031 .5pt; color: white; font-weight: bold;" width="400px">Additional&nbsp; Number</td>
