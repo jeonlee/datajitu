@@ -173,6 +173,8 @@ document.write(unescape("%3Cscript%20language%3D%22javascript%22%3E%0D%0Afunctio
                   <input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Clear" />
                   &nbsp;&nbsp;&nbsp;&nbsp;
                   <input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert" /></td>
+                   <font size="1">&nbsp; by <font face="Arial"> <a href="http://datajitu.com/">
+                     <font color="#0000FF">datajitu.com</font></a></font></font>
                </tr>
             </tbody>
          </table>
