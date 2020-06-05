@@ -140,7 +140,7 @@
       <div id="muka" name="muka">
          <center>
             <span style="color: #ff2600; font-size: large;">
-            <b>Konversi Toto Singapore ke 4D </b></span>
+            <b></b></span>
          </center>
          <hr>
          <br />
