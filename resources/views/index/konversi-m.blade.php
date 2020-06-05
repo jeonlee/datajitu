@@ -161,7 +161,7 @@
                   <td align="center" colspan="6" style="background-color: #FFDE00; border: solid #ac0031 .5pt; color: black; font-weight: bold;" width="400px">Additional&nbsp; Number</td>
                </tr>
                <tr style="background: white;">
-                  <td align="center" colspan="6"><input class="isi" id="s7" maxlength="2" name="s7" onkeypress="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="7" type="text" /></td>
+                  <td align="center" colspan="6"><input class="isi" id="s7" maxlength="2" name="s7" onkeyup="huruf(this,event);" size="2" style="border: 1px solid silver;" tabindex="7" type="number" /></td>
                </tr>
                <tr style="background: white;">
                   <td align="center" colspan="6"><input id="hapus" name="hapus" onclick="hapusx()" tabindex="8" type="button" value="Clear" />&nbsp;&nbsp;&nbsp;&nbsp;<input id="conv" name="conv" onclick="convert()" tabindex="8" type="button" value="Convert" /></td>
