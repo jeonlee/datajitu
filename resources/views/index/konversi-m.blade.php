@@ -126,7 +126,6 @@
       </div>
    </center>
 </form>
-"));
 
 </script>
                 </div>
