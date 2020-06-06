@@ -64,6 +64,7 @@ Route::get('/konversi', 'IndexController@showkonversi');
 Route::get('/konversi-m', 'IndexController@showkonversim');
 Route::get('/carahitung', 'IndexController@showcarahitung');
 Route::get('/resultsgp', 'IndexController@showresultsgp');
+Route::get('/resultsgp-m', 'IndexController@showresultsgpm');
 Route::get('/livedrawsgp', 'IndexController@showlivedrawsgp');
 Route::get('/livedrawsyd', 'IndexController@showlivedrawsyd');
 Route::get('/livedrawcmb', 'IndexController@showlivedrawcmb');
