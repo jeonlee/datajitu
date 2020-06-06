@@ -14,7 +14,7 @@
       Contoh nomor bola yang dihasilkan singapore toto (www.singaporepools.com.sg): 
       <br>
       <br>
-      <div class="text-center" style="margin-left:150px;"><img src="images/tutorial.jpg"></div>
+      <div class="text-center" style=""><img style="margin:0 auto;" src="images/tutorial.jpg"></div>
       <br>
       <p style="text-align:left;">Hasil Keluar Togel Singapura :</p>
       <br>
