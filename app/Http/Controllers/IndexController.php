@@ -463,7 +463,12 @@ public function showkonversim()
         
         return view('index.resultsgp');
         }
-    
+    public function showresultsgpm()
+        {
+        
+        
+        return view('index.resultsgp-m');
+        }
     public function showlivedrawsgp()
         {
         
