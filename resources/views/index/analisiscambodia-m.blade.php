@@ -595,8 +595,10 @@
                     $dasarbk = $tiga + $empat;
                     $dasarbk3 = substr("$dasarbk",0,1);
                     $dasarbk4 = substr("$dasarbk",1,1);
-                    $dasarbk5 = $dasarbk3 + $dasarbk4;
-
+                    if($dasarbk4==''){
+		   	$dasarbk4=0;
+		    }
+		
                  ?>
                  <?php
                      if ($dasarbk5 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
