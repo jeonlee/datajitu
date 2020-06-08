@@ -40,7 +40,6 @@ $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
     App\Exceptions\Handler::class
 );
-$app->forgetMiddleware('Illuminate\Http\FrameGuard');
 /*
 |--------------------------------------------------------------------------
 | Return The Application
