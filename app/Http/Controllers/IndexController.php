@@ -2145,7 +2145,7 @@ public function showanalisishongkongm()
     }
     public function shownumbergenerator()
     {
-        return view('index.numbergenerator', compact('numbergenerators'));
+        return view('index.numbergenerator');
     }
 
 
