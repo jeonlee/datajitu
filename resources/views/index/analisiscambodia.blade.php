@@ -596,7 +596,7 @@
                     $dasarbk3 = substr("$dasarbk",0,1);
                     $dasarbk4 = substr("$dasarbk",1,1);
                     $dasarbk5 = $dasarbk3 + $dasarbk4;
-			
+		    $dasarbk9= $tiga += $empat;
                  ?>
                  <?php
                      if ($dasarbk5 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
@@ -609,7 +609,7 @@
                             <td>{{ $cambodia->periode }}-MC</td>
                             <td>{{ $cambodia->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
-                            <td class="{{$dasarbk5}}"><?php  echo $dasarbkkecil; ?></td>
+                            <td class="{{$dasarbk9}}"><?php  echo $dasarbkkecil; ?></td>
                         </tr>
                 @endforeach
                                     </tbody>
