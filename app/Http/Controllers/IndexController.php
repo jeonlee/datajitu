@@ -1215,7 +1215,7 @@ public function showanalisiscambodiam()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.taiwan', compact('taiwan','taiwn','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.taiwan', compact('taiwn','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasiltaiwan(Request $request)
@@ -1733,7 +1733,7 @@ public function showanalisischinam()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.hongkong', compact('hongkong','hongkg','sorted','users','hkg_number','hkg_as','hkg_kop','hkg_kepala','hkg_ekor','hkg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.hongkong', compact('hongkg','sorted','users','hkg_number','hkg_as','hkg_kop','hkg_kepala','hkg_ekor','hkg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasilhongkong(Request $request)
@@ -2137,7 +2137,7 @@ public function showanalisishongkongm()
     }
     public function showjadwalkeluaran()
     {
-        return view('index.jadwalkeluaran', compact('jadwalkeluarans'));
+        return view('index.jadwalkeluaran');
     }
     public function showjadwalkeluaranm()
     {
