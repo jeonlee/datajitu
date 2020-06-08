@@ -1310,7 +1310,7 @@ public function showanalisistaiwanm()
     public function showchina()
     {
         
-
+	$china = China::all()->last();
         $chinas = China::all();
         
         $collection = collect($chinas);
