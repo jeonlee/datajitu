@@ -393,7 +393,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
+        return view('index.analisissingapura', compact('singapura','singapuras','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapura(Request $request)
     {
@@ -1257,7 +1257,7 @@ public function showanalisiscambodiam()
 
         
         
-        return view('index.analisistaiwan', compact('taiwan','taiwans','satux1'));
+        return view('index.analisistaiwan', compact('taiwan','taiwans'));
     }
     public function searchResultTaiwan(Request $request)
     {
@@ -1516,7 +1516,7 @@ public function showanalisistaiwanm()
 
         
         
-        return view('index.analisischina', compact('china','chinas','satux1'));
+        return view('index.analisischina', compact('china','chinas'));
     }
     public function searchResultChina(Request $request)
     {
@@ -1775,7 +1775,7 @@ public function showanalisischinam()
 
         
         
-        return view('index.analisishongkong', compact('hongkong','hongkongs','satux1'));
+        return view('index.analisishongkong', compact('hongkong','hongkongs'));
     }
     public function searchResultHongkong(Request $request)
     {
@@ -2077,7 +2077,7 @@ public function showanalisishongkongm()
             $jpn_ekor[]=substr($jpn->number,0,4);  
         }
         
-        return view('index.analisisjapan', compact('japan','japans','satux1','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
+        return view('index.analisisjapan', compact('japan','japans','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
     }
     public function searchResultJapan(Request $request)
     {
