@@ -245,7 +245,7 @@ class IndexController extends Controller
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.singapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.singapura', compact('singapura','singapore','sorted','users','sgp_number','sgp_as','sgp_kop','sgp_kepala','sgp_ekor','sgp','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasilsingapura(Request $request)
@@ -697,7 +697,7 @@ public function showkonversim()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.sydney', compact('sydney','sidney','sorted','users','syd_number','syd_as','syd_kop','syd_kepala','syd_ekor','syd','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.sydney', compact('sydney','sidney','sorted','users','syd_number','syd_as','syd_kop','syd_kepala','syd_ekor','syd','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
 	
@@ -1215,7 +1215,7 @@ public function showanalisiscambodiam()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.taiwan', compact('taiwan','taiwn','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.taiwan', compact('taiwan','taiwn','sorted','users','twn_number','twn_as','twn_kop','twn_kepala','twn_ekor','twn','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasiltaiwan(Request $request)
@@ -1474,7 +1474,7 @@ public function showanalisistaiwanm()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.china', compact('china','chaina','sorted','users','chn_number','chn_as','chn_kop','chn_kepala','chn_ekor','chn','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.china', compact('china','chaina','sorted','users','chn_number','chn_as','chn_kop','chn_kepala','chn_ekor','chn','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasilchina(Request $request)
@@ -1733,7 +1733,7 @@ public function showanalisischinam()
 	}elseif(count($temp_ekor) == 15){
 	    $majoritas_ekor='Rata';
 	}
-    	return view('index.hongkong', compact('hongkong','hongkg','sorted','users','hkg_number','hkg_as','hkg_kop','hkg_kepala','hkg_ekor','hkg','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+    	return view('index.hongkong', compact('hongkong','hongkg','sorted','users','hkg_number','hkg_as','hkg_kop','hkg_kepala','hkg_ekor','hkg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
 	
     public function showhasilhongkong(Request $request)
@@ -1979,7 +1979,7 @@ public function showanalisishongkongm()
     }elseif(count($temp_ekor) == 15){
         $majoritas_ekor='Rata';
     }
-        return view('index.japan', compact('japan','nippon','sorted','users','jpn_number','jpn_as','jpn_kop','jpn_kepala','jpn_ekor','jpn','gg','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','tes_as','js_tes','arr_as','arr_kop','arr_kepala','arr_ekor'));
+        return view('index.japan', compact('japan','nippon','sorted','users','jpn_number','jpn_as','jpn_kop','jpn_kepala','jpn_ekor','jpn','majoritas_as','majoritas_kop','majoritas_kepala','majoritas_ekor','val_as','gg_as','gg_kop','gg_kepala','gg_ekor','arr_as','arr_kop','arr_kepala','arr_ekor'));
     }
     
     public function showhasiljapan(Request $request)
