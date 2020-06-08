@@ -593,10 +593,10 @@
                     $tiga = substr("$cambodia->number",2,1);
                     $empat = substr("$cambodia->number",3,1);
                     $dasarbk = $tiga + $empat;
-                    $dasarbk3 = substr("$dasarbk",0,1);
-                    $dasarbk4 = substr("$dasarbk",1,1);
-                    $dasarbk5 = $dasarbk3 + $dasarbk4;
 		    $dasarbk9= $tiga += $empat;
+                    $dasarbk3 = substr("$dasarbk9",0,1);
+                    $dasarbk4 = substr("$dasarbk9",1,1);
+                    $dasarbk5 = $dasarbk3 + $dasarbk4;
                  ?>
                  <?php
                      if ($dasarbk5 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
