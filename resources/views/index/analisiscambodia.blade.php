@@ -608,7 +608,7 @@
                             <td>{{ Carbon\Carbon::parse($cambodia->tanggal)->format('d-m-Y') }}</td>
                             <td>{{ $cambodia->periode }}-MC</td>
                             <td>{{ $cambodia->number }}</td>
-                            <td><?php  echo $dasarbkbesar; ?></td>
+                            <td class="tess123"><?php  echo $dasarbkbesar; ?></td>
                             <td class="{{$dasarbk4}}"><?php  echo $dasarbkkecil; ?></td>
                         </tr>
                 @endforeach
