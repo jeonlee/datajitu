@@ -596,7 +596,7 @@
 		    $dasarbk9= $tiga += $empat;
                     $dasarbk3 = substr("$dasarbk9",0,1);
                     $dasarbk4 = substr("$dasarbk9",1,1);
-		   if(!isset($dasarbk4)){
+		   if($dasarbk4=='FALSE'){
 		   $dasarbk4=0;
 		   }
                     $dasarbk5 = $dasarbk3 + $dasarbk4;
