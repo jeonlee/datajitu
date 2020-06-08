@@ -609,7 +609,7 @@
                             <td>{{ $cambodia->periode }}-MC</td>
                             <td>{{ $cambodia->number }}</td>
                             <td><?php  echo $dasarbkbesar; ?></td>
-                            <td class="{{$dasarbk9}}"><?php  echo $dasarbkkecil; ?></td>
+                            <td class="{{$dasarbk4}}"><?php  echo $dasarbkkecil; ?></td>
                         </tr>
                 @endforeach
                                     </tbody>
