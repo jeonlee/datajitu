@@ -999,7 +999,7 @@ public function searchResultSydneym(Request $request)
 
         
         
-        return view('index.analisiscambodia', compact('cambodia','cambodias','satux1'));
+        return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
     public function searchResultCambodia(Request $request)
     {
@@ -2137,7 +2137,7 @@ public function showanalisishongkongm()
     }
     public function showjadwalkeluaran()
     {
-        return view('index.jadwalkeluaran', compact('jadwalkeluaran','jadwalkeluarans'));
+        return view('index.jadwalkeluaran', compact('jadwalkeluarans'));
     }
     public function showjadwalkeluaranm()
     {
@@ -2145,7 +2145,7 @@ public function showanalisishongkongm()
     }
     public function shownumbergenerator()
     {
-        return view('index.numbergenerator', compact('numbergenerator','numbergenerators'));
+        return view('index.numbergenerator', compact('numbergenerators'));
     }
 
 
