@@ -257,7 +257,8 @@ class IndexController extends Controller
         $singapuras = Singapura::orderBy('periode','desc')->paginate($items);
 
         $collection = collect($singapuras);
-
+	
+	    $users='singapura';
         
         return view('index.hasilsingapura', compact('singapura','singapuras','items'));
     }
