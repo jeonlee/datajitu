@@ -273,7 +273,7 @@ class IndexController extends Controller
         $collection = collect($singapuras);
 
         
-        return view('index.hasilsingapura-m', compact('singapura','singapuras','users','items'));
+        return view('index.hasilsingapura-m', compact('singapura','singapuras','items'));
     }
 
     public function showprediksisgp()
