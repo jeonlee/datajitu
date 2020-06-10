@@ -22,6 +22,13 @@
    function hapusx(){
     var fom = document.fom;
     document.getElementById("hsl").style.display = "none";
+    document.getElementById("s1").value = "";
+    document.getElementById("s2").value = "";
+    document.getElementById("s3").value = "";
+    document.getElementById("s4").value = "";
+    document.getElementById("s5").value = "";
+    document.getElementById("s6").value = "";
+    document.getElementById("s7").value = "";
     var s1x = eval("fom.s1");
     var s2x = eval("fom.s2");
     var s3x = eval("fom.s3");
