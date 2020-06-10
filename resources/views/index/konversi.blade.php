@@ -43,6 +43,7 @@ document.write(unescape("%3Cscript%20language%3D%22javascript%22%3E%0D%0Afunctio
     s6x.value = "";
     s7x.value = "";
     s1x.focus();
+    document.getElementById("s1x").value = "";
    }
    
    function convert(){
