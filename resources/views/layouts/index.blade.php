@@ -649,12 +649,13 @@
          <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.64" target="_blank">TOGELCC</a>
          <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
          <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.59" target="_blank">TOGELMANDIRI</a>
+          <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
+          <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.25" target="_blank">TOTOBET</a>
          
          
         </div>
         <div class="col-xs-7 visible-xs visible-sm" style="margin-top:20px; margin-bottom:10px;">
-            <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
-            <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.25" target="_blank">TOTOBET</a>
+           
         </div>
       </div>
       
