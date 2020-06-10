@@ -1540,3 +1540,7 @@ table.table-bootstrap td, table.table-bootstrap th {
 	overflow:auto;
 	white-space:nowrap;
 }
+a.login {
+	display:table-caption;
+	margin-bottom:5px;
+}
