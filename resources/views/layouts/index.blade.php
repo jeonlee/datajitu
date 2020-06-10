@@ -635,26 +635,26 @@
         </div>
         
         <div class="col-xs-7 visible-xs visible-sm" style="margin-top:30px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.200.60/" target="_blank">TOTOJITU</a>
-         <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
-         <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
-         <a class="login loginItem" href="http://103.10.201.27" target="_blank">AFATOGEL</a>
-         <a class="login loginItem" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.60/" target="_blank">TOTOJITU</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.30" target="_blank">8TOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.27" target="_blank">AFATOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.56" target="_blank">EYANGTOGEL</a>
          
          
         </div>
         <div class="col-xs-7 visible-xs visible-sm" style="margin-top:20px;">
-         <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.201.21" target="_blank">BROTOGEL</a>
-         <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
-         <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
-         <a class="login loginItem" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
-         <a class="login loginItem" href="http://103.10.200.59" target="_blank">TOGELMANDIRI</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;"  href="http://103.10.201.21" target="_blank">BROTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.64" target="_blank">TOGELCC</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.51" target="_blank">RGOTOGEL</a>
+         <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.200.59" target="_blank">TOGELMANDIRI</a>
          
          
         </div>
         <div class="col-xs-7 visible-xs visible-sm" style="margin-top:20px; margin-bottom:10px;">
-            <a class="login loginItem" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
-            <a class="login loginItem" href="http://103.10.201.25" target="_blank">TOTOBET</a>
+            <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
+            <a class="login loginItem" style="margin-bottom:5px; display:table-caption;" href="http://103.10.201.25" target="_blank">TOTOBET</a>
         </div>
       </div>
       
