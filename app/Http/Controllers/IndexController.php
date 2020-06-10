@@ -2140,7 +2140,7 @@ public function showanalisishongkongm()
     }
     public function showjadwalkeluaranm()
     {
-        return view('index.jadwalkeluaran-m', compact('jadwalkeluaran-m','jadwalkeluarans'));
+        return view('index.jadwalkeluaran-m');
     }
     public function shownumbergenerator()
     {
