@@ -27,6 +27,13 @@ document.write(unescape("%3Cscript%20language%3D%22javascript%22%3E%0D%0Afunctio
    function hapusx(){
     var fom = document.fom;
     document.getElementById("hsl").style.display = "none";
+    document.getElementById("s1").value = "";
+    document.getElementById("s2").value = "";
+    document.getElementById("s3").value = "";
+    document.getElementById("s4").value = "";
+    document.getElementById("s5").value = "";
+    document.getElementById("s6").value = "";
+    document.getElementById("s7").value = "";
     var s1x = eval("fom.s1");
     var s2x = eval("fom.s2");
     var s3x = eval("fom.s3");
@@ -43,7 +50,7 @@ document.write(unescape("%3Cscript%20language%3D%22javascript%22%3E%0D%0Afunctio
     s6x.value = "";
     s7x.value = "";
     s1x.focus();
-    document.getElementById("s1x").value = "";
+    
    }
    
    function convert(){
