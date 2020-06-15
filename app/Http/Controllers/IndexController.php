@@ -425,7 +425,7 @@ public function showanalisissingapuram()
             $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura-m', compact('singapura','singapuras','satux1','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
+        return view('index.analisissingapura-m', compact('singapura','singapuras','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapuram(Request $request)
     {
@@ -1280,7 +1280,7 @@ public function showanalisistaiwanm()
 
         
         
-        return view('index.analisistaiwan-m', compact('taiwan','taiwans','satux1'));
+        return view('index.analisistaiwan-m', compact('taiwan','taiwans'));
     }
     public function searchResultTaiwanm(Request $request)
     {
@@ -1539,7 +1539,7 @@ public function showanalisischinam()
 
         
         
-        return view('index.analisischina-m', compact('china','chinas','satux1'));
+        return view('index.analisischina-m', compact('china','chinas'));
     }
     public function searchResultChinam(Request $request)
     {
@@ -1798,7 +1798,7 @@ public function showanalisishongkongm()
 
         
         
-        return view('index.analisishongkong-m', compact('hongkong','hongkongs','satux1'));
+        return view('index.analisishongkong-m', compact('hongkong','hongkongs'));
     }
     public function searchResultHongkongm(Request $request)
     {
@@ -2109,7 +2109,7 @@ public function showanalisishongkongm()
             $jpn_ekor[]=substr($jpn->number,0,4);  
         }
         
-        return view('index.analisisjapan-m', compact('japan','japans','satux1','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
+        return view('index.analisisjapan-m', compact('japan','japans','as_jpn','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
     }
     public function searchResultJapanm(Request $request)
     {
