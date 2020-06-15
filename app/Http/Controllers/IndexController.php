@@ -1023,7 +1023,7 @@ public function showanalisiscambodiam()
 
         
         
-        return view('index.analisiscambodia-m', compact('cambodia','cambodias','satux1'));
+        return view('index.analisiscambodia-m', compact('cambodia','cambodias'));
     }
     public function searchResultCambodiam(Request $request)
     {
