@@ -90,6 +90,12 @@ Route::post('/searchResultChina', 'IndexController@searchResultChina');
 Route::post('/searchResultHongkong', 'IndexController@searchResultHongkong');
 Route::post('/searchResultJapan', 'IndexController@searchResultJapan');
 Route::post('/searchResultCambodia-m', 'IndexController@searchResultCambodiam');
+Route::post('/searchResultSingapura-m', 'IndexController@searchResultSingapuram');
+Route::post('/searchResultSydney-m', 'IndexController@searchResultSydneym');
+Route::post('/searchResultTaiwan-m', 'IndexController@searchResultTaiwanm');
+Route::post('/searchResultChina-m', 'IndexController@searchResultChinam');
+Route::post('/searchResultHongkong-m', 'IndexController@searchResultHongkongm');
+Route::post('/searchResultJapan-m', 'IndexController@searchResultJapanm');
 
 Route::auth();
 Route::get('/home', function() {
