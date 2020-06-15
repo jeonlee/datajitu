@@ -2109,7 +2109,7 @@ public function showanalisishongkongm()
             $jpn_ekor[]=substr($jpn->number,0,4);  
         }
         
-        return view('index.analisisjapan-m', compact('japan','japans','jpn_number','numb','jpn_numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
+        return view('index.analisisjapan-m', compact('japan','japans','jpn_number','numb','jpn','jpn_as','jpn_kop','jpn_kepala','jpn_ekor'));
     }
     public function searchResultJapanm(Request $request)
     {
