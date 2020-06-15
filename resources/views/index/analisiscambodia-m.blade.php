@@ -598,7 +598,7 @@
                     if($dasarbk4==''){
 		   	$dasarbk4=0;
 		    }
-		
+		    $dasarbk5 = $dasarbk3 + $dasarbk4;
                  ?>
                  <?php
                      if ($dasarbk5 >= 5) { $dasarbkbesar = "&#x2714;"; } else { $dasarbkbesar = ""; }
