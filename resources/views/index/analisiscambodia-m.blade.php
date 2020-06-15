@@ -12,13 +12,13 @@
                 <form method="POST" action="/searchResultCambodia-m">
     {{ csrf_field() }}
       <div class="form-group" style="overflow:hidden;">
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-md-6">
           Dari :
           <div style="overflow:hidden;" class="form-group">
             <input type="date" name="startDate" id="from" class="form-control input-sm" onfocus="(this.type='date')"  placeholder="dd-mm-yyyy">
         </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-md-6">
           Sampai :
           <div style="overflow:hidden;" class="form-group">
             <input type="date" class="input-sm form-control" name="endDate" onfocus="(this.type='date')" id="to" placeholder="dd-mm-yyyy">
