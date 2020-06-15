@@ -645,6 +645,9 @@
                     $dasargg = $tiga + $empat;
                     $dasargg3 = substr("$dasargg",0,1);
                     $dasargg4 = substr("$dasargg",1,1);
+		    if($dasargg4==''){
+                      $dasargg4=0;
+                    }
                     $dasargg5 = $dasargg3 + $dasargg4;
                     $dasargg1 = $dasargg5 % 2;
                     $dg = 0;
