@@ -425,7 +425,7 @@ public function showanalisissingapuram()
             $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura-m', compact('singapura','singapuras','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
+        return view('index.analisissingapura-m', compact('singapura','singapuras','sgp_number','numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapuram(Request $request)
     {
