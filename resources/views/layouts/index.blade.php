@@ -240,7 +240,7 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8togel5.com" target="_blank">www.8togel5.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8togel2020.com" target="_blank">www.8togel2020.com</a></li>
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
@@ -424,7 +424,7 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8togel5.com" target="_blank">www.8togel5.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8togel2020.com" target="_blank">www.8togel2020.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
                       </li>
