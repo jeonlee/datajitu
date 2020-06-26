@@ -232,7 +232,7 @@
                     <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttjitu2020.com" target="_blank">www.ttjitu2020.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojt2020.com" target="_blank">www.totojt2020.com</a></li>
                          
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.60" target="_blank">103.10.200.60</a></li>
                           
@@ -492,7 +492,7 @@
                     <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu">
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://ttjitu2020.com" target="_blank">www.ttjitu2020.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://totojt2020.com" target="_blank">www.totojt2020.com</a></li>
                           
                         </ul>
                       </li>
