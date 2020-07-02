@@ -392,7 +392,7 @@ class IndexController extends Controller
             $sgp_ekor[]=substr($sgp->number,0,4);  
         }
         
-        return view('index.analisissingapura', compact('singapura','singapuras','as_sgp','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
+        return view('index.analisissingapura', compact('singapura','singapuras','sgp_number','numb','sgp_numb','sgp','sgp_as','sgp_kop','sgp_kepala','sgp_ekor'));
     }
     public function searchResultSingapura(Request $request)
     {
