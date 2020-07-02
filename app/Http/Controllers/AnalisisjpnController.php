@@ -46,17 +46,23 @@ class AnalisisjpnController extends Controller
         $ekorgg = $empat % 2;
         $dg = 0;
         $tigash = substr("$japan->number",2,1) % 2;
-    $empatsh = substr("$japan->number",3,1) % 2;
+        $empatsh = substr("$japan->number",3,1) % 2;
         $sh = 0;
-    $hs = 0;
+        $hs = 0;
         $tt = substr("$japan->number",2,2);
         $dasarbk = $tiga + $empat;
         $dasarbk3 = substr("$dasarbk",0,1);
         $dasarbk4 = substr("$dasarbk",1,1);
+        if($dasarbk4==''){
+            $dasarbk4=0;
+        }
         $dasarbk5 = $dasarbk3 + $dasarbk4;
         $dasargg = $tiga + $empat;
         $dasargg3 = substr("$dasargg",0,1);
         $dasargg4 = substr("$dasargg",1,1);
+        if($dasargg4==''){
+            $dasargg4=0;
+        }
         $dasargg5 = $dasargg3 + $dasargg4;
         $dasargg1 = $dasargg5 % 2;
         // $categories = Category::find($id);
