@@ -53,6 +53,9 @@ class AnalisishkController extends Controller
         $dasarbk = $tiga + $empat;
         $dasarbk3 = substr("$dasarbk",0,1);
         $dasarbk4 = substr("$dasarbk",1,1);
+	if($dasarbk4==''){
+	    $dasarbk4=0;
+   	}
         $dasarbk5 = $dasarbk3 + $dasarbk4;
         $dasargg = $tiga + $empat;
         $dasargg3 = substr("$dasargg",0,1);
