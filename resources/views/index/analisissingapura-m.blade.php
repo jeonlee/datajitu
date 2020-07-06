@@ -14,7 +14,7 @@
     <form method="POST" action="/searchResultSingapura-m">
     {{ csrf_field() }}
 
-      <div class="form-group" style="overflow:hidden;">
+      <div class="form-group" style="overflow:hidden; margin-bottom:0px;">
         <div class="col-xs-12 col-md-6">
           Dari :
           <div style="overflow:hidden;" class="form-group">
@@ -28,7 +28,7 @@
         </div>
       </div> 
       </div>
-      <button type="submit">Submit</button>
+      <button style="margin-bottom:15px;" type="submit">Submit</button>
     </form>
   <div class="col-xs-12" style="padding:0px;">
     <div class="col-xs-12" style="padding:0px;">
