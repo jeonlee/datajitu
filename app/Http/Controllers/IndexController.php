@@ -2214,7 +2214,7 @@ public function showanalisishongkongm()
     }
     public function showbukumimpim()
     {
-        return view('index.bukumimpi-m', compact('bukumimpi'));
+        return view('index.bukumimpi-m');
     }
     public function showcomingsoon()
     {
