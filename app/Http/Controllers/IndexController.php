@@ -991,19 +991,26 @@ public function searchResultSydneym(Request $request)
     {
         $cambodia = Cambodia::all()->last();
 
-         $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
+        $cambodias = Cambodia::orderBy('periode','desc')->paginate(10);
 
         $collection = collect($cambodias);
 
-
+	
         
         
         return view('index.analisiscambodia', compact('cambodia','cambodias'));
     }
     public function searchResultCambodia(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+    	$startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
+        
 
         $cambodia = Cambodia::all()->last();
 
