@@ -137,7 +137,7 @@
                           <a href="#"><i class="fa fa-bar-chart fa-lg"></i> TOTO SGP <span class="arrow"></span></a>
                         </li>  
                         <ul class="sub-menu collapse" id="totosgp">
-                          <li><a href="{{ url('/konversi') }}">Konversi</a></li>
+                          <li><a href="{{ url('/konversi-m') }}">Konversi</a></li>
                           <li><a href="{{ url('/carahitung') }}">Cara hitung</a></li>
                           <li><a href="{{ url('/resultsgp') }}">Result SGP</a></li>
                         </ul>
