@@ -397,8 +397,14 @@ class IndexController extends Controller
     }
     public function searchResultSingapura(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $singapura = Singapura::all()->last();
 
@@ -430,8 +436,14 @@ public function showanalisissingapuram()
     }
     public function searchResultSingapuram(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $singapura = Singapura::all()->last();
 
@@ -744,8 +756,14 @@ public function showkonversim()
     }
     public function searchResultSydney(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $sydney = Sydney::all()->last();
 
@@ -768,8 +786,14 @@ public function showkonversim()
     }
 public function searchResultSydneym(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $sydney = Sydney::all()->last();
 
@@ -1035,8 +1059,14 @@ public function showanalisiscambodiam()
     }
     public function searchResultCambodiam(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $cambodia = Cambodia::all()->last();
 
@@ -1268,8 +1298,14 @@ public function showanalisiscambodiam()
     }
     public function searchResultTaiwan(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $taiwan = Taiwan::all()->last();
 
@@ -1292,8 +1328,14 @@ public function showanalisistaiwanm()
     }
     public function searchResultTaiwanm(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $taiwan = Taiwan::all()->last();
 
@@ -1527,8 +1569,14 @@ public function showanalisistaiwanm()
     }
     public function searchResultChina(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $china = China::all()->last();
 
@@ -1551,8 +1599,14 @@ public function showanalisischinam()
     }
     public function searchResultChinam(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $china = China::all()->last();
 
@@ -1786,8 +1840,14 @@ public function showanalisischinam()
     }
     public function searchResultHongkong(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $hongkong = Hongkong::all()->last();
 
@@ -1810,8 +1870,14 @@ public function showanalisishongkongm()
     }
     public function searchResultHongkongm(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $hongkong = Hongkong::all()->last();
 
@@ -2088,8 +2154,14 @@ public function showanalisishongkongm()
     }
     public function searchResultJapan(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $japan = Japan::all()->last();
 
@@ -2121,8 +2193,14 @@ public function showanalisishongkongm()
     }
     public function searchResultJapanm(Request $request)
     {
-        $startDate = $request->startDate;
-        $endDate = $request->endDate;
+        $startDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$startDate = $request->startDate;    
+	    }
+	$endDate = Carbon::now()->toDateString();
+	    if($request->startDate){
+		$endDate = $request->endDate; 
+	    }
 
         $japan = Japan::all()->last();
 
