@@ -18,6 +18,7 @@ use App\Prediksichn;
 use App\Prediksihk;
 use App\Prediksijpn;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 use App\Http\Requests;
 
