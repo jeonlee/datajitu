@@ -620,6 +620,9 @@
          
          
         </div>
+        <div class="col-xs-5 col-sm-5 hidden-xs hidden-sm">
+        
+        </div>
         <div class="col-xs-7 hidden-xs hidden-sm" style="margin-top:20px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.201.21" target="_blank">BROTOGEL</a>
          <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
@@ -628,6 +631,9 @@
          <a class="login loginItem" href="http://103.10.200.59" target="_blank">TOGELMANDIRI</a>
          
          
+        </div>
+        <div class="col-xs-5 col-sm-5 hidden-xs hidden-sm">
+        
         </div>
         <div class="col-xs-7 hidden-xs hidden-sm" style="margin-top:20px; margin-bottom:10px;">
             <a class="login loginItem" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
