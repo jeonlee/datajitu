@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('content')
+@section('content1')
   <div class="panel panel-primary">
                 <div class="panel-heading p15 black font">
                   <div class="panel-title">
