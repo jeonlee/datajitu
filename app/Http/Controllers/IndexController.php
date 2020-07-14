@@ -2080,7 +2080,7 @@ public function showanalisishongkongm()
         $collection = collect($japans);
 
         
-        return view('index.hasiljapan-m', compact('japan','japans','users','items'));
+        return view('index.hasiljapan-m', compact('japan','japans','items'));
     }
 
     public function showprediksijpn()
