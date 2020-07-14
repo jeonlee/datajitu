@@ -611,7 +611,7 @@
         <div class="col-xs-5 col-sm-5">
           <div class="trust-image-footer"></div>          <h3><span class="yellowTxt">PASANG ANGKA TOGEL ANDA DI </span></h3>
         </div>
-        <div class="col-xs-2 hidden-xs hidden-sm" style="margin-top:30px;">
+        <div class="col-xs-2 hidden-xs hidden-sm" style="margin-top:20px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.200.60/" target="_blank">TOTOJITU</a>
          <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
