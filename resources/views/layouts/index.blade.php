@@ -611,7 +611,7 @@
         <div class="col-xs-5 col-sm-5">
           <div class="trust-image-footer"></div>          <h3><span class="yellowTxt">PASANG ANGKA TOGEL ANDA DI </span></h3>
         </div>
-        <div class="col-xs-7 hidden-xs hidden-sm" style="margin-top:30px;">
+        <div class="col-xs-2 hidden-xs hidden-sm" style="margin-top:30px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.200.60/" target="_blank">TOTOJITU</a>
          <a class="login loginItem" href="http://103.10.201.30" target="_blank">8TOGEL</a>
          <a class="login loginItem" href="http://103.10.200.43" target="_blank">JAYATOGEL</a>
@@ -620,10 +620,8 @@
          
          
         </div>
-        <div class="col-xs-5 col-sm-5 hidden-xs hidden-sm">
         
-        </div>
-        <div class="col-xs-7 hidden-xs hidden-sm" style="margin-top:20px;">
+        <div class="col-xs-2 hidden-xs hidden-sm" style="margin-top:20px;">
          <a class="login loginItem" style="margin-bottom:10px;" href="http://103.10.201.21" target="_blank">BROTOGEL</a>
          <a class="login loginItem" href="http://103.10.201.32" target="_blank">GITARTOGEL</a>
          <a class="login loginItem" href="http://103.10.200.64" target="_blank">TOGELCC</a>
@@ -632,10 +630,8 @@
          
          
         </div>
-        <div class="col-xs-5 col-sm-5 hidden-xs hidden-sm">
         
-        </div>
-        <div class="col-xs-7 hidden-xs hidden-sm" style="margin-top:20px; margin-bottom:10px;">
+        <div class="col-xs-2 hidden-xs hidden-sm" style="margin-top:20px; margin-bottom:10px;">
             <a class="login loginItem" href="http://103.10.201.23" target="_blank">INDOTOGEL</a>
             <a class="login loginItem" href="http://103.10.201.25" target="_blank">TOTOBET</a>
         </div>
