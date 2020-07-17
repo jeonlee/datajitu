@@ -29,7 +29,7 @@
                         <td><div class="t_no f20">{{ Carbon\Carbon::parse($japan->tanggal)->format('d-m-Y') }}</div></td>
                         <td><div class="t_hari f20">{{ $japan->periode }}-JPN</div></td>
 
-                        <td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $japan->id }}">{{ $japan->number }}</a></div></td>   
+                        <td><div class="t_tgl biru f20"><a class="blue-number" href="/analisisjpn/{{ $japan->id }}">{{ $japan->number }}</a></div></td>   
 
                                                            
                         
