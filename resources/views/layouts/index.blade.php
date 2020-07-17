@@ -879,7 +879,7 @@ $(function () {
 });
     </script>
     <script>
-      $('.bukmi').bind('keypress', false);
+      
     </script>
 
   </body>
