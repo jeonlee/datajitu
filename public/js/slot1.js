@@ -50,7 +50,7 @@ var sm = (function(undefined){
 
         $msg = $('.msg');
 
-        $('button').click(action);
+        $('.numgen').click(action);
     }
 
     function action(){
