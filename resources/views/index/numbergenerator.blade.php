@@ -46,10 +46,10 @@
           <button class="numgen" style="font-size:1em;width:100%; line-height:30px;">Start</button>
         </div>
         <div class="group" style="width:100%;">
-          <div class="reel1" style="width:18%; height:100px; margin-right:13px;"></div>
-          <div class="reel1" style="width:18%; height:100px; margin-right:13px;"></div>
-          <div class="reel1" style="width:18%; height:100px; margin-right:13px;"></div>
-          <div class="reel1" style="width:18%; height:100px; margin-right:13px;"></div>
+          <div class="reel1" style="width:18%; height:100px; margin-right:15px;"></div>
+          <div class="reel1" style="width:18%; height:100px; margin-right:15px;"></div>
+          <div class="reel1" style="width:18%; height:100px; margin-right:15px;"></div>
+          <div class="reel1" style="width:18%; height:100px; margin-right:12px;"></div>
         </div>
         <p class="msg">Press Start</p>
       </div>
