@@ -36,7 +36,31 @@
       </div>
       <br>
         Cara manual perhitungan Hasil Toto Singapura (senin & kamis) menggunakan <b>Rumus Konversi Singapura terbaru</b> :<br>
+        
+        *Untuk mendapatkan angka puluhan dan satuan:
         <ol style="margin-left:30px;">
+          <li>Bola di urutkan dari yang terkecil sampai yang terbesar.<br>
+            05 – 12 – 17 – 25 – 46 – 49</li>
+          <li>Bola ke 1 sampai bola ke 6 dijumlahkan 05 + 12 + 17 + 25 + 46 + 49 = 154 di kali 2 = 308.</li>
+          <li>Hasil dari 308 dikurangkan bola ke 1 ( 05 ) dan bola ke 6 ( 49 ) = 254.</li>
+          <li>Sisa 254 ditambah dengan additional number (23) = 277</li>
+          <li>Dari angka 277 kita ambil 2 angka puluhan tersebut yaitu 77.</li>
+        </ol>
+        <br>
+        *Untuk mendapatkan angka ratusan:
+        <ol style="margin-left:30px;">
+          <li>Untuk mendapat angka ratusan kita mengambil dari bola ke 4 ( 25 ) ditambah bola ke 5 ( 46 ) jumlah = 71</li>
+          <li>Kita ambil ekor 1 ini sebagai angka untuk ratusan.</li>
+        </ol>
+        <br>
+        *Untuk mendapatkan angka ribuan.
+        <ol style="margin-left:30px;">
+          <li>Untuk mendapat angka ribuan kita mengambil dari bola ke 2 ( 12 ) ditambah bola ke 3 ( 17 ) jumlah = 29</li>
+          <li>Kita ambil ekor 9 ini sebagai angka untuk ribuan.</li>
+        </ol>
+        <br>
+        
+        <!-- <ol style="margin-left:30px;">
           <li>Urutkan bola mulai dari yang terkecil sampai yang terbesar<br>
             05 – 12 – 17 – 25 – 46 – 49</li>
           <li>Cara mendapatkan angka Satuan / Ekor,<br>
@@ -51,17 +75,18 @@
           <li>Cara mendapatkan angka Ribuan / AS,<br>
         (rumus = bola1 + bola2 + bola3)<br>
             05 + 12 + 17 = 3<span style="color:#F00;">4</span></li>
-        </ol>
+        </ol>-->
         <br>
-        maka hasil perhitungan diatas <br>
-        Di ambil angka belakangnya saja<br>
-        hasilnya = 
+        Ribuan : 9
+        Ratusan : 1
+        Puluhan : 77
+        Hasilnya : 9177
         <table class="table table-bordered text-center" style="width:50%;">
           <tr>
-            <td>4</td>
-            <td>0</td>
+            <td>9</td>
+            <td>1</td>
             <td>7</td>
-            <td>4</td>
+            <td>7</td>
           </tr>
           <tr>
             <td>Ribuan</td>
