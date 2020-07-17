@@ -879,7 +879,9 @@ $(function () {
 });
     </script>
     <script>
-      $('.bukmi').bind('keypress', false);
+      $('.bukmi').keypress(function(e){
+          if ( e.which == 13 ) e.preventDefault();
+      });
     </script>
 
   </body>
