@@ -290,7 +290,6 @@
                       </li>
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Gitartogel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
-                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://gitartgl77.com" target="_blank">www.gitartgl77.com</a></li>
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.32" target="_blank">103.10.201.32</a></li>       
                         </ul>
@@ -313,7 +312,6 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">Indotogel.net</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           
-                          <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://stc700.com" target="_blank">www.stc700.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://103.10.201.23" target="_blank">103.10.201.23</a></li>
                         </ul>
                       </li>
