@@ -11,7 +11,7 @@
                   </div>  
                     
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" style="overflow-y:scroll;">
                   <form method="POST" action="/analisis/{{ $cambodias->id }}">
                   {{ csrf_field() }}
                   {{ method_field('PATCH') }}
