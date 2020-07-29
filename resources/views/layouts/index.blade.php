@@ -153,6 +153,23 @@
                           <li><a href="{{ url('/livedrawtw') }}">Taiwan</a></li>
                           <li><a href="{{ url('/livedrawhk') }}">Hongkong</a></li>
                         </ul>
+                         <li data-toggle="collapse" data-target="#alamatalt" class="collapsed">
+                          <a href="#"><i class="fa fa-bar-chart fa-lg"></i> ALAMAT ALTERNATIF <span class="arrow"></span></a>
+                        </li>  
+                        <ul class="sub-menu collapse" id="alamatalt">
+                          <li data-toggle="collapse" data-target="#ttj" class="collapsed"><a href="#">TOTOJITU<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#8t" class="collapsed"><a href="#">8TOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#jtg" class="collapsed"><a href="#">JAYATOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#tgc" class="collapsed"><a href="#">TOGELCC<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#atg" class="collapsed"><a href="#">AFATOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#etg" class="collapsed"><a href="#">EYANGTOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#btg" class="collapsed"><a href="#">BROTOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#gtg" class="collapsed"><a href="#">GITARTOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#rtg" class="collapsed"><a href="#">RGOTOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#tgm" class="collapsed"><a href="#">TOGELMANDIRI<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#idt" class="collapsed"><a href="#">INDOTOGEL<span class="arrow"></span></a></li>
+                          <li data-toggle="collapse" data-target="#ttb" class="collapsed"><a href="#">TOTOBET<span class="arrow"></span></a></li>
+                        </ul>
                       </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
