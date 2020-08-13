@@ -160,16 +160,19 @@
                           <li data-toggle="collapse" data-target="#ttj" class="collapsed"><a href="#">TOTOJITU<span class="arrow"></span></a></li>
                           <ul class="sub-menu sub-sub-menu collapse" id="ttj">
                             <li><a href="http://totojt2020.com">TOTOJT2020</a></li>
+                            <li><a href="http://ttjt888.com">TTJT888.COM</a></li>
                             <li><a href="http://103.10.200.60">103.10.200.60</a></li>
                           </ul>
                           <li data-toggle="collapse" data-target="#8t" class="collapsed"><a href="#">8TOGEL<span class="arrow"></span></a></li>
                           <ul class="sub-menu sub-sub-menu collapse" id="8t">
-                            <li><a href="http://8togel2020.com">8TOGEL2020.com</a></li>
+                            <li><a href="http://8togel2020.com">8TOGEL2020.COM</a></li>
+                            <li><a href="http://8tgl20.com">8TGL20.COM</a></li>
                             <li><a href="http://103.10.201.30">103.10.201.30</a></li>
                           </ul>
                           <li data-toggle="collapse" data-target="#jtg" class="collapsed"><a href="#">JAYATOGEL<span class="arrow"></span></a></li>
                           <ul class="sub-menu sub-sub-menu collapse" id="jtg">
                             <li><a href="http://jayatogel20.com">JAYATOGEL20.COM</a></li>
+                            <li><a href="http://jayatogel2020.com">JAYATOGEL2020.COM</a></li>
                             <li><a href="http://103.10.200.43">103.10.200.43</a></li>
                           </ul>
                           <li data-toggle="collapse" data-target="#tgc" class="collapsed"><a href="#">TOGELCC<span class="arrow"></span></a></li>
@@ -185,6 +188,7 @@
                           <li data-toggle="collapse" data-target="#etg" class="collapsed"><a href="#">EYANGTOGEL<span class="arrow"></span></a></li>
                           <ul class="sub-menu sub-sub-menu collapse" id="etg">
                             <li><a href="http://eyangtgl20.com">EYANGTGL20.COM</a></li>
+                            <li><a href="http://eytogel888.com">EYTOGEL888.COM</a></li>
                             <li><a href="http://103.10.200.56">103.10.200.56</a></li>
                           </ul>
                           <li data-toggle="collapse" data-target="#btg" class="collapsed"><a href="#">BROTOGEL<span class="arrow"></span></a></li>
@@ -294,6 +298,7 @@
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://totojt2020.com" target="_blank">www.totojt2020.com</a></li>
+                         <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://ttjitu888.com" target="_blank">www.ttjitu888.com</a></li>
                          
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.60" target="_blank">103.10.200.60</a></li>
                           
@@ -302,6 +307,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8togel2020.com" target="_blank">www.8togel2020.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://8tgl20.com" target="_blank">www.8tgl20.com</a></li>
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
@@ -311,6 +317,7 @@
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li> -->
                           
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel20.com" target="_blank">www.jayatogel20.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://jayatogel2020.com" target="_blank">www.jayatogel2020.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.43" target="_blank">103.10.200.43</a></li>
                         </ul>
                       </li>
@@ -333,6 +340,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li> -->
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eyangtgl20.com" target="_blank">www.eyangtgl20.com</a></li>
+                          <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://eytogel888.com" target="_blank">www.eytogel888.com</a></li>
                           <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li>
                           
                           <!-- <li><a style="padding:0 15px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
@@ -477,6 +485,7 @@
                       <li><a class="nav-stats subAvailable" style="padding:0 24px !important;" title="Lotto Results" href="/">Totojitu</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://totojitu2020.com" target="_blank">www.totojitu2020.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://ttjitu888.com" target="_blank">www.ttjitu888.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.200.60" target="_blank">103.10.200.60</a></li>
                           
                         </ul>
@@ -484,6 +493,7 @@
                       <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="/">8Togel</a>
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8togel2020.com" target="_blank">www.8togel2020.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://8tgl20.com" target="_blank">www.8tgl20.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.201.30" target="_blank">103.10.201.30</a></li>
                         </ul>
                       </li>
@@ -491,6 +501,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://jayatogel.com" target="_blank">www.jayatogel.com</a></li> -->
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jayatgl99.com" target="_blank">www.jayatgl99.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://jayatogel2020.com" target="_blank">www.jayatogel2020.com</a></li>
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.200.43" target="_blank">103.10.200.43</a></li>
                         </ul>
                       </li>
@@ -511,6 +522,7 @@
                         <ul onmouseout="hover(this,'off')" onmouseover="hover(this,'on')" class="subMenu1">
                           <!-- <li><a style="padding:0 24px !important;" title="Lotto Results" href="http://eyangtogel.com" target="_blank">www.eyangtogel.com</a></li> -->
                           <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://eyangtogel1002.com" target="_blank">www.eyangtogel1002.com</a></li>
+                          <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://eytogel888.com" target="_blank">www.eytogel888.com</a></li>
                           
                           <!-- <li><a style="padding:0 24px !important;" title="Lotto Raffle Results" href="http://103.10.200.56" target="_blank">103.10.200.56</a></li> -->
                           
