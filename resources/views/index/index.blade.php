@@ -434,7 +434,7 @@
                 <div class="panel-body p15">
                   <p class="helvetica" style="text-align:center;">Generate your numbers</p>
                   <br>
-                  <a title="Lottery Results - Lotto" class="button-blue"><button style="border:none; background:transparent;">Generate Numbers</button></a><br><br>
+                  <a title="Lottery Results - Lotto" class="button-blue"><button class="numgen" style="border:none; background:transparent;">Generate Numbers</button></a><br><br>
                   <div class="group">
                     <div class="reel"></div>
                     <div class="reel"></div>
