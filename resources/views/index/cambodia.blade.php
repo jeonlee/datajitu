@@ -457,7 +457,7 @@
 		<td><div class="t_no f20">{{ Carbon\Carbon::parse($cmbd->tanggal)->format('d-m-Y') }}</div></td>
 		<td><div class="t_hari f20">{{ $cmbd->periode }}-MC</div></td>
 
-		<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisis/{{ $cmbd->id }}">{{ $cmbd->number }}</a></div></td>   
+		<td><div class="t_tgl biru f20"><a class="blue-number" href="/analisiscmb/{{ $cmbd->id }}">{{ $cmbd->number }}</a></div></td>   
 
 
 
